@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "curso": "DronLab STS",
+    "bloque": 4,
+    "slug": "bloque4",
+    "titulo": "Mitigacion tecnica y operacional del riesgo en aire",
+    "subtitulo": "Riesgo en aire, separacion, STS-01 VLOS y STS-02 BVLOS",
+    "version": "1.0"
+  },
+  "trazabilidad": {
+    "organismo": "AESA",
+    "documento": "MATERIAS DEL EXAMEN DE CONOCIMIENTOS TEORICOS DE LA CATEGORIA ESPECIFICA PARA OPERACIONES DE UAS BAJO ESCENARIOS ESTANDAR STS",
+    "codigo_referencia": "Syllabus STS",
+    "edicion": "2",
+    "fecha": "17/04/2023",
+    "paginas_relacionadas": "6-7",
+    "epigrafes": ["I. General", "II. Riesgo aire STS-01", "III. Riesgo aire STS-02"],
+    "estado": "VALIDADO"
+  },
+  "objetivo": "Distinguir los tipos de mitigacion del riesgo en aire y aplicarlos correctamente a STS-01 y STS-02.",
+  "conceptosClave": [
+    "riesgo en aire",
+    "mitigacion tecnica",
+    "mitigacion operacional",
+    "mitigacion estrategica",
+    "mitigacion tactica",
+    "ver y evitar",
+    "detectar y evitar",
+    "VLOS",
+    "BVLOS",
+    "observadores",
+    "FTS",
+    "geocaging"
+  ],
+  "pantallas": [
+    {"id":"b4-01","titulo":"Riesgo en aire","contenido":"El riesgo en aire se relaciona con la probabilidad de colision en el espacio aereo. La mitigacion reduce esa probabilidad mediante equipamiento, procedimientos, personal o medidas previas.","docente":"Abrir el bloque diferenciando riesgo general y riesgo en aire: el foco es evitar encuentros y colisiones."},
+    {"id":"b4-02","titulo":"Tipos de mitigacion","contenido":"Las mitigaciones tecnicas dependen del equipamiento del UAS, como FTS o geocaging. Las operacionales dependen de procedimientos o personal, como VLOS u observadores. Las estrategicas se aplican antes de la operacion y las tacticas en tiempo real.","docente":"Usar ejemplos del bloque para clasificar: FTS tecnico, VLOS operacional, planificacion estrategica, reaccion tactica."},
+    {"id":"b4-03","titulo":"Principios de separacion","contenido":"Ver y evitar implica deteccion visual y maniobra por el piloto. Detectar y evitar usa medios humanos o tecnicos para cumplir la funcion de separacion cuando no hay contacto visual directo.","docente":"Hacer que el alumno verbalice la diferencia entre VLOS y BVLOS."},
+    {"id":"b4-04","titulo":"STS-01 VLOS","contenido":"En STS-01 el riesgo en aire se gestiona principalmente mediante VLOS. El piloto mantiene reconocimiento exhaustivo del espacio aereo y puede estar asistido por un UAS observer, sin delegar la responsabilidad.","docente":"Dato critico: el observador asiste, pero la responsabilidad de ver y evitar sigue siendo del piloto."},
+    {"id":"b4-05","titulo":"STS-01 y FTS","contenido":"En STS-01 el UAS debe estar equipado obligatoriamente con un Sistema de Terminacion de Vuelo, FTS, como mitigacion tecnica.","docente":"Separar mitigacion operacional principal, VLOS, de la mitigacion tecnica, FTS."},
+    {"id":"b4-06","titulo":"STS-02 BVLOS","contenido":"En STS-02 el incremento de riesgo por BVLOS se mitiga mediante observadores del espacio aereo obligatorios o una trayectoria pre-programada obligatoria.","docente":"Subrayar que los observadores del espacio aereo no son opcionales salvo si se usa trayectoria pre-programada obligatoria."},
+    {"id":"b4-07","titulo":"Visibilidad y geocaging en STS-02","contenido":"STS-02 exige visibilidad horizontal de 5 km o mas. Tambien requiere geocaging que impida fisicamente salir del volumen operacional e informacion de posicion geografica para el piloto.","docente":"Datos de examen: 5 km o mas; geocaging impide, no solo avisa."},
+    {"id":"b4-08","titulo":"Contenido complementario oficial","contenido":"MME8, MMT9, MAT16, MAT17, MAE36, MMT11, indice K, Modo S y geoconsciencia son contenido complementario de otras fuentes oficiales identificadas en la ingenieria, no contenidos del Syllabus paginas 6-7.","docente":"Mantener la etiqueta complementaria y no mezclar estos elementos con el nucleo AESA paginas 6-7."}
+  ],
+  "recursos": {
+    "flashcards": "recursos/flashcards/index.html",
+    "test": "recursos/test/index.html",
+    "casos": "recursos/casos/index.html",
+    "practicas": "recursos/practicas/index.html",
+    "chuletas": "recursos/chuletas/index.html",
+    "mapa": "recursos/mapas/index.html",
+    "prompts": "recursos/prompts/prompts-bloque4.md"
+  }
+}

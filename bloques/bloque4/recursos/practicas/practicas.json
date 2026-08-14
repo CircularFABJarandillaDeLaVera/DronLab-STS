@@ -1,0 +1,58 @@
+[
+  {
+    "id": "B4-PR-001",
+    "titulo": "Clasificar mitigaciones",
+    "objetivo": "Separar mitigaciones tecnicas, operacionales, estrategicas y tacticas.",
+    "dificultad": "facil",
+    "tiempo_estimado": "15 min",
+    "material_necesario": ["Ingenieria del Bloque 4", "Tabla de cuatro columnas", "Tarjetas FTS, geocaging, VLOS, observadores"],
+    "contexto": "El nucleo del bloque distingue mitigaciones por equipamiento, procedimiento, fase previa y respuesta en tiempo real.",
+    "instrucciones_paso_a_paso": ["Crea cuatro columnas: tecnica, operacional, estrategica y tactica.", "Coloca FTS y geocaging como tecnicas.", "Coloca VLOS y observadores como operacionales.", "Describe una medida previa como estrategica.", "Describe una reaccion en tiempo real como tactica."],
+    "criterios_de_exito": ["No mezcla hardware con procedimiento.", "Distingue antes del vuelo y tiempo real.", "Justifica cada clasificacion con una frase."],
+    "errores_habituales": ["Poner geocaging como operacional.", "Poner VLOS como tecnico.", "No explicar la diferencia estrategica/tactica."],
+    "conceptos_relacionados": ["Mitigacion tecnica", "Mitigacion operacional", "Mitigacion estrategica", "Mitigacion tactica"],
+    "referencia_al_bloque": "Bloque 4 · Syllabus STS paginas 6-7 · Estado VALIDADO"
+  },
+  {
+    "id": "B4-PR-002",
+    "titulo": "Comparar STS-01 y STS-02",
+    "objetivo": "Reconstruir la tabla STS-01 / STS-02 corrigiendo defectos de formato Markdown sin alterar contenido.",
+    "dificultad": "media",
+    "tiempo_estimado": "20 min",
+    "material_necesario": ["Tabla comparativa de la ingenieria", "Plantilla de comparacion", "Pizarra"],
+    "contexto": "La ingenieria incluye una tabla que compara mitigacion principal, principio de separacion, visibilidad, mitigacion tecnica, reconocimiento del aire y equipamiento.",
+    "instrucciones_paso_a_paso": ["Crea columnas STS-01 VLOS y STS-02 BVLOS.", "Incluye VLOS frente a observadores o trayectoria pre-programada.", "Incluye ver y evitar frente a detectar y evitar.", "Anota visibilidad suficiente para VLOS frente a minimo 5 km.", "Incluye FTS frente a geocaging e informacion geografica.", "Anade FTS independiente de controladora y geocaging para C6."],
+    "criterios_de_exito": ["La tabla conserva el contenido de la ingenieria.", "No asigna 5 km a STS-01.", "No asigna geocaging a STS-01."],
+    "errores_habituales": ["Alterar contenido al corregir formato.", "Confundir observadores.", "Omitir la independencia FTS en C6."],
+    "conceptos_relacionados": ["STS-01", "STS-02", "VLOS", "BVLOS", "FTS", "Geocaging"],
+    "referencia_al_bloque": "Bloque 4 · Syllabus STS paginas 6-7 · Estado VALIDADO"
+  },
+  {
+    "id": "B4-PR-003",
+    "titulo": "Separar nucleo y complementario",
+    "objetivo": "Etiquetar correctamente el contenido del Syllabus paginas 6-7 y el contenido complementario oficial.",
+    "dificultad": "dificil",
+    "tiempo_estimado": "20 min",
+    "material_necesario": ["Lista de conceptos del Bloque 4", "Dos paneles: Syllabus 6-7 y Complementario", "Ingenieria del Bloque 4"],
+    "contexto": "La instruccion del bloque exige no presentar MME8, MMT9, MAT16, MAT17, MAE36, MMT11, indice K o Modo S como Syllabus paginas 6-7.",
+    "instrucciones_paso_a_paso": ["Coloca riesgo en aire, tipos de mitigacion, separacion, STS-01 y STS-02 en Syllabus paginas 6-7.", "Coloca MME8, MMT9, MAT16, MAT17, MAE36, MMT11, indice K, Modo S y geoconsciencia en complementario.", "Escribe una frase de trazabilidad para cada panel.", "Explica por que no se elimina el contenido complementario."],
+    "criterios_de_exito": ["No mezcla fuentes.", "Conserva contenido complementario validado.", "La etiqueta de trazabilidad es explicita."],
+    "errores_habituales": ["Borrar complementarios.", "Presentar indice K como Syllabus 6-7.", "No justificar la separacion."],
+    "conceptos_relacionados": ["Trazabilidad", "Contenido complementario", "Indice K", "Modo S", "Geoconsciencia"],
+    "referencia_al_bloque": "Bloque 4 · Ingenieria validada · Complementario oficial identificado"
+  },
+  {
+    "id": "B4-PR-004",
+    "titulo": "Decision tactica ante amenaza",
+    "objetivo": "Aplicar el principio de mitigacion tactica en tiempo real despues de detectar una amenaza.",
+    "dificultad": "media",
+    "tiempo_estimado": "15 min",
+    "material_necesario": ["Escenario breve", "Cronometro", "Ficha de decision"],
+    "contexto": "La mitigacion tactica se aplica en tiempo real para evitar una colision tras detectar una amenaza.",
+    "instrucciones_paso_a_paso": ["Lee un escenario VLOS con aeronave aproximandose.", "Identifica la amenaza.", "Indica que principio de separacion aplica.", "Propone una maniobra o decision evasiva sin inventar normativa externa.", "Clasifica la accion como tactica."],
+    "criterios_de_exito": ["La decision ocurre en tiempo real.", "No se confunde con planificacion previa.", "Se mantiene el principio ver y evitar si es STS-01."],
+    "errores_habituales": ["Llamar estrategica a la maniobra inmediata.", "Delegar la decision en el observador.", "No clasificar la amenaza."],
+    "conceptos_relacionados": ["Mitigacion tactica", "Ver y evitar", "STS-01", "Amenaza"],
+    "referencia_al_bloque": "Bloque 4 · Syllabus STS paginas 6-7 · Estado VALIDADO"
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "curso": {
+    "id": "dronlab-sts",
+    "titulo": "DronLab STS"
+  },
+  "bloque": {
+    "numero": 1,
+    "slug": "bloque1",
+    "titulo": "Reglamentacion de la aviacion",
+    "estado": "BLOQUE_BASE",
+    "fuente": "ingenieria/ingenieria.md"
+  },
+  "trazabilidad": {
+    "organismo": "AESA",
+    "documento": "MATERIAS DEL EXAMEN DE CONOCIMIENTOS TEORICOS DE LA CATEGORIA ESPECIFICA PARA OPERACIONES DE UAS BAJO ESCENARIOS ESTANDAR (STS)",
+    "codigo_referencia": "Syllabus STS",
+    "edicion_version": "Edicion 2",
+    "fecha": "17/04/2023",
+    "paginas_relacionadas": "3-4",
+    "epigrafes": [
+      "I (Introduccion a la categoria especifica)",
+      "II (Escenarios estandar)",
+      "III (Conocimientos adicionales sobre el espacio aereo)"
+    ],
+    "estado": "VALIDADO"
+  },
+  "objetivo": "Comprender el marco juridico de la categoria especifica, la evaluacion de riesgos SORA, los escenarios STS-01/STS-02 y las fuentes de informacion aeronautica aplicables.",
+  "conceptos": [
+    "Categoria especifica",
+    "Reglamento UE 2019/947 y RD 517/2024",
+    "Metodologia SORA",
+    "PDRA",
+    "Declaracion operacional",
+    "STS-01",
+    "STS-02",
+    "Zonas geograficas UAS",
+    "AIP, AIC, NOTAM y ENAIRE Drones",
+    "Remote ID",
+    "Manual de Operaciones"
+  ],
+  "pantallas": [
+    {
+      "id": "b1-s1",
+      "titulo": "Categoria especifica basada en riesgo",
+      "contenido": "La categoria especifica cubre operaciones UAS que no cumplen los requisitos de la categoria abierta y exige una evaluacion previa del riesgo operacional.",
+      "docente": "Abrir con la idea central: en categoria especifica el centro es el riesgo, no solo el tipo de dron."
+    },
+    {
+      "id": "b1-s2",
+      "titulo": "SORA, PDRA y STS",
+      "contenido": "SORA evalua sistematicamente el riesgo. Los escenarios STS nacen de una evaluacion ya realizada por la autoridad, y una PDRA predefine requisitos para misiones comunes.",
+      "docente": "Distinguir SORA desde cero, PDRA predefinida y STS como escenario estandar ya evaluado."
+    },
+    {
+      "id": "b1-s3",
+      "titulo": "Declaracion operacional",
+      "contenido": "La declaracion operacional comunica a la autoridad que el operador realizara una operacion ajustada a un STS y declara que cumple sus requisitos tecnicos y operativos.",
+      "docente": "Provocar la confusion declaracion/autorizacion: si la mision no encaja en STS o PDRA, se requiere autorizacion."
+    },
+    {
+      "id": "b1-s4",
+      "titulo": "Responsabilidades operativas",
+      "contenido": "El operador establece procedimientos, manuales y mantenimiento. El piloto conduce el vuelo con seguridad y no debe operar bajo sustancias psicoactivas o fatiga.",
+      "docente": "Separar responsabilidades del operador, piloto y observador sin fusionarlas."
+    },
+    {
+      "id": "b1-s5",
+      "titulo": "STS-01 y STS-02",
+      "contenido": "STS-01 opera en VLOS en entorno poblado con zona terrestre controlada y drones C5. STS-02 permite BVLOS en entorno poco poblado con observadores del espacio aereo y drones C6.",
+      "docente": "Usar la diferencia clave: en STS-01 el piloto ve el dron; en STS-02 hacen falta ojos extra."
+    },
+    {
+      "id": "b1-s6",
+      "titulo": "Espacio aereo y zonas UAS",
+      "contenido": "El Estado tiene soberania sobre su espacio aereo. Las zonas P prohiben, las R restringen y las D indican actividades peligrosas para la navegacion aerea.",
+      "docente": "Conectar zonas geograficas UAS con consulta previa obligatoria antes del vuelo."
+    },
+    {
+      "id": "b1-s7",
+      "titulo": "Fuentes y requisitos criticos",
+      "contenido": "AIP contiene informacion aeronautica duradera, AIC comunica cambios normativos y ENAIRE Drones permite consultar zonas UAS. Remote ID debe estar activo y el Manual de Operaciones actualizado.",
+      "docente": "Cerrar con fuentes practicas: AIP/AIC/NOTAM/ENAIRE y obligaciones operativas."
+    }
+  ],
+  "recursos": {
+    "flashcards": "recursos/flashcards/flashcards.json",
+    "test": "recursos/test/test.json",
+    "casos": "recursos/casos/casos.json",
+    "practicas": "recursos/practicas/practicas.json",
+    "guias_rapidas": "recursos/chuletas/index.html",
+    "mapa_mental": "recursos/mapas/index.html",
+    "profesor_plus": "profesor-plus.html",
+    "prompts": "recursos/prompts/prompts-bloque1.md"
+  }
+}

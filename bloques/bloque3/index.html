@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07192f">
+  <title>DronLab STS - Bloque 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand institutional-brand">
+        <img class="cf-logo" src="../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+        <div class="brand-copy"><strong>CIRCULAR FAB</strong><span>Jarandilla de la Vera - DronLab</span></div>
+        <div class="brand-divider" aria-hidden="true"></div>
+        <div class="course-lockup"><b>STS</b><small>Bloque 3 - Procedimientos</small></div>
+      </div>
+      <nav class="toolbar" aria-label="Controles de presentacion">
+        <button id="btnMenu" class="tool" title="Indice (M)">M</button>
+        <button id="btnNotes" class="tool" title="Notas del instructor (N)">N</button>
+        <button id="btnFullscreen" class="tool" title="Pantalla completa (F)">F</button>
+        <a class="tool" href="recursos/index.html" title="Recursos del bloque">R</a>
+        <a class="tool" href="profesor-plus.html" title="Profesor Plus">PP</a>
+      </nav>
+    </header>
+    <main id="stage" class="stage" aria-live="polite"></main>
+    <footer class="bottombar">
+      <button id="prev" class="nav-btn" aria-label="Anterior">&lt;</button>
+      <div class="progress-wrap"><div id="progress" class="progress"></div></div>
+      <div class="footer-identity"><img src="../../assets/branding/logo-circular-fab.png" alt=""><span>CIRCULAR FAB - DRONLAB</span></div>
+      <div id="counter" class="counter">1 / 8</div>
+      <button id="next" class="nav-btn" aria-label="Siguiente">&gt;</button>
+    </footer>
+    <dialog id="menuDialog">
+      <div class="menu-head"><div><p class="eyebrow">INDICE</p><h2>Bloque 3 STS</h2></div><button id="closeMenu" class="tool">X</button></div>
+      <div id="menuList" class="menu-list"></div>
+    </dialog>
+    <div id="help" class="help"><b>Controles:</b> izquierda/derecha navegar - M indice - N notas - F pantalla completa - H ayuda</div>
+  </div>
+  <script src="data/bloque3.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

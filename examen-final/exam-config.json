@@ -1,0 +1,149 @@
+{
+  "sdk_component": "circularfab-edusdk-evaluation-engine",
+  "version": "1.0",
+  "course": {
+    "id": "dronlab-sts",
+    "title": "DronLab STS",
+    "subtitle": "Examen final STS",
+    "home_url": "../inicio.html",
+    "logo_url": "../assets/branding/logo-circular-fab.png"
+  },
+  "exam": {
+    "question_count": 40,
+    "question_count_status": "VALIDADO",
+    "question_count_source": "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md | Preguntas minimas del examen: 40 preguntas",
+    "time_minutes": 40,
+    "time_minutes_status": "PENDIENTE_DE_VALIDACION",
+    "time_minutes_note": "Valor provisional funcional para el motor; no presentado como duracion oficial STS.",
+    "pass_percent": 75,
+    "pass_percent_status": "VALIDADO",
+    "pass_percent_source": "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md | Nota de corte: 75%",
+    "pass_correct": 30,
+    "pass_correct_status": "CALCULADO_DESDE_VALIDADO",
+    "answers_per_question": 4,
+    "answers_per_question_status": "VALIDADO_EN_BANCOS_STS",
+    "correct_answers": 1,
+    "simulated_attempts": 2,
+    "simulated_attempts_status": "PENDIENTE_DE_VALIDACION",
+    "simulated_attempts_note": "Valor provisional funcional para modo simulacro.",
+    "penalize_errors": false,
+    "penalize_errors_status": "PENDIENTE_DE_VALIDACION",
+    "penalize_errors_note": "No se aplica penalizacion por error salvo validacion oficial posterior."
+  },
+  "study_mode": {
+    "unlimited_attempts": true,
+    "time_limit_enabled": false,
+    "immediate_feedback": true,
+    "final_feedback": true
+  },
+  "selection": {
+    "avoid_recent_questions": true,
+    "recent_memory": 80,
+    "difficulty_distribution": {
+      "facil": 0.4,
+      "media": 0.4,
+      "dificil": 0.2
+    },
+    "difficulty_distribution_status": "RECOMENDACION_SDK_SIN_DISTRIBUCION_OFICIAL_STS",
+    "block_distribution": {
+      "1": 0.125,
+      "2": 0.125,
+      "3": 0.125,
+      "4": 0.125,
+      "5": 0.125,
+      "6": 0.125,
+      "7": 0.125,
+      "8": 0.125
+    },
+    "block_distribution_status": "EQUILIBRADA_SIN_PESO_OFICIAL_DIFERENCIADO"
+  },
+  "messages": {
+    "simulation_notice": "Simulacro formativo STS basado en los bancos auditados del curso. Duracion e intentos son parametros provisionales pendientes de validacion oficial.",
+    "new_enrollment": "Nueva inscripcion simulada",
+    "attempts_exhausted": "Has agotado los intentos simulados configurados. Deseas iniciar una nueva simulacion?"
+  },
+  "question_banks": [
+    {
+      "block": 1,
+      "title": "Bloque 1 · Reglamentacion de la aviacion",
+      "url": "../bloques/bloque1/recursos/test/test.json"
+    },
+    {
+      "block": 2,
+      "title": "Bloque 2 · Limitaciones del rendimiento humano",
+      "url": "../bloques/bloque2/recursos/test/test.json"
+    },
+    {
+      "block": 3,
+      "title": "Bloque 3 · Procedimientos operacionales",
+      "url": "../bloques/bloque3/recursos/test/test.json"
+    },
+    {
+      "block": 4,
+      "title": "Bloque 4 · Mitigacion tecnica y operacional del riesgo en aire",
+      "url": "../bloques/bloque4/recursos/test/test.json"
+    },
+    {
+      "block": 5,
+      "title": "Bloque 5 · Conocimientos generales del UAS",
+      "url": "../bloques/bloque5/recursos/test/test.json"
+    },
+    {
+      "block": 6,
+      "title": "Bloque 6 · Meteorologia",
+      "url": "../bloques/bloque6/recursos/test/test.json"
+    },
+    {
+      "block": 7,
+      "title": "Bloque 7 · Rendimiento de vuelo del UAS",
+      "url": "../bloques/bloque7/recursos/test/test.json"
+    },
+    {
+      "block": 8,
+      "title": "Bloque 8 · Riesgo en tierra",
+      "url": "../bloques/bloque8/recursos/test/test.json"
+    }
+  ],
+  "block_links": [
+    {
+      "block": 1,
+      "title": "Bloque 1 · Reglamentacion de la aviacion",
+      "url": "../bloques/bloque1/inicio.html"
+    },
+    {
+      "block": 2,
+      "title": "Bloque 2 · Limitaciones del rendimiento humano",
+      "url": "../bloques/bloque2/inicio.html"
+    },
+    {
+      "block": 3,
+      "title": "Bloque 3 · Procedimientos operacionales",
+      "url": "../bloques/bloque3/inicio.html"
+    },
+    {
+      "block": 4,
+      "title": "Bloque 4 · Mitigacion tecnica y operacional del riesgo en aire",
+      "url": "../bloques/bloque4/inicio.html"
+    },
+    {
+      "block": 5,
+      "title": "Bloque 5 · Conocimientos generales del UAS",
+      "url": "../bloques/bloque5/inicio.html"
+    },
+    {
+      "block": 6,
+      "title": "Bloque 6 · Meteorologia",
+      "url": "../bloques/bloque6/inicio.html"
+    },
+    {
+      "block": 7,
+      "title": "Bloque 7 · Rendimiento de vuelo del UAS",
+      "url": "../bloques/bloque7/inicio.html"
+    },
+    {
+      "block": 8,
+      "title": "Bloque 8 · Riesgo en tierra",
+      "url": "../bloques/bloque8/inicio.html"
+    }
+  ]
+}

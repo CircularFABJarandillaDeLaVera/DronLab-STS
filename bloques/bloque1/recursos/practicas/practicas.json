@@ -1,0 +1,86 @@
+[
+  {
+    "id": "B1-PR-001",
+    "titulo": "Diferenciar STS-01 y STS-02",
+    "objetivo": "Construir una comparativa operativa entre STS-01 y STS-02 usando solo los datos de la ingenieria.",
+    "dificultad": "facil",
+    "tiempo_estimado": "20 min",
+    "material_necesario": ["Ingenieria del Bloque 1", "Tabla de diferencias STS-01/STS-02"],
+    "contexto": "La ingenieria diferencia ambos escenarios por alcance visual, entorno, marcado de clase y observadores.",
+    "instrucciones_paso_a_paso": [
+      "Crea dos columnas: STS-01 y STS-02.",
+      "Situa VLOS y BVLOS en la columna correcta.",
+      "Anade entorno, marcado C5/C6 y observadores.",
+      "Escribe una frase que explique por que STS-02 necesita observadores.",
+      "Marca el error de usar C1 o C2 en STS europeo."
+    ],
+    "criterios_de_exito": [
+      "STS-01 queda asociado a VLOS, entorno poblado, C5 y zona terrestre controlada.",
+      "STS-02 queda asociado a BVLOS, entorno poco poblado, C6 y observadores.",
+      "No se permite sobrevolar concentraciones en ningun escenario."
+    ],
+    "errores_habituales": [
+      "Intercambiar C5 y C6.",
+      "Olvidar el entorno de cada escenario.",
+      "Confundir observador con piloto responsable final."
+    ],
+    "conceptos_relacionados": ["STS-01", "STS-02", "VLOS", "BVLOS", "C5", "C6"],
+    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
+  },
+  {
+    "id": "B1-PR-002",
+    "titulo": "Arbol de decision declaracion/autorizacion",
+    "objetivo": "Determinar si una operacion se resuelve por declaracion STS, PDRA o autorizacion especifica.",
+    "dificultad": "media",
+    "tiempo_estimado": "25 min",
+    "material_necesario": ["Ingenieria del Bloque 1", "Papel o pizarra"],
+    "contexto": "La ingenieria senala como error frecuente confundir declaracion con autorizacion.",
+    "instrucciones_paso_a_paso": [
+      "Escribe la pregunta inicial: encaja la mision en un STS?",
+      "Si encaja, dirige a declaracion operacional.",
+      "Si no encaja, pregunta si existe PDRA aplicable.",
+      "Si no encaja en STS ni PDRA, dirige a autorizacion basada en SORA.",
+      "Anade una nota: declarar no es autorizar."
+    ],
+    "criterios_de_exito": [
+      "El arbol separa STS, PDRA y autorizacion.",
+      "No usa declaracion para operaciones fuera de STS.",
+      "SORA aparece como evaluacion especifica cuando no hay marco predefinido."
+    ],
+    "errores_habituales": [
+      "Declarar cualquier operacion especifica.",
+      "Confundir PDRA y STS.",
+      "Omitir la autorizacion cuando no encaja en escenarios predefinidos."
+    ],
+    "conceptos_relacionados": ["Declaracion operacional", "PDRA", "SORA", "Autorizacion"],
+    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
+  },
+  {
+    "id": "B1-PR-003",
+    "titulo": "Checklist de informacion aeronautica",
+    "objetivo": "Preparar una lista de consulta previa para zonas geograficas UAS e informacion aeronautica.",
+    "dificultad": "media",
+    "tiempo_estimado": "20 min",
+    "material_necesario": ["Ingenieria del Bloque 1", "Ficha de operacion"],
+    "contexto": "El bloque exige distinguir AIP, AIC, ENAIRE Drones, NOTAM y zonas P/R/D.",
+    "instrucciones_paso_a_paso": [
+      "Incluye AIP como fuente de informacion duradera.",
+      "Incluye AIC como fuente de cambios normativos.",
+      "Incluye ENAIRE Drones para zonas UAS en mapa.",
+      "Anade una fila para interpretar P, R y D.",
+      "Cierra con Remote ID activo y Manual de Operaciones accesible."
+    ],
+    "criterios_de_exito": [
+      "La checklist distingue AIP, AIC y ENAIRE.",
+      "P/R/D estan correctamente interpretadas.",
+      "Remote ID y Manual de Operaciones aparecen como requisitos criticos."
+    ],
+    "errores_habituales": [
+      "No consultar zonas UAS.",
+      "Usar AIP y AIC como sinonimos.",
+      "Tratar Remote ID como opcional."
+    ],
+    "conceptos_relacionados": ["AIP", "AIC", "ENAIRE Drones", "Zonas P/R/D", "Remote ID"],
+    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
+  }
+]

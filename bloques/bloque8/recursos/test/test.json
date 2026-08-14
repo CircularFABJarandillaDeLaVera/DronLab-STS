@@ -1,0 +1,227 @@
+﻿{
+    "titulo":  "Test Bloque 8 STS",
+    "bloque":  "Riesgo en tierra | Syllabus STS paginas 11-12 | Estado VALIDADO",
+    "total":  10,
+    "preguntas":  [
+                      {
+                          "id":  "B8-T-001",
+                          "tema":  "Riesgo en tierra",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que describe el riesgo en tierra?",
+                          "respuestas":  [
+                                             "Danos potenciales a personas no participantes o infraestructuras en superficie",
+                                             "Solo conflictos con otras aeronaves",
+                                             "La autonomia restante de bateria",
+                                             "La velocidad maxima del UAS"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "El riesgo en tierra se refiere al dano en superficie.",
+                          "error_habitual":  "Confundirlo con riesgo en aire.",
+                          "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
+                          "subtema":  "Riesgo en tierra",
+                          "tipo_pregunta":  "comprension",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      },
+                      {
+                          "id":  "B8-T-002",
+                          "tema":  "Zona controlada",
+                          "dificultad":  "facil",
+                          "pregunta":  "Que no puede comprender una zona terrestre controlada?",
+                          "respuestas":  [
+                                             "Personas participantes",
+                                             "Proyeccion del volumen operacional",
+                                             "Concentraciones de personas",
+                                             "Zona de prevencion"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La ingenieria indica prohibicion de concentraciones de personas.",
+                          "error_habitual":  "Creer que basta con senalizar sin controlar.",
+                          "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
+                          "subtema":  "Zona controlada",
+                          "tipo_pregunta":  "comprension",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      },
+                      {
+                          "id":  "B8-T-003",
+                          "tema":  "Margen",
+                          "dificultad":  "media",
+                          "pregunta":  "El margen de riesgo en tierra en STS-02 depende principalmente de...",
+                          "respuestas":  [
+                                             "Color de la aeronave",
+                                             "Velocidad y altura",
+                                             "Marca del mando",
+                                             "Numero de helices"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La distancia debe cubrir el margen segun velocidad y altura.",
+                          "error_habitual":  "Usar una distancia fija sin relacion operativa.",
+                          "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
+                          "subtema":  "Margen",
+                          "tipo_pregunta":  "recuerdo",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      },
+                      {
+                          "id":  "B8-T-004",
+                          "tema":  "STS-01",
+                          "dificultad":  "media",
+                          "pregunta":  "Por que STS-01 requiere especial mitigacion del riesgo en tierra?",
+                          "respuestas":  [
+                                             "Porque siempre es BVLOS",
+                                             "Porque no usa zona controlada",
+                                             "Porque no permite FTS",
+                                             "Porque opera en entornos poblados"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "STS-01 se asocia a entorno poblado y zona terrestre controlada.",
+                          "error_habitual":  "Aplicar criterios de STS-02.",
+                          "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
+                          "subtema":  "STS-01",
+                          "tipo_pregunta":  "comprension",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      },
+                      {
+                          "id":  "B8-T-005",
+                          "tema":  "FTS",
+                          "dificultad":  "media",
+                          "pregunta":  "Que funcion tiene el FTS respecto al riesgo en tierra?",
+                          "respuestas":  [
+                                             "Aumentar alcance C2",
+                                             "Medir densidad del aire",
+                                             "Identificar meteorologia",
+                                             "Contener la aeronave dentro del perimetro seguro ante perdida de mando"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "El FTS fuerza terminacion para evitar salida de zona segura.",
+                          "error_habitual":  "Verlo solo como mitigacion aerea.",
+                          "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
+                          "subtema":  "FTS",
+                          "tipo_pregunta":  "comprension",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      },
+                      {
+                          "id":  "B8-T-006",
+                          "tema":  "STS-02",
+                          "dificultad":  "dificil",
+                          "pregunta":  "En STS-02, que fases deben mantenerse siempre en VLOS?",
+                          "respuestas":  [
+                                             "Todo el crucero BVLOS",
+                                             "Despegue y aterrizaje",
+                                             "Solo la fase a 3 km",
+                                             "Ninguna fase"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La ingenieria marca despegue y aterrizaje en VLOS.",
+                          "error_habitual":  "Creer que BVLOS cubre toda la mision.",
+                          "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
+                          "subtema":  "STS-02",
+                          "tipo_pregunta":  "escenario",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      },
+                      {
+                          "id":  "B8-T-007",
+                          "tema":  "STS-02",
+                          "dificultad":  "media",
+                          "pregunta":  "Que entorno es requisito operativo fundamental para STS-02?",
+                          "respuestas":  [
+                                             "Escasamente poblado",
+                                             "Centro urbano denso",
+                                             "Concentracion de personas",
+                                             "Interior cerrado"
+                                         ],
+                          "respuesta_correcta":  0,
+                          "explicacion":  "STS-02 reduce exposicion mediante entorno escasamente poblado.",
+                          "error_habitual":  "Confundir rural con ausencia de riesgo.",
+                          "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
+                          "subtema":  "STS-02",
+                          "tipo_pregunta":  "comprension",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      },
+                      {
+                          "id":  "B8-T-008",
+                          "tema":  "Proyecciones",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Que debe incluir la zona terrestre controlada en superficie?",
+                          "respuestas":  [
+                                             "Solo el punto de despegue",
+                                             "Solo el area bajo el piloto",
+                                             "Proyecciones del volumen operacional y zona de prevencion",
+                                             "Un radio arbitrario sin relacion con el vuelo"
+                                         ],
+                          "respuesta_correcta":  2,
+                          "explicacion":  "La huella terrestre debe incluir volumen operacional y zona de prevencion.",
+                          "error_habitual":  "Olvidar la zona de prevencion.",
+                          "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
+                          "subtema":  "Proyecciones",
+                          "tipo_pregunta":  "escenario",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      },
+                      {
+                          "id":  "B8-T-009",
+                          "tema":  "Complementario",
+                          "dificultad":  "media",
+                          "pregunta":  "Que dato pertenece al contenido complementario separado?",
+                          "respuestas":  [
+                                             "Definicion de riesgo en tierra",
+                                             "Luz verde intermitente nocturna",
+                                             "Zona terrestre controlada",
+                                             "Margen de riesgo en tierra STS-02"
+                                         ],
+                          "respuesta_correcta":  1,
+                          "explicacion":  "La luz verde nocturna aparece en material complementario.",
+                          "error_habitual":  "Atribuirlo a paginas 11-12.",
+                          "referencia_concepto":  "Complementario | Resolucion 10/11/2024 y RD 517/2024",
+                          "subtema":  "Complementario",
+                          "tipo_pregunta":  "comprension",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      },
+                      {
+                          "id":  "B8-T-010",
+                          "tema":  "Complementario",
+                          "dificultad":  "dificil",
+                          "pregunta":  "Si no hay MTOM de fabricante en UAS privado STS-ES-02NE, el operador debe garantizar...",
+                          "respuestas":  [
+                                             "Masa inferior a 10 kg",
+                                             "Velocidad maxima 5 m/s",
+                                             "Vuelo siempre urbano",
+                                             "Masa inferior a 25 kg"
+                                         ],
+                          "respuesta_correcta":  3,
+                          "explicacion":  "Ese dato se conserva como complementario separado.",
+                          "error_habitual":  "Mezclarlo con Syllabus paginas 11-12.",
+                          "referencia_concepto":  "Complementario | STS-ES-02NE \u003c 25 kg",
+                          "subtema":  "Complementario",
+                          "tipo_pregunta":  "escenario",
+                          "bloque":  8,
+                          "origen":  "GENERADA",
+                          "fuente":  "DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md",
+                          "estado_validacion":  "VALIDADO"
+                      }
+                  ]
+}

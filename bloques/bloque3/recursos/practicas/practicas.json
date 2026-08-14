@@ -1,0 +1,58 @@
+[
+  {
+    "id": "B3-PR-001",
+    "titulo": "Checklist pre-vuelo STS-01 / STS-02",
+    "objetivo": "Construir una lista que separe verificaciones especificas de STS-01, STS-02 y acciones comunes.",
+    "dificultad": "facil",
+    "tiempo_estimado": "20 min",
+    "material_necesario": ["Ingenieria del Bloque 3", "Plantilla de checklist", "Ficha de escenario"],
+    "contexto": "La ingenieria diferencia FTS e ID remota para STS-01, geocaging para STS-02 y adecuacion de zona como accion comun.",
+    "instrucciones_paso_a_paso": ["Crea tres apartados: STS-01, STS-02 y comun.", "En STS-01 incluye FTS operativo.", "En STS-01 incluye ID remota activa y actualizada.", "En STS-02 incluye geocaging configurado y operativo.", "En comun incluye adecuacion real de la zona terrestre controlada."],
+    "criterios_de_exito": ["No mezcla STS-01 y STS-02.", "Incluye la zona terrestre controlada como comprobacion comun.", "Permite decidir no despegar si falta una verificacion."],
+    "errores_habituales": ["Asignar geocaging a STS-01.", "Olvidar ID remota.", "No comprobar la zona real."],
+    "conceptos_relacionados": ["Pre-vuelo", "STS-01", "STS-02", "Zona terrestre controlada"],
+    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
+  },
+  {
+    "id": "B3-PR-002",
+    "titulo": "Clasificar contingencia, emergencia y ERP",
+    "objetivo": "Distinguir intrusion de personas, fallo FTS y salida de volumen.",
+    "dificultad": "media",
+    "tiempo_estimado": "25 min",
+    "material_necesario": ["Tres tarjetas de evento", "Pizarra", "Ingenieria del Bloque 3"],
+    "contexto": "El bloque separa procedimientos de contingencia, emergencia y ERP.",
+    "instrucciones_paso_a_paso": ["Escribe el evento: intrusion de persona no participante.", "Clasificalo como contingencia.", "Escribe el evento: fallo del FTS.", "Clasificalo como emergencia.", "Escribe el evento: UA fuera del volumen.", "Clasificalo como activacion de ERP."],
+    "criterios_de_exito": ["Cada evento queda en su categoria correcta.", "Se justifica con una frase del bloque.", "No se usa emergencia como saco comun."],
+    "errores_habituales": ["Confundir contingencia con emergencia.", "Olvidar que salida de volumen activa ERP.", "No tratar FTS como fallo critico."],
+    "conceptos_relacionados": ["Contingencia", "Emergencia", "ERP", "FTS"],
+    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
+  },
+  {
+    "id": "B3-PR-003",
+    "titulo": "Arbol ERP por salida de zona",
+    "objetivo": "Dibujar un arbol de decision para UA fuera del volumen y perdida de control.",
+    "dificultad": "media",
+    "tiempo_estimado": "30 min",
+    "material_necesario": ["Papel o pizarra", "Ingenieria del Bloque 3", "Ficha fly-away"],
+    "contexto": "La zona terrestre controlada es el limite cuya superacion activa el ERP.",
+    "instrucciones_paso_a_paso": ["Define el limite: volumen representado por la zona terrestre controlada.", "Anade condicion: UA sale del volumen.", "Conecta con activacion del ERP.", "Incluye aviso ATC como medida principal ante perdida de control fly-away.", "Anade cierre: registrar el suceso segun procedimientos."],
+    "criterios_de_exito": ["El ERP se activa por salida de volumen.", "Aparece aviso ATC en fly-away.", "El arbol no sustituye las verificaciones pre-vuelo."],
+    "errores_habituales": ["Esperar a recuperar control sin activar ERP.", "No avisar ante fly-away.", "No conectar zona y ERP."],
+    "conceptos_relacionados": ["ERP", "Zona terrestre controlada", "Fly-away", "ATC"],
+    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
+  },
+  {
+    "id": "B3-PR-004",
+    "titulo": "Revision complementaria MEUH/OODA",
+    "objetivo": "Usar MEUH y OODA como herramientas pedagogicas sin inventar contenido externo.",
+    "dificultad": "dificil",
+    "tiempo_estimado": "30 min",
+    "material_necesario": ["Ingenieria del Bloque 3", "Plantilla MEUH", "Plantilla OODA"],
+    "contexto": "La ingenieria incorpora MEUH y OODA como contenido complementario declarado.",
+    "instrucciones_paso_a_paso": ["Rellena MEUH: Meteorologia, Entorno, UAS, Humanos.", "Para cada columna escribe una verificacion permitida por la ingenieria.", "Aplica OODA a una intrusion o salida de volumen.", "No anadas requisitos no citados.", "Cierra con la decision operacional resultante."],
+    "criterios_de_exito": ["MEUH aparece como herramienta de orden.", "OODA ayuda a decidir sin sustituir procedimientos.", "No se inventan requisitos externos."],
+    "errores_habituales": ["Convertir MEUH en normativa nueva.", "Saltar de observar a actuar.", "Olvidar la fuente de la ingenieria."],
+    "conceptos_relacionados": ["MEUH", "OODA", "Consciencia situacional", "Procedimientos"],
+    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
+  }
+]

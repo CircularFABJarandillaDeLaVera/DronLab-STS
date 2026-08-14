@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Casos Bloque 4 STS - DronLab</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;font-family:system-ui;background:#eef4f7;color:#10243a}header{background:#07192f;color:#fff;padding:14px 22px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}header img{width:42px;object-fit:contain;filter:drop-shadow(0 4px 8px rgba(0,0,0,.18))}header a{margin-left:auto;color:#fff;text-decoration:none}.page{max-width:1080px;margin:auto;padding:22px}.hero{background:linear-gradient(135deg,#07192f,#0d4564);color:#fff}.card{background:#fff;border-radius:16px;padding:22px;margin-bottom:16px;box-shadow:0 8px 22px #17364d12;overflow-wrap:anywhere}.case{border-left:6px solid #ffd43b}.meta{display:flex;gap:8px;flex-wrap:wrap}.tag{padding:6px 9px;border-radius:999px;background:#e8f5f1;color:#087157;font-weight:900;font-size:12px;text-transform:uppercase}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}h1,h2{margin-top:0}li{margin:5px 0}@media(max-width:800px){.grid{grid-template-columns:1fr}header a{margin-left:0}.page{padding:16px}}@media print{header{display:none}.card{box-shadow:none;break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <header><img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB"><div><b>DRONLAB STS - BLOQUE 4</b><br><span>Casos practicos</span></div><a href="../index.html">Recursos</a></header>
+  <main id="main" class="page"></main>
+  <script>
+    const list=a=>`<ul>${(a||[]).map(x=>`<li>${x}</li>`).join('')}</ul>`;
+    fetch('casos.json').then(r=>r.json()).then(casos=>{
+      const d={titulo:'Casos practicos Bloque 4 STS',total:casos.length,casos};
+      document.getElementById('main').innerHTML=`<section class="card hero"><h1>${d.titulo}</h1><p>${d.total} casos sin solucion para resolver con el profesor. Syllabus STS paginas 6-7 · Estado VALIDADO.</p></section>`+d.casos.map(c=>`<section class="card case"><div class="meta"><span class="tag">${c.id}</span><span class="tag">${c.dificultad}</span></div><h2>${c.titulo}</h2><p><b>Contexto:</b> ${c.contexto}</p><p><b>Situacion inicial:</b> ${c.situacion_inicial}</p><p><b>Problema:</b> ${c.problema_planteado}</p><div class="grid"><article><h3>Informacion disponible</h3>${list(c.informacion_disponible)}</article><article><h3>Preguntas para el alumno</h3>${list(c.preguntas_para_el_alumno)}</article><article><h3>Objetivos de aprendizaje</h3>${list(c.objetivos_de_aprendizaje)}</article><article><h3>Errores habituales</h3>${list(c.errores_habituales)}</article></div><p><b>Conceptos:</b> ${(c.conceptos_relacionados||[]).join(' | ')}</p><p><b>Referencia:</b> ${c.referencia_al_bloque}</p></section>`).join('');
+    }).catch(()=>{document.getElementById('main').innerHTML='<section class="card">No se pudieron cargar los casos. Abre esta vista desde Live Server.</section>';});
+  </script>
+</body>
+</html>

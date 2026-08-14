@@ -1,0 +1,126 @@
+[
+  {
+    "id": "B2-CA-001",
+    "titulo": "Inspeccion larga con frio extremo",
+    "dificultad": "media",
+    "contexto": "Un piloto realiza una inspeccion de 6 horas en invierno a 2 grados.",
+    "situacion_inicial": "Tras 4 horas empieza a notar torpeza en los dedos y perdida de atencion.",
+    "informacion_disponible": [
+      "El frio extremo puede deteriorar la motricidad fina.",
+      "La fatiga reduce alerta y rendimiento.",
+      "La ingenieria indica registrar fatiga de la tripulacion en informes post-vuelo.",
+      "La decision debe priorizar el estado psicofisico del piloto."
+    ],
+    "problema_planteado": "Decidir si continuar, pausar o aterrizar por fatiga y frio extremo.",
+    "preguntas_para_el_alumno": [
+      "Que limitaciones humanas aparecen?",
+      "Como afecta la motricidad fina al manejo de los sticks?",
+      "Que debe registrarse tras el vuelo?"
+    ],
+    "objetivos_de_aprendizaje": [
+      "Relacionar frio, fatiga y motricidad fina.",
+      "Justificar una decision conservadora por rendimiento humano.",
+      "Incluir la fatiga en la gestion post-vuelo."
+    ],
+    "errores_habituales": [
+      "Seguir por compromiso con la mision.",
+      "Tratar dedos torpes como incomodidad menor.",
+      "No documentar fatiga."
+    ],
+    "conceptos_relacionados": ["Fatiga", "Motricidad fina", "Hipotermia", "Gestion de sucesos"],
+    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
+  },
+  {
+    "id": "B2-CA-002",
+    "titulo": "STS-02 con observador distraido",
+    "dificultad": "media",
+    "contexto": "Durante un vuelo STS-02, el piloto depende de observadores del espacio aereo.",
+    "situacion_inicial": "Un observador alterna la vigilancia con conversaciones y mira el cielo de forma fija.",
+    "informacion_disponible": [
+      "STS-02 BVLOS depende mas de telemetria y observadores.",
+      "El barrido visual debe realizarse en saltos de 10 a 15 grados.",
+      "El trafico tripulado es dificil de detectar a distancia.",
+      "Las distracciones deben eliminarse durante el vuelo."
+    ],
+    "problema_planteado": "Determinar si la vigilancia del observador es adecuada y que correcciones proceden.",
+    "preguntas_para_el_alumno": [
+      "Que tecnica de vigilancia debe aplicar el observador?",
+      "Por que la mirada fija es insuficiente?",
+      "Que distracciones deben eliminarse?"
+    ],
+    "objetivos_de_aprendizaje": [
+      "Aplicar barrido visual de 10-15 grados.",
+      "Conectar BVLOS con dependencia de observadores.",
+      "Identificar distracciones criticas."
+    ],
+    "errores_habituales": [
+      "Mirar fijamente al cielo.",
+      "Sobreestimar la deteccion visual.",
+      "Permitir conversaciones no operativas."
+    ],
+    "conceptos_relacionados": ["BVLOS", "Observadores", "Barrido visual", "Distracciones"],
+    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
+  },
+  {
+    "id": "B2-CA-003",
+    "titulo": "Cliente presiona para completar el trabajo",
+    "dificultad": "dificil",
+    "contexto": "Una empresa UAS tiene que entregar imagenes antes del cierre de jornada.",
+    "situacion_inicial": "El piloto reconoce estres, cansancio y deslumbramiento por sol bajo, pero el cliente insiste en completar el vuelo.",
+    "informacion_disponible": [
+      "El estres puede nublar el juicio.",
+      "La presion comercial induce riesgos innecesarios.",
+      "El sol puede degradar la vision del piloto.",
+      "El responsable de la decision segura no es el cliente."
+    ],
+    "problema_planteado": "Decidir como gestionar la presion comercial y si la operacion debe continuar.",
+    "preguntas_para_el_alumno": [
+      "Que factores humanos se acumulan?",
+      "Como afecta la presion comercial a la toma de decisiones?",
+      "Que frase de seguridad debe guiar la decision?"
+    ],
+    "objetivos_de_aprendizaje": [
+      "Detectar presion comercial como riesgo.",
+      "Relacionar estres y vision degradada.",
+      "Justificar una parada por seguridad."
+    ],
+    "errores_habituales": [
+      "Volar por compromiso.",
+      "Minimizar el deslumbramiento.",
+      "Transferir la responsabilidad al cliente."
+    ],
+    "conceptos_relacionados": ["Estres", "Presion comercial", "Sol", "Toma de decisiones"],
+    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
+  },
+  {
+    "id": "B2-CA-004",
+    "titulo": "Piloto medicado antes del vuelo",
+    "dificultad": "media",
+    "contexto": "Un piloto ha tomado medicacion y se siente menos alerta antes de una operacion STS.",
+    "situacion_inicial": "El equipo ya esta preparado y el operador espera iniciar la mision.",
+    "informacion_disponible": [
+      "Medicinas y sustancias psicoactivas pueden degradar reflejos y juicio.",
+      "El piloto debe mantener estado fisico y mental optimo.",
+      "La aptitud medica forma parte de la seguridad operacional.",
+      "El estado general de salud influye en la operacion."
+    ],
+    "problema_planteado": "Valorar si el piloto esta en condiciones de iniciar la operacion.",
+    "preguntas_para_el_alumno": [
+      "Que debe comprobarse antes del despegue?",
+      "Por que una medicina puede ser relevante?",
+      "Que decision seria coherente con la aptitud medica?"
+    ],
+    "objetivos_de_aprendizaje": [
+      "Incluir medicinas en la evaluacion psicofisica.",
+      "Priorizar aptitud del piloto.",
+      "Evitar decisiones por inercia operativa."
+    ],
+    "errores_habituales": [
+      "Pensar solo en alcohol o drogas.",
+      "Despegar porque el equipo ya esta montado.",
+      "No considerar el estado general de salud."
+    ],
+    "conceptos_relacionados": ["Aptitud medica", "Medicinas", "Reflejos", "Juicio"],
+    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
+  }
+]

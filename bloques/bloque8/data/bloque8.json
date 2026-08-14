@@ -1,0 +1,37 @@
+﻿{
+  "meta": {
+    "bloque": 8,
+    "titulo": "Mitigaciones tecnicas y operacionales del riesgo en tierra",
+    "subtitulo": "Riesgo en tierra, zona terrestre controlada, margen de riesgo, FTS y VLOS en fases criticas STS-02.",
+    "organismo": "AESA",
+    "documento": "Syllabus STS",
+    "edicion": "2",
+    "fecha": "17/04/2023",
+    "paginas_relacionadas": "11-12",
+    "estado": "VALIDADO",
+    "trazabilidad_principal": "AESA · Syllabus STS · Edicion 2 · 17/04/2023 · paginas 11-12 · VALIDADO",
+    "complementario": "Resolucion 10/11/2024 y RD 517/2024: obstaculos, intrusion, STS-ES-02NE < 25 kg y luz verde intermitente nocturna."
+  },
+  "conceptosClave": [
+    "Riesgo en tierra",
+    "Zona terrestre controlada",
+    "Margen de riesgo en tierra",
+    "FTS",
+    "Entorno escasamente poblado",
+    "VLOS en despegue y aterrizaje",
+    "Proyecciones en superficie",
+    "Intrusion de personas"
+  ],
+  "pantallas": [
+    {"id":"b8-01","titulo":"Riesgo en tierra","contenido":"Probabilidad y gravedad de que un UAS cause danos a personas no participantes o infraestructuras en superficie durante una operacion.","docente":"Presenta el riesgo en tierra como la consecuencia terrestre de una perdida de control, no como un concepto administrativo."},
+    {"id":"b8-02","titulo":"Zona terrestre controlada","contenido":"Area en superficie donde el operador garantiza que solo hay personas participantes y que no comprende concentraciones de personas.","docente":"Insiste en la responsabilidad activa del operador: delimitar, vigilar y mantener libre de terceros."},
+    {"id":"b8-03","titulo":"Margen de riesgo en tierra","contenido":"Distancia adicional que rodea el volumen operacional para mitigar el riesgo ante perdida de control; depende de velocidad y altura.","docente":"Relaciona margen con energia y distancia necesaria para que el impacto ocurra dentro de area segura."},
+    {"id":"b8-04","titulo":"STS-01: riesgo en entorno poblado","contenido":"El riesgo en tierra es mayor que en categoria abierta porque se opera en entornos poblados; la zona controlada crea un escudo fisico libre de personas ajenas.","docente":"Subraya que STS-01 no relaja el riesgo: lo contiene mediante zona terrestre controlada y barreras tecnicas."},
+    {"id":"b8-05","titulo":"FTS como mitigacion tecnica","contenido":"El sistema de terminacion de vuelo fuerza la caida del UAS dentro del perimetro de seguridad si se pierde el mando.","docente":"Explica la funcion dual del FTS: mitiga riesgo en aire y tambien riesgo en tierra."},
+    {"id":"b8-06","titulo":"STS-02: BVLOS y entorno escasamente poblado","contenido":"En STS-02 el riesgo es mayor que en categoria abierta por BVLOS y por velocidades o pesos de UAS C6; se exige entorno escasamente poblado.","docente":"No permitas que el alumnado confunda poco poblado con ausencia total de gestion: la exposicion baja, pero el margen sigue siendo obligatorio."},
+    {"id":"b8-07","titulo":"Despegue y aterrizaje en VLOS","contenido":"Aunque el crucero STS-02 sea BVLOS, el despegue y el aterrizaje deben realizarse siempre en VLOS para controlar el punto de contacto con el suelo.","docente":"Este es un dato critico de examen: BVLOS no significa BVLOS en todas las fases."},
+    {"id":"b8-08","titulo":"Proyecciones en superficie","contenido":"La zona terrestre controlada debe incluir las proyecciones del volumen operacional y de la zona de prevencion.","docente":"Dibuja volumen operacional arriba y huella terrestre abajo: la seguridad se planifica en tres dimensiones y se controla en superficie."},
+    {"id":"b8-09","titulo":"Intrusion de personas","contenido":"Si entra una persona no participante en la zona controlada, el piloto debe adoptar medidas inmediatas para mantener la seguridad.","docente":"Como complementario, usa ejemplos: estacionario, alejamiento o aterrizaje; manteniendo trazabilidad separada."},
+    {"id":"b8-10","titulo":"Complementario separado","contenido":"Resolucion 10/11/2024 y RD 517/2024 aportan obstaculos, intrusion, masa privada STS-ES-02NE inferior a 25 kg y luz verde intermitente nocturna.","docente":"Etiqueta claramente este contenido como complementario y no como paginas 11-12 del Syllabus AESA."}
+  ]
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bloque 4 STS - DronLab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand institutional-brand" href="../../inicio.html">
+      <img class="cf-logo" src="../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+      <span class="brand-copy"><strong>CIRCULAR FAB</strong><span>DronLab STS</span></span>
+      <span class="brand-divider" aria-hidden="true"></span>
+      <span class="course-lockup"><b>BLOQUE 4</b><small>Mitigacion del riesgo en aire</small></span>
+    </a>
+    <nav class="toolbar" aria-label="Herramientas del aula">
+      <button class="tool" id="menuBtn" title="Menu">M</button>
+      <button class="tool" id="notesBtn" title="Notas">N</button>
+      <button class="tool" id="fullscreenBtn" title="Pantalla completa">F</button>
+      <button class="tool" id="resetBtn" title="Reiniciar">R</button>
+      <a class="tool" href="profesor-plus.html" title="Profesor Plus">PP</a>
+    </nav>
+  </header>
+
+  <main id="stage" class="stage"></main>
+
+  <footer class="bottombar">
+    <button class="nav-btn" id="prevBtn" aria-label="Anterior">&lt;</button>
+    <div class="progress-wrap"><div id="progress" class="progress"></div></div>
+    <div id="counter" class="counter">1/1</div>
+    <button class="nav-btn" id="nextBtn" aria-label="Siguiente">&gt;</button>
+    <div class="footer-identity"><img src="../../assets/branding/logo-circular-fab.png" alt=""><span>CIRCULAR FAB</span></div>
+  </footer>
+
+  <dialog id="menuDialog">
+    <div class="menu-head">
+      <div><p class="eyebrow">BLOQUE 4 STS</p><h2>Indice del aula</h2></div>
+      <button class="tool" id="closeMenu" title="Cerrar">x</button>
+    </div>
+    <div id="menuList" class="menu-list"></div>
+  </dialog>
+
+  <div id="help" class="help">Usa las flechas para avanzar. M abre el indice, N alterna notas y F activa pantalla completa.</div>
+
+  <script src="data/bloque4.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

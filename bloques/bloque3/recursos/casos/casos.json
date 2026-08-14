@@ -1,0 +1,58 @@
+[
+  {
+    "id": "B3-CA-001",
+    "titulo": "STS-01 sin ID remota",
+    "dificultad": "media",
+    "contexto": "Durante la inspeccion pre-vuelo de un dron clase C5 en STS-01, el piloto detecta que la identificacion remota directa no emite senal.",
+    "situacion_inicial": "El FTS parece operativo, pero el sistema de ID remota no esta activo.",
+    "informacion_disponible": ["STS-01 exige verificar FTS operativo.", "STS-01 exige ID remota directa activa y actualizada.", "La operacion no debe iniciarse si falta una verificacion especifica."],
+    "problema_planteado": "Decidir si puede despegar o debe abortar hasta corregir la ID remota.",
+    "preguntas_para_el_alumno": ["Que dos elementos son especificos de STS-01?", "Que condicion falla?", "Que decision procede antes del despegue?"],
+    "objetivos_de_aprendizaje": ["Aplicar pre-vuelo STS-01.", "No compensar ID remota fallida con FTS operativo.", "Justificar una cancelacion pre-vuelo."],
+    "errores_habituales": ["Despegar porque el FTS funciona.", "Confundir ID remota con un dato administrativo.", "No comprobar actualizacion del sistema."],
+    "conceptos_relacionados": ["STS-01", "FTS", "ID remota directa", "Pre-vuelo"],
+    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
+  },
+  {
+    "id": "B3-CA-002",
+    "titulo": "Geocaging mal configurado en STS-02",
+    "dificultad": "media",
+    "contexto": "Un piloto de STS-02 configura un limite de geocaging para rodear una antena.",
+    "situacion_inicial": "Durante el vuelo, el UAS se acerca rapidamente al limite del volumen definido.",
+    "informacion_disponible": ["STS-02 exige geocaging configurado y operativo.", "Geocaging impide que la aeronave abandone el volumen operacional.", "La salida del volumen activa ERP."],
+    "problema_planteado": "Valorar si la configuracion y la reaccion del piloto evitan la salida del volumen.",
+    "preguntas_para_el_alumno": ["Que funcion es obligatoria en STS-02?", "Que riesgo aparece al acercarse al limite?", "Cuando entraria el ERP?"],
+    "objetivos_de_aprendizaje": ["Relacionar STS-02 y geocaging.", "Conectar volumen operacional con ERP.", "Detectar errores de configuracion."],
+    "errores_habituales": ["Asignar geocaging a STS-01.", "No comprobarlo antes del vuelo.", "Esperar a salir del volumen para reaccionar."],
+    "conceptos_relacionados": ["STS-02", "Geocaging", "Volumen operacional", "ERP"],
+    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
+  },
+  {
+    "id": "B3-CA-003",
+    "titulo": "Intrusion de persona no participante",
+    "dificultad": "media",
+    "contexto": "Una persona ajena cruza el perimetro de seguridad durante una operacion urbana.",
+    "situacion_inicial": "La zona terrestre controlada estaba definida, pero la intrusion ocurre durante el vuelo.",
+    "informacion_disponible": ["La intrusion de personas no participantes se trata como contingencia.", "La seguridad de terceros es prioritaria.", "El piloto y personal esencial deben ejecutar acciones previstas."],
+    "problema_planteado": "Clasificar el evento y activar el procedimiento adecuado.",
+    "preguntas_para_el_alumno": ["Es contingencia o emergencia?", "Que objetivo tiene la respuesta?", "Que papel tiene el personal esencial?"],
+    "objetivos_de_aprendizaje": ["Clasificar intrusiones como contingencia.", "Proteger terceros.", "Aplicar procedimiento en vuelo."],
+    "errores_habituales": ["Llamarlo emergencia tecnica.", "Continuar la maniobra ignorando la intrusion.", "Pensar que la zona definida en papel basta."],
+    "conceptos_relacionados": ["Contingencia", "Personas no participantes", "Zona terrestre controlada"],
+    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
+  },
+  {
+    "id": "B3-CA-004",
+    "titulo": "Fallo del FTS y salida de volumen",
+    "dificultad": "dificil",
+    "contexto": "Durante un vuelo, el piloto intenta activar el FTS ante perdida de control, pero el sistema no funciona correctamente.",
+    "situacion_inicial": "La aeronave se dirige hacia fuera del volumen representado por la zona terrestre controlada.",
+    "informacion_disponible": ["El fallo del FTS es procedimiento de emergencia.", "La salida del volumen activa ERP.", "El aviso ATC es medida principal ante perdida de control fly-away segun la ingenieria."],
+    "problema_planteado": "Distinguir la emergencia tecnica del FTS y la activacion del ERP por salida de volumen.",
+    "preguntas_para_el_alumno": ["Que tipo de procedimiento es el fallo del FTS?", "Que activa el ERP?", "Que medida principal aparece ante fly-away?"],
+    "objetivos_de_aprendizaje": ["Separar emergencia FTS y ERP.", "Conectar salida de volumen con respuesta critica.", "Identificar aviso ATC como medida principal del ERP en fly-away."],
+    "errores_habituales": ["No activar ERP al salir de zona.", "Tratar fallo FTS como contingencia menor.", "No avisar segun el plan previsto."],
+    "conceptos_relacionados": ["FTS", "Emergencia", "ERP", "Fly-away", "Aviso ATC"],
+    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
+  }
+]

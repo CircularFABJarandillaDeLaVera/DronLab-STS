@@ -1,0 +1,114 @@
+[
+  {
+    "id": "B2-PR-001",
+    "titulo": "Checklist de aptitud psicofisica",
+    "objetivo": "Crear una comprobacion previa de aptitud medica, sustancias, fatiga, estres y salud general.",
+    "dificultad": "facil",
+    "tiempo_estimado": "20 min",
+    "material_necesario": ["Ingenieria del Bloque 2", "Plantilla de checklist", "Ficha de operacion"],
+    "contexto": "Antes de una operacion STS, el piloto debe confirmar que su estado fisico y mental permite operar con seguridad.",
+    "instrucciones_paso_a_paso": [
+      "Incluye una pregunta sobre estado general de salud.",
+      "Incluye una pregunta sobre alcohol, medicinas, drogas y sustancias psicoactivas.",
+      "Incluye una escala simple de fatiga y alerta.",
+      "Incluye una pregunta sobre estres y presion comercial.",
+      "Define un criterio claro para detener o aplazar la operacion."
+    ],
+    "criterios_de_exito": [
+      "La checklist cubre aptitud medica y factores psicologicos.",
+      "No reduce el problema solo al consumo de alcohol.",
+      "Incluye una decision operativa conservadora."
+    ],
+    "errores_habituales": [
+      "Olvidar medicinas.",
+      "No preguntar por estres.",
+      "No definir criterio de parada."
+    ],
+    "conceptos_relacionados": ["Aptitud medica", "Sustancias", "Fatiga", "Estres"],
+    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
+  },
+  {
+    "id": "B2-PR-002",
+    "titulo": "Practica de barrido visual 10-15 grados",
+    "objetivo": "Ejecutar y explicar la tecnica de barrido visual en saltos de 10 a 15 grados.",
+    "dificultad": "media",
+    "tiempo_estimado": "25 min",
+    "material_necesario": ["Espacio abierto seguro", "Referencia visual en el horizonte", "Cronometro"],
+    "contexto": "La deteccion de trafico tripulado a distancia es dificil y no debe hacerse con mirada fija.",
+    "instrucciones_paso_a_paso": [
+      "Elige un sector visual libre de obstaculos.",
+      "Fija la mirada en un punto durante unos instantes.",
+      "Salta 10 a 15 grados hacia un lado.",
+      "Vuelve a enfocar y repite el patron.",
+      "Explica por que la mirada fija reduce la deteccion."
+    ],
+    "criterios_de_exito": [
+      "El alumno describe la tecnica de 10-15 grados.",
+      "Evita barridos continuos sin enfoque.",
+      "Relaciona la tecnica con deteccion de trafico."
+    ],
+    "errores_habituales": [
+      "Mover la mirada de forma aleatoria.",
+      "Mirar fijo un unico punto.",
+      "No eliminar distracciones."
+    ],
+    "conceptos_relacionados": ["Barrido visual", "Atencion", "Trafico tripulado", "Distracciones"],
+    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
+  },
+  {
+    "id": "B2-PR-003",
+    "titulo": "Evaluacion de entorno y cuerpo humano",
+    "objetivo": "Identificar como sol, clima y temperatura afectan al piloto, no solo al UAS.",
+    "dificultad": "media",
+    "tiempo_estimado": "25 min",
+    "material_necesario": ["Ficha meteorologica de ejemplo", "Tabla de riesgos humanos", "Checklist de operacion"],
+    "contexto": "El bloque incluye deslumbramiento, lluvia, nieve, cenizas, hipotermia, congelacion, quemaduras solares y motricidad fina.",
+    "instrucciones_paso_a_paso": [
+      "Lista los factores ambientales previstos.",
+      "Marca cuales afectan a la vision del piloto.",
+      "Marca cuales afectan a motricidad fina o salud.",
+      "Anade una medida preventiva por cada factor.",
+      "Decide si la operacion es aceptable, requiere pausa o debe aplazarse."
+    ],
+    "criterios_de_exito": [
+      "Se identifican efectos sobre el ser humano.",
+      "Aparecen vision y motricidad fina.",
+      "La decision no se basa solo en el rendimiento del UAS."
+    ],
+    "errores_habituales": [
+      "Pensar que el sol solo afecta al UAS.",
+      "Subestimar frio intenso.",
+      "No proteger al piloto."
+    ],
+    "conceptos_relacionados": ["Sol", "Clima", "Motricidad fina", "Consciencia situacional"],
+    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
+  },
+  {
+    "id": "B2-PR-004",
+    "titulo": "Registro post-vuelo de fatiga",
+    "objetivo": "Preparar una nota post-vuelo que incluya fatiga de la tripulacion y factores humanos observados.",
+    "dificultad": "dificil",
+    "tiempo_estimado": "30 min",
+    "material_necesario": ["Informe post-vuelo ficticio", "Ingenieria del Bloque 2", "Lista de factores humanos"],
+    "contexto": "La ingenieria indica la obligacion de registrar la fatiga de la tripulacion en informes post-vuelo.",
+    "instrucciones_paso_a_paso": [
+      "Describe duracion y carga de trabajo de la operacion.",
+      "Anota signos de fatiga, estres o perdida de atencion.",
+      "Relaciona cada signo con un efecto operativo.",
+      "Propone una accion preventiva para la siguiente operacion.",
+      "Redacta una conclusion breve sin ocultar factores humanos."
+    ],
+    "criterios_de_exito": [
+      "La fatiga queda registrada.",
+      "Se conectan sintomas con seguridad operacional.",
+      "La accion preventiva es concreta."
+    ],
+    "errores_habituales": [
+      "Registrar solo incidencias tecnicas.",
+      "No documentar fatiga por parecer subjetiva.",
+      "No cerrar con accion preventiva."
+    ],
+    "conceptos_relacionados": ["Fatiga", "Gestion de sucesos", "Post-vuelo", "Consciencia situacional"],
+    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "B1-CA-001",
+    "titulo": "Grabacion en entorno poblado",
+    "dificultad": "media",
+    "contexto": "Un operador quiere grabar un comercial en el centro de Madrid con un UAS de 4 kg con marcado C5.",
+    "situacion_inicial": "La operacion se plantea en entorno poblado y debe mantenerse dentro del marco STS.",
+    "informacion_disponible": [
+      "STS-01 opera en VLOS en entorno poblado.",
+      "STS-01 exige dron C5.",
+      "STS-01 requiere zona terrestre controlada.",
+      "El vuelo sobre concentraciones de personas esta prohibido."
+    ],
+    "problema_planteado": "Determinar si el escenario encaja en STS-01 y que condiciones no pueden omitirse.",
+    "preguntas_para_el_alumno": [
+      "Que escenario STS corresponde?",
+      "Que zona debe acotarse antes de operar?",
+      "Que error seria confundir entorno poblado con permiso para sobrevolar concentraciones?"
+    ],
+    "objetivos_de_aprendizaje": [
+      "Relacionar entorno poblado, VLOS, C5 y STS-01.",
+      "Aplicar la prohibicion de sobrevolar concentraciones.",
+      "Separar declaracion operacional de autorizacion especifica."
+    ],
+    "errores_habituales": [
+      "Ignorar la zona terrestre controlada.",
+      "Usar el peso del dron como criterio suficiente.",
+      "Confundir STS-01 con autorizacion automatica."
+    ],
+    "conceptos_relacionados": [
+      "STS-01",
+      "Declaracion operacional",
+      "Zona terrestre controlada",
+      "Marcado C5"
+    ],
+    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
+  },
+  {
+    "id": "B1-CA-002",
+    "titulo": "Inspeccion BVLOS de via ferrea",
+    "dificultad": "media",
+    "contexto": "Una empresa necesita inspeccionar 10 km de via ferrea en zona rural. El piloto no puede mantener contacto visual directo con el UAS.",
+    "situacion_inicial": "La operacion requiere BVLOS y se plantea como escenario estandar.",
+    "informacion_disponible": [
+      "STS-02 permite BVLOS en entorno poco poblado.",
+      "STS-02 exige observadores del espacio aereo dedicados.",
+      "STS-02 exige dron C6.",
+      "El observador detecta peligros, pero la responsabilidad final recae en el piloto."
+    ],
+    "problema_planteado": "Determinar los requisitos minimos del escenario y las responsabilidades que no deben confundirse.",
+    "preguntas_para_el_alumno": [
+      "Por que no corresponde STS-01?",
+      "Que papel cumplen los observadores?",
+      "Quien mantiene la responsabilidad ultima de la maniobra evasiva?"
+    ],
+    "objetivos_de_aprendizaje": [
+      "Diferenciar VLOS y BVLOS.",
+      "Identificar C6 y observadores como requisitos STS-02.",
+      "Separar apoyo del observador y responsabilidad del piloto."
+    ],
+    "errores_habituales": [
+      "Resolver BVLOS como si fuera VLOS.",
+      "Olvidar los observadores.",
+      "Asignar al observador la responsabilidad final de seguridad."
+    ],
+    "conceptos_relacionados": [
+      "STS-02",
+      "BVLOS",
+      "Observador del espacio aereo",
+      "Marcado C6"
+    ],
+    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
+  },
+  {
+    "id": "B1-CA-003",
+    "titulo": "Mision que no encaja en STS",
+    "dificultad": "dificil",
+    "contexto": "Un operador propone una mision de categoria especifica, pero no puede ajustarla a los requisitos de un STS ni a una PDRA disponible.",
+    "situacion_inicial": "El equipo quiere presentar una declaracion operacional para acelerar el inicio de la actividad.",
+    "informacion_disponible": [
+      "La declaracion operacional aplica a operaciones ajustadas a un STS.",
+      "La PDRA es una evaluacion de riesgo predefinida para misiones comunes.",
+      "Si la mision no encaja en STS o PDRA, se requiere autorizacion basada en SORA.",
+      "Confundir declaracion con autorizacion es un error frecuente."
+    ],
+    "problema_planteado": "Decidir si basta una declaracion o si debe tramitarse autorizacion especifica.",
+    "preguntas_para_el_alumno": [
+      "Que condicion permite usar declaracion STS?",
+      "Que aporta una PDRA?",
+      "Cuando entra SORA como evaluacion especifica?"
+    ],
+    "objetivos_de_aprendizaje": [
+      "Diferenciar STS, PDRA y autorizacion.",
+      "Detectar el limite de la declaracion operacional.",
+      "Reconocer el papel de SORA fuera de escenarios predefinidos."
+    ],
+    "errores_habituales": [
+      "Declarar una operacion que no encaja en STS.",
+      "Usar PDRA como sinonimo de STS.",
+      "Pensar que categoria especifica siempre es declarativa."
+    ],
+    "conceptos_relacionados": [
+      "Declaracion operacional",
+      "Autorizacion especifica",
+      "SORA",
+      "PDRA"
+    ],
+    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
+  },
+  {
+    "id": "B1-CA-004",
+    "titulo": "Consulta de espacio aereo",
+    "dificultad": "media",
+    "contexto": "Antes de una operacion STS, el piloto debe verificar zonas geograficas UAS y restricciones aplicables.",
+    "situacion_inicial": "El equipo dispone de ENAIRE Drones, AIP, AIC y NOTAM como fuentes de informacion aeronautica.",
+    "informacion_disponible": [
+      "AIP contiene informacion aeronautica duradera.",
+      "AIC comunica cambios de legislacion o reglamentacion.",
+      "ENAIRE Drones permite consultar zonas geograficas UAS en mapas.",
+      "Las zonas P prohiben, las R restringen y las D advierten actividades peligrosas."
+    ],
+    "problema_planteado": "Seleccionar que fuentes consultar y como interpretar P/R/D antes de la operacion.",
+    "preguntas_para_el_alumno": [
+      "Que diferencia hay entre AIP y AIC?",
+      "Para que se usa ENAIRE Drones?",
+      "Que implican las zonas P, R y D?"
+    ],
+    "objetivos_de_aprendizaje": [
+      "Usar fuentes de informacion aeronautica segun su funcion.",
+      "Interpretar zonas geograficas UAS.",
+      "Evitar operar sin consulta previa."
+    ],
+    "errores_habituales": [
+      "No consultar ENAIRE Drones.",
+      "Tratar AIP y AIC como sinonimos.",
+      "Confundir zona restringida con zona libre."
+    ],
+    "conceptos_relacionados": [
+      "AIP",
+      "AIC",
+      "ENAIRE Drones",
+      "Zonas P/R/D"
+    ],
+    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
+  }
+]

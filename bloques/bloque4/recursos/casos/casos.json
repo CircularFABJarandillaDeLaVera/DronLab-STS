@@ -1,0 +1,58 @@
+[
+  {
+    "id": "B4-CASO-001",
+    "titulo": "STS-01 con observador y trafico aproximandose",
+    "dificultad": "media",
+    "contexto": "Un piloto opera en STS-01 bajo VLOS. Un UAS observer detecta una aeronave aproximandose y lo comunica con claridad.",
+    "situacion_inicial": "El piloto mantiene alcance visual y reconocimiento del espacio aereo.",
+    "informacion_disponible": ["STS-01 gestiona el riesgo mediante VLOS.", "El UAS observer asiste al piloto.", "La responsabilidad de ver y evitar sigue siendo del piloto."],
+    "problema_planteado": "Determinar quien decide la maniobra evasiva y que principio se aplica.",
+    "preguntas_para_el_alumno": ["Que principio de separacion aplica?", "Puede el observador sustituir al piloto?", "Que mitigacion operacional aparece?"],
+    "objetivos_de_aprendizaje": ["Aplicar ver y evitar.", "Mantener responsabilidad del piloto.", "Distinguir asistencia y delegacion."],
+    "errores_habituales": ["Delegar totalmente la vigilancia.", "Confundir UAS observer con Airspace Observer.", "Tratar VLOS como tecnica."],
+    "conceptos_relacionados": ["STS-01", "VLOS", "UAS observer", "Ver y evitar"],
+    "referencia_al_bloque": "Bloque 4 · Syllabus STS paginas 6-7 · Estado VALIDADO"
+  },
+  {
+    "id": "B4-CASO-002",
+    "titulo": "STS-02 BVLOS con 6 km de visibilidad",
+    "dificultad": "media",
+    "contexto": "La operacion STS-02 se realiza a 2 km de distancia en una llanura con 6 km de visibilidad horizontal confirmada.",
+    "situacion_inicial": "El equipo dispone de observadores del espacio aereo en los flancos.",
+    "informacion_disponible": ["STS-02 exige visibilidad horizontal de 5 km o mas.", "El riesgo BVLOS se mitiga con observadores del espacio aereo o trayectoria pre-programada obligatoria.", "Detectar y evitar usa medios humanos o tecnicos."],
+    "problema_planteado": "Comprobar si el planteamiento cubre los requisitos basicos del nucleo STS-02.",
+    "preguntas_para_el_alumno": ["Se cumple el requisito de visibilidad?", "Que tipo de observadores intervienen?", "Que principio de separacion se aplica?"],
+    "objetivos_de_aprendizaje": ["Aplicar el dato 5 km o mas.", "Relacionar BVLOS con detectar y evitar.", "Diferenciar STS-02 de STS-01."],
+    "errores_habituales": ["Usar UAS observer de STS-01 como equivalente.", "Olvidar la alternativa de trayectoria pre-programada.", "Aplicar ver y evitar como unica barrera BVLOS."],
+    "conceptos_relacionados": ["STS-02", "BVLOS", "Airspace Observer", "5 km"],
+    "referencia_al_bloque": "Bloque 4 · Syllabus STS paginas 6-7 · Estado VALIDADO"
+  },
+  {
+    "id": "B4-CASO-003",
+    "titulo": "Geocaging que solo avisa",
+    "dificultad": "dificil",
+    "contexto": "En una configuracion STS-02, el sistema instalado genera avisos al acercarse al limite, pero no impide que la UA salga del volumen operacional.",
+    "situacion_inicial": "El piloto recibe informacion de posicion geografica, pero el confinamiento no actua fisicamente.",
+    "informacion_disponible": ["STS-02 requiere geocaging.", "El geocaging debe impedir fisicamente la salida del volumen operacional.", "La informacion de posicion tambien debe estar disponible para el piloto."],
+    "problema_planteado": "Identificar la carencia tecnica y diferenciar aviso informativo de confinamiento.",
+    "preguntas_para_el_alumno": ["Ese sistema cumple la funcion de geocaging?", "Que requisito tecnico falta?", "Que confusion aparece con geoconsciencia?"],
+    "objetivos_de_aprendizaje": ["Distinguir geocaging y aviso.", "Aplicar mitigacion tecnica STS-02.", "Evitar confundir geocaging con geoconsciencia."],
+    "errores_habituales": ["Aceptar un aviso como geocaging.", "Olvidar informacion de posicion.", "Presentar geoconsciencia como nucleo Syllabus 6-7."],
+    "conceptos_relacionados": ["Geocaging", "Geoconsciencia", "STS-02", "Volumen operacional"],
+    "referencia_al_bloque": "Bloque 4 · Syllabus STS paginas 6-7 · Estado VALIDADO"
+  },
+  {
+    "id": "B4-CASO-004",
+    "titulo": "Ficha con contenido complementario mezclado",
+    "dificultad": "dificil",
+    "contexto": "Un alumno prepara una ficha y coloca MME8, indice K y Modo S dentro del apartado Syllabus paginas 6-7.",
+    "situacion_inicial": "La ficha tambien incluye correctamente VLOS, FTS, observadores, 5 km, geocaging e informacion de posicion.",
+    "informacion_disponible": ["MME8, MMT9, MAT16, MAT17, MAE36, MMT11, indice K, Modo S y geoconsciencia son complementarios.", "El nucleo Syllabus paginas 6-7 cubre riesgo, mitigaciones, separacion, STS-01 y STS-02."],
+    "problema_planteado": "Reordenar la ficha sin eliminar contenido validado, separando nucleo y complementario.",
+    "preguntas_para_el_alumno": ["Que debe quedarse en el nucleo Syllabus?", "Que debe moverse a complementario?", "Por que importa la etiqueta de trazabilidad?"],
+    "objetivos_de_aprendizaje": ["Mantener trazabilidad academica.", "No convertir complementarios en temario paginas 6-7.", "Corregir sin alterar contenido."],
+    "errores_habituales": ["Eliminar contenido complementario validado.", "Mezclar fuentes.", "No indicar origen academico."],
+    "conceptos_relacionados": ["Trazabilidad", "Complementario", "Syllabus paginas 6-7", "Indice K", "Modo S"],
+    "referencia_al_bloque": "Bloque 4 · Ingenieria validada · Complementario oficial identificado"
+  }
+]
