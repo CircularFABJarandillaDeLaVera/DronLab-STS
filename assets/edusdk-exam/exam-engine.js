@@ -12,6 +12,7 @@
   const $ = sel => document.querySelector(sel);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const shuffle = items => [...items].sort(() => Math.random() - 0.5);
+  const questionKey = q => `${q.bloque || q._block || q.block || 'unknown'}:${q.id}`;
 
   async function loadJson(url) {
     const res = await fetch(url);
@@ -92,13 +93,13 @@
     let pool = [...bank];
     if (filter.failedOnly) {
       const failed = new Set(getHistory().flatMap(h => h.failedIds || []));
-      pool = pool.filter(q => failed.has(q.id));
+      pool = pool.filter(q => failed.has(questionKey(q)));
     }
     if (filter.block) pool = pool.filter(q => Number(q.block) === Number(filter.block));
 
     const stored = getStoredState();
     const recent = new Set((stored.recentQuestions || []).slice(0, config.selection?.recent_memory || 80));
-    const fresh = pool.filter(q => !recent.has(q.id));
+    const fresh = pool.filter(q => !recent.has(questionKey(q)));
     if (fresh.length >= count) pool = fresh;
 
     const blockDistribution = config.selection?.block_distribution || {};
@@ -113,10 +114,10 @@
         blockSelected.push(...shuffle(blockPool.filter(q => q.difficulty === difficulty)).slice(0, diffTarget));
       });
       shuffle(blockPool).forEach(q => {
-        if (blockSelected.length < target && !blockSelected.some(s => s.id === q.id)) blockSelected.push(q);
+        if (blockSelected.length < target && !blockSelected.some(s => questionKey(s) === questionKey(q))) blockSelected.push(q);
       });
       blockSelected.slice(0, target).forEach(q => {
-        if (!selected.some(s => s.id === q.id)) selected.push(q);
+        if (!selected.some(s => questionKey(s) === questionKey(q))) selected.push(q);
       });
     });
     const byDifficulty = Object.entries(distribution);
@@ -125,11 +126,11 @@
       const target = Math.round(count * Number(ratio));
       shuffle(pool.filter(q => q.difficulty === difficulty)).forEach(q => {
         const sameDifficulty = selected.filter(s => s.difficulty === difficulty).length;
-        if (selected.length < count && sameDifficulty < target && !selected.some(s => s.id === q.id)) selected.push(q);
+        if (selected.length < count && sameDifficulty < target && !selected.some(s => questionKey(s) === questionKey(q))) selected.push(q);
       });
     });
     shuffle(pool).forEach(q => {
-      if (selected.length < count && !selected.some(s => s.id === q.id)) selected.push(q);
+      if (selected.length < count && !selected.some(s => questionKey(s) === questionKey(q))) selected.push(q);
     });
     return shuffle(selected).slice(0, Math.min(count, selected.length));
   }
@@ -163,7 +164,7 @@
     const stored = getStoredState();
     setStoredState({
       ...stored,
-      recentQuestions: [...session.questions.map(q => q.id), ...(stored.recentQuestions || [])].slice(0, config.selection?.recent_memory || 80)
+      recentQuestions: [...session.questions.map(questionKey), ...(stored.recentQuestions || [])].slice(0, config.selection?.recent_memory || 80)
     });
     saveHistory(result);
     renderResults(result);
@@ -177,9 +178,9 @@
     session.questions.forEach((q, i) => {
       blocks[q.block] ||= {title: q.blockTitle, total: 0, correct: 0, wrong: 0, blank: 0};
       blocks[q.block].total++;
-      if (session.answers[i] === null) { blank++; blocks[q.block].blank++; failedIds.push(q.id); }
+      if (session.answers[i] === null) { blank++; blocks[q.block].blank++; failedIds.push(questionKey(q)); }
       else if (session.answers[i] === q.correct) { correct++; blocks[q.block].correct++; }
-      else { wrong++; blocks[q.block].wrong++; failedIds.push(q.id); }
+      else { wrong++; blocks[q.block].wrong++; failedIds.push(questionKey(q)); }
     });
     const percent = session.questions.length ? Math.round((correct / session.questions.length) * 100) : 0;
     return {
