@@ -89,6 +89,15 @@ button, select { font: inherit; }
 .stat { padding: 18px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,255,255,.06); }
 .stat b { display: block; font-size: 1.8rem; }
 .review-grid { grid-template-columns: 1fr 1fr; }
+.review-section { padding: clamp(20px, 4vw, 34px); margin-top: 16px; }
+.review-section h2 { margin-top: 0; text-transform: uppercase; letter-spacing: .04em; }
+.review-card { padding: 18px; margin-top: 14px; border: 1px solid var(--line); border-left: 5px solid var(--red); border-radius: 14px; background: rgba(255,255,255,.05); break-inside: avoid; }
+.review-card h3 { margin: 0 0 14px; font-size: 1.15rem; }
+.review-card p { margin: 9px 0 0; }
+.review-card strong { color: var(--yellow); }
+.review-groups { display: grid; gap: 8px; padding: 0; margin: 0; list-style: none; }
+.review-groups li { display: flex; justify-content: space-between; gap: 16px; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.review-groups strong { color: var(--accent); white-space: nowrap; }
 .block-row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--line); }
 .notice { padding: 14px 16px; border-left: 5px solid var(--yellow); background: rgba(255, 212, 59, .12); border-radius: 12px; color: #fff2b5; }
 .history-list { display: grid; gap: 8px; }
@@ -107,5 +116,6 @@ button, select { font: inherit; }
 @media print {
   .top-actions, .exam-bar, .question-actions, .mode-grid { display: none; }
   body { background: #fff; color: #111; }
-  .hero, .panel, .stat { box-shadow: none; color: #111; background: #fff; border-color: #ddd; break-inside: avoid; }
+  .hero, .panel, .stat, .review-card { box-shadow: none; color: #111; background: #fff; border-color: #ddd; break-inside: avoid; }
+  .review-card strong, .review-groups strong { color: #111; }
 }

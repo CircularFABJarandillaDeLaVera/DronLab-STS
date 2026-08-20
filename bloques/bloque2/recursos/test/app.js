@@ -8,7 +8,7 @@
     const preguntas = Array.isArray(json) ? json : json.preguntas || [];
     return {
       titulo: json.titulo || 'Test Bloque 2 STS',
-      bloque: json.bloque || 'Limitaciones del rendimiento humano · Syllabus STS paginas 4-5 · Estado VALIDADO',
+      bloque: json.bloque || 'Limitaciones del rendimiento humano - Syllabus STS paginas 4-5 - Estado VALIDADO',
       total: json.total || preguntas.length,
       preguntas
     };
@@ -40,7 +40,7 @@
           <div class="meta"><span class="tag">${question.id}</span><span class="tag">${question.dificultad}</span><span class="tag">${question.tema}</span></div>
           <h2>${index + 1}. ${question.pregunta}</h2>
           <div class="opts">${question.respuestas.map((answer, answerIndex) => `<button class="opt" data-id="${question.id}" data-answer="${answerIndex}">${answer}</button>`).join('')}</div>
-          <div class="feedback"><p><b>Explicacion:</b> ${question.explicacion}</p><p><b>Error habitual:</b> ${question.error_habitual}</p><p><b>Referencia:</b> ${question.referencia_concepto || 'Syllabus STS paginas 4-5 · Estado VALIDADO'}</p></div>
+          <div class="feedback"><p><b>Explicacion:</b> ${question.explicacion}</p><p><b>Error habitual:</b> ${question.error_habitual}</p><p><b>Referencia:</b> ${question.referencia_concepto || 'Syllabus STS paginas 4-5 - Estado VALIDADO'}</p></div>
         </section>
       `).join('')}
     `;
@@ -58,6 +58,7 @@
 
   function correct() {
     let score = 0;
+    const failed = [];
     const visible = visibleQuestions();
     visible.forEach(question => {
       const section = document.querySelector(`.question[data-id="${question.id}"]`);
@@ -69,10 +70,15 @@
         else if (selected[question.id] === value) option.classList.add('wrong');
       });
       if (selected[question.id] === question.respuesta_correcta) score++;
+      else failed.push(question);
     });
-    document.getElementById('resultado').textContent = `Resultado: ${score} / ${visible.length}`;
+    const groups = Object.entries(failed.reduce((acc, question) => {
+      const label = question.referencia_concepto || question.referencia || [question.tema, question.subtema].filter(Boolean).join(' / ') || 'Sin referencia';
+      acc[label] = (acc[label] || 0) + 1;
+      return acc;
+    }, {})).sort(([, a], [, b]) => b - a);
+    document.getElementById('resultado').innerHTML = `<h2>Resultado: ${score} / ${visible.length}</h2><h2>Preguntas a repasar</h2>${failed.length ? failed.map(question => { const answer = selected[question.id]; return `<article class="review-card"><h3>${question.pregunta}</h3><p><b>Tu respuesta:</b> ${answer === undefined ? 'Sin respuesta' : question.respuestas[answer]}</p><p><b>Respuesta correcta:</b> ${question.respuestas[question.respuesta_correcta]}</p><p><b>Explicacion:</b> ${question.explicacion || 'No disponible'}</p><p><b>Error habitual:</b> ${question.error_habitual || question.errorHabitual || 'No disponible'}</p><p><b>Concepto a repasar:</b> ${question.referencia_concepto || question.referencia || question.tema || 'No disponible'}</p><p><b>Bloque/Tema:</b> ${[data.bloque, question.tema, question.subtema].filter(Boolean).join(' / ')}</p></article>`; }).join('') : '<p>No hay preguntas falladas.</p>'}<h2>Que deberias repasar</h2>${groups.length ? `<ul class="review-groups">${groups.map(([label, count]) => `<li><span>${label}</span><strong>${count} ${count === 1 ? 'error' : 'errores'}</strong></li>`).join('')}</ul>` : '<p>No hay conceptos pendientes de repaso.</p>'}`;
   }
-
   document.querySelectorAll('nav button[data-filter]').forEach(button => {
     button.onclick = () => {
       filter = button.dataset.filter;
@@ -96,3 +102,4 @@
       main.innerHTML = '<section class="panel">No se pudo cargar el test. Abre esta vista desde Live Server.</section>';
     });
 })();
+

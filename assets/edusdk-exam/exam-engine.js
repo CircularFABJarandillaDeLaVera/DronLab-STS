@@ -40,8 +40,8 @@
       answers,
       correct,
       explanation: item.explicacion || item.explanation || '',
-      commonError: item.error_habitual || item.error || '',
-      concept: item.referencia_concepto || item.concepto || item.tema || '',
+      commonError: item.error_habitual || item.errorHabitual || item.error || '',
+      concept: item.referencia_concepto || item.referencia || item.concepto || '',
       topic: item.tema || item.topic || source.title || '',
       subtopic: item.subtema || '',
       difficulty: normalizeDifficulty(item.dificultad)
@@ -166,7 +166,7 @@
       ...stored,
       recentQuestions: [...session.questions.map(questionKey), ...(stored.recentQuestions || [])].slice(0, config.selection?.recent_memory || 80)
     });
-    saveHistory(result);
+    saveHistory({...result, failedDetails: undefined});
     renderResults(result);
   }
 
@@ -175,13 +175,25 @@
     let correct = 0, wrong = 0, blank = 0;
     const blocks = {};
     const failedIds = [];
+    const failedDetails = [];
     session.questions.forEach((q, i) => {
       blocks[q.block] ||= {title: q.blockTitle, total: 0, correct: 0, wrong: 0, blank: 0};
       blocks[q.block].total++;
-      if (session.answers[i] === null) { blank++; blocks[q.block].blank++; failedIds.push(questionKey(q)); }
+      if (session.answers[i] === null) {
+        blank++; blocks[q.block].blank++; failedIds.push(questionKey(q));
+        failedDetails.push({question: q, selected: null});
+      }
       else if (session.answers[i] === q.correct) { correct++; blocks[q.block].correct++; }
-      else { wrong++; blocks[q.block].wrong++; failedIds.push(questionKey(q)); }
+      else {
+        wrong++; blocks[q.block].wrong++; failedIds.push(questionKey(q));
+        failedDetails.push({question: q, selected: session.answers[i]});
+      }
     });
+    const reviewGroups = Object.entries(failedDetails.reduce((groups, {question}) => {
+      const label = question.concept || [question.topic, question.subtopic].filter(Boolean).join(' / ') || question.blockTitle;
+      groups[label] = (groups[label] || 0) + 1;
+      return groups;
+    }, {})).sort(([, first], [, second]) => second - first);
     const percent = session.questions.length ? Math.round((correct / session.questions.length) * 100) : 0;
     return {
       mode: session.mode,
@@ -195,7 +207,9 @@
       passed: correct >= config.exam.pass_correct && percent >= config.exam.pass_percent,
       elapsed,
       blocks,
-      failedIds
+      failedIds,
+      failedDetails,
+      reviewGroups
     };
   }
 
@@ -327,6 +341,24 @@
         <div class="stat"><b>${result.wrong}</b><span>Falladas</span></div>
         <div class="stat"><b>${result.blank}</b><span>En blanco</span></div>
         <div class="stat"><b>${getHistory().length}</b><span>Simulacros/estudios</span></div>
+      </section>
+      <section class="panel review-section">
+        <h2>Preguntas a repasar</h2>
+        ${result.failedDetails.length ? result.failedDetails.map(({question, selected}) => `
+          <article class="review-card">
+            <h3>${esc(question.question)}</h3>
+            <p><strong>Tu respuesta:</strong> ${esc(selected === null ? 'Sin respuesta' : question.answers[selected] || '')}</p>
+            <p><strong>Respuesta correcta:</strong> ${esc(question.answers[question.correct] || '')}</p>
+            <p><strong>Explicacion:</strong> ${esc(question.explanation || 'No disponible')}</p>
+            <p><strong>Error habitual:</strong> ${esc(question.commonError || 'No disponible')}</p>
+            <p><strong>Concepto a repasar:</strong> ${esc(question.concept || question.topic || question.subtopic || 'No disponible')}</p>
+            <p><strong>Bloque/Tema:</strong> ${esc([question.blockTitle, question.topic, question.subtopic].filter(Boolean).join(' / '))}</p>
+          </article>
+        `).join('') : '<p>No hay preguntas falladas. Buen trabajo.</p>'}
+      </section>
+      <section class="panel review-section">
+        <h2>Que deberias repasar</h2>
+        ${result.reviewGroups.length ? `<ul class="review-groups">${result.reviewGroups.map(([label, count]) => `<li><span>${esc(label)}</span><strong>${count} ${count === 1 ? 'error' : 'errores'}</strong></li>`).join('')}</ul>` : '<p>No hay conceptos pendientes de repaso.</p>'}
       </section>
       <section class="review-grid" style="margin-top:16px">
         <div class="panel question-card"><h2>Rendimiento por bloque</h2>${Object.entries(result.blocks).map(([id, b]) => `<div class="block-row"><span>${esc(b.title)} · ${b.correct}/${b.total}</span><a class="btn" href="${esc((config.block_links || []).find(x => Number(x.block) === Number(id))?.url || '#')}">Ir al bloque</a></div>`).join('')}</div>
