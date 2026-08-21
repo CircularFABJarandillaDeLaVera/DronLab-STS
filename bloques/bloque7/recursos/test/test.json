@@ -259,7 +259,7 @@
                                              "Sobrecarga, viento, IMU mal calibrada o hielo"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria vincula rendimiento con masa, condiciones ambientales, calibracion y hielo.",
+                          "explicacion":  "La envolvente segura puede degradarse por masa, condiciones ambientales, calibracion deficiente o hielo.",
                           "error_habitual":  "Reducir la envolvente a una unica variable como bateria.",
                           "referencia_concepto":  "Envolvente de vuelo",
                           "bloque":  7,
@@ -429,10 +429,10 @@
                           "tipo_pregunta":  "comprension",
                           "pregunta":  "Por que 50 m/s de C6 es relevante para rendimiento y riesgo?",
                           "respuestas":  [
-                                             "Porque equivale al modo lento C5",
-                                             "Porque reduce masa a cero",
-                                             "Porque elimina viento",
-                                             "Porque velocidad elevada incrementa energia y exige margenes de control adecuados"
+                       "Porque equivale al modo lento de una aeronave C5",
+                       "Porque reduce la masa operacional del UAS a cero",
+                       "Porque elimina el viento y la densidad del aire",
+                       "Porque incrementa energia y exige margenes de control adecuados"
                                          ],
                           "respuesta_correcta":  3,
                           "explicacion":  "La velocidad maxima C6 condiciona energia cinetica, distancia y necesidades de control en STS-02.",
@@ -457,7 +457,7 @@
                                              "Como velocidad maxima C6"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria ordena no mezclar esos limites nacionales complementarios con la trazabilidad principal.",
+                          "explicacion":  "Esos limites nacionales complementarios deben mantenerse separados de la trazabilidad principal del Syllabus.",
                           "error_habitual":  "Presentar datos nacionales complementarios como si fueran Syllabus AESA.",
                           "referencia_concepto":  "Complementario | STS-ES",
                           "bloque":  7,

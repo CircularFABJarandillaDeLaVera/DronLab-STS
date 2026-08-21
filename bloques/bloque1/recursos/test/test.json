@@ -4,7 +4,7 @@
         "tema":  "Categoria especifica",
         "subtema":  "Riesgo operacional",
         "dificultad":  "facil",
-        "pregunta":  "Que caracteriza a la categoria especifica segun la ingenieria profunda del Bloque 1?",
+        "pregunta":  "Que caracteriza a la categoria especifica en operaciones UAS?",
         "respuestas":  [
                            "Operaciones UAS sin requisitos de registro ni evaluacion",
                            "Vuelos permitidos automaticamente por tener marcado C1 o C2",
@@ -26,7 +26,7 @@
         "tema":  "Marco legal",
         "subtema":  "Fundamento",
         "dificultad":  "media",
-        "pregunta":  "Que fundamento legal aparece en el grafo de conocimiento del Bloque 1?",
+        "pregunta":  "Que normas forman parte del fundamento legal de las operaciones STS?",
         "respuestas":  [
                            "Reglamento (UE) 2019/947 y RD 517/2024",
                            "Solo el manual interno del operador",
@@ -34,9 +34,9 @@
                            "La escala Beaufort y las reglas meteorologicas"
                        ],
         "respuesta_correcta":  0,
-        "explicacion":  "La ingenieria profunda identifica Reglamento (UE) 2019/947 y RD 517/2024 como fundamento legal.",
+        "explicacion":  "El Reglamento (UE) 2019/947 y el RD 517/2024 forman parte del marco normativo aplicable.",
         "error_habitual":  "Estudiar STS sin ubicarlo en su marco normativo.",
-        "referencia_concepto":  "Grafo de conocimiento jerarquico",
+        "referencia_concepto":  "Marco normativo STS",
         "tipo_pregunta":  "comprension",
         "bloque":  1,
         "origen":  "GENERADA",
@@ -166,7 +166,7 @@
                            "Establecer procedimientos, manuales y asegurar el mantenimiento"
                        ],
         "respuesta_correcta":  3,
-        "explicacion":  "La ingenieria distingue que el operador establece procedimientos, manuales y mantenimiento.",
+        "explicacion":  "El operador establece procedimientos, manuales y mantenimiento dentro de sus responsabilidades.",
         "error_habitual":  "Atribuir al piloto todas las obligaciones del operador.",
         "referencia_concepto":  "Responsabilidades generales",
         "tipo_pregunta":  "comprension",
@@ -276,7 +276,7 @@
                            "C3 para STS-01 y C4 para STS-02"
                        ],
         "respuesta_correcta":  1,
-        "explicacion":  "La ingenieria advierte que para STS europeo solo sirven drones con marcado C5 o C6 segun el escenario.",
+        "explicacion":  "Para STS europeo se emplean drones con marcado C5 o C6 segun el escenario.",
         "error_habitual":  "Creer que un dron C1 o C2 sirve para STS europeo.",
         "referencia_concepto":  "Marcado de Clase",
         "tipo_pregunta":  "comprension",
@@ -298,7 +298,7 @@
                            "Esta prohibido tanto en STS-01 como en STS-02"
                        ],
         "respuesta_correcta":  3,
-        "explicacion":  "La ingenieria profunda identifica esta prohibicion como error frecuente.",
+        "explicacion":  "El sobrevuelo de concentraciones de personas esta prohibido tanto en STS-01 como en STS-02.",
         "error_habitual":  "Confundir entorno poblado con permiso para sobrevolar concentraciones.",
         "referencia_concepto":  "Vuelo sobre concentraciones",
         "tipo_pregunta":  "comprension",
@@ -312,7 +312,7 @@
         "tema":  "Espacio aereo",
         "subtema":  "Soberania",
         "dificultad":  "media",
-        "pregunta":  "Que principio declara la ingenieria sobre el espacio aereo?",
+        "pregunta":  "Que principio juridico se aplica al espacio aereo?",
         "respuestas":  [
                            "El Estado tiene soberania plena sobre su espacio aereo",
                            "El operador privado decide las clases de espacio aereo",
@@ -386,7 +386,7 @@
                            "AIP y AIC son sinonimos exactos"
                        ],
         "respuesta_correcta":  0,
-        "explicacion":  "La ingenieria diferencia AIP como informacion duradera y AIC como avisos sobre cambios normativos.",
+        "explicacion":  "AIP contiene informacion aeronautica duradera y AIC avisa sobre cambios normativos o reglamentarios.",
         "error_habitual":  "Usar AIP y AIC como sinonimos.",
         "referencia_concepto":  "Fuentes de informacion",
         "tipo_pregunta":  "comprension",
@@ -400,7 +400,7 @@
         "tema":  "ENAIRE Drones",
         "subtema":  "Consulta de zonas",
         "dificultad":  "facil",
-        "pregunta":  "Que utilidad tiene ENAIRE Drones segun la ingenieria?",
+        "pregunta":  "Que utilidad tiene ENAIRE Drones para la preparacion de una operacion UAS?",
         "respuestas":  [
                            "Emitir el certificado teorico STS automaticamente",
                            "Sustituir el Manual de Operaciones",
@@ -422,7 +422,7 @@
         "tema":  "Datos criticos",
         "subtema":  "Examen STS",
         "dificultad":  "facil",
-        "pregunta":  "Que condiciones de examen teorico STS recoge la ingenieria?",
+        "pregunta":  "Que condiciones se exigen para el examen teorico STS?",
         "respuestas":  [
                            "Minimo 10 preguntas y 50% de acierto",
                            "Minimo 40 preguntas y 75% de acierto",
@@ -444,7 +444,7 @@
         "tema":  "STS-ES",
         "subtema":  "Vigencia",
         "dificultad":  "dificil",
-        "pregunta":  "Hasta que fecha son validos los STS-ES nacionales segun la ingenieria?",
+        "pregunta":  "Hasta que fecha son validos los STS-ES nacionales?",
         "respuestas":  [
                            "31/12/2025",
                            "17/04/2023",
@@ -452,7 +452,7 @@
                            "No tienen fecha limite"
                        ],
         "respuesta_correcta":  0,
-        "explicacion":  "La ingenieria recoge que los STS-ES nacionales son validos hasta el 31/12/2025.",
+        "explicacion":  "Los STS-ES nacionales son validos hasta el 31/12/2025.",
         "error_habitual":  "Confundir STS europeo con la vigencia concreta de STS-ES nacional.",
         "referencia_concepto":  "Vigencia STS-ES",
         "tipo_pregunta":  "escenario",
@@ -466,7 +466,7 @@
         "tema":  "Remote ID",
         "subtema":  "Requisito critico",
         "dificultad":  "media",
-        "pregunta":  "Que exige la ingenieria sobre identificacion remota?",
+        "pregunta":  "Que se exige sobre identificacion remota en operaciones STS?",
         "respuestas":  [
                            "Remote ID solo es opcional en STS-01",
                            "Remote ID sustituye al observador del espacio aereo",
@@ -510,7 +510,7 @@
         "tema":  "Escenario practico",
         "subtema":  "STS-01",
         "dificultad":  "media",
-        "pregunta":  "Un operador quiere grabar en el centro de Madrid con un dron de 4 kg con marcado C5. Segun el escenario de la ingenieria, que corresponde?",
+        "pregunta":  "Un operador quiere grabar en el centro de Madrid con un dron de 4 kg con marcado C5. Que corresponde?",
         "respuestas":  [
                            "Operacion STS-02 con dron C6 y observadores en via ferrea",
                            "Vuelo libre sobre concentraciones por ser entorno poblado",
@@ -518,7 +518,7 @@
                            "Operacion sin declaracion porque el dron pesa menos de 10 kg"
                        ],
         "respuesta_correcta":  2,
-        "explicacion":  "El escenario 1 de la ingenieria corresponde a STS-01 en entorno poblado con C5 y zona terrestre controlada.",
+        "explicacion":  "La operacion corresponde a STS-01 en entorno poblado con C5 y zona terrestre controlada.",
         "error_habitual":  "Usar el peso del dron para ignorar requisitos STS-01.",
         "referencia_concepto":  "Escenario 1",
         "tipo_pregunta":  "comprension",
@@ -532,7 +532,7 @@
         "tema":  "Escenario practico",
         "subtema":  "STS-02",
         "dificultad":  "media",
-        "pregunta":  "Una empresa inspecciona 10 km de via ferrea rural y el piloto no ve el dron a esa distancia. Que corresponde segun la ingenieria?",
+        "pregunta":  "Una empresa inspecciona 10 km de via ferrea rural y el piloto no ve el dron a esa distancia. Que corresponde?",
         "respuestas":  [
                            "Operar bajo STS-01 con dron C5 y sin observadores",
                            "Operar como categoria abierta sin evaluacion",

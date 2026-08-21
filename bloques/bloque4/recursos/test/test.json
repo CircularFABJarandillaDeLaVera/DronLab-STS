@@ -191,7 +191,7 @@
                                              "Una app meteorologica cualquiera"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria recoge esas dos vias principales.",
+                          "explicacion":  "En STS-02, el riesgo BVLOS se mitiga mediante observadores del espacio aereo o una trayectoria pre-programada obligatoria.",
                           "error_habitual":  "Hacer opcionales los observadores sin trayectoria obligatoria.",
                           "referencia_concepto":  "STS-02 BVLOS",
                           "subtema":  "STS-02",
@@ -274,12 +274,12 @@
                           "pregunta":  "MME8, MMT9, MAT16, MAT17, MAE36 y MMT11 deben presentarse como...",
                           "respuestas":  [
                                              "Contenido del Syllabus paginas 6-7",
-                                             "Bloque 1 STS",
+                                             "Requisito especifico de STS-01",
                                              "Contenido complementario de otras fuentes oficiales",
-                                             "No validado"
+                                             "Contenido no validado"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria ordena distinguirlos del nucleo Syllabus paginas 6-7.",
+                          "explicacion":  "Deben distinguirse del nucleo del Syllabus paginas 6-7 porque proceden de otras fuentes oficiales.",
                           "error_habitual":  "Fusionarlos con el temario principal.",
                           "referencia_concepto":  "Contenido complementario",
                           "subtema":  "Complementario",
@@ -293,7 +293,7 @@
                           "id":  "B4-T-014",
                           "tema":  "Complementario",
                           "dificultad":  "dificil",
-                          "pregunta":  "Indice K y Modo S son, en este bloque...",
+                          "pregunta":  "Indice K y Modo S son, respecto al nucleo del Syllabus paginas 6-7...",
                           "respuestas":  [
                                              "Complementarios, no Syllabus paginas 6-7",
                                              "El nucleo principal de STS-01",

@@ -15,7 +15,7 @@
                                              "Ninguno"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria indica que C5 y C6 deben cumplir requisitos tecnicos de geoconsciencia de clase C3.",
+                          "explicacion":  "C5 y C6 deben cumplir requisitos tecnicos de geoconsciencia equivalentes a la clase C3.",
                           "error_habitual":  "Creer que C5/C6 no heredan requisitos C3.",
                           "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
                           "subtema":  "C5/C6",
@@ -213,7 +213,7 @@
                                              "Eliminar geoconsciencia"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria menciona dispositivo, por ejemplo paracaidas, que reduzca energia de impacto al activarse el FTS.",
+                          "explicacion":  "El FTS C5 se complementa con un dispositivo, por ejemplo paracaidas, que reduzca la energia de impacto al activarse.",
                           "error_habitual":  "Pensar que terminar vuelo no exige gestionar impacto.",
                           "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
                           "subtema":  "FTS",
@@ -259,7 +259,7 @@
                                              "Clase C3"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria indica que C5 y C6 incorporan requisitos de geoconsciencia equivalentes a C3.",
+                          "explicacion":  "C5 y C6 incorporan requisitos de geoconsciencia equivalentes a C3.",
                           "error_habitual":  "Pensar que C5/C6 son clases aisladas sin requisitos heredados.",
                           "referencia_concepto":  "Geoconsciencia C3",
                           "bloque":  5,

@@ -15,7 +15,7 @@
                                              "La presion del aerodromo"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria indica que se interpreta por de donde viene.",
+                          "explicacion":  "En aviacion, la direccion del viento se interpreta por de donde viene.",
                           "error_habitual":  "Pensar que el viento se expresa por hacia donde va, no por de donde viene.",
                           "referencia_concepto":  "AESA | Syllabus STS paginas 8-10 | VALIDADO",
                           "subtema":  "Viento",
@@ -125,7 +125,7 @@
                                              "Ausencia de viento"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria lo identifica como zona critica.",
+                          "explicacion":  "Un cumulonimbo indica una zona critica por turbulencia severa y corrientes descendentes.",
                           "error_habitual":  "Tratar todas las nubes igual.",
                           "referencia_concepto":  "AESA | Syllabus STS paginas 8-10 | VALIDADO",
                           "subtema":  "Cumulonimbos",
@@ -339,7 +339,7 @@
                           "subtema":  "Pronostico",
                           "dificultad":  "media",
                           "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Que horizonte temporal recoge el TAF segun la ingenieria?",
+                          "pregunta":  "Que horizonte temporal recoge normalmente un TAF?",
                           "respuestas":  [
                                              "De 9 a 30 horas",
                                              "Solo el instante actual",
@@ -427,7 +427,7 @@
                           "subtema":  "MAE22",
                           "dificultad":  "dificil",
                           "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Como debe tratarse una estacion meteorologica portatil MAE22 en este bloque?",
+                          "pregunta":  "Como debe tratarse una estacion meteorologica portatil MAE22 en la preparacion meteorologica?",
                           "respuestas":  [
                                              "Como sustituto del Syllabus paginas 8-10",
                                              "Como requisito unico de STS-01",
@@ -435,7 +435,7 @@
                                              "Como parte del FTS"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria ordena conservar contenido complementario separado de la trazabilidad principal AESA.",
+                          "explicacion":  "Debe conservarse como contenido complementario separado de la trazabilidad principal AESA.",
                           "error_habitual":  "Atribuir material complementario al Syllabus principal.",
                           "referencia_concepto":  "Complementario | MAE22",
                           "bloque":  6,

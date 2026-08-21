@@ -37,7 +37,7 @@
                                              "Zona de prevencion"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria indica prohibicion de concentraciones de personas.",
+                          "explicacion":  "Una zona terrestre controlada no puede comprender concentraciones de personas.",
                           "error_habitual":  "Creer que basta con senalizar sin controlar.",
                           "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
                           "subtema":  "Zona controlada",
@@ -125,7 +125,7 @@
                                              "Ninguna fase"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria marca despegue y aterrizaje en VLOS.",
+                          "explicacion":  "En STS-02, el despegue y el aterrizaje deben mantenerse en VLOS.",
                           "error_habitual":  "Creer que BVLOS cubre toda la mision.",
                           "referencia_concepto":  "AESA | Syllabus STS paginas 11-12 | VALIDADO",
                           "subtema":  "STS-02",

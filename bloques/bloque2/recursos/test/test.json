@@ -37,7 +37,7 @@
                                              "Reflejos y juicio"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria los vincula con perdida de reflejos y juicio.",
+                          "explicacion":  "Alcohol, drogas, medicinas y sustancias psicoactivas pueden reducir reflejos y juicio.",
                           "error_habitual":  "Olvidar que las medicinas tambien pueden influir.",
                           "referencia_concepto":  "Aptitud medica",
                           "subtema":  "Sustancias",
@@ -53,10 +53,10 @@
                           "dificultad":  "facil",
                           "pregunta":  "Cual es una definicion correcta de fatiga?",
                           "respuestas":  [
-                                             "Disminucion de alerta y rendimiento por falta de sueno o carga de trabajo",
-                                             "Solo tener hambre",
-                                             "Perdida de señal del UAS",
-                                             "Un requisito documental"
+                                             "Disminucion de alerta y rendimiento por sueno o carga de trabajo",
+                                             "Molestia leve sin efecto sobre la vigilancia del piloto",
+                                             "Perdida tecnica de señal entre el mando y el UAS",
+                                             "Requisito documental sin relacion con la seguridad"
                                          ],
                           "respuesta_correcta":  0,
                           "explicacion":  "La fatiga reduce la vigilancia, el juicio y la capacidad de reaccion; por eso afecta directamente a la seguridad de la operacion.",
@@ -119,13 +119,13 @@
                           "dificultad":  "media",
                           "pregunta":  "Que relacion existe entre fatiga y consciencia situacional?",
                           "respuestas":  [
-                                             "La fatiga reduce la capacidad de proyectar la trayectoria futura del UAS",
-                                             "La fatiga mejora la vigilancia",
-                                             "No existe relacion",
-                                             "Solo afecta al observador"
+                                             "Reduce la capacidad de proyectar la trayectoria futura del UAS",
+                                             "Mejora la vigilancia al aumentar la tension del piloto",
+                                             "No tiene relacion con la vigilancia operacional",
+                                             "Solo afecta al observador, no al piloto remoto"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "Es un concepto puente declarado en la ingenieria.",
+                          "explicacion":  "La fatiga reduce vigilancia, anticipacion y capacidad de proyectar la trayectoria futura del UAS.",
                           "error_habitual":  "Ver la fatiga como incomodidad menor.",
                           "referencia_concepto":  "Fatiga y consciencia situacional",
                           "subtema":  "Consciencia situacional",
@@ -213,7 +213,7 @@
                                              "Cerrar un ojo durante 30 segundos"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria fija el barrido en saltos de 10-15 grados.",
+                          "explicacion":  "El barrido visual eficaz se realiza en saltos de 10-15 grados, no con mirada fija o giros continuos.",
                           "error_habitual":  "Mirada fija en vez de barrido.",
                           "referencia_concepto":  "Tecnica de barrido visual",
                           "subtema":  "Barrido visual",
@@ -271,7 +271,7 @@
                           "id":  "B2-T-013",
                           "tema":  "Gestion de sucesos",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que factor debe registrarse en informes post-vuelo segun el bloque?",
+                          "pregunta":  "Que factor humano debe registrarse en informes post-vuelo cuando afecta a la operacion?",
                           "respuestas":  [
                                              "Color del icono",
                                              "Solo temperatura del motor",
@@ -279,7 +279,7 @@
                                              "Fatiga de la tripulacion"
                                          ],
                           "respuesta_correcta":  3,
-                          "explicacion":  "La ingenieria incluye la obligacion de registrar fatiga de la tripulacion.",
+                          "explicacion":  "La fatiga de la tripulacion debe registrarse cuando sea relevante para la seguridad y trazabilidad post-vuelo.",
                           "error_habitual":  "No documentar factores humanos.",
                           "referencia_concepto":  "Gestion de sucesos",
                           "subtema":  "Gestion de sucesos",
@@ -295,13 +295,13 @@
                           "dificultad":  "media",
                           "pregunta":  "Que diferencia perceptiva destaca entre STS-01 y STS-02?",
                           "respuestas":  [
-                                             "STS-02 siempre es mas simple",
-                                             "STS-01 usa vigilancia directa; STS-02 depende mas de telemetria y observadores",
-                                             "STS-01 no requiere barrido visual",
-                                             "No hay diferencia"
+                                             "STS-02 siempre exige menos vigilancia que STS-01",
+                                             "STS-01 usa VLOS directo; STS-02 telemetria y observadores",
+                                             "STS-01 elimina la necesidad de barrido visual",
+                                             "Ambos escenarios tienen la misma carga perceptiva"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La tabla de la ingenieria distingue VLOS directo y BVLOS con observadores.",
+                          "explicacion":  "STS-01 se basa en VLOS directo, mientras que STS-02 depende mas de telemetria y observadores.",
                           "error_habitual":  "No ajustar la vigilancia al escenario.",
                           "referencia_concepto":  "Diferencias STS-01 / STS-02",
                           "subtema":  "STS-01 / STS-02",
@@ -325,7 +325,7 @@
                                              "Permite ignorar procedimientos si hay presion"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria identifica el estres como factor psicologico que compromete juicio y seguridad operacional.",
+                          "explicacion":  "El estres es un factor psicologico que puede comprometer juicio y seguridad operacional.",
                           "error_habitual":  "Confundir activacion o tension normal con una mejora automatica del rendimiento.",
                           "referencia_concepto":  "Factores psicologicos operacionales",
                           "bloque":  2,
@@ -383,7 +383,7 @@
                           "subtema":  "Tecnica 10-15 grados",
                           "dificultad":  "facil",
                           "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Que tecnica de barrido visual recoge la ingenieria?",
+                          "pregunta":  "Durante la vigilancia del espacio aereo, que tecnica de barrido visual es adecuada?",
                           "respuestas":  [
                                              "Saltos de 10 a 15 grados",
                                              "Mirada fija al horizonte",
@@ -435,7 +435,7 @@
                                              "Agua y alimentos ligeros"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria agrupa alcohol, drogas, medicinas y sustancias psicoactivas como factores que degradan reflejos y juicio.",
+                          "explicacion":  "Alcohol, drogas, medicinas y sustancias psicoactivas degradan reflejos y juicio, por lo que comprometen la aptitud operacional.",
                           "error_habitual":  "Olvidar que medicamentos legales tambien pueden afectar al piloto.",
                           "referencia_concepto":  "Aptitud medica y sustancias",
                           "bloque":  2,

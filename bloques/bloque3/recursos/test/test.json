@@ -139,12 +139,12 @@
                           "id":  "B3-T-007",
                           "tema":  "ERP",
                           "dificultad":  "media",
-                          "pregunta":  "Que situacion activa el ERP segun el bloque?",
+                          "pregunta":  "Que situacion activa el ERP durante una operacion UAS?",
                           "respuestas":  [
-                                             "UA fuera del volumen de la zona terrestre controlada",
-                                             "Cambio de profesor",
-                                             "Final del test",
-                                             "Uso de flashcards"
+                              "UA fuera del volumen de la zona terrestre controlada",
+                              "Consulta meteorologica previa sin incidencias",
+                              "Finalizacion normal de la operacion",
+                              "Cambio de bateria durante la preparacion"
                                          ],
                           "respuesta_correcta":  0,
                           "explicacion":  "La zona terrestre controlada delimita el area segura en superficie y condiciona contingencias y emergencias.",
@@ -205,7 +205,7 @@
                           "id":  "B3-T-010",
                           "tema":  "OODA",
                           "dificultad":  "media",
-                          "pregunta":  "Que secuencia expresa OODA en este bloque?",
+                          "pregunta":  "Que secuencia expresa el ciclo OODA como tecnica de consciencia situacional?",
                           "respuestas":  [
                                              "Observar, Opciones, Decidir, Actuar",
                                              "Operar, Omitir, Despegar, Aterrizar",
@@ -235,7 +235,7 @@
                                              "No se conservan"
                                          ],
                           "respuesta_correcta":  1,
-                          "explicacion":  "La ingenieria indica conservacion durante 3 anos.",
+                          "explicacion":  "Los registros de formacion, mantenimiento y sucesos deben conservarse durante 3 anos.",
                           "error_habitual":  "No conservar evidencia suficiente.",
                           "referencia_concepto":  "Conservacion de registros",
                           "subtema":  "Registros",
@@ -249,7 +249,7 @@
                           "id":  "B3-T-012",
                           "tema":  "Indice K",
                           "dificultad":  "dificil",
-                          "pregunta":  "Que recomienda la ingenieria si el indice K es mayor o igual que 4?",
+                          "pregunta":  "Que se recomienda si el indice K es mayor o igual que 4?",
                           "respuestas":  [
                                              "Aumentar altura",
                                              "Ignorarlo",
@@ -279,7 +279,7 @@
                                              "Solo altura bajo tierra"
                                          ],
                           "respuesta_correcta":  0,
-                          "explicacion":  "La ingenieria indica que el ATSP puede requerir alturas inferiores.",
+                          "explicacion":  "El ATSP puede requerir alturas inferiores a la general de 120 m.",
                           "error_habitual":  "Asumir 120 m como unico limite aplicable.",
                           "referencia_concepto":  "Limitacion de altura",
                           "subtema":  "ATSP",
@@ -427,7 +427,7 @@
                           "subtema":  "Salida de zona",
                           "dificultad":  "media",
                           "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Que situacion exige activar el ERP segun la ingenieria del bloque?",
+                          "pregunta":  "Que situacion exige activar el ERP durante una operacion UAS?",
                           "respuestas":  [
                                              "Finalizacion normal del test teorico",
                                              "Cambio de formato de registros",
@@ -449,7 +449,7 @@
                           "subtema":  "Coordinacion pre-tactica",
                           "dificultad":  "dificil",
                           "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Como debe pedirse clearance ATC/AFIS cuando aplica segun el bloque?",
+                          "pregunta":  "Como debe pedirse clearance ATC/AFIS cuando aplica a la operacion?",
                           "respuestas":  [
                                              "Con frase improvisada en el momento",
                                              "Segun lo acordado en la coordinacion pre-tactica",
@@ -471,15 +471,15 @@
                           "subtema":  "Conservacion",
                           "dificultad":  "dificil",
                           "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Durante cuanto tiempo se conservan registros de formacion, mantenimiento y sucesos?",
+                          "pregunta":  "Por que deben conservarse registros de formacion, mantenimiento y sucesos?",
                           "respuestas":  [
-                                             "3 dias",
-                                             "30 minutos",
-                                             "3 anos",
-                                             "No se conservan si no hay incidente"
+                              "Para sustituir la inspeccion pre-vuelo",
+                              "Para justificar vuelos sobre concentraciones de personas",
+                              "Para mantener trazabilidad operacional posterior",
+                              "Para evitar aplicar el ERP"
                                          ],
                           "respuesta_correcta":  2,
-                          "explicacion":  "La ingenieria fija tres anos para registros relevantes, lo que sostiene trazabilidad posterior.",
+                          "explicacion":  "La conservacion de registros sostiene la trazabilidad posterior de formacion, mantenimiento y sucesos.",
                           "error_habitual":  "Registrar solo datos tecnicos inmediatos y descartar evidencia operacional.",
                           "referencia_concepto":  "Conservacion de registros",
                           "bloque":  3,
@@ -493,7 +493,7 @@
                           "subtema":  "Trazabilidad complementaria",
                           "dificultad":  "dificil",
                           "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Si se usa el indice K en este bloque, como debe tratarse?",
+                          "pregunta":  "Si se usa el indice K en la preparacion operacional, como debe tratarse?",
                           "respuestas":  [
                                              "Como requisito principal del Syllabus paginas 5-6",
                                              "Como sustituto del ERP",
