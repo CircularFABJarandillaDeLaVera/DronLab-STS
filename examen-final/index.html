@@ -1,14 +1,22 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#07192f">
   <title>DronLab STS · Examen final</title>
   <link rel="stylesheet" href="../assets/edusdk-exam/exam-engine.css">
+  <link rel="stylesheet" href="../assets/edusdk-design-system/tokens/tokens.css">
+  <link rel="stylesheet" href="../assets/edusdk-design-system/tokens/semantic-tokens.css">
+  <link rel="stylesheet" href="../assets/edusdk-design-system/components/components.css">
+  <link rel="stylesheet" href="../assets/common/a2-edusdk-theme.css">
+  <script src="../assets/js/theme-toggle.js" defer></script>
 </head>
-<body>
-  <main id="examApp" class="exam-shell" data-config="exam-config.json"></main>
+<body class="exam-page">
+    <div class="exam-theme-toolbar" aria-label="Preferencias de visualizacion">
+    <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
+  </div>
+<main id="examApp" class="exam-shell" data-config="exam-config.json"></main>
   <script src="../assets/edusdk-exam/exam-engine.js"></script>
 </body>
 </html>

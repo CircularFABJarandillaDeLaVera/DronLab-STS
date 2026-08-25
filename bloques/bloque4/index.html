@@ -1,26 +1,32 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bloque 4 STS - DronLab</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/tokens.css">
+  <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/semantic-tokens.css">
+  <link rel="stylesheet" href="../../assets/edusdk-design-system/components/components.css">
+  <link rel="stylesheet" href="../../assets/common/a2-edusdk-theme.css">
+  <script src="../../assets/js/theme-toggle.js" defer></script>
 </head>
 <body>
-  <header class="topbar">
+  <header class="topbar cf-topbar cf-topbar--course">
     <a class="brand institutional-brand" href="../../inicio.html">
       <img class="cf-logo" src="../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
       <span class="brand-copy"><strong>CIRCULAR FAB</strong><span>DronLab STS</span></span>
       <span class="brand-divider" aria-hidden="true"></span>
       <span class="course-lockup"><b>BLOQUE 4</b><small>Mitigacion del riesgo en aire</small></span>
     </a>
-    <nav class="toolbar" aria-label="Herramientas del aula">
+    <nav class="toolbar cf-nav cf-nav--horizontal" aria-label="Herramientas del aula">
       <button class="tool" id="menuBtn" title="Menu">M</button>
       <button class="tool" id="notesBtn" title="Notas">N</button>
       <button class="tool" id="fullscreenBtn" title="Pantalla completa">F</button>
       <button class="tool" id="resetBtn" title="Reiniciar">R</button>
       <a class="tool" href="profesor-plus.html" title="Profesor Plus">PP</a>
     </nav>
+      <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
   </header>
 
   <main id="stage" class="stage"></main>

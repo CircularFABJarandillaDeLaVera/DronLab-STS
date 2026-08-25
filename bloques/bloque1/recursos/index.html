@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -7,15 +7,21 @@
   <style>
     *{box-sizing:border-box}body{margin:0;font-family:system-ui;background:#eef4f7;color:#10243a}header{background:#07192f;color:#fff;padding:16px 22px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}header img{width:48px;object-fit:contain;filter:drop-shadow(0 4px 8px rgba(0,0,0,.18))}header a{margin-left:auto;color:#fff;text-decoration:none}.page{max-width:1120px;margin:auto;padding:24px}.hero{background:#0d4564;color:#fff;border-radius:16px;padding:24px;margin-bottom:18px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:#fff;border:1px solid #d8e4eb;border-radius:16px;padding:20px;color:#10243a;text-decoration:none;min-height:132px;display:flex;flex-direction:column;gap:8px;overflow-wrap:anywhere}.card h2{margin:0}.card p{margin:0;color:#587082;line-height:1.35}.status{border-left:6px solid #16a47d}@media(max-width:980px){.grid{grid-template-columns:1fr 1fr}}@media(max-width:680px){header a{margin-left:0}.page{padding:16px}.grid{grid-template-columns:1fr}}@media print{header{display:none}.page{max-width:none}.card{break-inside:avoid}}
   </style>
+  <link rel="stylesheet" href="../../../assets/edusdk-design-system/tokens/tokens.css">
+  <link rel="stylesheet" href="../../../assets/edusdk-design-system/tokens/semantic-tokens.css">
+  <link rel="stylesheet" href="../../../assets/edusdk-design-system/components/components.css">
+  <link rel="stylesheet" href="../../../assets/common/a2-edusdk-theme.css">
+  <script src="../../../assets/js/theme-toggle.js" defer></script>
 </head>
 <body>
   <header>
     <img src="../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
     <div><b>DRONLAB STS - BLOQUE 1</b><br><span>Recursos integrados</span></div>
     <a href="../inicio.html">Inicio</a>
+      <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
   </header>
   <main class="page">
-    <section class="hero">
+    <section class="hero cf-panel cf-panel--raised">
       <h1>Recursos del Bloque 1 STS</h1>
       <p>Reglamentacion de la aviacion: categoria especifica, SORA, PDRA, declaracion operacional, STS-01, STS-02, espacio aereo y fuentes aeronauticas.</p>
     </section>

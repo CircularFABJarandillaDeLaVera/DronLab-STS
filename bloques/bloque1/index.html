@@ -1,15 +1,20 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07192f">
   <title>DronLab STS - Bloque 1</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/tokens.css">
+  <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/semantic-tokens.css">
+  <link rel="stylesheet" href="../../assets/edusdk-design-system/components/components.css">
+  <link rel="stylesheet" href="../../assets/common/a2-edusdk-theme.css">
+  <script src="../../assets/js/theme-toggle.js" defer></script>
 </head>
 <body>
   <div id="app">
-    <header class="topbar">
+    <header class="topbar cf-topbar cf-topbar--course">
       <div class="brand institutional-brand">
         <img class="cf-logo" src="../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
         <div class="brand-copy">
@@ -22,14 +27,15 @@
           <small>Bloque 1 - Reglamentacion</small>
         </div>
       </div>
-      <nav class="toolbar" aria-label="Controles de presentacion">
+      <nav class="toolbar cf-nav cf-nav--horizontal" aria-label="Controles de presentacion">
         <button id="btnMenu" class="tool" title="Indice (M)">M</button>
         <button id="btnNotes" class="tool" title="Notas del instructor (N)">N</button>
         <button id="btnFullscreen" class="tool" title="Pantalla completa (F)">F</button>
         <a class="tool" href="recursos/index.html" title="Recursos del bloque">R</a>
         <a class="tool" href="profesor-plus.html" title="Profesor Plus">PP</a>
       </nav>
-    </header>
+        <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
+  </header>
     <main id="stage" class="stage" aria-live="polite"></main>
     <footer class="bottombar">
       <button id="prev" class="nav-btn" aria-label="Anterior">&lt;</button>

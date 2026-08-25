@@ -1,10 +1,15 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Chuletas Bloque 2 STS - DronLab</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../../../assets/edusdk-design-system/tokens/tokens.css">
+  <link rel="stylesheet" href="../../../../assets/edusdk-design-system/tokens/semantic-tokens.css">
+  <link rel="stylesheet" href="../../../../assets/edusdk-design-system/components/components.css">
+  <link rel="stylesheet" href="../../../../assets/common/a2-edusdk-theme.css">
+  <script src="../../../../assets/js/theme-toggle.js" defer></script>
 </head>
 <body>
   <header class="top">
@@ -14,6 +19,7 @@
       <h1>Chuletas de rendimiento humano</h1>
     </div>
     <button onclick="window.print()">Imprimir A4</button>
+      <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
   </header>
 
   <main class="sheet">
@@ -45,7 +51,7 @@
       </div>
     </section>
 
-    <section class="card">
+    <section class="card cf-card cf-card--interactive">
       <p class="kicker">Flujo de decision</p>
       <h2>Antes de continuar una operacion</h2>
       <div class="flow">
@@ -59,7 +65,7 @@
     </section>
 
     <section class="grid two">
-      <article class="card">
+      <article class="card cf-card cf-card--interactive">
         <p class="kicker">STS-01 / STS-02</p>
         <h2>Percepcion por escenario</h2>
         <ul class="check">
@@ -79,7 +85,7 @@
       </article>
     </section>
 
-    <section class="card">
+    <section class="card cf-card cf-card--interactive">
       <p class="kicker">Tabla de factores humanos</p>
       <h2>Riesgo y efecto</h2>
       <table>
@@ -96,7 +102,7 @@
     </section>
 
     <section class="grid two">
-      <article class="card">
+      <article class="card cf-card cf-card--interactive">
         <p class="kicker">Errores habituales</p>
         <h2>Vigilar en clase</h2>
         <table class="small-table">
@@ -108,7 +114,7 @@
           </tbody>
         </table>
       </article>
-      <article class="card">
+      <article class="card cf-card cf-card--interactive">
         <p class="kicker">Checklist final</p>
         <h2>Antes del vuelo</h2>
         <ul class="check final">

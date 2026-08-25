@@ -1,10 +1,15 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>DronLab Profesor STS Bloque 3</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../../assets/edusdk-design-system/tokens/tokens.css">
+  <link rel="stylesheet" href="../../../assets/edusdk-design-system/tokens/semantic-tokens.css">
+  <link rel="stylesheet" href="../../../assets/edusdk-design-system/components/components.css">
+  <link rel="stylesheet" href="../../../assets/common/a2-edusdk-theme.css">
+  <script src="../../../assets/js/theme-toggle.js" defer></script>
 </head>
 <body>
 <header>
@@ -17,7 +22,8 @@
     <a class="top-link" href="../recursos/chuletas/index.html">Chuletas</a>
     <a class="top-link" href="../profesor-plus.html">Profesor Plus</a>
   </div>
-</header>
+    <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
+  </header>
 <main>
   <aside><h2>Bloque 3 STS</h2><div id="nav"></div></aside>
   <section id="content"></section>
