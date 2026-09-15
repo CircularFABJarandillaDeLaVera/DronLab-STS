@@ -1,46 +1,130 @@
 <!doctype html>
-<html lang="es" data-theme="light">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DronLab STS</title>
+  <title>DronLab · Curso UAS STS</title>
   <link rel="stylesheet" href="assets/edusdk-design-system/tokens/tokens.css">
   <link rel="stylesheet" href="assets/edusdk-design-system/tokens/semantic-tokens.css">
   <link rel="stylesheet" href="assets/edusdk-design-system/components/components.css">
-  <link rel="stylesheet" href="assets/common/a2-edusdk-theme.css">
+  <link rel="stylesheet" href="assets/css/portal-piloto.css">
   <script src="assets/js/theme-toggle.js" defer></script>
 </head>
-<body class="course-home">
-  <main class="page course-shell">
-    <header class="cf-topbar cf-topbar--course cf-topbar--compact">
-      <a class="brand block-brand" href="inicio.html" aria-label="Inicio DronLab STS">
+<body>
+  <main class="page portal-shell">
+    <header class="brand cf-topbar cf-topbar--course portal-topbar">
+      <a class="portal-brand" href="inicio.html" aria-label="Circular FAB DronLab inicio">
         <img src="assets/branding/logo-circular-fab.png" alt="Circular FAB logo">
-        <span class="brand-text"><strong>Circular FAB</strong><b>DronLab STS</b><span>Curso independiente con aula, guia del profesor, zona del alumno y Profesor Plus.</span></span>
+        <span class="brand-text portal-brand__text">
+          <strong>Circular FAB</strong>
+          <span>DronLab</span>
+        </span>
       </a>
-      <nav class="cf-nav cf-nav--horizontal" aria-label="Navegacion principal">
-        <a class="cf-nav__link is-active" href="inicio.html" aria-current="page">Inicio</a>
-        <a class="cf-nav__link" href="examen-final/index.html">Examen final</a>
-      </nav>
-      <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
+      <div class="portal-topbar__course">
+        <span class="cf-chip cf-chip--accent">Curso UAS STS</span>
+        <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Cambiar a modo oscuro" aria-pressed="false">
+          <span class="theme-toggle__icon" data-theme-icon aria-hidden="true">&#9790;</span>
+          <span class="theme-toggle__label" data-theme-label>Modo dark</span>
+        </button>
+      </div>
     </header>
-    <section class="hero cf-panel cf-panel--raised">
-      <h1>DronLab STS</h1>
-      <h2>Elige tu bloque</h2>
-      <p>Bloques autonomos siguiendo el patron validado DronLab. Cada bloque conserva su Ingenieria del Conocimiento permanente.</p>
+
+    <section class="intro hero cf-center-hero portal-hero" aria-labelledby="portal-title">
+      <img class="cf-center-hero__pattern portal-hero__pattern" src="assets/edusdk-design-system/brand/Trama_CFab.png" alt="" aria-hidden="true">
+      <div class="cf-center-hero__content portal-hero__content">
+        <div class="cf-center-hero__brand portal-hero__brand">
+          <img src="assets/branding/logo-circular-fab.png" alt="Circular FAB">
+          <p class="cf-center-hero__meta">Circular FAB · DronLab</p>
+        </div>
+        <h1 class="cf-center-hero__title portal-hero__title" id="portal-title">DronLab · Curso UAS STS</h1>
+        <p class="brand-text__intro">Curso STS con ocho bloques completos, aula, guia del profesor, zona del alumno, recursos integrados y Examen Final configurado.</p>
+      </div>
     </section>
-    <section class="cards block-access-grid">
-      <a class="cf-card cf-card--interactive card" href="bloques/bloque1/inicio.html"><span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"></span><strong>Reglamentacion de la aviacion</strong><p>Bloque 1 completo: categoria especifica, SORA, PDRA, STS-01, STS-02, espacio aereo, recursos y Profesor Plus.</p></a>
-      <a class="cf-card cf-card--interactive card" href="bloques/bloque2/inicio.html"><span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"></span><strong>Limitaciones del rendimiento humano</strong><p>Bloque 2 completo: aptitud medica, fatiga, estres, percepcion, BVLOS, barrido visual y factores ambientales.</p></a>
-      <a class="cf-card cf-card--interactive card" href="bloques/bloque3/inicio.html"><span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"></span><strong>Procedimientos operacionales</strong><p>Bloque 3 completo: pre-vuelo, FTS, ID remota, geocaging, contingencias, emergencias y ERP.</p></a>
-      <a class="cf-card cf-card--interactive card" href="bloques/bloque4/inicio.html"><span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"></span><strong>Mitigacion tecnica y operacional del riesgo en aire</strong><p>Bloque 4 completo: riesgo en aire, VLOS, BVLOS, observadores, FTS, geocaging, 5 km y contenido complementario etiquetado.</p></a>
-      <a class="cf-card cf-card--interactive card" href="bloques/bloque5/inicio.html"><span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"></span><strong>Conocimientos generales del UAS</strong><p>Bloque 5 completo: etiquetas C5/C6, FTS, geocaging, enlace C2, telemetria y configuracion de baterias.</p></a>
-      <a class="cf-card cf-card--interactive card" href="bloques/bloque6/inicio.html"><span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"></span><strong>Meteorologia</strong><p>Bloque 6 completo: viento, turbulencia, visibilidad, densidad, METAR, SPECI, TAF, UTC y evaluacion local.</p></a>
-      <a class="cf-card cf-card--interactive card" href="bloques/bloque7/inicio.html"><span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"></span><strong>Rendimiento de vuelo del UAS</strong><p>Bloque 7 completo: MTOM, envolvente, centro de gravedad, equilibrio de masas, carga util y aseguramiento.</p></a>
-      <a class="cf-card cf-card--interactive card" href="bloques/bloque8/inicio.html"><span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"></span><strong>Riesgo en tierra</strong><p>Bloque 8 completo: riesgo en tierra, zona terrestre controlada, margen de riesgo, FTS y VLOS en fases criticas STS-02.</p></a>
-      <a class="cf-card cf-card--interactive card" href="examen-final/index.html"><span class="icon-slot"><img src="assets/icons/test.svg" alt="" aria-hidden="true"></span><strong>Examen Final STS</strong><p>Modo estudio y simulacro oficial con seleccion desde los ocho bancos STS auditados.</p></a>
-      <a class="cf-card cf-card--interactive card" href="bloques/bloque1/profesor-plus.html"><span class="icon-slot"><img src="assets/icons/profesor-plus.svg" alt="" aria-hidden="true"></span><strong>Profesor Plus</strong><p>Guia docente especifica disponible desde cada bloque STS.</p></a>
+
+    <section class="intro hero cf-panel cf-panel--raised block-intro" aria-labelledby="blocks-title">
+      <div>
+        <span class="cf-chip cf-chip--info">10 accesos</span>
+        <h2 id="blocks-title">Elige tu bloque</h2>
+      </div>
+      <p>Bloques completos y autonomos. Cada uno mantiene su propio inicio, aula, profesor, zona del alumno y recursos STS para entregar una experiencia clara y lista para usar.</p>
     </section>
-    <p class="footer">Curso STS con ocho bloques completos y Examen Final configurado.</p>
+
+    <section class="cards portal-card-grid" aria-label="Bloques del curso">
+      <a class="card cf-card cf-card--interactive portal-card" href="bloques/bloque1/inicio.html">
+        <span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"><span class="sr-only">Bloque</span></span>
+        <span class="cf-chip cf-chip--neutral">Bloque 1</span>
+        <strong>Reglamentacion de la aviacion</strong>
+        <p>Bloque 1 completo: categoria especifica, SORA, PDRA, STS-01, STS-02, espacio aereo, recursos y Profesor Plus.</p>
+      </a>
+      <a class="card cf-card cf-card--interactive portal-card" href="bloques/bloque2/inicio.html">
+        <span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"><span class="sr-only">Bloque</span></span>
+        <span class="cf-chip cf-chip--neutral">Bloque 2</span>
+        <strong>Limitaciones del rendimiento humano</strong>
+        <p>Bloque 2 completo: aptitud medica, fatiga, estres, percepcion, BVLOS, barrido visual y factores ambientales.</p>
+      </a>
+      <a class="card cf-card cf-card--interactive portal-card" href="bloques/bloque3/inicio.html">
+        <span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"><span class="sr-only">Bloque</span></span>
+        <span class="cf-chip cf-chip--neutral">Bloque 3</span>
+        <strong>Procedimientos operacionales</strong>
+        <p>Bloque 3 completo: pre-vuelo, FTS, ID remota, geocaging, contingencias, emergencias y ERP.</p>
+      </a>
+      <a class="card cf-card cf-card--interactive portal-card" href="bloques/bloque4/inicio.html">
+        <span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"><span class="sr-only">Bloque</span></span>
+        <span class="cf-chip cf-chip--neutral">Bloque 4</span>
+        <strong>Mitigacion tecnica y operacional del riesgo en aire</strong>
+        <p>Bloque 4 completo: riesgo en aire, VLOS, BVLOS, observadores, FTS, geocaging, 5 km y contenido complementario etiquetado.</p>
+      </a>
+      <a class="card cf-card cf-card--interactive portal-card" href="bloques/bloque5/inicio.html">
+        <span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"><span class="sr-only">Bloque</span></span>
+        <span class="cf-chip cf-chip--neutral">Bloque 5</span>
+        <strong>Conocimientos generales del UAS</strong>
+        <p>Bloque 5 completo: etiquetas C5/C6, FTS, geocaging, enlace C2, telemetria y configuracion de baterias.</p>
+      </a>
+      <a class="card cf-card cf-card--interactive portal-card" href="bloques/bloque6/inicio.html">
+        <span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"><span class="sr-only">Bloque</span></span>
+        <span class="cf-chip cf-chip--neutral">Bloque 6</span>
+        <strong>Meteorologia</strong>
+        <p>Bloque 6 completo: viento, turbulencia, visibilidad, densidad, METAR, SPECI, TAF, UTC y evaluacion local.</p>
+      </a>
+      <a class="card cf-card cf-card--interactive portal-card" href="bloques/bloque7/inicio.html">
+        <span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"><span class="sr-only">Bloque</span></span>
+        <span class="cf-chip cf-chip--neutral">Bloque 7</span>
+        <strong>Rendimiento de vuelo del UAS</strong>
+        <p>Bloque 7 completo: MTOM, envolvente, centro de gravedad, equilibrio de masas, carga util y aseguramiento.</p>
+      </a>
+      <a class="card cf-card cf-card--interactive portal-card" href="bloques/bloque8/inicio.html">
+        <span class="icon-slot"><img src="assets/icons/bloque.svg" alt="" aria-hidden="true"><span class="sr-only">Bloque</span></span>
+        <span class="cf-chip cf-chip--neutral">Bloque 8</span>
+        <strong>Riesgo en tierra</strong>
+        <p>Bloque 8 completo: riesgo en tierra, zona terrestre controlada, margen de riesgo, FTS y VLOS en fases criticas STS-02.</p>
+      </a>
+      <a class="card cf-card cf-card--interactive portal-card portal-card--assessment" href="examen-final/index.html">
+        <span class="icon-slot"><img src="assets/icons/test.svg" alt="" aria-hidden="true"><span class="sr-only">Examen final</span></span>
+        <span class="cf-chip cf-chip--warning">Evaluacion</span>
+        <strong>Examen Final STS</strong>
+        <p>Modo estudio y simulacro oficial con seleccion desde los ocho bancos STS auditados.</p>
+      </a>
+      <a class="card small cf-card cf-card--interactive portal-card portal-card--teacher" href="bloques/bloque1/profesor-plus.html">
+        <span class="icon-slot"><img src="assets/icons/profesor-plus.svg" alt="" aria-hidden="true"><span class="sr-only">Profesor Plus</span></span>
+        <span class="cf-chip cf-chip--accent">Docente</span>
+        <strong>Profesor Plus</strong>
+        <p>Guia docente especifica disponible desde cada bloque STS.</p>
+      </a>
+    </section>
+
+    <footer class="footer cf-footer portal-footer" aria-labelledby="footer-title">
+      <section class="cf-footer__brand">
+        <img src="assets/branding/logo-circular-fab.png" alt="Circular FAB">
+        <h2 class="cf-footer__title" id="footer-title">Circular FAB EduSDK</h2>
+        <p class="cf-footer__text">Usa este portal como punto de partida para navegar entre los bloques STS sin alterar su funcionamiento interno.</p>
+      </section>
+      <section class="cf-footer__logos">
+        <div class="portal-footer__logos">
+          <img class="portal-footer__logo portal-footer__logo--light" src="assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio.png" alt="Logotipo Circular FAB con instituciones">
+          <img class="portal-footer__logo portal-footer__logo--dark" src="assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Logotipo Circular FAB con instituciones">
+        </div>
+      </section>
+    </footer>
   </main>
 </body>
 </html>
