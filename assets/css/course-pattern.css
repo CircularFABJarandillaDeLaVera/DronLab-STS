@@ -1,0 +1,227 @@
+/* DronLab STS · assets/css/course-pattern.css
+   Patron de curso Teoria / Repasa / Fuentes oficiales, portado 1:1 desde
+   DronLab A2 (assets/css/course-pattern.css validado). Sin diferencias:
+   las reglas de presentacion (block-page--slides) no aplican a la portada
+   pero se conservan intactas para reutilizacion futura sin divergencias. */
+/* Opt-in styles for the Theory / Practice / Official sources course pattern. */
+body:not(.show-notes) [data-teacher], body:not(.show-notes) .cue,
+body:not(.show-notes) .slide .notes { display:none !important; }
+.teacher-tools { display:flex; flex-wrap:wrap; align-items:center; gap:16px; padding:12px 24px; background:#fff0c2; color:#392c0b; border-top:2px solid #c39325; }
+.teacher-tools a { color:#392c0b; }
+.teacher-tools button { padding:8px 12px; cursor:pointer; }
+.course-section { margin:40px 0; scroll-margin-top:24px; }
+.course-kicker { font-size:13px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--cf-color-accent); }
+.course-section h2 { font-size:clamp(24px,3vw,36px); margin:8px 0 12px; }
+.course-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:16px; margin-top:24px; }
+.course-card { display:flex; flex-direction:column; gap:12px; padding:24px; border:1px solid var(--cf-color-border); border-radius:18px; background:var(--cf-color-surface); color:var(--cf-color-text); text-decoration:none; transition:transform .15s,border-color .15s; }
+.course-card:hover { transform:translateY(-3px); border-color:var(--cf-color-accent); }
+.course-card strong { font-size:19px; line-height:1.3; }
+.course-card p { font-size:14px; line-height:1.55; margin:0; color:var(--cf-color-text-muted); }
+.course-card .course-icon { font-size:32px; }
+.course-card .course-link { margin-top:auto; padding-top:12px; font-size:13px; font-weight:800; }
+.course-official { padding:32px; border:1px solid #9cb7d1; border-top:5px solid #315c85; border-radius:18px; background:#eaf1f8; color:#18334e; }
+.course-official .course-kicker { color:#315c85; }
+.course-official .course-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.course-official .course-card { background:#fff; color:#18334e; border-color:#bacbdc; }
+.course-official .course-card p { color:#496078; }
+.course-official > p { max-width:850px; line-height:1.6; }
+.course-cta { display:inline-flex; margin-top:16px; padding:16px 24px; border-radius:12px; background:var(--cf-color-accent); color:var(--cf-color-accent-text); text-decoration:none; font-weight:850; }
+[data-course-root] a:focus-visible,[data-course-root] button:focus-visible,[data-course-root] [tabindex]:focus-visible { outline:3px solid #0b99c5; outline-offset:4px; }
+.student-tabs button[aria-current="page"] { background:var(--cf-color-accent); color:var(--cf-color-accent-text); }
+[data-course-root] .block-nav .is-active { background:var(--cf-color-accent); color:var(--cf-color-accent-text); }
+[data-course-root] .theme-toggle { background:var(--cf-color-surface); color:var(--cf-color-text); }
+body.block-page--slides { overflow:auto; }
+body.block-page--slides #app { min-height:100dvh; display:flex; flex-direction:column; }
+body.block-page--slides .topbar { position:relative; inset:auto; height:auto; min-height:72px; flex-wrap:wrap; padding:12px 24px; }
+body.block-page--slides .stage { position:relative; inset:auto; padding:0; flex:1; }
+body.block-page--slides .slide { position:relative; inset:auto; min-height:calc(100dvh - 190px); padding:32px clamp(20px,5vw,80px); overflow:visible; }
+body.block-page--slides .slide { grid-template-rows:none; gap:0; align-content:center; }
+body.block-page--slides .slide > * { min-width:0; }
+body.block-page--slides .slide h1 { font-size:clamp(36px,5vw,72px); }
+body.block-page--slides .slide h2 { font-size:clamp(28px,4vw,54px); }
+body.block-page--slides .bottombar { position:sticky; bottom:0; flex-shrink:0; }
+body.block-page--slides .notes, body.block-page--slides .cue { position:static; width:auto; max-width:none; margin-top:18px; }
+.theory-photo { width:100%; max-height:370px; object-fit:contain; border-radius:18px; background:white; }
+.photo-credit { font-size:12px; line-height:1.4; color:var(--cf-color-text-muted); }
+body.show-notes .self-study { display:none; }
+.opt { font:inherit; text-align:left; color:var(--cf-color-text); }
+.quiz > div { min-width:0; }
+.quiz > div > button { width:100%; }
+.quiz > div > p { font-size:18px; margin:12px 0; }
+body[data-course-root] .workspace { min-width:0; }
+body[data-course-root] .map-wrap,body[data-course-root] .detail { min-width:0; }
+body[data-course-root] .actions { flex-wrap:wrap; }
+@media(max-width:1100px) { .course-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media(max-width:700px) {
+  .course-grid,.course-official .course-grid { grid-template-columns:1fr; }
+  .course-card { padding:20px; }
+  .course-official { padding:20px; }
+  body.block-page--slides .topbar { padding:12px; }
+  body.block-page--slides .toolbar { flex-wrap:wrap; }
+  body.block-page--slides .hero-grid,body.block-page--slides .split,body.block-page--slides .big-three,body.block-page--slides .compare,body.block-page--slides .sim-grid { grid-template-columns:1fr; gap:16px; }
+  body.block-page--slides .system-diagram { grid-template-columns:1fr; }
+  body.block-page--slides .activity-box ol { grid-template-columns:1fr; }
+  body.block-page--slides .activity-box { padding:20px; font-size:19px; }
+  body.block-page--slides .lineup { flex-wrap:wrap; }
+  body.block-page--slides .prop-demo { grid-template-columns:1fr; }
+  body.block-page--slides .labels { grid-template-columns:1fr; min-width:0; }
+  body.block-page--slides .two-icons { grid-template-columns:1fr; }
+  body.block-page--slides .mistakes { grid-template-columns:1fr; }
+  body.block-page--slides .clean-list { font-size:20px; }
+  body.block-page--slides figure { margin:12px 0; min-width:0; }
+  body.block-page--slides .block-nav { display:flex; flex-direction:row; flex-wrap:wrap; width:100%; }
+  body.block-page--slides .block-nav > a { width:auto; flex:1 1 40%; font-size:13px; padding:8px; }
+  body.block-page--slides .system-diagram .plus { text-align:center; }
+  body.block-page--slides .brain-map { display:flex; flex-wrap:wrap; justify-content:center; }
+  body.block-page--slides .footer-identity { display:none; }
+  .theory-photo { max-height:260px; }
+}
+@media(prefers-reduced-motion:reduce) { .slide.active,.course-card,.progress { animation:none !important; transition:none; } }
+@media print { .teacher-tools,[data-teacher],.cue,.slide .notes { display:none !important; } }
+
+/* ==========================================================================
+   DronLab A2 · Contraste LIGHT en presentaciones B1–B8 (corrección compartida)
+   --------------------------------------------------------------------------
+   Causa: cada `bloques/bloqueN/style.css` fija una paleta dark con reglas de
+   baja especificidad (`body{color:var(--white)...}`, `:root{--white...}`),
+   mientras que `bloque-theme.css` pinta el fondo claro con `.block-page`
+   (mayor especificidad). En LIGHT queda texto blanco sobre fondo claro, y la
+   topbar (que sigue oscura) recibe textos dark del Design System.
+   Alcance: SOLO `html[data-theme="light"]`. El modo dark no se toca y queda
+   visualmente intacto. Un único bloque compartido (este fichero carga el
+   último en las 8 presentaciones): sin parches por diapositiva ni por bloque.
+   ========================================================================== */
+
+/* 1. Re-mapeo de variables dark → claras, acotado al contenido del slide.
+   La topbar/bottombar/dialog quedan fuera de `.stage` y conservan su dark. */
+html[data-theme="light"] body.block-page--slides .stage {
+  --white: var(--cf-color-text);
+  --muted: var(--cf-color-text-muted);
+  --panel: var(--cf-color-surface);
+  --line: var(--cf-color-border);
+  --green: var(--cf-color-success);
+  --red: var(--cf-color-danger);
+}
+
+/* 2. Texto base de diapositiva: el `color:var(--white)` heredado de `body`
+   resolvía al valor :root (blanco). Se fija explícitamente al token. */
+html[data-theme="light"] body.block-page--slides .stage .slide {
+  color: var(--cf-color-text);
+}
+html[data-theme="light"] body.block-page--slides .stage .slide h1,
+html[data-theme="light"] body.block-page--slides .stage .slide h2,
+html[data-theme="light"] body.block-page--slides .stage .slide h3 {
+  color: var(--cf-color-text);
+}
+
+/* 3. Texto secundario y citas grandes: del azul pálido hardcodeado al token. */
+html[data-theme="light"] body.block-page--slides .stage .slide .subtitle,
+html[data-theme="light"] body.block-page--slides .stage .slide .compact article p {
+  color: var(--cf-color-text-muted);
+}
+html[data-theme="light"] body.block-page--slides .stage .slide .giant-quote {
+  color: var(--cf-color-text);
+}
+
+/* 4. Kickers/etiquetas: se conserva la familia de acento, en tono legible.
+   Se usa `--cf-color-accent-hover` (token DS existente): el accent base queda
+   en 4.08:1 sobre el fondo de página y no alcanza AA en texto normal. */
+html[data-theme="light"] body.block-page--slides .stage .slide .eyebrow {
+  color: var(--cf-color-accent-hover);
+}
+
+/* 5. Acentos de texto cian/amarillo brillante → equivalentes oscuros legibles
+   (los fondos `.badge` conservan sus colores vivos originales). */
+html[data-theme="light"] body.block-page--slides .stage .slide .big-three strong,
+html[data-theme="light"] body.block-page--slides .stage .slide .next,
+html[data-theme="light"] body.block-page--slides .stage .slide .arrows {
+  color: var(--cf-color-info);
+}
+html[data-theme="light"] body.block-page--slides .stage .slide .plus,
+html[data-theme="light"] body.block-page--slides .stage .slide .mistakes b,
+html[data-theme="light"] body.block-page--slides .stage .slide .challenge {
+  color: var(--cf-color-warning);
+}
+
+/* 6. Elementos con texto claro hardcodeado sobre tintados claros. */
+html[data-theme="light"] body.block-page--slides .stage .slide .cue {
+  background: #fff6d6;
+  border-color: #d9b62c;
+  color: #5f4700;
+}
+html[data-theme="light"] body.block-page--slides .stage .slide .institutional-pill {
+  background: rgba(50, 133, 90, 0.12);
+  border-color: rgba(50, 133, 90, 0.45);
+  color: #245c3e;
+}
+html[data-theme="light"] body.block-page--slides .stage .slide .sim-screen {
+  color: #fff;
+}
+
+/* 7. Barra superior (fondo oscuro en ambos modos): textos claros.
+   La navegación activa (píldora verde) no se toca. */
+html[data-theme="light"] body.block-page--slides .slide-topbar .cf-nav__link:not(.is-active):not([aria-current="page"]) {
+  background: transparent;
+  border-color: transparent;
+  color: #d7e6f3;
+}
+html[data-theme="light"] body.block-page--slides .slide-topbar .cf-nav__link:not(.is-active):not([aria-current="page"]):hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+html[data-theme="light"] body.block-page--slides .slide-topbar .block-brand b,
+html[data-theme="light"] body.block-page--slides .slide-topbar .brand-copy strong {
+  color: #fff;
+}
+html[data-theme="light"] body.block-page--slides .slide-topbar .block-brand > span > span,
+html[data-theme="light"] body.block-page--slides .slide-topbar .course-lockup small,
+html[data-theme="light"] body.block-page--slides .slide-topbar .brand-copy span {
+  color: #b9cad8;
+}
+
+/* ==========================================================================
+   DronLab A2 · Cabecera de presentaciones B1–B8 (logo + botón de tema)
+   --------------------------------------------------------------------------
+   Compartido: este fichero carga el último en las 8 presentaciones, en ambos
+   temas (la barra es oscura en light y en dark). No afecta a teoría,
+   navegación, footer ni al arreglo de contraste LIGHT (selectores distintos).
+   ========================================================================== */
+
+/* 1. Logo: `bloque-theme.css` le ponía pastilla (`background:surface` +
+   borde + padding 7px) → bloque blanco pesado en light. El PNG ya trae
+   transparencia y es legible sobre fondo oscuro: se integra sin pastilla. */
+body.block-page--slides .slide-topbar .block-brand img {
+  background: transparent;
+  border-color: transparent;
+  padding: 2px;
+}
+
+/* 2. Botón de tema: `.cf-button--secondary` lo pintaba como pastilla sólida
+   opaca (blanca en light) que desentonaba con los controles `.tool`
+   translúcidos. Se integra al estilo secundario neutro de la cabecera. */
+body.block-page--slides .slide-topbar .theme-toggle {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 12px;
+  box-shadow: none;
+  color: var(--white);
+}
+body.block-page--slides .slide-topbar .theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.28);
+  color: #fff;
+}
+body.block-page--slides .slide-topbar .theme-toggle:active {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(0);
+}
+
+/* 3. Foco accesible pero elegante: la regla `[data-course-root]
+   button:focus-visible` imponía un aro azul `#0b99c5` de 3px + offset 4px,
+   invasivo y ajeno al sistema. Se sustituye por el acento del Design System
+   (visible en ambos temas sobre la barra oscura). */
+body.block-page--slides .slide-topbar .theme-toggle:focus-visible {
+  outline: 2px solid var(--cf-color-accent);
+  outline-offset: 2px;
+}

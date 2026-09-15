@@ -1,0 +1,66 @@
+/* DronLab STS · assets/css/corp-band.css
+   Banda corporativa institucional, portada 1:1 desde DronLab A2
+   (assets/css/corp-band.css validado). Ningun logo puede crecer por
+   su tamaño intrinseco: alturas fijas + max-width + object-fit.
+   Diferencia deliberada respecto a A2 (documentada al final):
+   C1: tope explicito al logo panoramico y flex-shrink controlado. */
+.corp-band {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  max-width: 1050px;
+  min-width: 0;
+  margin: 28px auto 8px;
+  padding: 18px 22px 8px;
+  border-top: 2px solid var(--cf-color-border);
+}
+.corp-band__logo {
+  height: 44px;
+  width: auto;
+  max-width: 100%;
+  max-height: 44px;
+  object-fit: contain;
+  flex-shrink: 1;
+  min-width: 0;
+}
+.corp-band__logo--wide {
+  height: 54px;
+  max-height: 54px;
+}
+.corp-logo--dark {
+  display: none;
+}
+[data-theme="dark"] .corp-logo--light {
+  display: none;
+}
+[data-theme="dark"] .corp-logo--dark {
+  display: block;
+}
+@media (max-width: 680px) {
+  .corp-band {
+    gap: 14px;
+    padding: 16px 16px 4px;
+  }
+  .corp-band__logo {
+    height: 38px;
+    max-height: 38px;
+  }
+  .corp-band__logo--wide {
+    height: 46px;
+    max-height: 46px;
+  }
+}
+@media print {
+  .corp-band {
+    display: none !important;
+  }
+}
+
+/* C1 · Tope explicito al panoramico institucional (5255x430):
+   con height fija su ancho derivado ronda 660 px; se acota para que
+   nunca empuje el flex ni genere scroll horizontal en movil. */
+.corp-band__logo--wide {
+  max-width: min(100%, 620px);
+}
