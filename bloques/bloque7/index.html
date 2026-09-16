@@ -1,7 +1,58 @@
-<!doctype html><html lang="es" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Bloque 7 STS - DronLab</title><link rel="stylesheet" href="style.css">  <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/tokens.css">
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07192f">
+  <title>DronLab STS · Bloque 7 · Rendimiento de vuelo del UAS</title>
+  <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/tokens.css">
   <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/semantic-tokens.css">
   <link rel="stylesheet" href="../../assets/edusdk-design-system/components/components.css">
-  <link rel="stylesheet" href="../../assets/common/a2-edusdk-theme.css">
+  <link rel="stylesheet" href="../../assets/css/bloque-theme.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../assets/css/course-pattern.css">
   <script src="../../assets/js/theme-toggle.js" defer></script>
-</head><body><header class="topbar cf-topbar cf-topbar--course"><a class="brand institutional-brand" href="../../inicio.html"><img class="cf-logo" src="../../assets/branding/logo-circular-fab.png" alt="Circular FAB"><span class="brand-copy"><strong>CIRCULAR FAB</strong><span>DronLab STS</span></span><span class="brand-divider" aria-hidden="true"></span><span class="course-lockup"><b>Bloque 7</b><small>Rendimiento de vuelo del UAS</small></span></a><nav class="toolbar cf-nav cf-nav--horizontal" aria-label="Herramientas del aula"><button class="tool" id="menuBtn" title="Menu">M</button><button class="tool" id="notesBtn" title="Notas">N</button><button class="tool" id="fullscreenBtn" title="Pantalla completa">F</button><button class="tool" id="resetBtn" title="Reiniciar">R</button><a class="tool" href="profesor-plus.html" title="Profesor Plus">PP</a></nav>    <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
-  </header><main id="stage" class="stage"></main><footer class="bottombar"><button class="nav-btn" id="prevBtn" aria-label="Anterior">&lt;</button><div class="progress-wrap"><div id="progress" class="progress"></div></div><div id="counter" class="counter">1/1</div><button class="nav-btn" id="nextBtn" aria-label="Siguiente">&gt;</button><div class="footer-identity"><img src="../../assets/branding/logo-circular-fab.png" alt=""><span>CIRCULAR FAB</span></div></footer><dialog id="menuDialog"><div class="menu-head"><div><p class="eyebrow">Bloque 7 STS</p><h2>Indice del aula</h2></div><button class="tool" id="closeMenu" title="Cerrar">x</button></div><div id="menuList" class="menu-list"></div></dialog><div id="help" class="help">Usa flechas para avanzar. M abre indice, N alterna notas y F activa pantalla completa.</div><script src="data/bloque7.js"></script><script src="script.js"></script></body></html>
+  <script src="../../assets/js/teacher-mode.js" defer></script>
+</head>
+<body data-course-root="./" class="block-page block-page--slides" data-teacher-key="dronlab_sts_teacher">
+  <div id="app">
+    <header class="topbar brand cf-topbar cf-topbar--course block-topbar slide-topbar">
+      <a class="block-brand" href="inicio.html" aria-label="Inicio del Bloque 7"><img src="../../assets/branding/logo-circular-fab.png" alt="Circular FAB"><span><b>Circular FAB · DronLab</b><span>Curso UAS STS · Bloque 7</span></span></a>
+      <nav class="toolbar cf-nav cf-nav--horizontal block-nav" aria-label="Controles de presentación"><a class="cf-nav__link" href="../../inicio.html">Inicio STS</a><a class="cf-nav__link" href="inicio.html">Bloque 7</a><a class="cf-nav__link is-active" href="index.html" aria-current="page">① Teoría</a><a class="cf-nav__link" href="inicio.html#repasa">② Repasa y practica</a><a class="cf-nav__link" href="inicio.html#aesa">③ AESA oficial</a><a class="cf-nav__link" href="recursos/index.html">Recursos</a><a class="cf-nav__link" href="profesor-plus.html">Profesor Plus</a><button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Cambiar a modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button><button id="btnMenu" class="tool cf-button cf-button--secondary" type="button" title="Índice (M)" aria-label="Índice">☰</button><button id="btnNotes" class="tool cf-button cf-button--secondary" type="button" title="Notas del instructor (N)" aria-label="Notas del instructor">N</button><button id="btnFullscreen" class="tool cf-button cf-button--secondary" type="button" title="Pantalla completa (F)" aria-label="Pantalla completa">⛶</button></nav>
+    </header>
+    <div class="teacher-bar" data-teacher><strong>Modo docente</strong><a href="profesor/index.html">Guía del bloque y notas</a><a href="profesor-plus.html">Profesor Plus</a><a href="recursos/index.html">Recursos</a><button id="btnTeacherExit" type="button">Volver a modo alumno</button></div>
+
+    <main id="stage" class="stage" aria-live="polite"></main>
+
+    <footer class="bottombar">
+      <button id="prev" class="nav-btn" aria-label="Anterior">&lt;</button>
+      <div class="progress-wrap">
+        <div id="progress" class="progress"></div>
+      </div>
+      <div class="footer-identity">
+        <img src="../../assets/branding/logo-circular-fab.png" alt="">
+        <span>CIRCULAR FAB - DRONLAB</span>
+      </div>
+      <div id="counter" class="counter">1 / 10</div>
+      <button id="next" class="nav-btn" aria-label="Siguiente">&gt;</button>
+    </footer>
+
+    <dialog id="menuDialog">
+      <div class="menu-head">
+        <div>
+          <p class="eyebrow">ÍNDICE</p>
+          <h2>Bloque 7 STS</h2>
+        </div>
+        <button id="closeMenu" class="tool" aria-label="Cerrar índice">X</button>
+      </div>
+      <div id="menuList" class="menu-list"></div>
+    </dialog>
+
+    <div id="help" class="help">
+      <b>Controles:</b> izquierda/derecha navegar - M indice - N notas - F pantalla completa - H ayuda
+    </div>
+  </div>
+  <script src="data/bloque7.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
