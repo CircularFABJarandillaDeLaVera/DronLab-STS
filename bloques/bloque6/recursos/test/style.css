@@ -1,1 +1,36 @@
-*{box-sizing:border-box}body{margin:0;font-family:system-ui;background:#eef4f7;color:#10243a}header{background:#07192f;color:#fff;padding:14px 22px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}header img{width:42px;object-fit:contain;filter:drop-shadow(0 4px 8px rgba(0,0,0,.18))}header b,header span{display:block}header span{font-size:12px;color:#bdd0dd}header a{margin-left:auto;color:#fff;text-decoration:none}nav{display:flex;gap:8px;flex-wrap:wrap;padding:12px 20px;background:#fff;border-bottom:1px solid #d8e2e8;position:sticky;top:0;z-index:4}nav button{border:0;background:#e8f5f1;color:#087157;padding:9px 13px;border-radius:9px;font-weight:800;cursor:pointer}nav button.active{background:#07192f;color:#fff}main{max-width:1050px;margin:auto;padding:22px}.panel{background:#fff;border-radius:16px;padding:22px;margin-bottom:16px;box-shadow:0 8px 22px #17364d12}.hero{background:linear-gradient(135deg,#07192f,#0d4564);color:#fff}.stats,.meta{display:flex;gap:8px;flex-wrap:wrap}.pill,.tag{display:inline-block;padding:6px 9px;border-radius:999px;background:#e8f5f1;color:#087157;font-size:12px;font-weight:900}.question h2{font-size:21px}.opts{display:grid;gap:8px}.opt{padding:11px;border:1px solid #cad7de;border-radius:9px;cursor:pointer;text-align:left;background:#fff}.opt.selected{outline:3px solid #ffd43b}.opt.correct{background:#def6eb;border-color:#2cb888}.opt.wrong{background:#ffe4e7;border-color:#ef7b84}.feedback{display:none}.feedback.show{display:block;margin-top:14px}.result{font-size:20px;font-weight:900}@media(max-width:700px){header a{margin-left:0}main{padding:16px}}@media print{header,nav{display:none}.panel{box-shadow:none;break-inside:avoid}.feedback{display:block}}.review-card{padding:16px;margin-top:14px;border:1px solid #cad7de;border-left:5px solid #ef7b84;border-radius:12px;background:#fff;break-inside:avoid}.review-card h3{margin:0 0 10px;font-size:18px;line-height:1.25}.review-card p{margin:8px 0 0;font-size:16px;font-weight:600}.review-card b{color:#07192f}.review-groups{display:grid;gap:8px;padding:0;margin:10px 0 0;list-style:none}.review-groups li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid #d8e2e8;font-size:16px}.review-groups strong{white-space:nowrap;color:#087157}
+/* DronLab STS · Bloque 6 · test del alumno (piloto).
+   Selectores conservados para app.js: .panel .hero .stats .pill .question
+   .meta .tag .opts .opt .selected .correct .wrong .feedback .show .result
+   .review-card .review-groups */
+
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--cf-font-body);background:var(--cf-color-background);color:var(--cf-color-text)}
+#main{max-width:1100px;margin:auto;padding:22px;width:100%}
+.student-tabs{position:sticky;top:0;z-index:4;background:var(--cf-color-surface);border:1px solid var(--cf-color-border);border-radius:var(--cf-radius-md);padding:10px 12px}
+.student-tabs .cf-nav__link{border:0;background:transparent;cursor:pointer;font:inherit;color:var(--cf-color-text);font-weight:800;padding:9px 13px;border-radius:9px;font-size:14px}
+.student-tabs .cf-nav__link:hover{background:var(--cf-color-accent-soft)}
+.student-tabs .cf-nav__link.active,#corregir{background:#07192f;color:#fff}
+html[data-theme="dark"] .student-tabs .cf-nav__link.active,html[data-theme="dark"] #corregir{background:var(--cf-color-surface-raised);color:var(--cf-color-text);border:1px solid var(--cf-color-border)}
+.panel{background:var(--cf-color-surface);border:1px solid var(--cf-color-border);border-radius:16px;padding:22px;margin-bottom:16px;box-shadow:var(--cf-shadow-sm);overflow-wrap:anywhere}
+.question h2{font-size:20px;margin:0 0 8px;line-height:1.25}
+.meta{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
+.tag{font-size:12px;font-weight:900;text-transform:uppercase;border-radius:999px;padding:5px 8px;background:var(--cf-color-accent-soft);color:var(--cf-color-text)}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.opt{border:1px solid var(--cf-color-border);border-radius:9px;background:var(--cf-color-surface);padding:12px;text-align:left;cursor:pointer;font-weight:700;color:var(--cf-color-text);line-height:1.35;overflow-wrap:anywhere;font:inherit}
+.opt.selected{outline:3px solid var(--cf-color-success)}
+.opt.correct{background:#def6eb;border-color:#2cb888}
+html[data-theme="dark"] .opt.correct{background:rgba(79,187,117,.18)}
+.opt.wrong{background:#ffe4e7;border-color:#ef7b84}
+html[data-theme="dark"] .opt.wrong{background:rgba(239,107,115,.18)}
+.feedback{display:none;margin-top:14px;border-left:5px solid var(--cf-color-success);padding:12px;background:var(--cf-color-surface-muted)}
+.feedback.show{display:block}
+.result{font-size:22px;font-weight:900}
+.review-card{padding:16px;margin-top:14px;border:1px solid var(--cf-color-border);border-left:5px solid var(--cf-color-danger);border-radius:12px;background:var(--cf-color-surface);break-inside:avoid}
+.review-card h3{margin:0 0 10px;font-size:18px;line-height:1.25}
+.review-card p{margin:8px 0 0;font-size:16px;font-weight:600}
+.review-groups{display:grid;gap:8px;padding:0;margin:10px 0 0;list-style:none}
+.review-groups li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--cf-color-border);font-size:16px}
+.review-groups strong{white-space:nowrap}
+:focus-visible{outline:3px solid var(--cf-color-focus);outline-offset:2px}
+@media(max-width:750px){#main{padding:16px}.opts{grid-template-columns:1fr}}
+@media print{.doc-topbar,.student-tabs,.corp-band{display:none!important}.panel{box-shadow:none;break-inside:avoid}.feedback{display:block}}
