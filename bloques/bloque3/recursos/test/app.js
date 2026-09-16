@@ -29,7 +29,7 @@
     const count = stats();
     const visible = visibleQuestions();
     main.innerHTML = `
-      <section class="panel hero">
+      <section class="block-hero block-hero--compact">
         <h1>${data.titulo}</h1>
         <p>${data.bloque}</p>
         <div class="stats"><span class="pill">${data.total} preguntas</span><span class="pill">${count.facil || 0} faciles</span><span class="pill">${count.media || 0} medias</span><span class="pill">${count.dificil || 0} dificiles</span></div>
