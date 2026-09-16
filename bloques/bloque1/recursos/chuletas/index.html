@@ -9,21 +9,24 @@
   <link rel="stylesheet" href="../../../../assets/edusdk-design-system/tokens/semantic-tokens.css">
   <link rel="stylesheet" href="../../../../assets/edusdk-design-system/components/components.css">
   <link rel="stylesheet" href="../../../../assets/common/a2-edusdk-theme.css">
+  <link rel="stylesheet" href="../../../../assets/css/bloque-shared.css">
+  <link rel="stylesheet" href="../../../../assets/css/bloque-theme.css">
   <script src="../../../../assets/js/theme-toggle.js" defer></script>
 </head>
-<body>
-  <header class="top">
-    <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
-    <div>
-      <b>DRONLAB STS - BLOQUE 1</b>
-      <h1>Chuletas de reglamentacion STS</h1>
-    </div>
-    <button onclick="window.print()">Imprimir A4</button>
-      <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
+<body class="block-page">
+  <div class="doc-page">
+  <header class="brand cf-topbar cf-topbar--course block-topbar doc-topbar">
+    <a class="block-brand" href="../index.html" aria-label="Recursos del Bloque 1">
+      <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+      <span><b>Circular FAB · DronLab</b><span>Chuletas · Bloque 1</span></span>
+    </a>
+    <button class="cf-button cf-button--primary" type="button" onclick="window.print()">Imprimir A4</button>
+    <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
+    <h1>Chuletas de reglamentacion STS</h1>
   </header>
 
   <main class="sheet">
-    <section class="hero card">
+    <section class="hero block-hero block-hero--compact">
       <div>
         <p class="kicker">Resumen rapido</p>
         <h2>STS es riesgo, encaje y responsabilidad</h2>
@@ -132,5 +135,10 @@
       </article>
     </section>
   </main>
+  <footer class="corp-band" aria-label="Entidades colaboradoras">
+    <img class="corp-band__logo corp-band__logo--wide corp-logo--light" src="../../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio.png" alt="Logotipos institucionales de Circular FAB">
+    <img class="corp-band__logo corp-band__logo--wide corp-logo--dark" src="../../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Logotipos institucionales de Circular FAB">
+  </footer>
+  </div>
 </body>
 </html>

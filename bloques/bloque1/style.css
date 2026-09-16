@@ -15,12 +15,20 @@
 *{box-sizing:border-box}
 html,body{height:100%;margin:0}
 body{
-  font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-family:var(--cf-font-body, Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial, sans-serif);
   color:var(--white);
   background:
     radial-gradient(circle at 80% 10%, rgba(80,213,255,.13), transparent 30%),
     linear-gradient(135deg,#061426 0%,#0b2645 55%,#07192f 100%);
   overflow:hidden
+}
+/* La presentacion no lleva trama propia: como en A2, la identidad visual
+   vive en la topbar (logo) y el bottombar. El fondo lo pone .block-page. */
+#app{position:relative;z-index:1}
+/* Piloto B1: foco visible accesible con el token del DesignSystem */
+:focus-visible{
+  outline:3px solid var(--cf-color-focus, #ffd43b);
+  outline-offset:2px;
 }
 button{font:inherit}
 .topbar,.bottombar{

@@ -1,0 +1,206 @@
+/* DronLab STS · bloque-shared.css
+   Capa piloto (Bloque 1) sobre el DesignSystem consolidado.
+   Solo aporta lo que components.css no cubre:
+   trama del hero, modo docente, banda corporativa y shell de pagina doc.
+   Los demas bloques la adoptaran tras validar el piloto. */
+
+.block-page {
+  --cf-block-accent: var(--cf-color-accent);
+}
+
+/* Trama Circular FAB en el hero (no debe desaparecer en migraciones) */
+.block-hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.block-hero__pattern {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  opacity: 0.16;
+  pointer-events: none;
+}
+
+html[data-theme="dark"] .block-hero__pattern {
+  mix-blend-mode: screen;
+  opacity: 0.1;
+}
+
+.block-hero > :not(.block-hero__pattern) {
+  position: relative;
+  z-index: 1;
+}
+
+.block-topbar {
+  border-left-color: var(--cf-block-accent, var(--cf-color-accent));
+}
+
+/* Modo docente: los elementos [data-teacher] solo existen con body.show-notes.
+   Asi nunca conviven elementos de alumno y profesor en la misma vista. */
+body:not(.show-notes) [data-teacher] {
+  display: none !important;
+}
+
+.teacher-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--cf-color-surface);
+  border: 1px solid var(--cf-color-warning);
+  border-left-width: 5px;
+  border-radius: var(--cf-radius-md);
+  color: var(--cf-color-text);
+}
+
+.teacher-bar a {
+  color: var(--cf-color-text);
+  font-weight: 800;
+}
+
+.teacher-bar button {
+  margin-left: auto;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--cf-color-border);
+  background: var(--cf-color-surface-muted);
+  color: var(--cf-color-text);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+/* Banda corporativa institucional con logos light/dark */
+.corp-band {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px 28px;
+  max-width: 1050px;
+  min-width: 0;
+  margin: 28px auto 8px;
+  padding: 18px 22px 8px;
+  border-top: 2px solid var(--cf-color-border);
+}
+
+.corp-band__logo {
+  height: 44px;
+  width: auto;
+  max-width: 100%;
+  max-height: 44px;
+  object-fit: contain;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.corp-band__logo--wide {
+  height: 54px;
+  max-height: 54px;
+  max-width: min(100%, 620px);
+}
+
+.corp-logo--dark {
+  display: none;
+}
+
+html[data-theme="dark"] .corp-logo--light {
+  display: none;
+}
+
+html[data-theme="dark"] .corp-logo--dark {
+  display: block;
+}
+
+/* Shell para paginas doc (profesor-plus, recursos, test, alumno, profesor) */
+.doc-page {
+  display: grid;
+  gap: var(--cf-space-4);
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: var(--cf-space-4);
+  width: min(1120px, 100%);
+}
+
+.doc-topbar {
+  border-left: 4px solid var(--cf-block-accent, var(--cf-color-accent));
+}
+
+/* Rejilla de tarjetas doc (sustituye al antiguo .grid inline):
+   base 2 columnas (Profesor Plus); variante --3 para Recursos. */
+.cards {
+  display: grid;
+  gap: var(--cf-space-3);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cards--3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 980px) {
+  .cards--3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 680px) {
+  .cards,
+  .cards--3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .corp-band {
+    gap: 14px;
+    padding: 16px 16px 4px;
+  }
+
+  .corp-band__logo {
+    height: 38px;
+    max-height: 38px;
+  }
+
+  .corp-band__logo--wide {
+    height: 46px;
+    max-height: 46px;
+  }
+}
+
+@media print {
+  .corp-band,
+  .teacher-bar {
+    display: none !important;
+  }
+}
+
+/* Bloque introductorio unico con trama (herramientas Bloque 1):
+   titulo + descripcion + estadisticas opcionales sobre .block-hero claro.
+   La trama la aporta bloque-theme.css (.block-hero::after); aqui solo
+   separacion y pastillas legibles en claro y oscuro. */
+#main .block-hero,
+.sheet .block-hero {
+  margin-bottom: 16px;
+}
+
+.block-hero .stats {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.block-hero .pill {
+  background: var(--cf-color-accent-soft);
+  border: 1px solid var(--cf-color-border);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-weight: 800;
+  color: var(--cf-color-text);
+}
