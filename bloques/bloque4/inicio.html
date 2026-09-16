@@ -1,31 +1,41 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>DronLab · Bloque 4</title>
+  <title>DronLab STS · Bloque 4 · Mitigacion tecnica y operacional del riesgo en aire</title>
   <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/tokens.css">
   <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/semantic-tokens.css">
   <link rel="stylesheet" href="../../assets/edusdk-design-system/components/components.css">
-  <link rel="stylesheet" href="bloque4-theme.css">
-  <script src="theme-toggle.js" defer></script>
+  <link rel="stylesheet" href="../../assets/css/bloque-theme.css">
+  <link rel="stylesheet" href="../../assets/css/course-pattern.css">
+  <link rel="stylesheet" href="../../assets/css/corp-band.css">
+  <script src="../../assets/js/theme-toggle.js" defer></script>
+  <script src="../../assets/js/teacher-mode.js" defer></script>
+  <style>
+    .teacher-bar{display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:12px 16px;background:var(--cf-color-surface);border:1px solid var(--cf-color-warning);border-left-width:5px;border-radius:var(--cf-radius-md);color:var(--cf-color-text)}
+    .teacher-bar a{color:var(--cf-color-text);font-weight:800}
+    .teacher-bar button{margin-left:auto;padding:8px 12px;border-radius:8px;border:1px solid var(--cf-color-border);background:var(--cf-color-surface-raised);color:var(--cf-color-text);cursor:pointer;font-weight:800}
+    .cf-chip--accent{color:var(--cf-color-accent-hover)}
+    html[data-theme="dark"] .course-official{background:var(--cf-color-surface);border-color:var(--cf-color-border);border-top:5px solid var(--cf-color-accent);color:var(--cf-color-text)}
+    html[data-theme="dark"] .course-official>p,html[data-theme="dark"] .course-official .course-card p{color:var(--cf-color-text-muted)}
+    html[data-theme="dark"] .course-official .course-card{background:var(--cf-color-surface-raised);border-color:var(--cf-color-border)}
+    html[data-theme="dark"] .course-official .course-kicker{color:var(--cf-color-accent)}
+  </style>
 </head>
-<body class="block-page block-page--home">
+<body data-course-root="./" class="block-page block-page--home" data-teacher-key="dronlab_sts_teacher">
   <div class="wrap block-shell">
     <header class="brand cf-topbar cf-topbar--course block-topbar">
       <a class="block-brand" href="inicio.html" aria-label="Inicio del Bloque 4">
         <img src="../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
-        <span>
-          <b>Circular FAB · DronLab</b>
-          <span>DronLab · Curso UAS STS</span>
-        </span>
+        <span><b>Circular FAB · DronLab</b><span>DronLab · Curso UAS STS</span></span>
       </a>
-      <nav class="cf-nav cf-nav--horizontal block-nav" aria-label="Navegacion del Bloque 4">
-        <a class="cf-nav__link is-active" href="inicio.html" aria-current="page">Inicio</a>
-        <a class="cf-nav__link" href="index.html">Aula</a>
-        <a class="cf-nav__link" href="profesor/index.html">Profesor</a>
-        <a class="cf-nav__link" href="alumno/index.html">Alumno</a>
-        <a class="cf-nav__link" href="recursos/index.html">Recursos</a>
+      <nav class="cf-nav cf-nav--horizontal block-nav" aria-label="Navegación del Bloque 4">
+        <a class="cf-nav__link" href="../../inicio.html">Inicio STS</a>
+        <a class="cf-nav__link is-active" href="inicio.html" aria-current="page">Bloque 4</a>
+        <a class="cf-nav__link" href="index.html">① Teoría</a>
+        <a class="cf-nav__link" href="inicio.html#repasa">② Repasa y practica</a>
+        <a class="cf-nav__link" href="inicio.html#aesa">③ AESA oficial</a>
       </nav>
       <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Cambiar a modo oscuro" aria-pressed="false">
         <span data-theme-icon aria-hidden="true">&#9790;</span>
@@ -33,47 +43,56 @@
       </button>
     </header>
 
-    <section class="hero block-hero block-hero--compact">
-      <span class="cf-chip cf-chip--accent">BLOQUE 4</span>
-      <h1>Mitigacion tecnica y operacional del riesgo en aire</h1>
-      <p>Riesgo en aire, principios de separacion, mitigaciones tecnicas y operacionales, STS-01 VLOS y STS-02 BVLOS.</p>
-    </section>
+    <main>
+      <section class="hero block-hero block-hero--compact">
+        <span class="cf-chip cf-chip--accent">BLOQUE 4</span>
+        <h1>Mitigacion tecnica y operacional del riesgo en aire</h1>
+        <p>Riesgo en aire, principios de separacion, mitigaciones tecnicas y operacionales, STS-01 VLOS y STS-02 BVLOS.</p>
+        <p class="course-kicker">① Teoría · 8 pantallas</p>
+        <a class="course-cta" href="index.html">Empezar la teoría →</a>
+      </section>
+      <div class="teacher-bar" data-teacher><strong>Modo docente</strong><span>Enlaces internos del formador visibles solo aquí.</span><button id="btnTeacherExit" type="button">Volver a modo alumno</button></div>
 
-    <div class="status cf-alert cf-alert--warning">
-      <b>Temario oficial AESA</b><br>Paginas relacionadas: <b>6-7</b> | Estado: <b>VALIDADO</b>
-    </div>
+      <section class="course-section" id="repasa" aria-labelledby="repasa-title">
+        <p class="course-kicker">② Repasa y practica · DronLab</p>
+        <h2 id="repasa-title">Repasa lo aprendido</h2>
+        <p>Riesgo en aire, separacion, mitigaciones tecnicas y operacionales, STS-01 VLOS y STS-02 BVLOS: repasa los conceptos y comprueba tu nivel antes del examen.</p>
+        <div class="course-grid">
+          <a class="course-card" href="alumno/index.html"><span class="course-icon" aria-hidden="true">📄</span><strong>Ficha resumen</strong><p>Datos criticos de la mitigacion del riesgo en aire.</p><span class="course-link">Abrir →</span></a>
+          <a class="course-card" href="recursos/flashcards/index.html"><span class="course-icon" aria-hidden="true">🃏</span><strong>Flashcards</strong><p>18 tarjetas para memorizar los conceptos clave.</p><span class="course-link">Abrir →</span></a>
+          <a class="course-card" href="recursos/test/index.html"><span class="course-icon" aria-hidden="true">✅</span><strong>Test</strong><p>Comprueba tu nivel con 15 preguntas.</p><span class="course-link">Abrir →</span></a>
+          <a class="course-card" href="recursos/casos/index.html"><span class="course-icon" aria-hidden="true">🎯</span><strong>Casos prácticos</strong><p>4 escenarios para aplicar las mitigaciones.</p><span class="course-link">Abrir →</span></a>
+          <a class="course-card" href="recursos/practicas/index.html"><span class="course-icon" aria-hidden="true">📋</span><strong>Prácticas</strong><p>4 practicas guiadas del bloque.</p><span class="course-link">Abrir →</span></a>
+          <a class="course-card" href="recursos/mapas/index.html"><span class="course-icon" aria-hidden="true">🧠</span><strong>Mapa mental</strong><p>Explora riesgo en aire, separacion y mitigaciones.</p><span class="course-link">Abrir →</span></a>
+        </div>
+        <p><a href="recursos/index.html">Chuletas, guías rápidas y materiales →</a></p>
+      </section>
 
-    <section class="grid block-access-grid">
-      <a class="card primary cf-card cf-card--interactive" href="index.html">
-        <span class="icon-slot"><img src="../../assets/icons/aula.svg" alt="" aria-hidden="true"><span class="sr-only">Aula</span></span>
-        <h2>Aula</h2>
-        <p>Vista fullscreen para proyectar y dirigir la sesion.</p>
-      </a>
-      <a class="card cf-card cf-card--interactive" href="profesor/index.html">
-        <span class="icon-slot"><img src="../../assets/icons/profesor.svg" alt="" aria-hidden="true"><span class="sr-only">Profesor</span></span>
-        <h2>Profesor</h2>
-        <p>Guion por pantalla, preguntas, respuestas, material y notas locales.</p>
-      </a>
-      <a class="card cf-card cf-card--interactive" href="alumno/index.html">
-        <span class="icon-slot"><img src="../../assets/icons/alumno.svg" alt="" aria-hidden="true"><span class="sr-only">Alumno</span></span>
-        <h2>Alumno</h2>
-        <p>Ficha del alumno y acceso a recursos integrados.</p>
-      </a>
-      <a class="card cf-card cf-card--interactive" href="recursos/index.html">
-        <span class="icon-slot"><img src="../../assets/icons/recursos.svg" alt="" aria-hidden="true"><span class="sr-only">Recursos</span></span>
-        <h2>Recursos</h2>
-        <p>Flashcards, test, casos, practicas, chuletas, mapa mental y prompts.</p>
-      </a>
-      <a class="card cf-card cf-card--interactive" href="profesor-plus.html">
-        <span class="icon-slot"><img src="../../assets/icons/profesor-plus.svg" alt="" aria-hidden="true"><span class="sr-only">Profesor Plus</span></span>
-        <h2>Profesor Plus</h2>
-        <p>Guia docente especifica del Bloque 4 STS.</p>
-      </a>
-    </section>
+      <section class="course-section course-official" id="aesa" aria-labelledby="aesa-title">
+        <p class="course-kicker">③ AESA oficial · Autoridad aeronáutica</p>
+        <h2 id="aesa-title">Fuentes y examen oficial AESA</h2>
+        <p>Temario oficial AESA · Páginas: <b>6–7</b> · Estado: <b>validado</b>.</p>
+        <p>Estudia la teoría, repasa con los recursos DronLab y mide tu nivel con el simulacro del examen final.</p>
+        <div class="course-grid">
+          <a class="course-card" href="../../examen-final/index.html"><span class="course-icon" aria-hidden="true">🎓</span><strong>Examen final STS</strong><p>Modo estudio y simulacro con los bancos STS.</p><span class="course-link">Abrir →</span></a>
+        </div>
+      </section>
 
-    <div class="status cf-alert cf-alert--info">
-      <b>Fase actual:</b> Bloque 4 completo e integrado.
-    </div>
+      <section class="route-phase" data-teacher aria-labelledby="t-docente">
+        <h2 id="t-docente">Material del formador</h2>
+        <p>Visible solo en modo docente (Ctrl + Alt + D).</p>
+        <div class="grid">
+          <a class="card cf-card cf-card--interactive" href="profesor/index.html"><span class="icon-slot"><img src="../../assets/icons/profesor.svg" alt="" aria-hidden="true"><span class="sr-only">Profesor</span></span><h2>Profesor</h2><p>Guion por pantalla, preguntas, respuestas, material y notas locales.</p></a>
+          <a class="card cf-card cf-card--interactive" href="profesor-plus.html"><span class="icon-slot"><img src="../../assets/icons/profesor-plus.svg" alt="" aria-hidden="true"><span class="sr-only">Profesor Plus</span></span><h2>Profesor Plus</h2><p>Guia docente especifica del Bloque 4 STS.</p></a>
+          <a class="card cf-card cf-card--interactive" href="recursos/prompts/prompts-bloque4.md"><span class="icon-slot"><img src="../../assets/icons/recursos.svg" alt="" aria-hidden="true"><span class="sr-only">Prompts</span></span><h2>Prompts</h2><p>Prompts reutilizables del bloque.</p></a>
+        </div>
+      </section>
+
+      <footer class="corp-band" aria-label="Entidades colaboradoras">
+        <img class="corp-band__logo corp-band__logo--wide corp-logo--light" src="../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio.png" alt="Logotipos institucionales de Circular FAB">
+        <img class="corp-band__logo corp-band__logo--wide corp-logo--dark" src="../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Logotipos institucionales de Circular FAB">
+      </footer>
+    </main>
   </div>
 </body>
 </html>

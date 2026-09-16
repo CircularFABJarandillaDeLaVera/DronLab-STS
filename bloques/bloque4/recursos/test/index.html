@@ -9,25 +9,34 @@
   <link rel="stylesheet" href="../../../../assets/edusdk-design-system/tokens/semantic-tokens.css">
   <link rel="stylesheet" href="../../../../assets/edusdk-design-system/components/components.css">
   <link rel="stylesheet" href="../../../../assets/common/a2-edusdk-theme.css">
+  <link rel="stylesheet" href="../../../../assets/css/bloque-shared.css">
+  <link rel="stylesheet" href="../../../../assets/css/bloque-theme.css">
   <script src="../../../../assets/js/theme-toggle.js" defer></script>
 </head>
-<body>
-  <header>
-    <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
-    <div><b>DRONLAB STS - BLOQUE 4</b><span>Test del alumno</span></div>
-    <a href="../index.html">Recursos</a>
+<body class="block-page">
+  <div class="doc-page">
+    <header class="brand cf-topbar cf-topbar--course block-topbar doc-topbar">
+      <a class="block-brand" href="../index.html" aria-label="Recursos del Bloque 4">
+        <img src="../../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+        <span><b>Circular FAB · DronLab</b><span>Test del alumno · Bloque 4</span></span>
+      </a>
       <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
-  </header>
-  <nav>
-    <button data-filter="todas">Todas</button>
-    <button data-filter="facil">Faciles</button>
-    <button data-filter="media">Medias</button>
-    <button data-filter="dificil">Dificiles</button>
-    <button id="corregir">Corregir</button>
-    <button id="reiniciar">Reiniciar</button>
-    <button id="print">Imprimir</button>
-  </nav>
-  <main id="main"></main>
+    </header>
+    <nav class="cf-nav cf-nav--horizontal student-tabs" aria-label="Filtros y acciones del test">
+      <button class="cf-nav__link" type="button" data-filter="todas">Todas</button>
+      <button class="cf-nav__link" type="button" data-filter="facil">Faciles</button>
+      <button class="cf-nav__link" type="button" data-filter="media">Medias</button>
+      <button class="cf-nav__link" type="button" data-filter="dificil">Dificiles</button>
+      <button class="cf-nav__link" type="button" id="corregir">Corregir</button>
+      <button class="cf-nav__link" type="button" id="reiniciar">Reiniciar</button>
+      <button class="cf-nav__link" type="button" id="print">Imprimir</button>
+    </nav>
+    <main id="main"></main>
+    <footer class="corp-band" aria-label="Entidades colaboradoras">
+      <img class="corp-band__logo corp-band__logo--wide corp-logo--light" src="../../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio.png" alt="Logotipos institucionales de Circular FAB">
+      <img class="corp-band__logo corp-band__logo--wide corp-logo--dark" src="../../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Logotipos institucionales de Circular FAB">
+    </footer>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>

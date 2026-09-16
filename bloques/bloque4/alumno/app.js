@@ -15,7 +15,6 @@
   function ficha() {
     const slides = d.pantallas || [];
     m.innerHTML = `
-      <section class="panel hero"><h1>Bloque ${esc(d.meta.bloque)} - ${esc(d.meta.titulo)}</h1><p>Ficha resumen del alumno</p></section>
       <section class="panel columns">
         <div><h2>Conceptos del bloque</h2><ul>${slides.map(item => `<li>${esc(item.titulo)}</li>`).join('')}</ul></div>
         <div><h2>Datos criticos</h2><ul>${slides.map(item => `<li>${esc(item.contenido)}</li>`).join('')}</ul></div>
@@ -28,7 +27,7 @@
   function mapa() {
     const slides = d.pantallas || [];
     m.innerHTML = `
-      <section class="panel hero"><h1>Mapa mental</h1><p>Vista resumida de dependencias del Bloque ${esc(d.meta.bloque)}.</p></section>
+      <section class="block-hero block-hero--compact"><h1>Mapa mental</h1><p>Vista resumida de dependencias del Bloque ${esc(d.meta.bloque)}.</p></section>
       <section class="panel mindmap">
         <div class="root">Bloque ${esc(d.meta.bloque)}</div>
         <div class="mapgrid">${slides.map(item => `<article><h2>${esc(item.titulo)}</h2><p>${esc(item.contenido)}</p></article>`).join('')}</div>
