@@ -34,7 +34,7 @@
   function render() {
     const visible = filter === 'todas' ? current : current.filter(card => card.dificultad === filter);
     const stats = byDifficulty(data.flashcards);
-    main.innerHTML = `<section class="panel hero"><h1>${data.titulo}</h1><p>${data.bloque}</p><div class="stats"><span class="pill">${data.total} tarjetas</span><span class="pill">${stats.facil || 0} faciles</span><span class="pill">${stats.media || 0} medias</span><span class="pill">${stats.dificil || 0} dificiles</span></div></section><section class="flashgrid">${visible.length ? visible.map(cardHtml).join('') : '<p class="panel">No hay tarjetas para este filtro.</p>'}</section>`;
+    main.innerHTML = `<section class="block-hero block-hero--compact"><h1>${data.titulo}</h1><p>${data.bloque}</p><div class="stats"><span class="pill">${data.total} tarjetas</span><span class="pill">${stats.facil || 0} faciles</span><span class="pill">${stats.media || 0} medias</span><span class="pill">${stats.dificil || 0} dificiles</span></div></section><section class="flashgrid">${visible.length ? visible.map(cardHtml).join('') : '<p class="panel">No hay tarjetas para este filtro.</p>'}</section>`;
     document.querySelectorAll('.flash').forEach(card => {
       card.onclick = () => card.classList.toggle('flipped');
       card.onkeydown = event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); card.classList.toggle('flipped'); } };

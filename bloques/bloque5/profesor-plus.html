@@ -1,29 +1,53 @@
 <!doctype html>
 <html lang="es" data-theme="light">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Profesor Plus - Bloque 5 STS</title>
-<style>*{box-sizing:border-box}body{margin:0;font-family:system-ui;background:linear-gradient(145deg,#061426,#0d3656);color:#fff;min-height:100vh}.wrap{max-width:1100px;margin:auto;padding:45px 22px}.tag{display:inline-block;background:#16a47d;padding:7px 11px;border-radius:99px;font-weight:900}h1{font-size:clamp(52px,8vw,92px);line-height:.9}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:#ffffff0d;border:1px solid #ffffff2c;border-radius:18px;padding:20px;min-height:150px}.card p{color:#cfe0eb}.toplinks{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}.toplinks a{color:#fff;text-decoration:none;border:1px solid #ffffff35;border-radius:9px;padding:8px 12px;font-weight:800}@media(max-width:850px){.grid{grid-template-columns:1fr 1fr}}@media(max-width:520px){.grid{grid-template-columns:1fr}}</style>  <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/tokens.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Profesor Plus - Bloque 5 STS</title>
+  <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/tokens.css">
   <link rel="stylesheet" href="../../assets/edusdk-design-system/tokens/semantic-tokens.css">
   <link rel="stylesheet" href="../../assets/edusdk-design-system/components/components.css">
-  <link rel="stylesheet" href="../../assets/common/a2-edusdk-theme.css">
+  <link rel="stylesheet" href="../../assets/css/bloque-shared.css">
   <script src="../../assets/js/theme-toggle.js" defer></script>
 </head>
-<body>
-  <div class="a2-theme-floating"><button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button></div>
-<div class="wrap">
-    <nav class="toplinks"><a href="inicio.html">Inicio</a><a href="profesor/index.html">Profesor</a><a href="recursos/index.html">Recursos</a></nav>
-    <span class="tag">DRONLAB | PROFESOR PLUS | BLOQUE 5</span>
-    <h1>Conocimientos generales del UAS</h1>
-    <p>Secuencia docente para explicar requisitos C5/C6, FTS, geocaging, enlace C2 y baterias.</p>
-    <section class="grid">
-      <div class="card cf-card cf-card--interactive"><h2>Guion</h2><p>Comenzar por C5/C6 como etiquetas tecnicas, no comerciales, y conectar cada requisito con STS-01 o STS-02.</p></div>
-      <div class="card cf-card cf-card--interactive"><h2>Preguntas</h2><p>Que velocidad corresponde a C5? Que telemetria exige C6? Que diferencia geoconsciencia y geocaging?</p></div>
-      <div class="card cf-card cf-card--interactive"><h2>Errores</h2><p>Confundir 5 m/s con 50 m/s, tratar el FTS como software principal o decir que geocaging solo avisa.</p></div>
-      <div class="card cf-card cf-card--interactive"><h2>Mesa</h2><p>Tarjetas C5/C6, esquema C2 y dos baterias ficticias para explicar serie y paralelo.</p></div>
-      <div class="card cf-card cf-card--interactive"><h2>Dinamicas</h2><p>Clasificar requisitos en comun, C5 o C6; despues justificar cada dato numerico.</p></div>
-      <div class="card cf-card cf-card--interactive"><h2>Adaptaciones</h2><p>En version corta priorizar 5 m/s, 50 m/s, FTS independiente, C2, geocaging y serie/paralelo.</p></div>
-      <div class="card cf-card cf-card--interactive"><h2>Respuestas</h2><p>C5: STS-01, 5 m/s, altura, FTS independiente. C6: STS-02, 50 m/s, altura, velocidad y posicion.</p></div>
-      <div class="card cf-card cf-card--interactive"><h2>JSON</h2><p>Trazabilidad AESA paginas 7-8 | Estado VALIDADO. Fuente unica: ingenieria profunda permanente del Bloque 5.</p></div>
-    </section>
+<body class="block-page">
+  <div class="doc-page">
+    <header class="brand cf-topbar cf-topbar--course block-topbar doc-topbar">
+      <a class="block-brand" href="inicio.html" aria-label="Inicio del Bloque 5">
+        <img src="../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+        <span><b>Circular FAB · DronLab</b><span>Profesor Plus · Bloque 5</span></span>
+      </a>
+      <span class="cf-chip cf-chip--warning">Profesor Plus</span>
+      <nav class="cf-nav cf-nav--horizontal block-nav" aria-label="Navegación de Profesor Plus">
+        <a class="cf-nav__link" href="inicio.html">Inicio</a>
+        <a class="cf-nav__link" href="profesor/index.html">Profesor</a>
+        <a class="cf-nav__link" href="recursos/index.html">Recursos</a>
+      </nav>
+      <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
+    </header>
+    <main>
+      <section class="cf-panel cf-panel--raised">
+        <span class="cf-chip cf-chip--info">DronLab</span>
+        <span class="cf-chip cf-chip--neutral">Profesor Plus</span>
+        <span class="cf-chip cf-chip--accent">Bloque 5</span>
+        <h1>Conocimientos generales del UAS</h1>
+        <p>Secuencia docente para explicar requisitos C5/C6, FTS, geocaging, enlace C2 y baterias.</p>
+      </section>
+      <section class="cards">
+        <article class="cf-card"><h3>Guion</h3><p>Comenzar por C5/C6 como etiquetas tecnicas, no comerciales, y conectar cada requisito con STS-01 o STS-02.</p></article>
+        <article class="cf-card"><h3>Preguntas</h3><p>Que velocidad corresponde a C5? Que telemetria exige C6? Que diferencia geoconsciencia y geocaging?</p></article>
+        <article class="cf-card"><h3>Errores</h3><p>Confundir 5 m/s con 50 m/s, tratar el FTS como software principal o decir que geocaging solo avisa.</p></article>
+        <article class="cf-card"><h3>Mesa</h3><p>Tarjetas C5/C6, esquema C2 y dos baterias ficticias para explicar serie y paralelo.</p></article>
+        <article class="cf-card"><h3>Dinamicas</h3><p>Clasificar requisitos en comun, C5 o C6; despues justificar cada dato numerico.</p></article>
+        <article class="cf-card"><h3>Adaptaciones</h3><p>En version corta priorizar 5 m/s, 50 m/s, FTS independiente, C2, geocaging y serie/paralelo.</p></article>
+        <article class="cf-card"><h3>Respuestas</h3><p>C5: STS-01, 5 m/s, altura, FTS independiente. C6: STS-02, 50 m/s, altura, velocidad y posicion.</p></article>
+        <article class="cf-card"><h3>Trazabilidad</h3><p>AESA paginas 7-8 | Estado VALIDADO. Fuente unica: ingenieria profunda permanente del Bloque 5.</p></article>
+      </section>
+    </main>
+    <footer class="corp-band" aria-label="Entidades colaboradoras">
+      <img class="corp-band__logo corp-band__logo--wide corp-logo--light" src="../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio.png" alt="Logotipos institucionales de Circular FAB">
+      <img class="corp-band__logo corp-band__logo--wide corp-logo--dark" src="../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Logotipos institucionales de Circular FAB">
+    </footer>
   </div>
 </body>
 </html>

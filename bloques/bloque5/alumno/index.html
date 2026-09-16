@@ -3,20 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>DronLab Alumno STS</title>
+  <title>DronLab STS · Bloque 5 · Ficha resumen</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="../../../assets/edusdk-design-system/tokens/tokens.css">
   <link rel="stylesheet" href="../../../assets/edusdk-design-system/tokens/semantic-tokens.css">
   <link rel="stylesheet" href="../../../assets/edusdk-design-system/components/components.css">
-  <link rel="stylesheet" href="../../../assets/common/a2-edusdk-theme.css">
+  <link rel="stylesheet" href="../../../assets/css/bloque-theme.css">
+  <link rel="stylesheet" href="../../../assets/css/corp-band.css">
   <script src="../../../assets/js/theme-toggle.js" defer></script>
 </head>
-<body>
-<header><img src="../../../assets/branding/logo-circular-fab.png" alt="Circular FAB"><div><b>CIRCULAR FAB - DRONLAB STS</b><span>Material del alumno - Bloque 5</span></div><a href="../inicio.html">Inicio</a>    <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
-  </header>
-<nav><button data-view="ficha">Ficha</button><a href="../recursos/flashcards/index.html">Flashcards</a><a href="../recursos/test/index.html">Test</a><a href="../recursos/casos/index.html">Casos</a><a href="../recursos/practicas/index.html">Practicas</a><a href="../recursos/chuletas/index.html">Chuletas</a><button data-view="mapa">Mapa mental</button><button onclick="window.print()">Imprimir</button></nav>
-<main id="main"></main>
-<script src="../data/bloque5.js"></script>
-<script src="app.js"></script>
+<body class="block-page block-page--repasa">
+  <div class="wrap block-shell">
+    <header class="brand cf-topbar cf-topbar--course block-topbar">
+      <a class="block-brand" href="../inicio.html" aria-label="Inicio del Bloque 5">
+        <img src="../../../assets/branding/logo-circular-fab.png" alt="Circular FAB">
+        <span><b>Circular FAB · DronLab</b><span>DronLab · Curso UAS STS</span></span>
+      </a>
+      <nav class="cf-nav cf-nav--horizontal block-nav" aria-label="Navegación del Bloque 5">
+        <a class="cf-nav__link" href="../../../inicio.html">Inicio STS</a>
+        <a class="cf-nav__link" href="../inicio.html">Bloque 5</a>
+        <a class="cf-nav__link" href="../index.html">① Teoría</a>
+        <a class="cf-nav__link is-active" href="../inicio.html#repasa" aria-current="page">② Repasa y practica</a>
+        <a class="cf-nav__link" href="../inicio.html#aesa">③ AESA oficial</a>
+      </nav>
+      <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo dark</span></button>
+    </header>
+    <section class="hero block-hero block-hero--compact">
+      <span class="cf-chip cf-chip--accent">② Repasa y practica · Bloque 5</span>
+      <h1>Ficha resumen</h1>
+      <p>Repasa los conceptos clave del Bloque 5 antes del examen.</p>
+    </section>
+    <nav class="cf-nav cf-nav--horizontal student-tabs" aria-label="Herramientas de repaso">
+      <button class="cf-nav__link is-active" type="button" data-view="ficha" aria-current="page">Ficha</button>
+      <a class="cf-nav__link" href="../recursos/flashcards/index.html">Flashcards</a>
+      <a class="cf-nav__link" href="../recursos/test/index.html">Test</a>
+      <a class="cf-nav__link" href="../recursos/casos/index.html">Casos</a>
+      <a class="cf-nav__link" href="../recursos/practicas/index.html">Prácticas</a>
+      <a class="cf-nav__link" href="../recursos/chuletas/index.html">Chuletas</a>
+      <button class="cf-nav__link" type="button" data-view="mapa">Mapa mental</button>
+      <button class="cf-nav__link" type="button" onclick="window.print()">Imprimir</button>
+    </nav>
+    <main id="main"></main>
+    <footer class="corp-band" aria-label="Entidades colaboradoras">
+      <img class="corp-band__logo corp-band__logo--wide corp-logo--light" src="../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio.png" alt="Logotipos institucionales de Circular FAB">
+      <img class="corp-band__logo corp-band__logo--wide corp-logo--dark" src="../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Logotipos institucionales de Circular FAB">
+    </footer>
+  </div>
+  <script src="../data/bloque5.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
