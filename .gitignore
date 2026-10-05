@@ -1,1 +1,4 @@
 .vscode/
+.agents/
+.opencode/
+node_modules/
