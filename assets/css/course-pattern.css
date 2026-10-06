@@ -116,7 +116,7 @@ html[data-theme="light"] body.block-page--slides .stage .slide h3 {
 
 /* 3. Texto secundario y citas grandes: del azul pálido hardcodeado al token. */
 html[data-theme="light"] body.block-page--slides .stage .slide .subtitle,
-html[data-theme="light"] body.block-page--slides .stage .slide .compact article p {
+html[data-theme="light"] body.block-page--slides .stage .slide .compare article p {
   color: var(--cf-color-text-muted);
 }
 html[data-theme="light"] body.block-page--slides .stage .slide .giant-quote {
@@ -224,4 +224,34 @@ body.block-page--slides .slide-topbar .theme-toggle:active {
 body.block-page--slides .slide-topbar .theme-toggle:focus-visible {
   outline: 2px solid var(--cf-color-accent);
   outline-offset: 2px;
+}
+
+/* 4. En modo oscuro, el control necesita una superficie y un borde definidos:
+   los blancos translúcidos anteriores se confundían con la propia topbar. */
+html[data-theme="dark"] body.block-page--slides .slide-topbar .theme-toggle {
+  background: var(--cf-color-surface-raised);
+  border-color: var(--cf-color-accent);
+  color: var(--cf-color-text);
+}
+html[data-theme="dark"] body.block-page--slides .slide-topbar .theme-toggle [data-theme-icon] {
+  color: var(--cf-color-accent-hover);
+}
+html[data-theme="dark"] body.block-page--slides .slide-topbar .theme-toggle:hover {
+  background: var(--cf-color-accent);
+  border-color: var(--cf-color-accent-hover);
+  color: var(--cf-color-accent-text);
+}
+html[data-theme="dark"] body.block-page--slides .slide-topbar .theme-toggle:hover [data-theme-icon],
+html[data-theme="dark"] body.block-page--slides .slide-topbar .theme-toggle:active [data-theme-icon] {
+  color: var(--cf-color-accent-text);
+}
+html[data-theme="dark"] body.block-page--slides .slide-topbar .theme-toggle:active {
+  background: var(--cf-color-accent-hover);
+  border-color: var(--cf-color-accent-hover);
+  color: var(--cf-color-accent-text);
+}
+html[data-theme="dark"] body.block-page--slides .slide-topbar .theme-toggle:focus-visible {
+  border-color: var(--cf-color-accent-hover);
+  outline: 3px solid var(--cf-color-focus);
+  outline-offset: 3px;
 }

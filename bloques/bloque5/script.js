@@ -1,6 +1,8 @@
 (() => {
   const data = window.DRONLAB_BLOQUE;
   const stage = document.getElementById('stage');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
   const menuDialog = document.getElementById('menuDialog');
   const menuList = document.getElementById('menuList');
   const progress = document.getElementById('progress');
@@ -37,7 +39,7 @@
     const item = data.pantallas[current];
     location.hash = item.id;
     progress.style.width = `${((current + 1) / data.pantallas.length) * 100}%`;
-    counter.textContent = `${current + 1}/${data.pantallas.length}`;
+    counter.textContent = `${current + 1} / ${data.pantallas.length}`;
   }
 
   function render() {
@@ -48,19 +50,33 @@
     go(readHashIndex());
   }
 
-  document.getElementById('prevBtn').addEventListener('click', () => go(current - 1));
-  document.getElementById('nextBtn').addEventListener('click', () => go(current + 1));
-  document.getElementById('menuBtn').addEventListener('click', () => menuDialog.showModal());
-  document.getElementById('closeMenu').addEventListener('click', () => menuDialog.close());
-  document.getElementById('notesBtn').addEventListener('click', () => document.body.classList.toggle('show-notes'));
-  document.getElementById('fullscreenBtn').addEventListener('click', () => document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen?.());
-  document.getElementById('resetBtn').addEventListener('click', () => go(0));
+  function toggleFullscreen() {
+    if (!document.fullscreenElement) document.documentElement.requestFullscreen?.();
+    else document.exitFullscreen?.();
+  }
+
+  function toggleNotes() {
+    document.body.classList.toggle('show-notes');
+    localStorage.setItem(notesKey, document.body.classList.contains('show-notes') ? '1' : '0');
+  }
+
+  if (localStorage.getItem(notesKey) === '1') document.body.classList.add('show-notes');
+  prev.onclick = () => go(current - 1);
+  next.onclick = () => go(current + 1);
+  document.getElementById('btnMenu').onclick = () => menuDialog.showModal();
+  document.getElementById('closeMenu').onclick = () => menuDialog.close();
+  document.getElementById('btnNotes').onclick = toggleNotes;
+  document.getElementById('btnFullscreen').onclick = toggleFullscreen;
   window.addEventListener('keydown', event => {
-    if (event.key === 'ArrowRight') go(current + 1);
-    if (event.key === 'ArrowLeft') go(current - 1);
-    if (event.key.toLowerCase() === 'm') menuDialog.showModal();
-    if (event.key.toLowerCase() === 'n') document.body.classList.toggle('show-notes');
-    if (event.key === '?') { help.classList.add('show'); window.setTimeout(() => help.classList.remove('show'), 3200); }
+    const key = event.key.toLowerCase();
+    if (['arrowright', 'pagedown', ' '].includes(key)) { event.preventDefault(); go(current + 1); }
+    if (['arrowleft', 'pageup'].includes(key)) { event.preventDefault(); go(current - 1); }
+    if (key === 'home') go(0);
+    if (key === 'end') go(data.pantallas.length - 1);
+    if (key === 'm') menuDialog.open ? menuDialog.close() : menuDialog.showModal();
+    if (key === 'n') toggleNotes();
+    if (key === 'f') toggleFullscreen();
+    if (key === 'h') { help.classList.add('show'); window.setTimeout(() => help.classList.remove('show'), 2500); }
   });
   window.addEventListener('hashchange', () => go(readHashIndex()));
   render();

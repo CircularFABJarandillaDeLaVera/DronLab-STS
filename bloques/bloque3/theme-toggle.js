@@ -38,7 +38,7 @@
       toggle.setAttribute("aria-label", isDark ? "Cambiar a modo claro" : "Cambiar a modo oscuro");
     }
     if (label) {
-      label.textContent = isDark ? "Modo light" : "Modo dark";
+      label.textContent = isDark ? "Modo claro" : "Modo oscuro";
     }
     if (icon) {
       icon.innerHTML = isDark ? "&#9728;" : "&#9790;";

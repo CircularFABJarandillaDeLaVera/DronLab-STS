@@ -1,6 +1,8 @@
 ﻿(() => {
   const data = window.DRONLAB_BLOQUE;
   const stage = document.getElementById('stage');
+  const prev = document.getElementById('prev');
+  const next = document.getElementById('next');
   const menuDialog = document.getElementById('menuDialog');
   const menuList = document.getElementById('menuList');
   const progress = document.getElementById('progress');
@@ -16,7 +18,10 @@
   }
   function bindNotes(){document.querySelectorAll('textarea[data-note]').forEach(area=>{const key=`${notesKey}_${area.dataset.note}`;area.value=localStorage.getItem(key)||'';area.addEventListener('input',()=>localStorage.setItem(key,area.value));});}
   function readHashIndex(){const hash=decodeURIComponent(location.hash.replace('#',''));const found=data.pantallas.findIndex(item=>item.id===hash);return found>=0?found:0}
-  function go(index){current=Math.max(0,Math.min(data.pantallas.length-1,index));document.querySelectorAll('.slide').forEach((s,i)=>s.classList.toggle('active',i===current));location.hash=data.pantallas[current].id;progress.style.width=`${((current+1)/data.pantallas.length)*100}%`;counter.textContent=`${current+1}/${data.pantallas.length}`}
+  function go(index){current=Math.max(0,Math.min(data.pantallas.length-1,index));document.querySelectorAll('.slide').forEach((s,i)=>s.classList.toggle('active',i===current));location.hash=data.pantallas[current].id;progress.style.width=`${((current+1)/data.pantallas.length)*100}%`;counter.textContent=`${current+1} / ${data.pantallas.length}`}
   function render(){stage.innerHTML=data.pantallas.map(slideTemplate).join('');menuList.innerHTML=data.pantallas.map((item,index)=>`<button class="menu-item" data-index="${index}"><b>${esc(item.titulo)}</b><small>${esc(item.contenido)}</small></button>`).join('');menuList.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{go(Number(b.dataset.index));menuDialog.close();}));bindNotes();go(readHashIndex())}
-  document.getElementById('prevBtn').onclick=()=>go(current-1);document.getElementById('nextBtn').onclick=()=>go(current+1);document.getElementById('menuBtn').onclick=()=>menuDialog.showModal();document.getElementById('closeMenu').onclick=()=>menuDialog.close();document.getElementById('notesBtn').onclick=()=>document.body.classList.toggle('show-notes');document.getElementById('fullscreenBtn').onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen?.();document.getElementById('resetBtn').onclick=()=>go(0);window.addEventListener('keydown',e=>{if(e.key==='ArrowRight')go(current+1);if(e.key==='ArrowLeft')go(current-1);if(e.key.toLowerCase()==='m')menuDialog.showModal();if(e.key.toLowerCase()==='n')document.body.classList.toggle('show-notes');if(e.key==='?'){help.classList.add('show');setTimeout(()=>help.classList.remove('show'),3200);}});window.addEventListener('hashchange',()=>go(readHashIndex()));render();
+  function toggleFullscreen(){if(!document.fullscreenElement)document.documentElement.requestFullscreen?.();else document.exitFullscreen?.()}
+  function toggleNotes(){document.body.classList.toggle('show-notes');localStorage.setItem(notesKey,document.body.classList.contains('show-notes')?'1':'0')}
+  if(localStorage.getItem(notesKey)==='1')document.body.classList.add('show-notes');
+  prev.onclick=()=>go(current-1);next.onclick=()=>go(current+1);document.getElementById('btnMenu').onclick=()=>menuDialog.showModal();document.getElementById('closeMenu').onclick=()=>menuDialog.close();document.getElementById('btnNotes').onclick=toggleNotes;document.getElementById('btnFullscreen').onclick=toggleFullscreen;window.addEventListener('keydown',e=>{const key=e.key.toLowerCase();if(['arrowright','pagedown',' '].includes(key)){e.preventDefault();go(current+1)}if(['arrowleft','pageup'].includes(key)){e.preventDefault();go(current-1)}if(key==='home')go(0);if(key==='end')go(data.pantallas.length-1);if(key==='m')menuDialog.open?menuDialog.close():menuDialog.showModal();if(key==='n')toggleNotes();if(key==='f')toggleFullscreen();if(key==='h'){help.classList.add('show');setTimeout(()=>help.classList.remove('show'),2500)}});window.addEventListener('hashchange',()=>go(readHashIndex()));render();
 })();
