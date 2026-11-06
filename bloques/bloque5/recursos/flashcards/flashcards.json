@@ -1,19 +1,387 @@
 {
-  "titulo": "Flashcards Bloque 5 STS",
-  "bloque": "Conocimientos generales del UAS | Syllabus STS paginas 7-8 | Estado VALIDADO",
-  "total": 12,
+  "titulo": "Flashcards · Bloque 5",
+  "bloque": "Conocimientos generales del UAS",
+  "total": 20,
   "flashcards": [
-    {"id":"B5-F-001","tema":"C5/C6","subtema":"Requisito comun","dificultad":"facil","tipo":"concepto","pregunta":"Que requisito de geoconsciencia comparten C5 y C6?","respuesta":"Deben cumplir requisitos tecnicos de geoconsciencia equivalentes a la clase C3.","explicacion_breve":"El syllabus exige ese estandar para ambas etiquetas.","error_habitual":"Pensar que la geoconsciencia solo aplica a C6.","regla_mnemotecnica":"C5 y C6 miran como C3."},
-    {"id":"B5-F-002","tema":"C2","subtema":"Alertas","dificultad":"facil","tipo":"dato","pregunta":"Que debe avisar el sistema respecto al enlace C2?","respuesta":"Debe alertar sobre degradacion o perdida del enlace de mando y control.","explicacion_breve":"La alerta permite anticipar la perdida de control.","error_habitual":"Esperar a la perdida total sin alerta previa.","regla_mnemotecnica":"C2 avisa antes de caer."},
-    {"id":"B5-F-003","tema":"C5","subtema":"Modo lento","dificultad":"facil","tipo":"numero","pregunta":"Cual es la velocidad maxima del modo de baja velocidad en C5?","respuesta":"5 m/s.","explicacion_breve":"Es un dato critico de examen para C5/STS-01.","error_habitual":"Confundirlo con los 50 m/s de C6.","regla_mnemotecnica":"C5: regla del 5."},
-    {"id":"B5-F-004","tema":"C6","subtema":"Velocidad","dificultad":"facil","tipo":"numero","pregunta":"Cual es la velocidad maxima C6 en vuelo nivelado?","respuesta":"50 m/s de velocidad en tierra.","explicacion_breve":"El limite pertenece a C6/STS-02.","error_habitual":"Aplicar 50 m/s a C5.","regla_mnemotecnica":"C6 corre diez veces el 5."},
-    {"id":"B5-F-005","tema":"FTS","subtema":"Independencia","dificultad":"media","tipo":"concepto","pregunta":"Por que el FTS de C5 debe ser independiente de la controladora?","respuesta":"Para poder terminar el vuelo aunque falle el sistema principal de control.","explicacion_breve":"Es la ultima barrera para no abandonar el volumen operacional.","error_habitual":"Tratarlo como una simple funcion del software principal.","regla_mnemotecnica":"El freno de emergencia no depende del acelerador."},
-    {"id":"B5-F-006","tema":"C5","subtema":"Configuracion","dificultad":"media","tipo":"requisito","pregunta":"Puede un ala fija convencional ser C5?","respuesta":"No, la configuracion C5 debe ser distinta de ala fija salvo si esta anclado.","explicacion_breve":"El syllabus marca esa restriccion especifica para C5.","error_habitual":"Aceptar cualquier ala fija como C5.","regla_mnemotecnica":"C5 no ala fija salvo anclaje."},
-    {"id":"B5-F-007","tema":"C5","subtema":"Telemetria","dificultad":"facil","tipo":"dato","pregunta":"Que informacion debe recibir el piloto en C5 sobre la aeronave?","respuesta":"Altura.","explicacion_breve":"C5 exige informacion de altura; C6 anade velocidad y posicion.","error_habitual":"Exigir siempre altura, velocidad y posicion para C5.","regla_mnemotecnica":"C5 mira altura."},
-    {"id":"B5-F-008","tema":"C6","subtema":"Telemetria","dificultad":"media","tipo":"dato","pregunta":"Que informacion constante debe recibir el piloto en C6?","respuesta":"Altura, velocidad y posicion geografica.","explicacion_breve":"Es la telemetria propia de C6/STS-02.","error_habitual":"Olvidar la posicion geografica.","regla_mnemotecnica":"C6: A-V-P."},
-    {"id":"B5-F-009","tema":"Geocaging","subtema":"Funcion","dificultad":"media","tipo":"concepto","pregunta":"Que hace el geocaging?","respuesta":"Impide fisicamente que el UAS traspase los limites del volumen preconfigurado.","explicacion_breve":"Es confinamiento tecnico, no solo aviso.","error_habitual":"Confundir geocaging con geoconsciencia.","regla_mnemotecnica":"Caging encierra."},
-    {"id":"B5-F-010","tema":"Baterias","subtema":"Serie","dificultad":"media","tipo":"concepto","pregunta":"Que aumenta al conectar baterias en serie?","respuesta":"La tension total o voltaje.","explicacion_breve":"La serie suma voltajes.","error_habitual":"Decir que aumenta la capacidad Ah.","regla_mnemotecnica":"Serie suma Voltios: S-V."},
-    {"id":"B5-F-011","tema":"Baterias","subtema":"Paralelo","dificultad":"media","tipo":"concepto","pregunta":"Que aumenta al conectar baterias en paralelo?","respuesta":"La capacidad o autonomia, manteniendo el voltaje si son iguales.","explicacion_breve":"El paralelo suma capacidades Ah.","error_habitual":"Decir que aumenta la tension.","regla_mnemotecnica":"Paralelo suma Amperios: P-A."},
-    {"id":"B5-F-012","tema":"FTS","subtema":"Energia de impacto","dificultad":"dificil","tipo":"relacion","pregunta":"Que dispositivo puede reducir la energia de impacto si se activa el FTS?","respuesta":"Un paracaidas u otro dispositivo de reduccion de energia.","explicacion_breve":"El requisito C5 enlaza FTS con mitigacion de impacto.","error_habitual":"Pensar que el FTS solo corta motores sin gestionar impacto.","regla_mnemotecnica":"Terminar vuelo tambien es caer con menos energia."}
+    {
+      "id": "B5-R26-FC-001",
+      "tema": "Clases C5 y C6",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Instalar un accesorio demuestra por sí solo conformidad C5?",
+      "respuesta": "No; se comprueban marcado, declaración UE de conformidad y configuración documentada.",
+      "explicacion_breve": "Añadir un paracaídas por cuenta propia a un dron no demuestra conversión conforme a C5. Se necesita la documentación y el proceso aplicables.",
+      "error_habitual": "Confundir accesorio instalado con conformidad de clase.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-01"
+    },
+    {
+      "id": "B5-R26-FC-002",
+      "tema": "Clases C5 y C6",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Un dron recibe un paracaídas no documentado como conversión. ¿Eso basta para considerarlo C5?",
+      "respuesta": "No; debe acreditarse la conformidad aplicable a la configuración.",
+      "explicacion_breve": "Añadir un paracaídas por cuenta propia a un dron no demuestra conversión conforme a C5. Se necesita la documentación y el proceso aplicables.",
+      "error_habitual": "Confundir accesorio instalado con conformidad de clase.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-01"
+    },
+    {
+      "id": "B5-R26-FC-003",
+      "tema": "Geoconsciencia, contención y DRI",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Cómo se diferencian geoconsciencia, contención y DRI?",
+      "respuesta": "Geoconsciencia: informa; contención: limita; DRI: identifica. No se heredan sin excepciones todas las funciones C3.",
+      "explicacion_breve": "Un aviso de zona no garantiza que el UAS detenga su avance. Y una emisión DRI correcta no demuestra que el volumen de vuelo esté bien cargado.",
+      "error_habitual": "Usar geoconsciencia, geocaging y DRI como sinónimos.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-02"
+    },
+    {
+      "id": "B5-R26-FC-004",
+      "tema": "Geoconsciencia, contención y DRI",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "¿Qué afirmación distingue correctamente las funciones?",
+      "respuesta": "La geoconsciencia avisa; la contención limita; la DRI identifica.",
+      "explicacion_breve": "Un aviso de zona no garantiza que el UAS detenga su avance. Y una emisión DRI correcta no demuestra que el volumen de vuelo esté bien cargado.",
+      "error_habitual": "Usar geoconsciencia, geocaging y DRI como sinónimos.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-02"
+    },
+    {
+      "id": "B5-R26-FC-005",
+      "tema": "Geoconsciencia, contención y DRI",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre geoconsciencia, contención y dri?",
+      "respuesta": "Usar geoconsciencia, geocaging y DRI como sinónimos.",
+      "explicacion_breve": "Un aviso de zona no garantiza que el UAS detenga su avance. Y una emisión DRI correcta no demuestra que el volumen de vuelo esté bien cargado.",
+      "error_habitual": "Usar geoconsciencia, geocaging y DRI como sinónimos.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-02"
+    },
+    {
+      "id": "B5-R26-FC-006",
+      "tema": "C5: modo lento y terminación",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué diferencia hay entre modo C5 y velocidad operacional STS-01 sin anclaje?",
+      "respuesta": "Modo técnico C5 ≤ 5 m/s; operación STS-01 < 5 m/s.",
+      "explicacion_breve": "Un modo cuyo máximo técnico sea 5 m/s puede cumplir ese requisito de producto; la operación STS-01 sigue teniendo que mantenerse por debajo de 5 m/s.",
+      "error_habitual": "Confundir límite de diseño con velocidad autorizada exacta de operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-03"
+    },
+    {
+      "id": "B5-R26-FC-007",
+      "tema": "C5: modo lento y terminación",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "¿Qué par distingue modo técnico y operación STS-01 sin anclaje?",
+      "respuesta": "Modo C5 ≤ 5 m/s; operación STS-01 < 5 m/s.",
+      "explicacion_breve": "Un modo cuyo máximo técnico sea 5 m/s puede cumplir ese requisito de producto; la operación STS-01 sigue teniendo que mantenerse por debajo de 5 m/s.",
+      "error_habitual": "Confundir límite de diseño con velocidad autorizada exacta de operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-03"
+    },
+    {
+      "id": "B5-R26-FC-008",
+      "tema": "C6: información y límites",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué significa el máximo de 50 m/s en clase C6?",
+      "respuesta": "Es un máximo de clase en vuelo nivelado respecto al suelo, no una velocidad recomendada para toda misión.",
+      "explicacion_breve": "Que la clase permita un máximo de 50 m/s no obliga a usarlo ni garantiza que sea adecuado con esa carga, viento o margen de riesgo.",
+      "error_habitual": "Tomar un máximo de producto como velocidad recomendada.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-04"
+    },
+    {
+      "id": "B5-R26-FC-009",
+      "tema": "C6: información y límites",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "C6 declara un máximo de 50 m/s. ¿Qué significa para la misión?",
+      "respuesta": "Es un límite de clase; la operación puede exigir una velocidad menor.",
+      "explicacion_breve": "Que la clase permita un máximo de 50 m/s no obliga a usarlo ni garantiza que sea adecuado con esa carga, viento o margen de riesgo.",
+      "error_habitual": "Tomar un máximo de producto como velocidad recomendada.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-04"
+    },
+    {
+      "id": "B5-R26-FC-010",
+      "tema": "C6: información y límites",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre c6: información y límites?",
+      "respuesta": "Tomar un máximo de producto como velocidad recomendada.",
+      "explicacion_breve": "Que la clase permita un máximo de 50 m/s no obliga a usarlo ni garantiza que sea adecuado con esa carga, viento o margen de riesgo.",
+      "error_habitual": "Tomar un máximo de producto como velocidad recomendada.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-04"
+    },
+    {
+      "id": "B5-R26-FC-011",
+      "tema": "Enlace C2 y funciones automáticas",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué indica una alerta de C2 aunque siga llegando vídeo?",
+      "respuesta": "Que hay que evaluar mando y control y aplicar el procedimiento; recibir vídeo no invalida la alerta.",
+      "explicacion_breve": "La imagen sigue visible pero aparece alarma C2. El piloto no deduce que el mando sea correcto solo porque recibe vídeo.",
+      "error_habitual": "Confundir enlace de imagen con estado de mando y control.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-05"
+    },
+    {
+      "id": "B5-R26-FC-012",
+      "tema": "Enlace C2 y funciones automáticas",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Se recibe vídeo pero hay alarma de degradación C2. ¿Qué interpretación es correcta?",
+      "respuesta": "El vídeo no invalida la alarma; se aplica el procedimiento correspondiente.",
+      "explicacion_breve": "La imagen sigue visible pero aparece alarma C2. El piloto no deduce que el mando sea correcto solo porque recibe vídeo.",
+      "error_habitual": "Confundir enlace de imagen con estado de mando y control.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b5-05"
+    },
+    {
+      "id": "B5-R26-FC-013",
+      "tema": "IMU, GNSS y brújula",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué aportan IMU, GNSS y brújula?",
+      "respuesta": "IMU: medidas inerciales; GNSS: posición por satélite; brújula: rumbo magnético.",
+      "explicacion_breve": "Un aviso de rumbo junto a una estructura metálica pide evaluar interferencia y el procedimiento del fabricante, no asumir que más satélites corrigen cualquier error.",
+      "error_habitual": "Pensar que GNSS resuelve todo fallo de orientación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b5-06"
+    },
+    {
+      "id": "B5-R26-FC-014",
+      "tema": "IMU, GNSS y brújula",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Hay error de rumbo cerca de una estructura metálica. ¿Qué criterio es adecuado?",
+      "respuesta": "Evaluar interferencia y seguir las comprobaciones del fabricante antes de operar.",
+      "explicacion_breve": "Un aviso de rumbo junto a una estructura metálica pide evaluar interferencia y el procedimiento del fabricante, no asumir que más satélites corrigen cualquier error.",
+      "error_habitual": "Pensar que GNSS resuelve todo fallo de orientación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b5-06"
+    },
+    {
+      "id": "B5-R26-FC-015",
+      "tema": "IMU, GNSS y brújula",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre imu, gnss y brújula?",
+      "respuesta": "Pensar que GNSS resuelve todo fallo de orientación.",
+      "explicacion_breve": "Un aviso de rumbo junto a una estructura metálica pide evaluar interferencia y el procedimiento del fabricante, no asumir que más satélites corrigen cualquier error.",
+      "error_habitual": "Pensar que GNSS resuelve todo fallo de orientación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b5-06"
+    },
+    {
+      "id": "B5-R26-FC-016",
+      "tema": "Velocidades, altura y referencia",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Por qué importa la referencia de una lectura de altura?",
+      "respuesta": "La lectura puede estar referida al despegue y no al terreno local. Se identifica la referencia antes de comparar.",
+      "explicacion_breve": "El mando muestra 80 m respecto al despegue sobre un terreno que asciende 40 m. En el ejemplo geométrico, la separación vertical local sería 40 m; la lectura no equivale automáticamente a 80 m sobre el suelo.",
+      "error_habitual": "Comparar lecturas sin saber de qué punto o magnitud proceden.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b5-07"
+    },
+    {
+      "id": "B5-R26-FC-017",
+      "tema": "Velocidades, altura y referencia",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "El terreno sube 40 m y la UA está a 80 m sobre el despegue. En este ejemplo vertical, ¿cuánto la separa del terreno local?",
+      "respuesta": "40 m.",
+      "explicacion_breve": "El mando muestra 80 m respecto al despegue sobre un terreno que asciende 40 m. En el ejemplo geométrico, la separación vertical local sería 40 m; la lectura no equivale automáticamente a 80 m sobre el suelo.",
+      "error_habitual": "Comparar lecturas sin saber de qué punto o magnitud proceden.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b5-07"
+    },
+    {
+      "id": "B5-R26-FC-018",
+      "tema": "Baterías: V, Ah, Wh y conexiones",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿En qué se diferencian Ah y Wh?",
+      "respuesta": "Ah: capacidad de carga eléctrica. Wh: energía; nominalmente Wh = V × Ah.",
+      "explicacion_breve": "Una batería de 22,2 V y 5 Ah almacena nominalmente 111 Wh. Una de 11,1 V y 5 Ah tiene 55,5 Wh: igual Ah no significa igual energía.",
+      "error_habitual": "Confundir mAh con energía o prometer el doble de autonomía.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b5-08"
+    },
+    {
+      "id": "B5-R26-FC-019",
+      "tema": "Baterías: V, Ah, Wh y conexiones",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "¿Qué energía nominal resulta de 22,2 V y 5 Ah?",
+      "respuesta": "111 Wh.",
+      "explicacion_breve": "Una batería de 22,2 V y 5 Ah almacena nominalmente 111 Wh. Una de 11,1 V y 5 Ah tiene 55,5 Wh: igual Ah no significa igual energía.",
+      "error_habitual": "Confundir mAh con energía o prometer el doble de autonomía.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b5-08"
+    },
+    {
+      "id": "B5-R26-FC-020",
+      "tema": "Baterías: V, Ah, Wh y conexiones",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre baterías: v, ah, wh y conexiones?",
+      "respuesta": "Confundir mAh con energía o prometer el doble de autonomía.",
+      "explicacion_breve": "Una batería de 22,2 V y 5 Ah almacena nominalmente 111 Wh. Una de 11,1 V y 5 Ah tiene 55,5 Wh: igual Ah no significa igual energía.",
+      "error_habitual": "Confundir mAh con energía o prometer el doble de autonomía.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b5-08"
+    }
   ]
 }

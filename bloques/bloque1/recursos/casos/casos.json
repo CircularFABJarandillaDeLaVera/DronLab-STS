@@ -1,146 +1,123 @@
-[
-  {
-    "id": "B1-CA-001",
-    "titulo": "Grabacion en entorno poblado",
-    "dificultad": "media",
-    "contexto": "Un operador quiere grabar un comercial en el centro de Madrid con un UAS de 4 kg con marcado C5.",
-    "situacion_inicial": "La operacion se plantea en entorno poblado y debe mantenerse dentro del marco STS.",
-    "informacion_disponible": [
-      "STS-01 opera en VLOS en entorno poblado.",
-      "STS-01 exige dron C5.",
-      "STS-01 requiere zona terrestre controlada.",
-      "El vuelo sobre concentraciones de personas esta prohibido."
-    ],
-    "problema_planteado": "Determinar si el escenario encaja en STS-01 y que condiciones no pueden omitirse.",
-    "preguntas_para_el_alumno": [
-      "Que escenario STS corresponde?",
-      "Que zona debe acotarse antes de operar?",
-      "Que error seria confundir entorno poblado con permiso para sobrevolar concentraciones?"
-    ],
-    "objetivos_de_aprendizaje": [
-      "Relacionar entorno poblado, VLOS, C5 y STS-01.",
-      "Aplicar la prohibicion de sobrevolar concentraciones.",
-      "Separar declaracion operacional de autorizacion especifica."
-    ],
-    "errores_habituales": [
-      "Ignorar la zona terrestre controlada.",
-      "Usar el peso del dron como criterio suficiente.",
-      "Confundir STS-01 con autorizacion automatica."
-    ],
-    "conceptos_relacionados": [
-      "STS-01",
-      "Declaracion operacional",
-      "Zona terrestre controlada",
-      "Marcado C5"
-    ],
-    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
-  },
-  {
-    "id": "B1-CA-002",
-    "titulo": "Inspeccion BVLOS de via ferrea",
-    "dificultad": "media",
-    "contexto": "Una empresa necesita inspeccionar 10 km de via ferrea en zona rural. El piloto no puede mantener contacto visual directo con el UAS.",
-    "situacion_inicial": "La operacion requiere BVLOS y se plantea como escenario estandar.",
-    "informacion_disponible": [
-      "STS-02 permite BVLOS en entorno poco poblado.",
-      "STS-02 exige observadores del espacio aereo dedicados.",
-      "STS-02 exige dron C6.",
-      "El observador detecta peligros, pero la responsabilidad final recae en el piloto."
-    ],
-    "problema_planteado": "Determinar los requisitos minimos del escenario y las responsabilidades que no deben confundirse.",
-    "preguntas_para_el_alumno": [
-      "Por que no corresponde STS-01?",
-      "Que papel cumplen los observadores?",
-      "Quien mantiene la responsabilidad ultima de la maniobra evasiva?"
-    ],
-    "objetivos_de_aprendizaje": [
-      "Diferenciar VLOS y BVLOS.",
-      "Identificar C6 y observadores como requisitos STS-02.",
-      "Separar apoyo del observador y responsabilidad del piloto."
-    ],
-    "errores_habituales": [
-      "Resolver BVLOS como si fuera VLOS.",
-      "Olvidar los observadores.",
-      "Asignar al observador la responsabilidad final de seguridad."
-    ],
-    "conceptos_relacionados": [
-      "STS-02",
-      "BVLOS",
-      "Observador del espacio aereo",
-      "Marcado C6"
-    ],
-    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
-  },
-  {
-    "id": "B1-CA-003",
-    "titulo": "Mision que no encaja en STS",
-    "dificultad": "dificil",
-    "contexto": "Un operador propone una mision de categoria especifica, pero no puede ajustarla a los requisitos de un STS ni a una PDRA disponible.",
-    "situacion_inicial": "El equipo quiere presentar una declaracion operacional para acelerar el inicio de la actividad.",
-    "informacion_disponible": [
-      "La declaracion operacional aplica a operaciones ajustadas a un STS.",
-      "La PDRA es una evaluacion de riesgo predefinida para misiones comunes.",
-      "Si la mision no encaja en STS o PDRA, se requiere autorizacion basada en SORA.",
-      "Confundir declaracion con autorizacion es un error frecuente."
-    ],
-    "problema_planteado": "Decidir si basta una declaracion o si debe tramitarse autorizacion especifica.",
-    "preguntas_para_el_alumno": [
-      "Que condicion permite usar declaracion STS?",
-      "Que aporta una PDRA?",
-      "Cuando entra SORA como evaluacion especifica?"
-    ],
-    "objetivos_de_aprendizaje": [
-      "Diferenciar STS, PDRA y autorizacion.",
-      "Detectar el limite de la declaracion operacional.",
-      "Reconocer el papel de SORA fuera de escenarios predefinidos."
-    ],
-    "errores_habituales": [
-      "Declarar una operacion que no encaja en STS.",
-      "Usar PDRA como sinonimo de STS.",
-      "Pensar que categoria especifica siempre es declarativa."
-    ],
-    "conceptos_relacionados": [
-      "Declaracion operacional",
-      "Autorizacion especifica",
-      "SORA",
-      "PDRA"
-    ],
-    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
-  },
-  {
-    "id": "B1-CA-004",
-    "titulo": "Consulta de espacio aereo",
-    "dificultad": "media",
-    "contexto": "Antes de una operacion STS, el piloto debe verificar zonas geograficas UAS y restricciones aplicables.",
-    "situacion_inicial": "El equipo dispone de ENAIRE Drones, AIP, AIC y NOTAM como fuentes de informacion aeronautica.",
-    "informacion_disponible": [
-      "AIP contiene informacion aeronautica duradera.",
-      "AIC comunica cambios de legislacion o reglamentacion.",
-      "ENAIRE Drones permite consultar zonas geograficas UAS en mapas.",
-      "Las zonas P prohiben, las R restringen y las D advierten actividades peligrosas."
-    ],
-    "problema_planteado": "Seleccionar que fuentes consultar y como interpretar P/R/D antes de la operacion.",
-    "preguntas_para_el_alumno": [
-      "Que diferencia hay entre AIP y AIC?",
-      "Para que se usa ENAIRE Drones?",
-      "Que implican las zonas P, R y D?"
-    ],
-    "objetivos_de_aprendizaje": [
-      "Usar fuentes de informacion aeronautica segun su funcion.",
-      "Interpretar zonas geograficas UAS.",
-      "Evitar operar sin consulta previa."
-    ],
-    "errores_habituales": [
-      "No consultar ENAIRE Drones.",
-      "Tratar AIP y AIC como sinonimos.",
-      "Confundir zona restringida con zona libre."
-    ],
-    "conceptos_relacionados": [
-      "AIP",
-      "AIC",
-      "ENAIRE Drones",
-      "Zonas P/R/D"
-    ],
-    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
-  }
-]
+{
+  "titulo": "Casos · Bloque 1",
+  "total": 3,
+  "casos": [
+    {
+      "id": "B1-R26-C-001",
+      "titulo": "STS-01: encaje completo",
+      "dificultad": "media",
+      "contexto": "Misión STS-01 sin anclaje. La velocidad respecto al suelo es exactamente 5 m/s.",
+      "situacion_inicial": "Un C5 vuela sin anclaje a exactamente 5 m/s en STS-01. ¿Cumple la condición de velocidad?",
+      "informacion_disponible": [
+        "STS-01 exige VLOS, UAS C5 y zona terrestre controlada, que puede situarse en entorno poblado. Para aeronaves sin anclaje, la velocidad respecto al suelo debe ser inferior a 5 m/s. Tener un C5 o volar en un pueblo no demuestra por sí solo el cumplimiento: también se comprueban manual, competencias, identificación remota, espacio aéreo y zonas. El límite general de vuelo es 120 m desde el punto más próximo de la superficie, adaptado al relieve. Existe una excepción junto a obstáculos artificiales de más de 105 m: a menos de 50 m horizontalmente y a petición del responsable, hasta 15 m por encima del obstáculo. Los 30 m adicionales posibles del volumen operacional no autorizan vuelo normal a 150 m. No se transportan mercancías peligrosas en STS."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "Un C5 vuela sin anclaje a exactamente 5 m/s en STS-01. ¿Cumple la condición de velocidad?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Elegir la vía operacional adecuada y justificar las condiciones de una misión STS."
+      ],
+      "errores_habituales": [
+        "Elegir escenario solo por masa, ubicación o etiqueta."
+      ],
+      "conceptos_relacionados": [
+        "STS-01: encaje completo"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "solucion_razonada": "No: la operación exige una velocidad inferior a 5 m/s. STS-01 exige VLOS, UAS C5 y zona terrestre controlada, que puede situarse en entorno poblado. Para aeronaves sin anclaje, la velocidad respecto al suelo debe ser inferior a 5 m/s. Tener un C5 o volar en un pueblo no demuestra por sí solo el cumplimiento: también se comprueban manual, competencias, identificación remota, espacio aéreo y zonas. El límite general de vuelo es 120 m desde el punto más próximo de la superficie, adaptado al relieve. Existe una excepción junto a obstáculos artificiales de más de 105 m: a menos de 50 m horizontalmente y a petición del responsable, hasta 15 m por encima del obstáculo. Los 30 m adicionales posibles del volumen operacional no autorizan vuelo normal a 150 m. No se transportan mercancías peligrosas en STS.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B1-R26-C-002",
+      "titulo": "STS-02: dos configuraciones",
+      "dificultad": "dificil",
+      "contexto": "Misión STS-02 con observadores. La UA está a 3 km del piloto y hay un observador próximo a ella.",
+      "situacion_inicial": "En STS-02 con observadores, la UA queda a 3 km del piloto. ¿Basta con añadir un observador cercano?",
+      "informacion_disponible": [
+        "STS-02 usa C6 y zona terrestre controlada enteramente en entorno escasamente poblado. Sin observador del espacio aéreo, la UA permanece a no más de 1 km del piloto y sigue trayectoria preprogramada cuando no está en VLOS. Con observadores, el máximo UA-piloto es 2 km, UA-observador más próximo 1 km y observador-piloto 1 km; se exige cobertura y comunicación eficaz."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "En STS-02 con observadores, la UA queda a 3 km del piloto. ¿Basta con añadir un observador cercano?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Elegir la vía operacional adecuada y justificar las condiciones de una misión STS."
+      ],
+      "errores_habituales": [
+        "Confundir longitud de ruta con alcance máximo desde el piloto."
+      ],
+      "conceptos_relacionados": [
+        "STS-02: dos configuraciones"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "solucion_razonada": "No: sigue superándose el máximo de 2 km entre UA y piloto. STS-02 usa C6 y zona terrestre controlada enteramente en entorno escasamente poblado. Sin observador del espacio aéreo, la UA permanece a no más de 1 km del piloto y sigue trayectoria preprogramada cuando no está en VLOS. Con observadores, el máximo UA-piloto es 2 km, UA-observador más próximo 1 km y observador-piloto 1 km; se exige cobertura y comunicación eficaz.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B1-R26-C-003",
+      "titulo": "Decisión con datos incompletos",
+      "dificultad": "dificil",
+      "contexto": "Inspección rural BVLOS con C6. Aún no se conocen los accesos ni la ubicación de trabajadores.",
+      "situacion_inicial": "Una misión es rural, BVLOS y con C6. ¿Basta para declararla viable en STS-02?",
+      "informacion_disponible": [
+        "Elegir STS requiere comprobar todas sus condiciones. Una descripción como «rural, BVLOS y C6» permite plantear STS-02, pero aún faltan alcance, visibilidad, zona controlada, límites, competencias y demás verificaciones. Si un dato decisivo falta, la respuesta correcta es identificarlo y obtenerlo."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "Una misión es rural, BVLOS y con C6. ¿Basta para declararla viable en STS-02?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Elegir la vía operacional adecuada y justificar las condiciones de una misión STS."
+      ],
+      "errores_habituales": [
+        "Resolver una misión por dos palabras clave."
+      ],
+      "conceptos_relacionados": [
+        "Decisión con datos incompletos"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "solucion_razonada": "No; faltan comprobaciones del escenario y del entorno real. Elegir STS requiere comprobar todas sus condiciones. Una descripción como «rural, BVLOS y C6» permite plantear STS-02, pero aún faltan alcance, visibilidad, zona controlada, límites, competencias y demás verificaciones. Si un dato decisivo falta, la respuesta correcta es identificarlo y obtenerlo.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    }
+  ]
+}

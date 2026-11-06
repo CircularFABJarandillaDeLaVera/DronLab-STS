@@ -1,58 +1,123 @@
-[
-  {
-    "id": "B4-CASO-001",
-    "titulo": "STS-01 con observador y trafico aproximandose",
-    "dificultad": "media",
-    "contexto": "Un piloto opera en STS-01 bajo VLOS. Un UAS observer detecta una aeronave aproximandose y lo comunica con claridad.",
-    "situacion_inicial": "El piloto mantiene alcance visual y reconocimiento del espacio aereo.",
-    "informacion_disponible": ["STS-01 gestiona el riesgo mediante VLOS.", "El UAS observer asiste al piloto.", "La responsabilidad de ver y evitar sigue siendo del piloto."],
-    "problema_planteado": "Determinar quien decide la maniobra evasiva y que principio se aplica.",
-    "preguntas_para_el_alumno": ["Que principio de separacion aplica?", "Puede el observador sustituir al piloto?", "Que mitigacion operacional aparece?"],
-    "objetivos_de_aprendizaje": ["Aplicar ver y evitar.", "Mantener responsabilidad del piloto.", "Distinguir asistencia y delegacion."],
-    "errores_habituales": ["Delegar totalmente la vigilancia.", "Confundir UAS observer con Airspace Observer.", "Tratar VLOS como tecnica."],
-    "conceptos_relacionados": ["STS-01", "VLOS", "UAS observer", "Ver y evitar"],
-    "referencia_al_bloque": "Bloque 4 · Syllabus STS paginas 6-7 · Estado VALIDADO"
-  },
-  {
-    "id": "B4-CASO-002",
-    "titulo": "STS-02 BVLOS con 6 km de visibilidad",
-    "dificultad": "media",
-    "contexto": "La operacion STS-02 se realiza a 2 km de distancia en una llanura con 6 km de visibilidad horizontal confirmada.",
-    "situacion_inicial": "El equipo dispone de observadores del espacio aereo en los flancos.",
-    "informacion_disponible": ["STS-02 exige visibilidad horizontal de 5 km o mas.", "El riesgo BVLOS se mitiga con observadores del espacio aereo o trayectoria pre-programada obligatoria.", "Detectar y evitar usa medios humanos o tecnicos."],
-    "problema_planteado": "Comprobar si el planteamiento cubre los requisitos basicos del nucleo STS-02.",
-    "preguntas_para_el_alumno": ["Se cumple el requisito de visibilidad?", "Que tipo de observadores intervienen?", "Que principio de separacion se aplica?"],
-    "objetivos_de_aprendizaje": ["Aplicar el dato 5 km o mas.", "Relacionar BVLOS con detectar y evitar.", "Diferenciar STS-02 de STS-01."],
-    "errores_habituales": ["Usar UAS observer de STS-01 como equivalente.", "Olvidar la alternativa de trayectoria pre-programada.", "Aplicar ver y evitar como unica barrera BVLOS."],
-    "conceptos_relacionados": ["STS-02", "BVLOS", "Airspace Observer", "5 km"],
-    "referencia_al_bloque": "Bloque 4 · Syllabus STS paginas 6-7 · Estado VALIDADO"
-  },
-  {
-    "id": "B4-CASO-003",
-    "titulo": "Geocaging que solo avisa",
-    "dificultad": "dificil",
-    "contexto": "En una configuracion STS-02, el sistema instalado genera avisos al acercarse al limite, pero no impide que la UA salga del volumen operacional.",
-    "situacion_inicial": "El piloto recibe informacion de posicion geografica, pero el confinamiento no actua fisicamente.",
-    "informacion_disponible": ["STS-02 requiere geocaging.", "El geocaging debe impedir fisicamente la salida del volumen operacional.", "La informacion de posicion tambien debe estar disponible para el piloto."],
-    "problema_planteado": "Identificar la carencia tecnica y diferenciar aviso informativo de confinamiento.",
-    "preguntas_para_el_alumno": ["Ese sistema cumple la funcion de geocaging?", "Que requisito tecnico falta?", "Que confusion aparece con geoconsciencia?"],
-    "objetivos_de_aprendizaje": ["Distinguir geocaging y aviso.", "Aplicar mitigacion tecnica STS-02.", "Evitar confundir geocaging con geoconsciencia."],
-    "errores_habituales": ["Aceptar un aviso como geocaging.", "Olvidar informacion de posicion.", "Presentar geoconsciencia como nucleo Syllabus 6-7."],
-    "conceptos_relacionados": ["Geocaging", "Geoconsciencia", "STS-02", "Volumen operacional"],
-    "referencia_al_bloque": "Bloque 4 · Syllabus STS paginas 6-7 · Estado VALIDADO"
-  },
-  {
-    "id": "B4-CASO-004",
-    "titulo": "Ficha con contenido complementario mezclado",
-    "dificultad": "dificil",
-    "contexto": "Un alumno prepara una ficha y coloca MME8, indice K y Modo S dentro del apartado Syllabus paginas 6-7.",
-    "situacion_inicial": "La ficha tambien incluye correctamente VLOS, FTS, observadores, 5 km, geocaging e informacion de posicion.",
-    "informacion_disponible": ["MME8, MMT9, MAT16, MAT17, MAE36, MMT11, indice K, Modo S y geoconsciencia son complementarios.", "El nucleo Syllabus paginas 6-7 cubre riesgo, mitigaciones, separacion, STS-01 y STS-02."],
-    "problema_planteado": "Reordenar la ficha sin eliminar contenido validado, separando nucleo y complementario.",
-    "preguntas_para_el_alumno": ["Que debe quedarse en el nucleo Syllabus?", "Que debe moverse a complementario?", "Por que importa la etiqueta de trazabilidad?"],
-    "objetivos_de_aprendizaje": ["Mantener trazabilidad academica.", "No convertir complementarios en temario paginas 6-7.", "Corregir sin alterar contenido."],
-    "errores_habituales": ["Eliminar contenido complementario validado.", "Mezclar fuentes.", "No indicar origen academico."],
-    "conceptos_relacionados": ["Trazabilidad", "Complementario", "Syllabus paginas 6-7", "Indice K", "Modo S"],
-    "referencia_al_bloque": "Bloque 4 · Ingenieria validada · Complementario oficial identificado"
-  }
-]
+{
+  "titulo": "Casos · Bloque 4",
+  "total": 3,
+  "casos": [
+    {
+      "id": "B4-R26-C-001",
+      "titulo": "STS-02 sin observador",
+      "dificultad": "media",
+      "contexto": "STS-02 sin observador del espacio aéreo. La UA se aleja 1,2 km del piloto.",
+      "situacion_inicial": "Sin observador, una UA se aleja 1,2 km en STS-02. ¿Cumple el límite de esta configuración?",
+      "informacion_disponible": [
+        "La configuración sin observador del espacio aéreo está prevista: UA a no más de 1 km del piloto y trayectoria preprogramada cuando deja de estar en VLOS, además de las restantes condiciones STS-02. No se deduce que una ruta programada detecte aeronaves o evite por sí sola una colisión."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "Sin observador, una UA se aleja 1,2 km en STS-02. ¿Cumple el límite de esta configuración?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Planificar la vigilancia y responder a tráfico sin confundir alcance, visibilidad y contención."
+      ],
+      "errores_habituales": [
+        "Tratar «ruta automática» como detector de tráfico."
+      ],
+      "conceptos_relacionados": [
+        "STS-02 sin observador"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "solucion_razonada": "No; el máximo UA-piloto es 1 km. La configuración sin observador del espacio aéreo está prevista: UA a no más de 1 km del piloto y trayectoria preprogramada cuando deja de estar en VLOS, además de las restantes condiciones STS-02. No se deduce que una ruta programada detecte aeronaves o evite por sí sola una colisión.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B4-R26-C-002",
+      "titulo": "STS-02 con observadores",
+      "dificultad": "dificil",
+      "contexto": "UA a 1,8 km del piloto y a 900 m del observador más próximo. Observador a 1,2 km del piloto.",
+      "situacion_inicial": "UA a 1,8 km del piloto y 900 m del observador; este está a 1,2 km del piloto. ¿Cumple las distancias?",
+      "informacion_disponible": [
+        "Se comprueban tres distancias a la vez: UA-piloto no superior a 2 km, UA-observador más próximo no superior a 1 km y cada observador-piloto no superior a 1 km. También se verifica cobertura del volumen y espacio circundante y comunicación robusta."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "UA a 1,8 km del piloto y 900 m del observador; este está a 1,2 km del piloto. ¿Cumple las distancias?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Planificar la vigilancia y responder a tráfico sin confundir alcance, visibilidad y contención."
+      ],
+      "errores_habituales": [
+        "Comprobar una sola distancia del triángulo."
+      ],
+      "conceptos_relacionados": [
+        "STS-02 con observadores"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "solucion_razonada": "No; el observador supera 1 km respecto al piloto. Se comprueban tres distancias a la vez: UA-piloto no superior a 2 km, UA-observador más próximo no superior a 1 km y cada observador-piloto no superior a 1 km. También se verifica cobertura del volumen y espacio circundante y comunicación robusta.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B4-R26-C-003",
+      "titulo": "Información aeronáutica aplicable",
+      "dificultad": "dificil",
+      "contexto": "La coordinación aplicable limita el vuelo a 60 m. El equipo puede superar esa altura.",
+      "situacion_inicial": "La coordinación aplicable limita el vuelo a 60 m. ¿Permite STS volar a 120 m por defecto?",
+      "informacion_disponible": [
+        "Se seleccionan fuentes y coordinaciones pertinentes a lugar, altura, horario y operación. No se imponen transpondedores, códigos de catálogos o medidas particulares como requisitos universales de cualquier STS. Una condición específica sí se cumple cuando resulta aplicable a la operación coordinada."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "La coordinación aplicable limita el vuelo a 60 m. ¿Permite STS volar a 120 m por defecto?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Planificar la vigilancia y responder a tráfico sin confundir alcance, visibilidad y contención."
+      ],
+      "errores_habituales": [
+        "Convertir una medida particular en regla para todos o ignorarla cuando sí aplica."
+      ],
+      "conceptos_relacionados": [
+        "Información aeronáutica aplicable"
+      ],
+      "referencia_al_bloque": "RD 517/2024 · texto consolidado del BOE",
+      "fuentes": [
+        {
+          "titulo": "RD 517/2024 · texto consolidado del BOE",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11377"
+        }
+      ],
+      "solucion_razonada": "No; debe respetarse el límite aplicable más restrictivo. Se seleccionan fuentes y coordinaciones pertinentes a lugar, altura, horario y operación. No se imponen transpondedores, códigos de catálogos o medidas particulares como requisitos universales de cualquier STS. Una condición específica sí se cumple cuando resulta aplicable a la operación coordinada.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    }
+  ]
+}

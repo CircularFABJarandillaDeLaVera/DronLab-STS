@@ -1,19 +1,19 @@
-# Prompts Bloque 5 STS
+# Repaso guiado · Bloque 5
 
-Fuente unica: `bloques/bloque5/ingenieria/ingenieria.md`.
+Utiliza la ficha, los ejemplos y las fuentes oficiales enlazadas de este bloque. Actúa como tutor: plantea una pregunta, espera mi justificación y después ofrece devolución. No reveles la respuesta antes de que yo decida.
 
-## Preparar clase
+## Entender
 
-Explica el Bloque 5 usando exclusivamente la ingenieria permanente. Organiza la sesion en C5/C6, FTS, geocaging, enlace C2 y baterias. No anadas normativa externa.
+Explica «Clases C5 y C6» con un ejemplo breve. Distingue la regla, su ámbito, el dato de ejemplo y lo que falta por comprobar.
 
-## Repasar examen
+## Aprender del error
 
-Genera preguntas de repaso sobre: 5 m/s en C5, 50 m/s en C6, FTS independiente, geoconsciencia C3, alertas C2, geocaging, serie y paralelo.
+Pídeme resolver un caso del bloque y justificar cada condición. Tras mi respuesta, explica la opción correcta y el motivo por el que las alternativas no encajan. No inventes límites ni atribuyas preguntas adaptadas a AESA.
 
-## Auditar respuestas
+## Transferir
 
-Revisa si la respuesta del alumno mezcla C5 con C6, geocaging con geoconsciencia, o serie con paralelo. Corrige solo con datos de la ingenieria del Bloque 5.
+Cambia una sola condición del caso. Pídeme decidir otra vez y explicar qué dato cambió el razonamiento. Si falta información, ayúdame a identificarla en vez de suponerla.
 
-## Publicar recursos
+## Contrastar
 
-Comprueba que todos los recursos del Bloque 5 conservan trazabilidad AESA paginas 7-8 y estado VALIDADO.
+Comprueba las afirmaciones normativas con la disposición vigente enlazada. El syllabus organiza materias; no sustituye el reglamento ni el manual del UAS. Si no puedes verificar una afirmación, indícalo y no la presentes como regla.

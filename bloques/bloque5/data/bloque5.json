@@ -1,14 +1,325 @@
 {
+  "curso": {
+    "id": "dronlab-sts",
+    "titulo": "DronLab STS"
+  },
+  "bloque": {
+    "numero": 5,
+    "slug": "bloque5",
+    "titulo": "Conocimientos generales del UAS",
+    "estado": "REFUERZO_PEDAGOGICO"
+  },
   "meta": {
     "curso": "DronLab STS",
     "bloque": 5,
+    "slug": "bloque5",
     "titulo": "Conocimientos generales del UAS",
-    "subtitulo": "Etiquetas C5/C6, FTS, geocaging, enlace C2 y baterias",
-    "organismo": "AESA",
-    "documento": "Syllabus oficial STS",
-    "edicion": "2",
-    "fecha": "17/04/2023",
-    "paginas_relacionadas": "7-8",
-    "estado": "VALIDADO"
+    "subtitulo": "Explicar qué hace cada sistema y comprobar su configuración y sus limitaciones.",
+    "organismo": "AESA / EASA",
+    "paginas_relacionadas": "7–8",
+    "estado": "Revisado · 06/11/2026",
+    "version": "2026.11-refuerzo"
+  },
+  "trazabilidad": {
+    "organismo": "AESA / EASA",
+    "paginas_relacionadas": "7–8",
+    "estado": "Revisado · 06/11/2026",
+    "fuentes": [
+      {
+        "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+        "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+      },
+      {
+        "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+        "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+      }
+    ]
+  },
+  "objetivo": "Explicar qué hace cada sistema y comprobar su configuración y sus limitaciones.",
+  "conexion": "Masa, baterías y sensores se conectan con el rendimiento del bloque 7.",
+  "conceptos": [
+    "Clases C5 y C6",
+    "Geoconsciencia, contención y DRI",
+    "C5: modo lento y terminación",
+    "C6: información y límites",
+    "Enlace C2 y funciones automáticas",
+    "IMU, GNSS y brújula",
+    "Velocidades, altura y referencia",
+    "Baterías: V, Ah, Wh y conexiones"
+  ],
+  "conceptosClave": [
+    "Clases C5 y C6",
+    "Geoconsciencia, contención y DRI",
+    "C5: modo lento y terminación",
+    "C6: información y límites",
+    "Enlace C2 y funciones automáticas",
+    "IMU, GNSS y brújula",
+    "Velocidades, altura y referencia",
+    "Baterías: V, Ah, Wh y conexiones"
+  ],
+  "pantallas": [
+    {
+      "titulo": "Clases C5 y C6",
+      "contenido": "C5 se vincula a STS-01 y C6 a STS-02. Se comprueban marcado, declaración UE de conformidad, configuración y manual. Las partes 16 y 17 del Reglamento 2019/945 establecen excepciones a ciertos requisitos C3: no se puede afirmar que toda función C3 sea obligatoria sin leer esas excepciones.",
+      "ejemplo": "Añadir un paracaídas por cuenta propia a un dron no demuestra conversión conforme a C5. Se necesita la documentación y el proceso aplicables.",
+      "error_habitual": "Confundir accesorio instalado con conformidad de clase.",
+      "pregunta": "Un dron recibe un paracaídas no documentado como conversión. ¿Eso basta para considerarlo C5?",
+      "respuesta": "No; debe acreditarse la conformidad aplicable a la configuración.",
+      "distractores": [
+        {
+          "texto": "Sí, cualquier paracaídas convierte la clase.",
+          "motivo": "El accesorio por sí solo no demuestra conformidad."
+        },
+        {
+          "texto": "Sí, si pesa menos de 25 kg.",
+          "motivo": "La masa es solo uno de los requisitos."
+        },
+        {
+          "texto": "Sí, si el piloto tiene A2.",
+          "motivo": "La formación del piloto no cambia la clase del producto."
+        }
+      ],
+      "fuente": "clases",
+      "id": "b5-01",
+      "docente": "Pregunta primero: Un dron recibe un paracaídas no documentado como conversión. ¿Eso basta para considerarlo C5? Después pide una justificación y trabaja este error: Confundir accesorio instalado con conformidad de clase.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "titulo": "Geoconsciencia, contención y DRI",
+      "contenido": "La geoconsciencia informa de posibles vulneraciones de zonas; la contención limita el vuelo respecto a límites programados; la identificación remota directa transmite datos de identificación. En C5/C6 la geoconsciencia se regula si está instalada: no es una obligación universal común en los términos antes atribuidos a C3. En STS la DRI debe estar activa y actualizada.",
+      "ejemplo": "Un aviso de zona no garantiza que el UAS detenga su avance. Y una emisión DRI correcta no demuestra que el volumen de vuelo esté bien cargado.",
+      "error_habitual": "Usar geoconsciencia, geocaging y DRI como sinónimos.",
+      "pregunta": "¿Qué afirmación distingue correctamente las funciones?",
+      "respuesta": "La geoconsciencia avisa; la contención limita; la DRI identifica.",
+      "distractores": [
+        {
+          "texto": "La DRI impide automáticamente toda salida.",
+          "motivo": "Identificar no es confinar."
+        },
+        {
+          "texto": "Todo aviso de zona es una barrera física.",
+          "motivo": "Un aviso no garantiza bloqueo."
+        },
+        {
+          "texto": "C5 y C6 deben heredar sin excepciones toda función C3.",
+          "motivo": "Las partes 16 y 17 establecen excepciones."
+        }
+      ],
+      "fuente": "clases",
+      "id": "b5-02",
+      "docente": "Pregunta primero: ¿Qué afirmación distingue correctamente las funciones? Después pide una justificación y trabaja este error: Usar geoconsciencia, geocaging y DRI como sinónimos.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "titulo": "C5: modo lento y terminación",
+      "contenido": "En C5 sin anclaje, el modo lento seleccionable limita a no más de 5 m/s. STS-01 sin anclaje exige operar a menos de 5 m/s. Los medios de terminación y su activación deben ser independientes del control y guiado automáticos; se prevén medios de reducción de las consecuencias del impacto. Se revisa el manual, sin prometer aterrizaje indemne.",
+      "ejemplo": "Un modo cuyo máximo técnico sea 5 m/s puede cumplir ese requisito de producto; la operación STS-01 sigue teniendo que mantenerse por debajo de 5 m/s.",
+      "error_habitual": "Confundir límite de diseño con velocidad autorizada exacta de operación.",
+      "pregunta": "¿Qué par distingue modo técnico y operación STS-01 sin anclaje?",
+      "respuesta": "Modo C5 ≤ 5 m/s; operación STS-01 < 5 m/s.",
+      "distractores": [
+        {
+          "texto": "Ambos permiten exactamente 5 m/s.",
+          "motivo": "La condición operacional usa inferior a 5."
+        },
+        {
+          "texto": "Ambos permiten 50 m/s.",
+          "motivo": "No corresponde a C5/STS-01."
+        },
+        {
+          "texto": "El modo lento elimina la necesidad de terminación.",
+          "motivo": "Son requisitos diferentes."
+        }
+      ],
+      "fuente": "clases",
+      "id": "b5-03",
+      "docente": "Pregunta primero: ¿Qué par distingue modo técnico y operación STS-01 sin anclaje? Después pide una justificación y trabaja este error: Confundir límite de diseño con velocidad autorizada exacta de operación.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "titulo": "C6: información y límites",
+      "contenido": "C6 tiene velocidad máxima respecto al suelo en vuelo nivelado no superior a 50 m/s. Proporciona posición geográfica, velocidad y altura, programación de trayectoria y medios de limitación del volumen. El FTS y su activación son independientes del control automático y de los medios que evitan rebasar el volumen.",
+      "ejemplo": "Que la clase permita un máximo de 50 m/s no obliga a usarlo ni garantiza que sea adecuado con esa carga, viento o margen de riesgo.",
+      "error_habitual": "Tomar un máximo de producto como velocidad recomendada.",
+      "pregunta": "C6 declara un máximo de 50 m/s. ¿Qué significa para la misión?",
+      "respuesta": "Es un límite de clase; la operación puede exigir una velocidad menor.",
+      "distractores": [
+        {
+          "texto": "Debe volar siempre a 50 m/s.",
+          "motivo": "Un máximo no es una obligación de usarlo."
+        },
+        {
+          "texto": "Puede superar cualquier límite del manual.",
+          "motivo": "Se siguen respetando las limitaciones del equipo."
+        },
+        {
+          "texto": "Elimina el margen en tierra.",
+          "motivo": "La velocidad no sustituye la mitigación del riesgo."
+        }
+      ],
+      "fuente": "clases",
+      "id": "b5-04",
+      "docente": "Pregunta primero: C6 declara un máximo de 50 m/s. ¿Qué significa para la misión? Después pide una justificación y trabaja este error: Tomar un máximo de producto como velocidad recomendada.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "titulo": "Enlace C2 y funciones automáticas",
+      "contenido": "C2 es el enlace de mando y control. Se supervisa su calidad y se atienden alertas de degradación o pérdida. La existencia de telemetría, vídeo o una ruta automática no demuestra que todos los enlaces estén disponibles ni elimina los procedimientos ante fallo.",
+      "ejemplo": "La imagen sigue visible pero aparece alarma C2. El piloto no deduce que el mando sea correcto solo porque recibe vídeo.",
+      "error_habitual": "Confundir enlace de imagen con estado de mando y control.",
+      "pregunta": "Se recibe vídeo pero hay alarma de degradación C2. ¿Qué interpretación es correcta?",
+      "respuesta": "El vídeo no invalida la alarma; se aplica el procedimiento correspondiente.",
+      "distractores": [
+        {
+          "texto": "Todo el enlace funciona porque hay imagen.",
+          "motivo": "Pueden existir funciones o canales distintos."
+        },
+        {
+          "texto": "La ruta automática elimina el riesgo.",
+          "motivo": "La automatización no suprime las limitaciones."
+        },
+        {
+          "texto": "La DRI sirve de mando alternativo.",
+          "motivo": "La identificación no es un enlace de control."
+        }
+      ],
+      "fuente": "clases",
+      "id": "b5-05",
+      "docente": "Pregunta primero: Se recibe vídeo pero hay alarma de degradación C2. ¿Qué interpretación es correcta? Después pide una justificación y trabaja este error: Confundir enlace de imagen con estado de mando y control.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "titulo": "IMU, GNSS y brújula",
+      "contenido": "La IMU mide magnitudes inerciales mediante sensores como acelerómetros y giróscopos; GNSS aporta posicionamiento por satélite; la brújula contribuye al rumbo magnético. No son intercambiables. Se siguen las instrucciones del fabricante para calibración y comprobación, evitando calibrar indiscriminadamente en lugares con interferencia.",
+      "ejemplo": "Un aviso de rumbo junto a una estructura metálica pide evaluar interferencia y el procedimiento del fabricante, no asumir que más satélites corrigen cualquier error.",
+      "error_habitual": "Pensar que GNSS resuelve todo fallo de orientación.",
+      "pregunta": "Hay error de rumbo cerca de una estructura metálica. ¿Qué criterio es adecuado?",
+      "respuesta": "Evaluar interferencia y seguir las comprobaciones del fabricante antes de operar.",
+      "distractores": [
+        {
+          "texto": "Despegar porque hay muchos satélites.",
+          "motivo": "El posicionamiento no elimina toda interferencia magnética."
+        },
+        {
+          "texto": "Calibrar siempre allí mismo sin evaluar el entorno.",
+          "motivo": "Un entorno alterado puede hacer inadecuada la calibración."
+        },
+        {
+          "texto": "Cambiar el nombre de la misión.",
+          "motivo": "No corrige el sistema."
+        }
+      ],
+      "fuente": "syllabus",
+      "id": "b5-06",
+      "docente": "Pregunta primero: Hay error de rumbo cerca de una estructura metálica. ¿Qué criterio es adecuado? Después pide una justificación y trabaja este error: Pensar que GNSS resuelve todo fallo de orientación.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "titulo": "Velocidades, altura y referencia",
+      "contenido": "Se distingue velocidad respecto al suelo de velocidad respecto al aire, y altura relativa del sistema de separación real al terreno. En instrumentos aerodinámicos, velocidad indicada y verdadera no son necesariamente iguales. Antes de comparar cifras se identifican unidad, magnitud y referencia.",
+      "ejemplo": "El mando muestra 80 m respecto al despegue sobre un terreno que asciende 40 m. En el ejemplo geométrico, la separación vertical local sería 40 m; la lectura no equivale automáticamente a 80 m sobre el suelo.",
+      "error_habitual": "Comparar lecturas sin saber de qué punto o magnitud proceden.",
+      "pregunta": "El terreno sube 40 m y la UA está a 80 m sobre el despegue. En este ejemplo vertical, ¿cuánto la separa del terreno local?",
+      "respuesta": "40 m.",
+      "distractores": [
+        {
+          "texto": "80 m siempre.",
+          "motivo": "Ignora la elevación del terreno."
+        },
+        {
+          "texto": "120 m.",
+          "motivo": "Suma en vez de restar la cota del terreno."
+        },
+        {
+          "texto": "No hay diferencia entre altura y altitud.",
+          "motivo": "Tienen referencias diferentes."
+        }
+      ],
+      "fuente": "syllabus",
+      "id": "b5-07",
+      "docente": "Pregunta primero: El terreno sube 40 m y la UA está a 80 m sobre el despegue. En este ejemplo vertical, ¿cuánto la separa del terreno local? Después pide una justificación y trabaja este error: Comparar lecturas sin saber de qué punto o magnitud proceden.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "titulo": "Baterías: V, Ah, Wh y conexiones",
+      "contenido": "Ah expresa capacidad de carga eléctrica; Wh, energía. Para una estimación nominal, Wh = V × Ah. En serie se suman tensiones de elementos compatibles; en paralelo, capacidades a igual tensión. No se deduce autonomía exacta ni se recomienda modificar conexiones sin aprobación del fabricante.",
+      "ejemplo": "Una batería de 22,2 V y 5 Ah almacena nominalmente 111 Wh. Una de 11,1 V y 5 Ah tiene 55,5 Wh: igual Ah no significa igual energía.",
+      "error_habitual": "Confundir mAh con energía o prometer el doble de autonomía.",
+      "pregunta": "¿Qué energía nominal resulta de 22,2 V y 5 Ah?",
+      "respuesta": "111 Wh.",
+      "distractores": [
+        {
+          "texto": "27,2 Wh.",
+          "motivo": "Se multiplican V y Ah, no se suman."
+        },
+        {
+          "texto": "4,44 Wh.",
+          "motivo": "No se divide la tensión por la capacidad."
+        },
+        {
+          "texto": "5 Wh.",
+          "motivo": "5 Ah no equivalen por sí solos a 5 Wh."
+        }
+      ],
+      "fuente": "syllabus",
+      "id": "b5-08",
+      "docente": "Pregunta primero: ¿Qué energía nominal resulta de 22,2 V y 5 Ah? Después pide una justificación y trabaja este error: Confundir mAh con energía o prometer el doble de autonomía.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    }
+  ],
+  "recursos": {
+    "flashcards": "recursos/flashcards/index.html",
+    "test": "recursos/test/index.html",
+    "casos": "recursos/casos/index.html",
+    "practicas": "recursos/practicas/index.html",
+    "chuletas": "recursos/chuletas/index.html",
+    "mapa": "recursos/mapas/index.html"
+  },
+  "glosario": {
+    "C2": "Enlace de mando y control. No confundir con la clase de producto C2.",
+    "DRI": "Identificación remota directa: transmisión de datos identificativos del UAS y la operación.",
+    "FTS": "Flight Termination System: sistema o medios de terminación del vuelo, distintos del retorno a casa.",
+    "GNSS": "Sistema global de navegación por satélite; GPS es uno de estos sistemas.",
+    "IMU": "Unidad de medición inercial: integra sensores como acelerómetros y giróscopos."
   }
 }

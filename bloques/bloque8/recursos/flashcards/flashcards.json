@@ -1,14 +1,387 @@
-﻿{"titulo":"Flashcards Bloque 8 STS","bloque":"Riesgo en tierra | Syllabus STS paginas 11-12 | Estado VALIDADO","total":12,"flashcards":[
-{"id":"B8-F-001","tema":"Riesgo en tierra","subtema":"Definicion","dificultad":"facil","tipo":"concepto","pregunta":"Que es el riesgo en tierra?","respuesta":"La probabilidad y gravedad de que un UAS cause danos a personas no participantes o infraestructuras en superficie.","explicacion_breve":"Se centra en el dano potencial sobre terceros o bienes en tierra.","error_habitual":"Confundirlo con el riesgo en aire.","regla_mnemotecnica":"Ground Risk: dano abajo."},
-{"id":"B8-F-002","tema":"Zona terrestre controlada","subtema":"Definicion","dificultad":"facil","tipo":"concepto","pregunta":"Que garantiza la zona terrestre controlada?","respuesta":"Que solo hay personas participantes y que no comprende concentraciones de personas.","explicacion_breve":"El operador es responsable de controlar fisicamente esa zona.","error_habitual":"Creer que basta con dibujarla en un plano.","regla_mnemotecnica":"Zona controlada: sin ajenos."},
-{"id":"B8-F-003","tema":"Margen","subtema":"STS-02","dificultad":"media","tipo":"concepto","pregunta":"Que es el margen de riesgo en tierra?","respuesta":"Una distancia adicional alrededor del volumen operacional para mitigar una perdida de control.","explicacion_breve":"Debe cubrir la distancia necesaria para que el impacto quede en area segura.","error_habitual":"Aplicar una distancia arbitraria.","regla_mnemotecnica":"Margen = amortiguador terrestre."},
-{"id":"B8-F-004","tema":"Margen","subtema":"Velocidad y altura","dificultad":"media","tipo":"dato","pregunta":"De que depende el margen de riesgo en tierra?","respuesta":"De la velocidad y altura de la aeronave.","explicacion_breve":"Esos factores condicionan la distancia de seguridad ante fallo.","error_habitual":"Calcularlo sin atender al perfil de vuelo.","regla_mnemotecnica":"Mas velocidad y altura, mas margen."},
-{"id":"B8-F-005","tema":"STS-01","subtema":"Entorno poblado","dificultad":"media","tipo":"riesgo","pregunta":"Por que STS-01 tiene riesgo en tierra elevado?","respuesta":"Porque opera en entornos poblados y requiere una zona terrestre controlada como escudo fisico.","explicacion_breve":"La exposicion de terceros es mayor que en categoria abierta.","error_habitual":"Tratar STS-01 como si fuera una operacion abierta simple.","regla_mnemotecnica":"STS-01 poblado: contencion."},
-{"id":"B8-F-006","tema":"FTS","subtema":"Mitigacion","dificultad":"media","tipo":"procedimiento","pregunta":"Como mitiga el FTS el riesgo en tierra?","respuesta":"Forzando la caida del UAS dentro del perimetro de seguridad si se pierde el mando.","explicacion_breve":"Tiene funcion dual: riesgo en aire y riesgo en tierra.","error_habitual":"Pensar que el FTS solo sirve para conflictos aereos.","regla_mnemotecnica":"FTS contiene la salida."},
-{"id":"B8-F-007","tema":"STS-02","subtema":"VLOS","dificultad":"dificil","tipo":"dato","pregunta":"Que fases de STS-02 deben realizarse siempre en VLOS?","respuesta":"El despegue y el aterrizaje.","explicacion_breve":"El crucero puede ser BVLOS, pero las fases de contacto con el suelo exigen alcance visual.","error_habitual":"Creer que toda la mision STS-02 puede ser BVLOS.","regla_mnemotecnica":"Sale y entra: VLOS."},
-{"id":"B8-F-008","tema":"STS-02","subtema":"Poblacion","dificultad":"facil","tipo":"concepto","pregunta":"Que entorno exige STS-02?","respuesta":"Un entorno escasamente poblado.","explicacion_breve":"Reduce la probabilidad de personas no participantes expuestas.","error_habitual":"Confundir escasamente poblado con ausencia de vigilancia.","regla_mnemotecnica":"STS-02: poca exposicion."},
-{"id":"B8-F-009","tema":"Proyecciones","subtema":"Superficie","dificultad":"media","tipo":"concepto","pregunta":"Que proyecciones debe comprender la zona terrestre controlada?","respuesta":"Las del volumen operacional y la zona de prevencion.","explicacion_breve":"La planificacion aerea se traduce a huella en superficie.","error_habitual":"Proteger solo el punto de despegue.","regla_mnemotecnica":"Volumen arriba, huella abajo."},
-{"id":"B8-F-010","tema":"Intrusion","subtema":"Complementario","dificultad":"media","tipo":"procedimiento","pregunta":"Que hacer si entra una persona no participante en la zona controlada?","respuesta":"Adoptar medidas inmediatas para mantener la seguridad, como estacionario, alejamiento o aterrizaje.","explicacion_breve":"Contenido complementario con trazabilidad separada.","error_habitual":"Continuar la operacion sin reaccion.","regla_mnemotecnica":"Intrusion: pausa y seguridad."},
-{"id":"B8-F-011","tema":"Complementario","subtema":"STS-ES-02NE","dificultad":"dificil","tipo":"dato","pregunta":"Que masa se cita para UAS privado STS-ES-02NE sin MTOM de fabricante?","respuesta":"Masa inferior a 25 kg garantizada por el operador.","explicacion_breve":"No se presenta como Syllabus AESA paginas 11-12.","error_habitual":"Mezclarlo con trazabilidad principal.","regla_mnemotecnica":"02NE: 25 kg."},
-{"id":"B8-F-012","tema":"Complementario","subtema":"Nocturno","dificultad":"facil","tipo":"dato","pregunta":"Que luz se cita como mitigacion operativa nocturna?","respuesta":"Luz verde intermitente para asegurar la visibilidad de la aeronave.","explicacion_breve":"Es contenido complementario separado.","error_habitual":"Atribuirlo a paginas 11-12.","regla_mnemotecnica":"Noche: verde visible."}
-]}
+{
+  "titulo": "Flashcards · Bloque 8",
+  "bloque": "Mitigaciones del riesgo en tierra",
+  "total": 20,
+  "flashcards": [
+    {
+      "id": "B8-R26-FC-001",
+      "tema": "Personas y zona controlada",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué debe garantizar una zona terrestre controlada?",
+      "respuesta": "Que solo haya personas participantes en toda la superficie necesaria, con control efectivo de accesos.",
+      "explicacion_breve": "Una valla cubre el despegue pero deja un camino dentro de la huella del vuelo. La zona no está resuelta aunque nadie esté junto al piloto.",
+      "error_habitual": "Confundir señalizar con garantizar control efectivo.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-01"
+    },
+    {
+      "id": "B8-R26-FC-002",
+      "tema": "Personas y zona controlada",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Un peatón ve un cartel de drones. ¿Se convierte automáticamente en participante?",
+      "respuesta": "No; ver un cartel no sustituye consentimiento e información adecuados.",
+      "explicacion_breve": "Una valla cubre el despegue pero deja un camino dentro de la huella del vuelo. La zona no está resuelta aunque nadie esté junto al piloto.",
+      "error_habitual": "Confundir señalizar con garantizar control efectivo.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-01"
+    },
+    {
+      "id": "B8-R26-FC-003",
+      "tema": "Geografía, contingencia y volumen",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué forma el volumen operacional?",
+      "respuesta": "Geografía de vuelo y volumen de contingencia.",
+      "explicacion_breve": "Un plano que solo dibuja la trayectoria omite espacio para contingencias y riesgo residual. La valla no debe decidirse antes de dimensionar la huella completa.",
+      "error_habitual": "Usar trayectoria, volumen y zona terrestre como sinónimos.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b8-02"
+    },
+    {
+      "id": "B8-R26-FC-004",
+      "tema": "Geografía, contingencia y volumen",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "¿Qué integra el volumen operacional?",
+      "respuesta": "La geografía de vuelo y el volumen de contingencia.",
+      "explicacion_breve": "Un plano que solo dibuja la trayectoria omite espacio para contingencias y riesgo residual. La valla no debe decidirse antes de dimensionar la huella completa.",
+      "error_habitual": "Usar trayectoria, volumen y zona terrestre como sinónimos.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b8-02"
+    },
+    {
+      "id": "B8-R26-FC-005",
+      "tema": "Geografía, contingencia y volumen",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre geografía, contingencia y volumen?",
+      "respuesta": "Usar trayectoria, volumen y zona terrestre como sinónimos.",
+      "explicacion_breve": "Un plano que solo dibuja la trayectoria omite espacio para contingencias y riesgo residual. La valla no debe decidirse antes de dimensionar la huella completa.",
+      "error_habitual": "Usar trayectoria, volumen y zona terrestre como sinónimos.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b8-02"
+    },
+    {
+      "id": "B8-R26-FC-006",
+      "tema": "Contingencia: mínimo exterior",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Desde dónde se mide el margen de riesgo en tierra?",
+      "respuesta": "Más allá del límite exterior de contingencia; es una banda adicional.",
+      "explicacion_breve": "Desde un borde de la geografía de vuelo, 10 m de contingencia y 15 m de margen del ejemplo suman 25 m hasta el límite exterior. Los 15 m no incluyen los 10 m.",
+      "error_habitual": "Contar el margen desde la trayectoria o absorber la contingencia dentro de él.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-03"
+    },
+    {
+      "id": "B8-R26-FC-007",
+      "tema": "Contingencia: mínimo exterior",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Con 10 m de contingencia y 15 m de margen, ¿qué separación hay desde ese borde de geografía hasta el exterior?",
+      "respuesta": "25 m en el ejemplo unidimensional.",
+      "explicacion_breve": "Desde un borde de la geografía de vuelo, 10 m de contingencia y 15 m de margen del ejemplo suman 25 m hasta el límite exterior. Los 15 m no incluyen los 10 m.",
+      "error_habitual": "Contar el margen desde la trayectoria o absorber la contingencia dentro de él.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-03"
+    },
+    {
+      "id": "B8-R26-FC-008",
+      "tema": "Tabla STS-01 sin anclaje",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué datos eligen la fila y columna de la tabla STS-01?",
+      "respuesta": "Altura máxima sobre el suelo y MTOM. La columna hasta 10 kg incluye exactamente 10 kg.",
+      "explicacion_breve": "MTOM exactamente 10 kg y altura máxima 60 m: margen mínimo 15 m más allá de la contingencia. Con contingencia mínima de 10 m, suman 25 m desde el borde de geografía en ese lado.",
+      "error_habitual": "Elegir columna por masa real en vez de MTOM o sumar desde el punto de despegue.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-04"
+    },
+    {
+      "id": "B8-R26-FC-009",
+      "tema": "Tabla STS-01 sin anclaje",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Con MTOM 12 kg y altura máxima 90 m, ¿qué margen mínimo indica la tabla STS-01 sin anclaje?",
+      "respuesta": "45 m más allá de la zona de contingencia.",
+      "explicacion_breve": "MTOM exactamente 10 kg y altura máxima 60 m: margen mínimo 15 m más allá de la contingencia. Con contingencia mínima de 10 m, suman 25 m desde el borde de geografía en ese lado.",
+      "error_habitual": "Elegir columna por masa real en vez de MTOM o sumar desde el punto de despegue.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-04"
+    },
+    {
+      "id": "B8-R26-FC-010",
+      "tema": "Tabla STS-01 sin anclaje",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre tabla sts-01 sin anclaje?",
+      "respuesta": "Elegir columna por masa real en vez de MTOM o sumar desde el punto de despegue.",
+      "explicacion_breve": "MTOM exactamente 10 kg y altura máxima 60 m: margen mínimo 15 m más allá de la contingencia. Con contingencia mínima de 10 m, suman 25 m desde el borde de geografía en ese lado.",
+      "error_habitual": "Elegir columna por masa real en vez de MTOM o sumar desde el punto de despegue.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-04"
+    },
+    {
+      "id": "B8-R26-FC-011",
+      "tema": "Margen STS-02",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Cómo se determina el margen en STS-02?",
+      "respuesta": "Con la distancia indicada por el fabricante tras activar la terminación y las condiciones de la operación dentro de sus límites.",
+      "explicacion_breve": "El manual del ejemplo indica 80 m para la condición prevista y el plano deja 50 m. Faltan 30 m respecto a ese dato; se replantea antes de operar.",
+      "error_habitual": "Aplicar la tabla STS-01 a cualquier C6.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b8-05"
+    },
+    {
+      "id": "B8-R26-FC-012",
+      "tema": "Margen STS-02",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "El fabricante indica 80 m tras terminación para el caso y el margen previsto es 50 m. ¿Qué concluyes?",
+      "respuesta": "No cubre la distancia indicada; hay que replantear el margen.",
+      "explicacion_breve": "El manual del ejemplo indica 80 m para la condición prevista y el plano deja 50 m. Faltan 30 m respecto a ese dato; se replantea antes de operar.",
+      "error_habitual": "Aplicar la tabla STS-01 a cualquier C6.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b8-05"
+    },
+    {
+      "id": "B8-R26-FC-013",
+      "tema": "FTS y riesgo residual",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿El FTS garantiza un impacto exacto y sin daño?",
+      "respuesta": "No. Reduce riesgo, pero no elimina consecuencias ni el margen requerido.",
+      "explicacion_breve": "Un paracaídas puede reducir consecuencias, pero necesita condiciones de despliegue. Su presencia no permite eliminar el margen ni situar personas bajo la trayectoria.",
+      "error_habitual": "Presentar el FTS como caída controlada e infalible.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b8-06"
+    },
+    {
+      "id": "B8-R26-FC-014",
+      "tema": "FTS y riesgo residual",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Hay FTS y reducción de impacto. ¿Puede eliminarse el margen de riesgo en tierra?",
+      "respuesta": "No; la terminación no elimina el riesgo residual ni el margen requerido.",
+      "explicacion_breve": "Un paracaídas puede reducir consecuencias, pero necesita condiciones de despliegue. Su presencia no permite eliminar el margen ni situar personas bajo la trayectoria.",
+      "error_habitual": "Presentar el FTS como caída controlada e infalible.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b8-06"
+    },
+    {
+      "id": "B8-R26-FC-015",
+      "tema": "FTS y riesgo residual",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre fts y riesgo residual?",
+      "respuesta": "Presentar el FTS como caída controlada e infalible.",
+      "explicacion_breve": "Un paracaídas puede reducir consecuencias, pero necesita condiciones de despliegue. Su presencia no permite eliminar el margen ni situar personas bajo la trayectoria.",
+      "error_habitual": "Presentar el FTS como caída controlada e infalible.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "leccion_id": "b8-06"
+    },
+    {
+      "id": "B8-R26-FC-016",
+      "tema": "STS-02: entorno y fases",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué condición de entorno exige STS-02?",
+      "respuesta": "Que toda la zona terrestre controlada esté en entorno escasamente poblado.",
+      "explicacion_breve": "Una misión se aleja 3 km del piloto y recupera en VLOS. Recuperar a la vista no corrige la superación del máximo de separación STS-02.",
+      "error_habitual": "Comprobar solo despegue y aterrizaje.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b8-07"
+    },
+    {
+      "id": "B8-R26-FC-017",
+      "tema": "STS-02: entorno y fases",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Una misión con observadores alcanza 3 km y recupera en VLOS. ¿Queda resuelta por esa recuperación?",
+      "respuesta": "No; sigue incumpliendo el máximo UA-piloto de 2 km.",
+      "explicacion_breve": "Una misión se aleja 3 km del piloto y recupera en VLOS. Recuperar a la vista no corrige la superación del máximo de separación STS-02.",
+      "error_habitual": "Comprobar solo despegue y aterrizaje.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b8-07"
+    },
+    {
+      "id": "B8-R26-FC-018",
+      "tema": "Intrusión y replanteo",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué radio exige STS-01 con anclaje?",
+      "respuesta": "Longitud del anclaje más 5 m desde el punto de fijación en superficie.",
+      "explicacion_breve": "Con anclaje de 20 m, el radio de zona del ejemplo es 25 m respecto al punto de fijación. Eso no convierte 25 m en margen universal de una aeronave sin anclaje.",
+      "error_habitual": "Importar una fórmula de otro escenario sin comprobar su ámbito.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-08"
+    },
+    {
+      "id": "B8-R26-FC-019",
+      "tema": "Intrusión y replanteo",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "En STS-01 con anclaje de 20 m, ¿qué radio resulta de la regla específica?",
+      "respuesta": "25 m desde el punto de fijación en superficie.",
+      "explicacion_breve": "Con anclaje de 20 m, el radio de zona del ejemplo es 25 m respecto al punto de fijación. Eso no convierte 25 m en margen universal de una aeronave sin anclaje.",
+      "error_habitual": "Importar una fórmula de otro escenario sin comprobar su ámbito.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-08"
+    },
+    {
+      "id": "B8-R26-FC-020",
+      "tema": "Intrusión y replanteo",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre intrusión y replanteo?",
+      "respuesta": "Importar una fórmula de otro escenario sin comprobar su ámbito.",
+      "explicacion_breve": "Con anclaje de 20 m, el radio de zona del ejemplo es 25 m respecto al punto de fijación. Eso no convierte 25 m en margen universal de una aeronave sin anclaje.",
+      "error_habitual": "Importar una fórmula de otro escenario sin comprobar su ámbito.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b8-08"
+    }
+  ]
+}

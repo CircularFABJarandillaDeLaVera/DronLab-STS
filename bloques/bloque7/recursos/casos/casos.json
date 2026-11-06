@@ -1,5 +1,123 @@
-{"titulo":"Casos practicos Bloque 7 STS","total":3,"casos":[
-{"id":"B7-C-001","titulo":"Camara termica lateral en C5","dificultad":"media","contexto":"Un piloto instala una camara termica de 800 g en un soporte lateral de un dron C5.","situacion_inicial":"Antes de despegar realiza una prueba de equilibrio para verificar que el CG sigue dentro de los margenes del fabricante.","informacion_disponible":["La carga util forma parte de la MTOM.","Cualquier accesorio altera el equilibrio original.","El CG debe quedar dentro de limites de diseno.","STS-01/C5 se centra en control a baja velocidad."],"problema_planteado":"Determinar que comprobaciones son necesarias antes de aceptar la configuracion.","preguntas_para_el_alumno":["La camara queda fuera o dentro de la MTOM?","Que efecto tiene el montaje lateral en el CG?","Que debe comprobarse antes del despegue?"],"objetivos_de_aprendizaje":["Relacionar payload con MTOM.","Detectar riesgo de CG lateral.","Aplicar verificacion pre-vuelo."],"errores_habituales":["Creer que la carga util es adicional a MTOM.","No repetir verificacion de CG.","Pensar que potencia suficiente equivale a seguridad."],"conceptos_relacionados":["MTOM","CG","payload","C5","STS-01"],"referencia_al_bloque":"Bloque 7 | Syllabus STS pagina 11 | Estado VALIDADO"},
-{"id":"B7-C-002","titulo":"Alta montana y calor intenso","dificultad":"media","contexto":"Durante una inspeccion en alta montana con calor intenso, el piloto nota que el dron requiere un 90% de potencia para mantener estacionario.","situacion_inicial":"La baja densidad del aire ha reducido el rendimiento de los motores.","informacion_disponible":["Calor y altitud reducen densidad.","Menor densidad reduce rendimiento.","Puede ser necesario volar por debajo de MTOM.","Mantener envolvente segura es obligatorio."],"problema_planteado":"Justificar la decision de aterrizar para no salir de la envolvente segura.","preguntas_para_el_alumno":["Que variable ambiental degrada el rendimiento?","Que relacion hay entre densidad y MTOM operativa?","Por que aterrizar es decision correcta?"],"objetivos_de_aprendizaje":["Relacionar meteorologia y envolvente.","Reconocer potencia excesiva como sintoma.","Aplicar decision conservadora."],"errores_habituales":["Forzar vuelo porque aun despega.","Ignorar densidad del aire.","No ajustar masa o envolvente."],"conceptos_relacionados":["envolvente","densidad","MTOM","potencia","seguridad"],"referencia_al_bloque":"Bloque 7 | Syllabus STS pagina 11 | Estado VALIDADO"},
-{"id":"B7-C-003","titulo":"Masa nacional y geocaging complementario","dificultad":"dificil","contexto":"Una operacion estudia drones nacionales sin marcado de clase y limitaciones artificiales por software.","situacion_inicial":"Aparecen datos STS-ES-01NE inferior a 10 kg, STS-ES-02NE inferior a 25 kg y MME8/geocaging.","informacion_disponible":["MME8 limita rendimiento por software/geocaging.","STS-ES-01NE: masa inferior a 10 kg.","STS-ES-02NE: masa inferior a 25 kg.","Este contenido es complementario separado."],"problema_planteado":"Usar esos datos sin presentarlos como Syllabus AESA pagina 11.","preguntas_para_el_alumno":["Que trazabilidad tienen estos datos?","Que masas corresponden a STS-ES-01NE y 02NE?","Que funcion cumple el geocaging MME8?"],"objetivos_de_aprendizaje":["Separar trazabilidad principal y complementaria.","Recordar masas nacionales.","No mezclar MME8 con pagina 11 AESA."],"errores_habituales":["Presentarlo como Syllabus pagina 11.","Intercambiar 10 kg y 25 kg.","Confundir geocaging con MTOM del fabricante."],"conceptos_relacionados":["MME8","geocaging","STS-ES-01NE","STS-ES-02NE","trazabilidad"],"referencia_al_bloque":"Complementario | MME8 | STS-ES-01NE < 10 kg | STS-ES-02NE < 25 kg"}
-]}
+{
+  "titulo": "Casos · Bloque 7",
+  "total": 3,
+  "casos": [
+    {
+      "id": "B7-R26-C-001",
+      "titulo": "Equilibrio de palanca",
+      "dificultad": "media",
+      "contexto": "Modelo estático ideal: 100 kg a 25 cm de un apoyo. Al otro lado, masa desconocida a 1 m.",
+      "situacion_inicial": "¿Qué masa a 1 m equilibra 100 kg situados a 25 cm del apoyo ideal?",
+      "informacion_disponible": [
+        "Para equilibrar dos masas bajo la misma gravedad respecto a un apoyo ideal se igualan momentos: m1 × d1 = m2 × d2. Se conserva la unidad de distancia en ambos lados. La imagen aportada sirve para este modelo de estática, no para establecer por sí sola el CG válido de un UAS."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "¿Qué masa a 1 m equilibra 100 kg situados a 25 cm del apoyo ideal?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Comprobar masa, centrado, energía y límites ambientales con ejemplos calculados."
+      ],
+      "errores_habituales": [
+        "Responder 100 kg por simetría visual sin comparar brazos."
+      ],
+      "conceptos_relacionados": [
+        "Equilibrio de palanca"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "solucion_razonada": "25 kg. Para equilibrar dos masas bajo la misma gravedad respecto a un apoyo ideal se igualan momentos: m1 × d1 = m2 × d2. Se conserva la unidad de distancia en ambos lados. La imagen aportada sirve para este modelo de estática, no para establecer por sí sola el CG válido de un UAS.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B7-R26-C-002",
+      "titulo": "Estabilidad y carga útil",
+      "dificultad": "dificil",
+      "contexto": "La masa total no supera MTOM, pero la cámara puede deslizarse dentro de su soporte.",
+      "situacion_inicial": "La masa cumple MTOM, pero el soporte permite deslizarse a la cámara. ¿Está resuelta la configuración?",
+      "informacion_disponible": [
+        "Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "La masa cumple MTOM, pero el soporte permite deslizarse a la cámara. ¿Está resuelta la configuración?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Comprobar masa, centrado, energía y límites ambientales con ejemplos calculados."
+      ],
+      "errores_habituales": [
+        "Creer que respetar la MTOM resuelve todo el balance."
+      ],
+      "conceptos_relacionados": [
+        "Estabilidad y carga útil"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "solucion_razonada": "No; hay que asegurar la carga y comprobar el centrado. Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B7-R26-C-003",
+      "titulo": "Verificación tras un cambio",
+      "dificultad": "dificil",
+      "contexto": "Se propone sustituir la batería por otra más pesada para disponer de más energía nominal.",
+      "situacion_inicial": "Se propone una batería más pesada. ¿Qué comprobación es necesaria?",
+      "informacion_disponible": [
+        "Cambiar batería, hélice, soporte, sensor o software puede alterar masa, CG, consumo o funciones. Se comprueban compatibilidad, límites y documentación de la configuración antes de operar. No se plantea una conexión de baterías ni modificación como experimento de vuelo."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "Se propone una batería más pesada. ¿Qué comprobación es necesaria?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Comprobar masa, centrado, energía y límites ambientales con ejemplos calculados."
+      ],
+      "errores_habituales": [
+        "Mejorar una cifra aislada ignorando las demás."
+      ],
+      "conceptos_relacionados": [
+        "Verificación tras un cambio"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "solucion_razonada": "Compatibilidad, masa total, CG y efecto en el rendimiento. Cambiar batería, hélice, soporte, sensor o software puede alterar masa, CG, consumo o funciones. Se comprueban compatibilidad, límites y documentación de la configuración antes de operar. No se plantea una conexión de baterías ni modificación como experimento de vuelo.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    }
+  ]
+}

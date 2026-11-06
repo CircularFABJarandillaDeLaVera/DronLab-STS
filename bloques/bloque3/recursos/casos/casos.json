@@ -1,58 +1,123 @@
-[
-  {
-    "id": "B3-CA-001",
-    "titulo": "STS-01 sin ID remota",
-    "dificultad": "media",
-    "contexto": "Durante la inspeccion pre-vuelo de un dron clase C5 en STS-01, el piloto detecta que la identificacion remota directa no emite senal.",
-    "situacion_inicial": "El FTS parece operativo, pero el sistema de ID remota no esta activo.",
-    "informacion_disponible": ["STS-01 exige verificar FTS operativo.", "STS-01 exige ID remota directa activa y actualizada.", "La operacion no debe iniciarse si falta una verificacion especifica."],
-    "problema_planteado": "Decidir si puede despegar o debe abortar hasta corregir la ID remota.",
-    "preguntas_para_el_alumno": ["Que dos elementos son especificos de STS-01?", "Que condicion falla?", "Que decision procede antes del despegue?"],
-    "objetivos_de_aprendizaje": ["Aplicar pre-vuelo STS-01.", "No compensar ID remota fallida con FTS operativo.", "Justificar una cancelacion pre-vuelo."],
-    "errores_habituales": ["Despegar porque el FTS funciona.", "Confundir ID remota con un dato administrativo.", "No comprobar actualizacion del sistema."],
-    "conceptos_relacionados": ["STS-01", "FTS", "ID remota directa", "Pre-vuelo"],
-    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
-  },
-  {
-    "id": "B3-CA-002",
-    "titulo": "Geocaging mal configurado en STS-02",
-    "dificultad": "media",
-    "contexto": "Un piloto de STS-02 configura un limite de geocaging para rodear una antena.",
-    "situacion_inicial": "Durante el vuelo, el UAS se acerca rapidamente al limite del volumen definido.",
-    "informacion_disponible": ["STS-02 exige geocaging configurado y operativo.", "Geocaging impide que la aeronave abandone el volumen operacional.", "La salida del volumen activa ERP."],
-    "problema_planteado": "Valorar si la configuracion y la reaccion del piloto evitan la salida del volumen.",
-    "preguntas_para_el_alumno": ["Que funcion es obligatoria en STS-02?", "Que riesgo aparece al acercarse al limite?", "Cuando entraria el ERP?"],
-    "objetivos_de_aprendizaje": ["Relacionar STS-02 y geocaging.", "Conectar volumen operacional con ERP.", "Detectar errores de configuracion."],
-    "errores_habituales": ["Asignar geocaging a STS-01.", "No comprobarlo antes del vuelo.", "Esperar a salir del volumen para reaccionar."],
-    "conceptos_relacionados": ["STS-02", "Geocaging", "Volumen operacional", "ERP"],
-    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
-  },
-  {
-    "id": "B3-CA-003",
-    "titulo": "Intrusion de persona no participante",
-    "dificultad": "media",
-    "contexto": "Una persona ajena cruza el perimetro de seguridad durante una operacion urbana.",
-    "situacion_inicial": "La zona terrestre controlada estaba definida, pero la intrusion ocurre durante el vuelo.",
-    "informacion_disponible": ["La intrusion de personas no participantes se trata como contingencia.", "La seguridad de terceros es prioritaria.", "El piloto y personal esencial deben ejecutar acciones previstas."],
-    "problema_planteado": "Clasificar el evento y activar el procedimiento adecuado.",
-    "preguntas_para_el_alumno": ["Es contingencia o emergencia?", "Que objetivo tiene la respuesta?", "Que papel tiene el personal esencial?"],
-    "objetivos_de_aprendizaje": ["Clasificar intrusiones como contingencia.", "Proteger terceros.", "Aplicar procedimiento en vuelo."],
-    "errores_habituales": ["Llamarlo emergencia tecnica.", "Continuar la maniobra ignorando la intrusion.", "Pensar que la zona definida en papel basta."],
-    "conceptos_relacionados": ["Contingencia", "Personas no participantes", "Zona terrestre controlada"],
-    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
-  },
-  {
-    "id": "B3-CA-004",
-    "titulo": "Fallo del FTS y salida de volumen",
-    "dificultad": "dificil",
-    "contexto": "Durante un vuelo, el piloto intenta activar el FTS ante perdida de control, pero el sistema no funciona correctamente.",
-    "situacion_inicial": "La aeronave se dirige hacia fuera del volumen representado por la zona terrestre controlada.",
-    "informacion_disponible": ["El fallo del FTS es procedimiento de emergencia.", "La salida del volumen activa ERP.", "El aviso ATC es medida principal ante perdida de control fly-away segun la ingenieria."],
-    "problema_planteado": "Distinguir la emergencia tecnica del FTS y la activacion del ERP por salida de volumen.",
-    "preguntas_para_el_alumno": ["Que tipo de procedimiento es el fallo del FTS?", "Que activa el ERP?", "Que medida principal aparece ante fly-away?"],
-    "objetivos_de_aprendizaje": ["Separar emergencia FTS y ERP.", "Conectar salida de volumen con respuesta critica.", "Identificar aviso ATC como medida principal del ERP en fly-away."],
-    "errores_habituales": ["No activar ERP al salir de zona.", "Tratar fallo FTS como contingencia menor.", "No avisar segun el plan previsto."],
-    "conceptos_relacionados": ["FTS", "Emergencia", "ERP", "Fly-away", "Aviso ATC"],
-    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
-  }
-]
+{
+  "titulo": "Casos · Bloque 3",
+  "total": 3,
+  "casos": [
+    {
+      "id": "B3-R26-C-001",
+      "titulo": "Contingencia y emergencia",
+      "dificultad": "media",
+      "contexto": "La UA se aproxima al límite de la geografía de vuelo y sigue dentro del volumen operacional.",
+      "situacion_inicial": "La UA va a superar la geografía de vuelo, pero sigue dentro del volumen operacional. ¿Qué marco corresponde inicialmente?",
+      "informacion_disponible": [
+        "Una contingencia gestiona una desviación y busca recuperar el estado normal dentro del volumen operacional. Una emergencia exige las acciones previstas para una situación que ya no puede recuperarse con los procedimientos normales o de contingencia. La geografía de vuelo y el volumen operacional tienen límites diferentes."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "La UA va a superar la geografía de vuelo, pero sigue dentro del volumen operacional. ¿Qué marco corresponde inicialmente?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Distinguir prevención, contingencia, emergencia y respuesta externa mediante decisiones concretas."
+      ],
+      "errores_habituales": [
+        "Esperar a cruzar el último límite para actuar."
+      ],
+      "conceptos_relacionados": [
+        "Contingencia y emergencia"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "solucion_razonada": "Aplicar la contingencia prevista para esa desviación. Una contingencia gestiona una desviación y busca recuperar el estado normal dentro del volumen operacional. Una emergencia exige las acciones previstas para una situación que ya no puede recuperarse con los procedimientos normales o de contingencia. La geografía de vuelo y el volumen operacional tienen límites diferentes.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B3-R26-C-002",
+      "titulo": "Intrusión de una persona",
+      "dificultad": "dificil",
+      "contexto": "La UA aún está en tierra y entra una persona no participante en la zona.",
+      "situacion_inicial": "Una persona entra antes del despegue. ¿Qué acción tiene sentido?",
+      "informacion_disponible": [
+        "La entrada de una persona no participante altera el control de la zona. Se aplican medidas para protegerla de acuerdo con el procedimiento y la situación: no se despega si aún se está en tierra; en vuelo se adapta o termina de forma segura. Un cartel no convierte a una persona en participante."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "Una persona entra antes del despegue. ¿Qué acción tiene sentido?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Distinguir prevención, contingencia, emergencia y respuesta externa mediante decisiones concretas."
+      ],
+      "errores_habituales": [
+        "Aplicar una maniobra de vuelo a un UAS que sigue en tierra."
+      ],
+      "conceptos_relacionados": [
+        "Intrusión de una persona"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "solucion_razonada": "Mantener la aeronave en tierra y restablecer el control de la zona. La entrada de una persona no participante altera el control de la zona. Se aplican medidas para protegerla de acuerdo con el procedimiento y la situación: no se despega si aún se está en tierra; en vuelo se adapta o termina de forma segura. Un cartel no convierte a una persona en participante.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B3-R26-C-003",
+      "titulo": "Decidir sin recetas universales",
+      "dificultad": "dificil",
+      "contexto": "Hay alerta de posicionamiento; un indicador externo parece favorable.",
+      "situacion_inicial": "El GNSS da una alerta y otro indicador parece favorable. ¿Qué debe guiar la decisión?",
+      "informacion_disponible": [
+        "Las decisiones se apoyan en el escenario, manual, fabricante, coordinaciones y datos reales. OODA significa observar, orientar, decidir y actuar; puede ayudar a organizar el razonamiento. Un indicador aislado, como actividad geomagnética, no establece por sí solo una prohibición universal STS ni garantiza aptitud del GNSS."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "El GNSS da una alerta y otro indicador parece favorable. ¿Qué debe guiar la decisión?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Distinguir prevención, contingencia, emergencia y respuesta externa mediante decisiones concretas."
+      ],
+      "errores_habituales": [
+        "Sustituir una comprobación real por un umbral sin contexto."
+      ],
+      "conceptos_relacionados": [
+        "Decidir sin recetas universales"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "solucion_razonada": "El estado real del sistema, sus limitaciones y el procedimiento aplicable. Las decisiones se apoyan en el escenario, manual, fabricante, coordinaciones y datos reales. OODA significa observar, orientar, decidir y actuar; puede ayudar a organizar el razonamiento. Un indicador aislado, como actividad geomagnética, no establece por sí solo una prohibición universal STS ni garantiza aptitud del GNSS.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    }
+  ]
+}

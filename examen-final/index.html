@@ -16,7 +16,13 @@
     <div class="exam-theme-toolbar" aria-label="Preferencias de visualizacion">
     <button class="cf-button cf-button--secondary theme-toggle" type="button" data-theme-toggle aria-label="Activar modo oscuro" aria-pressed="false"><span data-theme-icon aria-hidden="true">&#9790;</span><span data-theme-label>Modo oscuro</span></button>
   </div>
+<nav aria-label="Vía de preparación STS" class="exam-shell"><a href="?perfil=completo">Desde A1/A3 · 40 preguntas</a> · <a href="?perfil=a2">Con A2 · 30 preguntas</a></nav>
 <main id="examApp" class="exam-shell" data-config="exam-config.json"></main>
+  <script>
+    // La selección está acotada a dos archivos locales; no acepta URLs externas.
+    const reduced = new URLSearchParams(location.search).get('perfil') === 'a2';
+    document.getElementById('examApp').dataset.config = reduced ? 'exam-config-a2.json' : 'exam-config.json';
+  </script>
   <script src="../assets/edusdk-exam/exam-engine.js"></script>
 </body>
 </html>

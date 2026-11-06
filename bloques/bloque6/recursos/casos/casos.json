@@ -1,5 +1,123 @@
-{"titulo":"Casos practicos Bloque 6 STS","total":3,"casos":[
-{"id":"B6-C-001","titulo":"TAF con rafagas superiores al manual","dificultad":"media","contexto":"Un piloto lee un TAF con rafagas de 25 kt para la hora de la mision.","situacion_inicial":"El manual del UAS limita el vuelo a 10 m/s.","informacion_disponible":["1 m/s equivale aproximadamente a 2 kt.","25 kt equivalen aproximadamente a 12,8 m/s.","TAF es pronostico de aerodromo."],"problema_planteado":"Decidir si la mision es Go/No-Go sin inventar datos externos.","preguntas_para_el_alumno":["Que parte se esta usando?","Como se compara 25 kt con 10 m/s?","Que decision procede?"],"objetivos_de_aprendizaje":["Convertir unidades rapidamente.","Aplicar pronostico a una decision Go/No-Go.","No forzar la operacion si supera manual."],"errores_habituales":["Confundir kt y m/s.","Tratar TAF como METAR actual.","Ignorar limite del manual."],"conceptos_relacionados":["TAF","kt","m/s","Go/No-Go"],"referencia_al_bloque":"Bloque 6 | Syllabus STS paginas 8-10 | Estado VALIDADO"},
-{"id":"B6-C-002","titulo":"Valle con turbulencia orografica","dificultad":"media","contexto":"Operacion en un valle entre montanas.","situacion_inicial":"El parte indica calma, pero en zona el piloto detecta turbulencia orografica severa.","informacion_disponible":["Las montanas generan riesgos a sotavento.","El microclima puede diferir de aerodromos lejanos.","La evaluacion local es parte de la toma de decisiones."],"problema_planteado":"Justificar el aborto pese a parte favorable.","preguntas_para_el_alumno":["Que turbulencia aparece?","Por que el parte lejano no basta?","Que decision es conservadora?"],"objetivos_de_aprendizaje":["Distinguir parte oficial y evaluacion local.","Aplicar peligro orografico.","Priorizar seguridad operacional."],"errores_habituales":["Obedecer solo al parte lejano.","No reconocer sotavento.","Minimizar turbulencia local."],"conceptos_relacionados":["turbulencia orografica","microclima","montanas"],"referencia_al_bloque":"Bloque 6 | Syllabus STS paginas 8-10 | Estado VALIDADO"},
-{"id":"B6-C-003","titulo":"Indice K y estacion portatil","dificultad":"dificil","contexto":"Una organizacion revisa condiciones complementarias ENAIRE.","situacion_inicial":"Se menciona indice K planetario y posible estacion meteorologica portatil.","informacion_disponible":["MAE22 puede requerir estacion portatil para viento real.","MMT9 exige indice K < 4.","Este contenido es complementario separado."],"problema_planteado":"Usar los datos sin presentarlos como Syllabus AESA paginas 8-10.","preguntas_para_el_alumno":["Que trazabilidad tiene este contenido?","Que umbral de indice K aparece?","Que mide la estacion portatil?"],"objetivos_de_aprendizaje":["Separar trazabilidad principal y complementaria.","Aplicar indice K < 4.","Reconocer medicion local de viento."],"errores_habituales":["Mezclar ENAIRE con AESA paginas 8-10.","Olvidar que K debe ser < 4.","No distinguir complementario."],"conceptos_relacionados":["ENAIRE","MAE22","MMT9","indice K","estacion portatil"],"referencia_al_bloque":"Complementario ENAIRE MAE22/MMT9 | Indice K < 4 | Trazabilidad separada"}
-]}
+{
+  "titulo": "Casos · Bloque 6",
+  "total": 3,
+  "casos": [
+    {
+      "id": "B6-R26-C-001",
+      "titulo": "Temperatura, presión y densidad",
+      "dificultad": "media",
+      "contexto": "Dos situaciones a igual presión y diferente temperatura. La segunda es más cálida.",
+      "situacion_inicial": "A presión constante aumenta la temperatura. ¿Qué ocurre con la densidad?",
+      "informacion_disponible": [
+        "A presión constante, el aire más caliente tiene menor densidad. La densidad suele disminuir con la altitud. Para producir la misma sustentación, el sistema puede necesitar más esfuerzo y disponer de menos margen. La presión baja con la altura; se identifican hPa e inHg. K = °C + 273,15 y °F = 1,8 × °C + 32."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "A presión constante aumenta la temperatura. ¿Qué ocurre con la densidad?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Interpretar información vigente y local para justificar una decisión de operar, adaptar o aplazar."
+      ],
+      "errores_habituales": [
+        "Suponer que la potencia disponible y la MTOM admisible son iguales en cualquier ambiente."
+      ],
+      "conceptos_relacionados": [
+        "Temperatura, presión y densidad"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "solucion_razonada": "Disminuye. A presión constante, el aire más caliente tiene menor densidad. La densidad suele disminuir con la altitud. Para producir la misma sustentación, el sistema puede necesitar más esfuerzo y disponer de menos margen. La presión baja con la altura; se identifican hPa e inHg. K = °C + 273,15 y °F = 1,8 × °C + 32.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B6-R26-C-002",
+      "titulo": "Niebla, nubes y visibilidad",
+      "dificultad": "dificil",
+      "contexto": "El METAR de un aeródromo cercano es favorable; en el valle de la misión se observa niebla.",
+      "situacion_inicial": "El METAR cercano es favorable y el valle tiene niebla. ¿Qué procede?",
+      "informacion_disponible": [
+        "La niebla reduce la visibilidad horizontal por debajo de 1 km; puede formarse por enfriamiento nocturno (radiación) o por desplazamiento de aire húmedo sobre una superficie más fría (advección). Las nubes de desarrollo convectivo pueden indicar turbulencia y precipitaciones intensas. La visibilidad local se contrasta con referencias, luz y obstáculos."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "El METAR cercano es favorable y el valle tiene niebla. ¿Qué procede?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Interpretar información vigente y local para justificar una decisión de operar, adaptar o aplazar."
+      ],
+      "errores_habituales": [
+        "Trasladar sin comprobar la visibilidad de un aeródromo al lugar de operación."
+      ],
+      "conceptos_relacionados": [
+        "Niebla, nubes y visibilidad"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "solucion_razonada": "Evaluar el lugar y no iniciar si no se cumplen las condiciones necesarias. La niebla reduce la visibilidad horizontal por debajo de 1 km; puede formarse por enfriamiento nocturno (radiación) o por desplazamiento de aire húmedo sobre una superficie más fría (advección). Las nubes de desarrollo convectivo pueden indicar turbulencia y precipitaciones intensas. La visibilidad local se contrasta con referencias, luz y obstáculos.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B6-R26-C-003",
+      "titulo": "Briefing meteorológico y decisión",
+      "dificultad": "dificil",
+      "contexto": "Visibilidad de 6 km, pero rachas superiores al límite del manual para esa configuración.",
+      "situacion_inicial": "Se cumple visibilidad STS-02, pero se supera el viento permitido por el manual. ¿Puede iniciarse?",
+      "informacion_disponible": [
+        "Se combinan observaciones recientes, pronóstico, radar o satélite, condiciones locales y límites del equipo. Ninguna fuente aislada garantiza seguridad. Para STS-02 se comprueba también la visibilidad de vuelo superior a 5 km, separándola del alcance UA-piloto."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "Se cumple visibilidad STS-02, pero se supera el viento permitido por el manual. ¿Puede iniciarse?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Interpretar información vigente y local para justificar una decisión de operar, adaptar o aplazar."
+      ],
+      "errores_habituales": [
+        "Aceptar la misión porque una sola variable es favorable."
+      ],
+      "conceptos_relacionados": [
+        "Briefing meteorológico y decisión"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "solucion_razonada": "No; deben cumplirse simultáneamente las condiciones aplicables. Se combinan observaciones recientes, pronóstico, radar o satélite, condiciones locales y límites del equipo. Ninguna fuente aislada garantiza seguridad. Para STS-02 se comprueba también la visibilidad de vuelo superior a 5 km, separándola del alcance UA-piloto.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    }
+  ]
+}

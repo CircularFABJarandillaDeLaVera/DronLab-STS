@@ -1,126 +1,123 @@
-[
-  {
-    "id": "B2-CA-001",
-    "titulo": "Inspeccion larga con frio extremo",
-    "dificultad": "media",
-    "contexto": "Un piloto realiza una inspeccion de 6 horas en invierno a 2 grados.",
-    "situacion_inicial": "Tras 4 horas empieza a notar torpeza en los dedos y perdida de atencion.",
-    "informacion_disponible": [
-      "El frio extremo puede deteriorar la motricidad fina.",
-      "La fatiga reduce alerta y rendimiento.",
-      "La ingenieria indica registrar fatiga de la tripulacion en informes post-vuelo.",
-      "La decision debe priorizar el estado psicofisico del piloto."
-    ],
-    "problema_planteado": "Decidir si continuar, pausar o aterrizar por fatiga y frio extremo.",
-    "preguntas_para_el_alumno": [
-      "Que limitaciones humanas aparecen?",
-      "Como afecta la motricidad fina al manejo de los sticks?",
-      "Que debe registrarse tras el vuelo?"
-    ],
-    "objetivos_de_aprendizaje": [
-      "Relacionar frio, fatiga y motricidad fina.",
-      "Justificar una decision conservadora por rendimiento humano.",
-      "Incluir la fatiga en la gestion post-vuelo."
-    ],
-    "errores_habituales": [
-      "Seguir por compromiso con la mision.",
-      "Tratar dedos torpes como incomodidad menor.",
-      "No documentar fatiga."
-    ],
-    "conceptos_relacionados": ["Fatiga", "Motricidad fina", "Hipotermia", "Gestion de sucesos"],
-    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
-  },
-  {
-    "id": "B2-CA-002",
-    "titulo": "STS-02 con observador distraido",
-    "dificultad": "media",
-    "contexto": "Durante un vuelo STS-02, el piloto depende de observadores del espacio aereo.",
-    "situacion_inicial": "Un observador alterna la vigilancia con conversaciones y mira el cielo de forma fija.",
-    "informacion_disponible": [
-      "STS-02 BVLOS depende mas de telemetria y observadores.",
-      "El barrido visual debe realizarse en saltos de 10 a 15 grados.",
-      "El trafico tripulado es dificil de detectar a distancia.",
-      "Las distracciones deben eliminarse durante el vuelo."
-    ],
-    "problema_planteado": "Determinar si la vigilancia del observador es adecuada y que correcciones proceden.",
-    "preguntas_para_el_alumno": [
-      "Que tecnica de vigilancia debe aplicar el observador?",
-      "Por que la mirada fija es insuficiente?",
-      "Que distracciones deben eliminarse?"
-    ],
-    "objetivos_de_aprendizaje": [
-      "Aplicar barrido visual de 10-15 grados.",
-      "Conectar BVLOS con dependencia de observadores.",
-      "Identificar distracciones criticas."
-    ],
-    "errores_habituales": [
-      "Mirar fijamente al cielo.",
-      "Sobreestimar la deteccion visual.",
-      "Permitir conversaciones no operativas."
-    ],
-    "conceptos_relacionados": ["BVLOS", "Observadores", "Barrido visual", "Distracciones"],
-    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
-  },
-  {
-    "id": "B2-CA-003",
-    "titulo": "Cliente presiona para completar el trabajo",
-    "dificultad": "dificil",
-    "contexto": "Una empresa UAS tiene que entregar imagenes antes del cierre de jornada.",
-    "situacion_inicial": "El piloto reconoce estres, cansancio y deslumbramiento por sol bajo, pero el cliente insiste en completar el vuelo.",
-    "informacion_disponible": [
-      "El estres puede nublar el juicio.",
-      "La presion comercial induce riesgos innecesarios.",
-      "El sol puede degradar la vision del piloto.",
-      "El responsable de la decision segura no es el cliente."
-    ],
-    "problema_planteado": "Decidir como gestionar la presion comercial y si la operacion debe continuar.",
-    "preguntas_para_el_alumno": [
-      "Que factores humanos se acumulan?",
-      "Como afecta la presion comercial a la toma de decisiones?",
-      "Que frase de seguridad debe guiar la decision?"
-    ],
-    "objetivos_de_aprendizaje": [
-      "Detectar presion comercial como riesgo.",
-      "Relacionar estres y vision degradada.",
-      "Justificar una parada por seguridad."
-    ],
-    "errores_habituales": [
-      "Volar por compromiso.",
-      "Minimizar el deslumbramiento.",
-      "Transferir la responsabilidad al cliente."
-    ],
-    "conceptos_relacionados": ["Estres", "Presion comercial", "Sol", "Toma de decisiones"],
-    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
-  },
-  {
-    "id": "B2-CA-004",
-    "titulo": "Piloto medicado antes del vuelo",
-    "dificultad": "media",
-    "contexto": "Un piloto ha tomado medicacion y se siente menos alerta antes de una operacion STS.",
-    "situacion_inicial": "El equipo ya esta preparado y el operador espera iniciar la mision.",
-    "informacion_disponible": [
-      "Medicinas y sustancias psicoactivas pueden degradar reflejos y juicio.",
-      "El piloto debe mantener estado fisico y mental optimo.",
-      "La aptitud medica forma parte de la seguridad operacional.",
-      "El estado general de salud influye en la operacion."
-    ],
-    "problema_planteado": "Valorar si el piloto esta en condiciones de iniciar la operacion.",
-    "preguntas_para_el_alumno": [
-      "Que debe comprobarse antes del despegue?",
-      "Por que una medicina puede ser relevante?",
-      "Que decision seria coherente con la aptitud medica?"
-    ],
-    "objetivos_de_aprendizaje": [
-      "Incluir medicinas en la evaluacion psicofisica.",
-      "Priorizar aptitud del piloto.",
-      "Evitar decisiones por inercia operativa."
-    ],
-    "errores_habituales": [
-      "Pensar solo en alcohol o drogas.",
-      "Despegar porque el equipo ya esta montado.",
-      "No considerar el estado general de salud."
-    ],
-    "conceptos_relacionados": ["Aptitud medica", "Medicinas", "Reflejos", "Juicio"],
-    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
-  }
-]
+{
+  "titulo": "Casos · Bloque 2",
+  "total": 3,
+  "casos": [
+    {
+      "id": "B2-R26-C-001",
+      "titulo": "Presión comercial y decisión",
+      "dificultad": "media",
+      "contexto": "El cliente exige continuar tras perderse una condición necesaria para operar.",
+      "situacion_inicial": "El cliente insiste en continuar tras perder una condición necesaria. ¿Qué debe pesar más?",
+      "informacion_disponible": [
+        "Un compromiso comercial puede sesgar la valoración del riesgo. La decisión se compara con condiciones y límites definidos antes del vuelo. Acordar de antemano criterios de pausa o cancelación reduce la presión de improvisar cuando el cliente insiste."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "El cliente insiste en continuar tras perder una condición necesaria. ¿Qué debe pesar más?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Detectar una degradación humana y elegir una medida proporcionada antes de que afecte al control."
+      ],
+      "errores_habituales": [
+        "Cambiar los límites por presión de tiempo."
+      ],
+      "conceptos_relacionados": [
+        "Presión comercial y decisión"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "solucion_razonada": "Restablecer las condiciones seguras antes de continuar. Un compromiso comercial puede sesgar la valoración del riesgo. La decisión se compara con condiciones y límites definidos antes del vuelo. Acordar de antemano criterios de pausa o cancelación reduce la presión de improvisar cuando el cliente insiste.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B2-R26-C-002",
+      "titulo": "Conciencia situacional",
+      "dificultad": "dificil",
+      "contexto": "El piloto observa descenso de batería y prevé que el regreso será contra el viento.",
+      "situacion_inicial": "El piloto ve la batería bajar y anticipa un regreso contra el viento. ¿Qué componente está usando?",
+      "informacion_disponible": [
+        "Consiste en percibir lo que ocurre, comprender su significado y anticipar cómo puede evolucionar. No se limita a mirar telemetría: incluye posición, entorno, energía, personas, tráfico y estado de la tripulación."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "El piloto ve la batería bajar y anticipa un regreso contra el viento. ¿Qué componente está usando?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Detectar una degradación humana y elegir una medida proporcionada antes de que afecte al control."
+      ],
+      "errores_habituales": [
+        "Acumular datos sin interpretar qué cambiarán en la misión."
+      ],
+      "conceptos_relacionados": [
+        "Conciencia situacional"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "solucion_razonada": "La proyección de la situación futura. Consiste en percibir lo que ocurre, comprender su significado y anticipar cómo puede evolucionar. No se limita a mirar telemetría: incluye posición, entorno, energía, personas, tráfico y estado de la tripulación.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    },
+    {
+      "id": "B2-R26-C-003",
+      "titulo": "Coordinación y comunicación",
+      "dificultad": "dificil",
+      "contexto": "El equipo recibe un mensaje ambiguo sobre tráfico próximo.",
+      "situacion_inicial": "Un aviso de tráfico resulta ambiguo. ¿Qué debe hacer el equipo?",
+      "informacion_disponible": [
+        "En BVLOS aumenta la importancia de una imagen compartida de la situación. Si hay observadores, se acuerdan roles, sectores, mensajes y confirmaciones. La telemetría informa sobre el UAS; no reemplaza por sí sola la vigilancia del espacio aéreo. STS-02 también prevé una configuración sin observadores bajo condiciones específicas."
+      ],
+      "problema_planteado": "Justifica la decisión e identifica qué dato o condición podría cambiarla.",
+      "preguntas_para_el_alumno": [
+        "Un aviso de tráfico resulta ambiguo. ¿Qué debe hacer el equipo?",
+        "¿Qué dato cambia tu respuesta si deja de cumplirse?",
+        "¿Qué comprobarías antes de trasladar el ejemplo a otro UAS o lugar?"
+      ],
+      "objetivos_de_aprendizaje": [
+        "Detectar una degradación humana y elegir una medida proporcionada antes de que afecte al control."
+      ],
+      "errores_habituales": [
+        "Suponer que el observador transmite datos o que el piloto los ha entendido sin confirmación."
+      ],
+      "conceptos_relacionados": [
+        "Coordinación y comunicación"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "solucion_razonada": "Aclarar y confirmar el mensaje aplicando el procedimiento previsto. En BVLOS aumenta la importancia de una imagen compartida de la situación. Si hay observadores, se acuerdan roles, sectores, mensajes y confirmaciones. La telemetría informa sobre el UAS; no reemplaza por sí sola la vigilancia del espacio aéreo. STS-02 también prevé una configuración sin observadores bajo condiciones específicas.",
+      "transferencia": "Cambia una condición del ejemplo y explica si se mantiene la decisión. Indica qué comprobación adicional necesitas.",
+      "criterios_evaluacion": [
+        "Identifica la condición decisiva.",
+        "Explica la decisión con la fuente y su ámbito.",
+        "No supone datos ausentes ni traslada límites entre escenarios."
+      ]
+    }
+  ]
+}

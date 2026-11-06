@@ -1,25 +1,19 @@
-﻿# Prompts reutilizables · Bloque 8 STS
+# Repaso guiado · Bloque 8
 
-Fuente academica unica: `DronLab-STS/bloques/bloque8/ingenieria/ingenieria.md`.
+Utiliza la ficha, los ejemplos y las fuentes oficiales enlazadas de este bloque. Actúa como tutor: plantea una pregunta, espera mi justificación y después ofrece devolución. No reveles la respuesta antes de que yo decida.
 
-Trazabilidad principal: AESA · Syllabus STS · Edicion 2 · 17/04/2023 · paginas 11-12 · VALIDADO.
+## Entender
 
-Contenido complementario separado: Resolucion 10/11/2024 y RD 517/2024 sobre obstaculos, intrusion, STS-ES-02NE inferior a 25 kg y luz verde intermitente nocturna.
+Explica «Personas y zona controlada» con un ejemplo breve. Distingue la regla, su ámbito, el dato de ejemplo y lo que falta por comprobar.
 
-## Prompt 1 · Riesgo en tierra
-Explica el concepto de riesgo en tierra en operaciones STS y diferencia su foco respecto al riesgo en aire.
+## Aprender del error
 
-## Prompt 2 · Zona terrestre controlada
-Describe que debe garantizar el operador dentro de una zona terrestre controlada y por que no puede comprender concentraciones de personas.
+Pídeme resolver un caso del bloque y justificar cada condición. Tras mi respuesta, explica la opción correcta y el motivo por el que las alternativas no encajan. No inventes límites ni atribuyas preguntas adaptadas a AESA.
 
-## Prompt 3 · Margen de riesgo STS-02
-Explica como la velocidad y la altura influyen en el margen de riesgo en tierra de STS-02.
+## Transferir
 
-## Prompt 4 · STS-01 y FTS
-Construye una explicacion docente sobre por que STS-01 requiere mitigacion de riesgo en tierra en entorno poblado y que papel tiene el FTS.
+Cambia una sola condición del caso. Pídeme decidir otra vez y explicar qué dato cambió el razonamiento. Si falta información, ayúdame a identificarla en vez de suponerla.
 
-## Prompt 5 · STS-02 VLOS/BVLOS
-Plantea una pregunta de examen sobre despegue y aterrizaje en VLOS dentro de una operacion STS-02 con crucero BVLOS.
+## Contrastar
 
-## Prompt 6 · Trazabilidad complementaria
-Clasifica los siguientes elementos como Syllabus AESA paginas 11-12 o complementario separado: riesgo en tierra, zona terrestre controlada, obstaculos, intrusion, STS-ES-02NE inferior a 25 kg y luz verde nocturna.
+Comprueba las afirmaciones normativas con la disposición vigente enlazada. El syllabus organiza materias; no sustituye el reglamento ni el manual del UAS. Si no puedes verificar una afirmación, indícalo y no la presentes como regla.

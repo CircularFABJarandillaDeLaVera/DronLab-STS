@@ -1,123 +1,131 @@
-# DRONLAB STS · INGENIERÍA PROFUNDA BLOQUE 4
+# Bloque 4 · Mitigación técnica y operacional del riesgo en aire
 
-Este documento constituye la **Ingeniería del Conocimiento** definitiva para el **Bloque 4: Mitigación técnica y operacional del riesgo en aire**, diseñada para ser procesada por el agente DronLab-SDK. El núcleo académico se basa estrictamente en el syllabus oficial de AESA para la categoría «específica», páginas 6 y 7, integrando únicamente los contenidos complementarios cuya fuente oficial ha sido verificada.
+Revisión documental: 06/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
 
----
+## Objetivo y conexión
 
-# 0. TRAZABILIDAD DOCUMENTAL
-- **Organismo:** AESA
-- **Documento:** MATERIAS DEL EXAMEN DE CONOCIMIENTOS TEÓRICOS DE LA CATEGORÍA «ESPECÍFICA» PARA OPERACIONES DE UAS BAJO ESCENARIOS ESTÁNDAR (STS)
-- **Código / referencia:** Syllabus oficial STS
-- **Edición / versión:** 2
-- **Fecha:** 17/04/2023
-- **Páginas relacionadas:** 6–7 (Materia 4: Mitigación técnica y operacional del riesgo en aire)
-- **Estado:** VALIDADO
+Planificar la vigilancia y responder a tráfico sin confundir alcance, visibilidad y contención.
 
----
+La vigilancia evita encuentros; la contención del bloque 5 limita salidas, pero no detecta tráfico.
 
-## 1. CONCEPTOS PRINCIPALES DESARROLLADOS (Syllabus pág. 6–7)
+## Método
 
-### Definición y Clasificación del Riesgo
-*   **Conceptos de "riesgo" y "riesgo en aire":** Familiarización con la probabilidad de colisión en el espacio aéreo.
-*   **Mitigaciones Técnicas:** Basadas en el equipamiento del UAS (ej. FTS o Geocaging).
-*   **Mitigaciones Operacionales:** Basadas en procedimientos o personal (ej. VLOS u observadores).
-*   **Mitigaciones Estratégicas:** Medidas aplicadas antes de la operación para reducir la probabilidad de encuentro.
-*   **Mitigaciones Tácticas:** Medidas aplicadas en tiempo real para evitar una colisión tras detectar una amenaza.
+Recuperar una idea previa → explicar → resolver un ejemplo → decidir sin ver la solución → contrastar → transferir cambiando una condición.
 
-### Principios de Separación
-*   **"Ver y evitar" (See and Avoid):** El piloto detecta visualmente y maniobra; es el pilar de las operaciones VLOS.
-*   **"Detectar y evitar" (Detect and Avoid):** Uso de medios humanos (observadores) o técnicos para cumplir la función de separación cuando no hay contacto visual directo.
+Las preguntas nuevas son adaptadas, no preguntas oficiales de AESA. Los ejemplos son ficticios y no autorizan vuelos. Los límites del escenario, del equipo y del lugar deben cumplirse simultáneamente.
 
----
+## Peligro, exposición y riesgo
 
-## 2. RIESGO EN EL AIRE EN EL ESCENARIO STS-01 (VLOS)
-*   **Abordaje principal:** Se gestiona mediante la mitigación operacional **VLOS**.
-*   **Responsabilidad del piloto:** Mantener un **reconocimiento exhaustivo del espacio aéreo** que rodea a la aeronave para cumplir el principio de "ver y evitar".
-*   **Asistencia:** El piloto puede estar asistido por un **observador de la aeronave** (UAS observer) para cumplir su responsabilidad de vigilancia, requiriendo una comunicación clara y eficaz entre ambos.
-*   **Mitigación técnica:** El UAS debe estar equipado obligatoriamente con un **Sistema de Terminación de Vuelo (FTS)**.
+El riesgo en aire considera la posibilidad de colisión y sus consecuencias. La mitigación estratégica reduce encuentros antes de volar; la táctica actúa ante una amenaza concreta durante la operación. Técnica/operacional y estratégica/táctica son clasificaciones distintas que pueden cruzarse.
 
----
+**Ejemplo resuelto:** Elegir horario y zona para reducir encuentros es estratégico. Responder a una aeronave que se aproxima es táctico. Ambas decisiones pueden coexistir.
 
-## 3. RIESGO EN EL AIRE EN EL ESCENARIO STS-02 (BVLOS)
-*   **Abordaje del incremento de riesgo:** Al ser una operación más allá del alcance visual, el riesgo se mitiga principalmente mediante:
-    1.  Presencia obligatoria de **observador(es) del espacio aéreo** (Airspace Observers).
-    2.  O bien, una **trayectoria pre-programada obligatoria** para la aeronave no tripulada.
-*   **Requisito de visibilidad:** Es obligatorio garantizar una **visibilidad horizontal de 5 km o más**.
-*   **Mitigaciones técnicas principales:**
-    1.  Equipamiento con una **función de geocaging** que impida físicamente que la aeronave salga del volumen operacional.
-    2.  Provisión de **información sobre la posición geográfica** de la aeronave no tripulada al piloto.
+**Error habitual:** Clasificar todo en cuatro cajones excluyentes.
 
----
+**Comprobación:** Se elige un horario para reducir encuentros antes del vuelo. ¿Qué tipo de mitigación es?
 
-## 4. CONTENIDO ACADÉMICO COMPLEMENTARIO (Fuentes oficiales verificadas)
+**Respuesta razonada:** Estratégica.
 
-*Las siguientes medidas no constan en el syllabus de las páginas 6–7, pero están respaldadas por otras fuentes oficiales cargadas:*
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
 
-*   **MME8 (Mitigación Estratégica):** Reducción o acotación del volumen de operación reforzado por software, limitando la **altura AGL** (ej. a 50 metros) para minimizar la exposición al riesgo en aire. (Fuente: Guía ENAIRE EAS v2.5).
-*   **MMT9 / MAT16 / MAT17 (Mitigación Táctica):** Comprobación de que el **índice K planetario es < 4**. Si es igual o superior, se debe abortar la operación para evitar fallos de posicionamiento que incrementen el riesgo en aire. (Fuente: Catálogo Atenuaciones ENAIRE v1.4).
-*   **MAE36 / MMT11 (Medida de Vigilancia):** Uso de un **transpondedor Modo S** para que los sistemas de control de tránsito aéreo (radar) y otras aeronaves detecten al UAS en espacio aéreo controlado. (Fuente: Catálogo Atenuaciones ENAIRE v1.4).
-*   **Función de Geoconsciencia:** El piloto debe activarla y cargarle la información de las zonas geográficas UAS antes del vuelo (Fuente: RD 517/2024).
+## Ver y evitar en STS-01
 
----
+El piloto mantiene VLOS y vigilancia del espacio aéreo, con posible asistencia de un observador de la UA. Esa ayuda no transfiere la responsabilidad. Ver la aeronave y detectar otro tráfico son tareas relacionadas, pero diferentes. Una pantalla no acredita por sí sola vigilancia del entorno.
 
-## 5. TABLA COMPARATIVA STS-01 / STS-02 (Riesgo en Aire)
+**Ejemplo resuelto:** El piloto ve perfectamente su dron, pero no ha explorado el sector desde el que llega una aeronave. Ver el UAS no equivale a haber vigilado todo el tráfico.
 
-| Parámetro | STS-01 (VLOS) | STS-02 (BVLOS) |
-| :--- | :--- | :--- |
-| **Mitigación Operacional Principal** | Vigilancia visual del piloto (VLOS) | Observadores del espacio aéreo o trayectoria pre-programada |
-| **Principio de Separación** | "Ver y evitar" | "Detectar y evitar" |
-| **Visibilidad Horizontal** | Suficiente para ver el UAS | **Mínimo 5 km** |
-| **Mitigación Técnica UA** | Sistema de Terminación de Vuelo (FTS) | Geocaging e información de posición geográfica |
-| **Reconocimiento del Aire** | Exhaustivo por parte del piloto | Realizado por los observadores asignados |
-| **Equipamiento de Seguridad** | FTS obligatorio | FTS independiente de la controladora y del geocaging |
+**Error habitual:** Reducir VLOS a no perder el punto del dron.
 
----
+**Comprobación:** Un observador asiste en STS-01. ¿Quién mantiene la responsabilidad del piloto?
 
-## 6. DATOS CRÍTICOS PARA EXAMEN
-*   **Visibilidad en STS-02:** 5 kilómetros o más.
-*   **Independencia técnica:** El FTS debe ser independiente de la controladora de vuelo y de la función de geocaging en drones clase C6.
-*   **Función del Geocaging:** Debe **impedir** físicamente que la UA salga del volumen operacional (no solo avisar).
-*   **UAS Observer (STS-01):** Solo asiste al piloto; la responsabilidad de "ver y evitar" sigue siendo de este último.
+**Respuesta razonada:** El piloto a distancia.
 
----
+**Fuente:** [Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777).
 
-## 7. ERRORES Y CONFUSIONES FRECUENTES
-1.  **Confundir mitigación operativa con técnica:** Creer que el geocaging es una mitigación operativa (es técnica, basada en software/hardware).
-2.  **Visibilidad en STS-01:** Pensar que existe un límite de km prefijado; el requisito es mantener el **alcance visual (VLOS)** y un reconocimiento exhaustivo.
-3.  **Observadores en STS-02:** Creer que son opcionales; su presencia es obligatoria a menos que se use una trayectoria pre-programada obligatoria.
-4.  **Geocaging vs Geoconsciencia:** El geocaging es un requisito de mitigación técnica en STS-02 que **impide** la salida del volumen, mientras que la geoconsciencia es informativa.
+## STS-02 sin observador
 
----
+La configuración sin observador del espacio aéreo está prevista: UA a no más de 1 km del piloto y trayectoria preprogramada cuando deja de estar en VLOS, además de las restantes condiciones STS-02. No se deduce que una ruta programada detecte aeronaves o evite por sí sola una colisión.
 
-## 8. PREGUNTAS QUE NACEN DEL CONTENIDO
-*   ¿Qué diferencia existe entre el principio de "ver y evitar" y el de "detectar y evitar"?
-*   ¿Qué requisito de visibilidad horizontal es indispensable para una operación sujeta al escenario estándar STS-02?
-*   ¿A qué tipo de mitigación (estratégica o táctica) pertenece la acotación del volumen de operación antes del vuelo?
-*   ¿Puede un piloto de STS-01 delegar totalmente la vigilancia del espacio aéreo en un observador?
-*   En un UAS de clase C6, ¿de qué sistemas debe ser independiente el mecanismo de activación del FTS?
+**Ejemplo resuelto:** Una misión a 800 m sin observador puede valorarse si cumple todas las condiciones. A 1,2 km ya no cumple esta configuración, aunque la radio funcione.
 
----
+**Error habitual:** Tratar «ruta automática» como detector de tráfico.
 
-## 9. ESCENARIOS PRÁCTICOS
-*   **Escenario 1 (STS-01):** Un piloto opera en un entorno urbano. Un observador detecta un helicóptero médico aproximándose. Informa al piloto mediante comunicación eficaz y este realiza una maniobra evasiva inmediata ("ver y evitar").
-*   **Escenario 2 (STS-02):** En una llanura, con 6 km de visibilidad horizontal confirmada, el piloto opera a 2 km de distancia (BVLOS). Los observadores del espacio aéreo vigilan los flancos para detectar aviación general.
-*   **Escenario 3 (Técnico):** Durante la configuración del vuelo en STS-02, el piloto programa un cilindro de seguridad (geocaging). Si la UA intenta superar ese límite por un error de mando, el sistema corrige automáticamente la trayectoria para mantenerla dentro.
+**Comprobación:** Sin observador, una UA se aleja 1,2 km en STS-02. ¿Cumple el límite de esta configuración?
 
----
+**Respuesta razonada:** No; el máximo UA-piloto es 1 km.
 
-## 10. VOCABULARIO Y SIGLAS ESENCIALES
-*   **FTS:** Flight Termination System (Sistema de Terminación de Vuelo).
-*   **Geocaging:** Función técnica de confinamiento en un volumen operacional.
-*   **VLOS:** Visual Line of Sight (Alcance visual).
-*   **BVLOS:** Beyond Visual Line of Sight (Más allá del alcance visual).
-*   **UAS Observer:** Observador de la aeronave no tripulada.
-*   **Airspace Observer:** Observador del espacio aéreo.
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
 
----
+## STS-02 con observadores
 
-## 11. AUDITORÍA DE EPÍGRAFES (PÁGS. 6–7)
-- [x] **I. General:** Conceptos de riesgo, tipos de mitigaciones y principios de separación cubiertos.
-- [x] **II. Riesgo aire STS-01:** Mitigación VLOS, reconocimiento exhaustivo, observador de apoyo y FTS cubiertos.
-- [x] **III. Riesgo aire STS-02:** Mitigación por observadores/trayectoria, visibilidad 5km, geocaging e información de posición cubiertos.
+Se comprueban tres distancias a la vez: UA-piloto no superior a 2 km, UA-observador más próximo no superior a 1 km y cada observador-piloto no superior a 1 km. También se verifica cobertura del volumen y espacio circundante y comunicación robusta.
 
-**Ingeniería del Bloque 4 finalizada y auditada bajo estándares Syllabus STS Ed.2.**
+**Ejemplo resuelto:** UA a 1,8 km del piloto y a 900 m del observador puede cumplir esas dos distancias; falta comprobar la distancia observador-piloto, cobertura, comunicaciones y demás condiciones.
+
+**Error habitual:** Comprobar una sola distancia del triángulo.
+
+**Comprobación:** UA a 1,8 km del piloto y 900 m del observador; este está a 1,2 km del piloto. ¿Cumple las distancias?
+
+**Respuesta razonada:** No; el observador supera 1 km respecto al piloto.
+
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
+
+## Visibilidad de vuelo
+
+UAS.STS-02.020(3) exige visibilidad de vuelo superior a 5 km. Es una condición de vigilancia en el entorno, no permiso para alejar la UA 5 km. Se evalúan todas las direcciones relevantes y efectos de obstáculos, luz, humo o nubes; un dato de otro lugar no basta.
+
+**Ejemplo resuelto:** Una visibilidad exactamente de 5 km no supera el umbral literal de la disposición. Además, una montaña puede ocultar un sector pese a un informe meteorológico favorable.
+
+**Error habitual:** Usar «5 km o más» o confundir visibilidad con alcance UA-piloto.
+
+**Comprobación:** La visibilidad es exactamente 5 km. ¿Cumple la redacción de UAS.STS-02.020(3)?
+
+**Respuesta razonada:** No; exige que sea superior a 5 km.
+
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
+
+## Avisar, confirmar y actuar
+
+Se acuerdan mensajes que identifiquen amenaza, posición y evolución, y se confirma su recepción. El piloto aplica el procedimiento para evitar el riesgo de colisión e interrumpe cuando continuar no es seguro. No se prescribe una maniobra única válida para cualquier tráfico o terreno.
+
+**Ejemplo resuelto:** Al avisar «tráfico por el norte aproximándose», se confirma el mensaje y se ejecuta la respuesta prevista sin dirigir el UAS hacia otra zona con personas.
+
+**Error habitual:** Reaccionar sin considerar el riesgo en tierra.
+
+**Comprobación:** Se detecta una aeronave aproximándose. ¿Qué criterio es correcto?
+
+**Respuesta razonada:** Aplicar la respuesta prevista para evitar colisión considerando también el entorno en tierra.
+
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
+
+## Contención y vigilancia
+
+La contención busca impedir que la UA rebase límites programados. El FTS permite terminar el vuelo. Ninguno es por sí solo un sistema de detección de tráfico ni una barrera física infalible. Se distinguen geografía de vuelo, volumen operacional y medios técnicos del UAS.
+
+**Ejemplo resuelto:** El geocaging está operativo, pero una aeronave entra en las proximidades: sigue siendo necesario vigilar y responder.
+
+**Error habitual:** Atribuir al confinamiento la capacidad de detectar cualquier aeronave.
+
+**Comprobación:** Con geocaging activo, ¿puede omitirse la vigilancia de tráfico?
+
+**Respuesta razonada:** No; contención y vigilancia cumplen funciones distintas.
+
+**Fuente:** [Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523).
+
+## Información aeronáutica aplicable
+
+Se seleccionan fuentes y coordinaciones pertinentes a lugar, altura, horario y operación. No se imponen transpondedores, códigos de catálogos o medidas particulares como requisitos universales de cualquier STS. Una condición específica sí se cumple cuando resulta aplicable a la operación coordinada.
+
+**Ejemplo resuelto:** Una coordinación establece un límite inferior al general de altura. Se planifica con ese límite y no se invocan los 120 m como permiso automático.
+
+**Error habitual:** Convertir una medida particular en regla para todos o ignorarla cuando sí aplica.
+
+**Comprobación:** La coordinación aplicable limita el vuelo a 60 m. ¿Permite STS volar a 120 m por defecto?
+
+**Respuesta razonada:** No; debe respetarse el límite aplicable más restrictivo.
+
+**Fuente:** [RD 517/2024 · texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11377).
+
+## Revisión de cobertura
+
+Este refuerzo reorganiza las ideas centrales en ocho unidades. No se presenta como desarrollo exhaustivo de cada subepígrafe del syllabus. La matriz global registra las ampliaciones que aún requieren desarrollo y revisión humana.

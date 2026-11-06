@@ -1,19 +1,19 @@
-# Prompts Bloque 2 STS
+# Repaso guiado · Bloque 2
 
-Fuente unica: `bloques/bloque2/ingenieria/ingenieria.md`.
+Utiliza la ficha, los ejemplos y las fuentes oficiales enlazadas de este bloque. Actúa como tutor: plantea una pregunta, espera mi justificación y después ofrece devolución. No reveles la respuesta antes de que yo decida.
 
-## Preparar clase
+## Entender
 
-Explica el Bloque 2 STS sobre limitaciones del rendimiento humano usando solo la ingenieria validada. Mantén trazabilidad AESA paginas 4-5, estado VALIDADO.
+Explica «Fatiga y ritmo circadiano» con un ejemplo breve. Distingue la regla, su ámbito, el dato de ejemplo y lo que falta por comprobar.
 
-## Repasar alumno
+## Aprender del error
 
-Hazme preguntas sobre aptitud medica, sustancias, fatiga, ritmo circadiano, estres, presion comercial, percepcion humana, BVLOS, barrido visual 10-15 grados y distracciones.
+Pídeme resolver un caso del bloque y justificar cada condición. Tras mi respuesta, explica la opción correcta y el motivo por el que las alternativas no encajan. No inventes límites ni atribuyas preguntas adaptadas a AESA.
 
-## Casos
+## Transferir
 
-Plantea un caso donde se acumulen fatiga, frio extremo, perdida de motricidad fina y presion comercial. No inventes normativa externa.
+Cambia una sola condición del caso. Pídeme decidir otra vez y explicar qué dato cambió el razonamiento. Si falta información, ayúdame a identificarla en vez de suponerla.
 
-## Auditoria
+## Contrastar
 
-Revisa el Bloque 2 antes de publicar. Comprueba navegacion, rutas relativas, JSON, JavaScript, trazabilidad AESA paginas 4-5, recursos finales, ausencia de contenido externo y recursos que requieren Live Server por usar `fetch`.
+Comprueba las afirmaciones normativas con la disposición vigente enlazada. El syllabus organiza materias; no sustituye el reglamento ni el manual del UAS. Si no puedes verificar una afirmación, indícalo y no la presentes como regla.

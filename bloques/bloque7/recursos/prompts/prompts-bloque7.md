@@ -1,15 +1,19 @@
-# Prompts Bloque 7 STS
+# Repaso guiado · Bloque 7
 
-Fuente unica: `bloques/bloque7/ingenieria/ingenieria.md`.
+Utiliza la ficha, los ejemplos y las fuentes oficiales enlazadas de este bloque. Actúa como tutor: plantea una pregunta, espera mi justificación y después ofrece devolución. No reveles la respuesta antes de que yo decida.
 
-## Preparar clase
+## Entender
 
-Explica Rendimiento de vuelo del UAS usando exclusivamente MTOM, envolvente de operacion, centro de gravedad, equilibrio de masas, carga util, fijacion y relacion STS-01/STS-02 de la ingenieria del Bloque 7.
+Explica «MTOM y masa real» con un ejemplo breve. Distingue la regla, su ámbito, el dato de ejemplo y lo que falta por comprobar.
 
-## Repasar examen
+## Aprender del error
 
-Pregunta por MTOM como limite estructural, carga util dentro de MTOM, consecuencias de CG fuera de limites, ejes longitudinal/lateral/vertical, fijacion de payload y velocidad C6 de 50 m/s.
+Pídeme resolver un caso del bloque y justificar cada condición. Tras mi respuesta, explica la opción correcta y el motivo por el que las alternativas no encajan. No inventes límites ni atribuyas preguntas adaptadas a AESA.
 
-## Auditar trazabilidad
+## Transferir
 
-Comprueba que MME8, geocaging software, STS-ES-01NE < 10 kg y STS-ES-02NE < 25 kg aparecen como COMPLEMENTARIO separado, no como Syllabus AESA pagina 11.
+Cambia una sola condición del caso. Pídeme decidir otra vez y explicar qué dato cambió el razonamiento. Si falta información, ayúdame a identificarla en vez de suponerla.
+
+## Contrastar
+
+Comprueba las afirmaciones normativas con la disposición vigente enlazada. El syllabus organiza materias; no sustituye el reglamento ni el manual del UAS. Si no puedes verificar una afirmación, indícalo y no la presentes como regla.

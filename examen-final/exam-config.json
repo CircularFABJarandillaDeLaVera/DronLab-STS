@@ -10,25 +10,25 @@
   },
   "exam": {
     "question_count": 40,
-    "question_count_status": "VALIDADO",
-    "question_count_source": "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md | Preguntas minimas del examen: 40 preguntas",
+    "question_count_status": "CONTRASTADO_AESA_2026_11_06",
+    "question_count_source": "https://www.seguridadaerea.gob.es/es/ambitos/drones/formacion-de-pilotos-a-distancia-de-uas-drones/formacion-de-pilotos-uas-drones-en-escenarios-estandar-europeos-sts",
     "time_minutes": 40,
-    "time_minutes_status": "PENDIENTE_DE_VALIDACION",
-    "time_minutes_note": "Valor provisional funcional para el motor; no presentado como duracion oficial STS.",
+    "time_minutes_status": "CONTRASTADO_AESA_2026_11_06",
     "pass_percent": 75,
-    "pass_percent_status": "VALIDADO",
-    "pass_percent_source": "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md | Nota de corte: 75%",
+    "pass_percent_status": "CONTRASTADO_AESA_2026_11_06",
+    "pass_percent_source": "https://www.seguridadaerea.gob.es/es/ambitos/drones/formacion-de-pilotos-a-distancia-de-uas-drones/formacion-de-pilotos-uas-drones-en-escenarios-estandar-europeos-sts",
     "pass_correct": 30,
-    "pass_correct_status": "CALCULADO_DESDE_VALIDADO",
+    "pass_correct_status": "CALCULADO_TECHO_75_POR_CIENTO",
     "answers_per_question": 4,
     "answers_per_question_status": "VALIDADO_EN_BANCOS_STS",
     "correct_answers": 1,
     "simulated_attempts": 2,
-    "simulated_attempts_status": "PENDIENTE_DE_VALIDACION",
-    "simulated_attempts_note": "Valor provisional funcional para modo simulacro.",
+    "simulated_attempts_status": "CONTRASTADO_AESA_2026_11_06",
     "penalize_errors": false,
     "penalize_errors_status": "PENDIENTE_DE_VALIDACION",
-    "penalize_errors_note": "No se aplica penalizacion por error salvo validacion oficial posterior."
+    "penalize_errors_note": "No se aplica penalizacion por error salvo validacion oficial posterior.",
+    "time_minutes_source": "https://www.seguridadaerea.gob.es/es/ambitos/drones/formacion-de-pilotos-a-distancia-de-uas-drones/formacion-de-pilotos-uas-drones-en-escenarios-estandar-europeos-sts",
+    "simulated_attempts_source": "https://www.seguridadaerea.gob.es/es/ambitos/drones/formacion-de-pilotos-a-distancia-de-uas-drones/formacion-de-pilotos-uas-drones-en-escenarios-estandar-europeos-sts"
   },
   "study_mode": {
     "unlimited_attempts": true,
@@ -58,7 +58,7 @@
     "block_distribution_status": "EQUILIBRADA_SIN_PESO_OFICIAL_DIFERENCIADO"
   },
   "messages": {
-    "simulation_notice": "Simulacro formativo STS basado en los bancos auditados del curso. Duracion e intentos son parametros provisionales pendientes de validacion oficial.",
+    "simulation_notice": "Simulacro formativo propio: vía completa desde A1/A3, 40 preguntas en 40 minutos y 75 % de aciertos. Las preguntas y la distribución por bloques no son oficiales de AESA.",
     "new_enrollment": "Nueva inscripcion simulada",
     "attempts_exhausted": "Has agotado los intentos simulados configurados. Deseas iniciar una nueva simulacion?"
   },

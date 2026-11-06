@@ -1,0 +1,1566 @@
+{
+  "fuentes": {
+    "syllabus": {
+      "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+    },
+    "sts01": {
+      "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+    },
+    "sts02": {
+      "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+    },
+    "clases": {
+      "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+      "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+    },
+    "formacion": {
+      "titulo": "AESA · Formación STS europeos (actualización 27/07/2026)",
+      "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/formacion-de-pilotos-a-distancia-de-uas-drones/formacion-de-pilotos-uas-drones-en-escenarios-estandar-europeos-sts"
+    },
+    "riesgo": {
+      "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+      "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+    },
+    "espana": {
+      "titulo": "RD 517/2024 · texto consolidado del BOE",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11377"
+    },
+    "sucesos2026": {
+      "titulo": "Reglamento (UE) 2026/1821 · actualización de la lista de sucesos notificables",
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2026-81188"
+    }
+  },
+  "bloques": {
+    "1": {
+      "titulo": "Reglamentación de la aviación",
+      "objetivo": "Elegir la vía operacional adecuada y justificar las condiciones de una misión STS.",
+      "conexion": "La decisión jurídica se comprueba con la zona del bloque 8 y los procedimientos del bloque 3.",
+      "lecciones": [
+        {
+          "titulo": "Riesgo, SORA y PDRA",
+          "contenido": "La categoría específica cubre operaciones que no cumplen las condiciones de la abierta y que no corresponden a la certificada. SORA es una metodología de evaluación del riesgo; una PDRA es una evaluación predefinida que puede apoyar una solicitud de autorización. El STS ofrece una vía declarativa si se cumplen todas sus condiciones. Una PDRA no es una declaración STS.",
+          "ejemplo": "Una inspección encaja en una PDRA pero no en STS: el operador utiliza la PDRA para solicitar autorización; no presenta una declaración STS para sustituirla.",
+          "error_habitual": "Confundir una evaluación predefinida con permiso automático.",
+          "pregunta": "Una operación encaja en una PDRA, pero no en un STS. ¿Qué vía debe valorar el operador?",
+          "respuesta": "Solicitar autorización operacional apoyándose en la PDRA.",
+          "distractores": [
+            {
+              "texto": "Presentar una declaración STS.",
+              "motivo": "No cumple las condiciones de un STS."
+            },
+            {
+              "texto": "Volar directamente por estar el riesgo predefinido.",
+              "motivo": "La evaluación no sustituye la autorización."
+            },
+            {
+              "texto": "Cambiar la PDRA por su cuenta y empezar.",
+              "motivo": "Cambiar condiciones requiere evaluación y aceptación de la autoridad."
+            }
+          ],
+          "fuente": "riesgo"
+        },
+        {
+          "titulo": "Declaración, operador y piloto",
+          "contenido": "El operador prepara el manual, los procedimientos, la competencia del personal y la adecuación del UAS. El piloto verifica las condiciones reales y conduce el vuelo con seguridad. La declaración STS no sustituye las coordinaciones, las zonas geográficas ni los requisitos del piloto. Antes de iniciar, se necesita la confirmación de recepción y de integridad de la declaración por la autoridad.",
+          "ejemplo": "Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada.",
+          "error_habitual": "Tomar un trámite administrativo como autorización para cualquier vuelo.",
+          "pregunta": "Con declaración STS y UAS C5, una zona sigue abierta a peatones. ¿Qué procede?",
+          "respuesta": "No iniciar hasta que se cumplan las condiciones de la operación.",
+          "distractores": [
+            {
+              "texto": "Despegar porque basta con la declaración.",
+              "motivo": "La declaración no hace segura la zona."
+            },
+            {
+              "texto": "Pedir al piloto que firme para sustituir el control.",
+              "motivo": "La firma no elimina la exposición de terceros."
+            },
+            {
+              "texto": "Cambiar el nombre de la misión a categoría abierta.",
+              "motivo": "La categoría depende de las condiciones reales."
+            }
+          ],
+          "fuente": "sts01"
+        },
+        {
+          "titulo": "STS-01: encaje completo",
+          "contenido": "STS-01 exige VLOS, UAS C5 y zona terrestre controlada, que puede situarse en entorno poblado. Para aeronaves sin anclaje, la velocidad respecto al suelo debe ser inferior a 5 m/s. Tener un C5 o volar en un pueblo no demuestra por sí solo el cumplimiento: también se comprueban manual, competencias, identificación remota, espacio aéreo y zonas. El límite general de vuelo es 120 m desde el punto más próximo de la superficie, adaptado al relieve. Existe una excepción junto a obstáculos artificiales de más de 105 m: a menos de 50 m horizontalmente y a petición del responsable, hasta 15 m por encima del obstáculo. Los 30 m adicionales posibles del volumen operacional no autorizan vuelo normal a 150 m. No se transportan mercancías peligrosas en STS.",
+          "ejemplo": "Una grabación VLOS en una plaza solo se valora como STS-01 tras controlar toda la huella necesaria y comprobar las restantes condiciones. Una cinta en el punto de despegue no basta.",
+          "error_habitual": "Elegir escenario solo por masa, ubicación o etiqueta.",
+          "pregunta": "Un C5 vuela sin anclaje a exactamente 5 m/s en STS-01. ¿Cumple la condición de velocidad?",
+          "respuesta": "No: la operación exige una velocidad inferior a 5 m/s.",
+          "distractores": [
+            {
+              "texto": "Sí, porque el modo C5 admite hasta 5 m/s.",
+              "motivo": "El requisito técnico del modo y la condición operacional tienen redacciones distintas."
+            },
+            {
+              "texto": "Sí, si no hay espectadores.",
+              "motivo": "La ausencia de espectadores no cambia el límite."
+            },
+            {
+              "texto": "Solo incumple si supera 50 m/s.",
+              "motivo": "50 m/s es un requisito máximo de clase C6, no el de STS-01."
+            }
+          ],
+          "fuente": "sts01"
+        },
+        {
+          "titulo": "STS-02: dos configuraciones",
+          "contenido": "STS-02 usa C6 y zona terrestre controlada enteramente en entorno escasamente poblado. Sin observador del espacio aéreo, la UA permanece a no más de 1 km del piloto y sigue trayectoria preprogramada cuando no está en VLOS. Con observadores, el máximo UA-piloto es 2 km, UA-observador más próximo 1 km y observador-piloto 1 km; se exige cobertura y comunicación eficaz.",
+          "ejemplo": "Una ruta puede tener 10 km de longitud acumulada y exigir varios tramos. Eso no autoriza a alejar la UA 10 km del piloto: se comprueban las distancias en cada instante.",
+          "error_habitual": "Confundir longitud de ruta con alcance máximo desde el piloto.",
+          "pregunta": "En STS-02 con observadores, la UA queda a 3 km del piloto. ¿Basta con añadir un observador cercano?",
+          "respuesta": "No: sigue superándose el máximo de 2 km entre UA y piloto.",
+          "distractores": [
+            {
+              "texto": "Sí, la cadena de observadores amplía el alcance sin límite.",
+              "motivo": "Los observadores no eliminan el máximo UA-piloto."
+            },
+            {
+              "texto": "Sí, si la ruta total mide menos de 10 km.",
+              "motivo": "La longitud acumulada no determina la separación admisible."
+            },
+            {
+              "texto": "Sí, si el enlace de radio llega.",
+              "motivo": "El alcance de radio no sustituye las condiciones del escenario."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "Formación teórica y práctica",
+          "contenido": "AESA ofrece examen STS completo de 40 preguntas en 40 minutos desde A1/A3; con A2, 30 en 30 minutos sobre las materias 1 a 5 del syllabus AESA. Se requiere al menos 75 % de aciertos: 30/40 y, por redondeo al entero necesario, 23/30. El certificado teórico no sustituye la acreditación práctica específica para cada escenario.",
+          "ejemplo": "En el simulacro reducido, 22/30 son 73,33 % y no alcanzan el 75 %. Con 23/30 sí se supera el umbral. La distribución por dificultad del simulador es una decisión didáctica, no oficial.",
+          "error_habitual": "Confundir aprobar teoría con estar habilitado para toda operación.",
+          "pregunta": "Una persona con A2 obtiene 22 aciertos en 30 preguntas STS. ¿Alcanza el 75 %?",
+          "respuesta": "No; necesita al menos 23 respuestas correctas.",
+          "distractores": [
+            {
+              "texto": "Sí, porque 22 se redondea a 75 %.",
+              "motivo": "22/30 es 73,33 %."
+            },
+            {
+              "texto": "Necesita 30 aciertos.",
+              "motivo": "El umbral no exige el 100 %."
+            },
+            {
+              "texto": "El A2 sustituye todo el examen STS.",
+              "motivo": "A2 permite la vía reducida; no elimina el examen STS."
+            }
+          ],
+          "fuente": "formacion"
+        },
+        {
+          "titulo": "Espacio aéreo y zonas",
+          "contenido": "Las zonas prohibidas, restringidas y peligrosas y las zonas geográficas UAS se consultan en información aeronáutica vigente. Una zona D advierte actividad peligrosa; una R impone condiciones; una P establece prohibición en su ámbito. No se deduce un permiso solo del color de un mapa ni de que el equipo permita despegar.",
+          "ejemplo": "Un mapa consultado ayer no resuelve un NOTAM que entra en vigor hoy. Se revisan lugar, horario, alturas, condiciones y coordinaciones aplicables antes de la misión.",
+          "error_habitual": "Confundir desbloqueo del fabricante con permiso de operación.",
+          "pregunta": "El dron permite despegar y la aplicación del fabricante no muestra bloqueo. ¿Qué puedes concluir?",
+          "respuesta": "Hay que comprobar igualmente la información aeronáutica y las condiciones oficiales.",
+          "distractores": [
+            {
+              "texto": "La operación está autorizada.",
+              "motivo": "La aplicación del fabricante no concede autorización."
+            },
+            {
+              "texto": "No hace falta consultar restricciones temporales.",
+              "motivo": "Pueden existir cambios temporales."
+            },
+            {
+              "texto": "Se puede ignorar una zona restringida si hay GNSS.",
+              "motivo": "El posicionamiento no elimina una restricción."
+            }
+          ],
+          "fuente": "espana"
+        },
+        {
+          "titulo": "AIP, AIC y NOTAM",
+          "contenido": "AIP reúne información aeronáutica de carácter duradero; AIC publica información explicativa o de asesoramiento, entre otras cuestiones normativas o técnicas; NOTAM comunica información de importancia operacional cuya difusión oportuna es necesaria. Se interpretan conjuntamente con mapas, zonas UAS y vigencia temporal.",
+          "ejemplo": "Una restricción temporal de hoy puede aparecer mediante NOTAM aunque el AIP no cambie. Leer solo una fuente deja huecos en la preparación.",
+          "error_habitual": "Tratar AIC como sustituto universal del NOTAM.",
+          "pregunta": "¿Qué dato resulta esencial al interpretar un NOTAM para la misión?",
+          "respuesta": "Su ámbito, período de validez y condiciones operacionales.",
+          "distractores": [
+            {
+              "texto": "Solo el día en que se descargó.",
+              "motivo": "La descarga no establece su vigencia."
+            },
+            {
+              "texto": "El modelo del móvil del piloto.",
+              "motivo": "No define el ámbito del NOTAM."
+            },
+            {
+              "texto": "La autonomía máxima comercial del dron.",
+              "motivo": "No determina la restricción aeronáutica."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Decisión con datos incompletos",
+          "contenido": "Elegir STS requiere comprobar todas sus condiciones. Una descripción como «rural, BVLOS y C6» permite plantear STS-02, pero aún faltan alcance, visibilidad, zona controlada, límites, competencias y demás verificaciones. Si un dato decisivo falta, la respuesta correcta es identificarlo y obtenerlo.",
+          "ejemplo": "El cliente pide inspección rural BVLOS, pero no comunica dónde estarán los trabajadores. Primero se comprueba la posibilidad de controlar la zona; no se da por viable el escenario.",
+          "error_habitual": "Resolver una misión por dos palabras clave.",
+          "pregunta": "Una misión es rural, BVLOS y con C6. ¿Basta para declararla viable en STS-02?",
+          "respuesta": "No; faltan comprobaciones del escenario y del entorno real.",
+          "distractores": [
+            {
+              "texto": "Sí, esas tres condiciones son suficientes.",
+              "motivo": "El escenario tiene más requisitos simultáneos."
+            },
+            {
+              "texto": "Sí, siempre que el cliente pague seguro.",
+              "motivo": "El seguro no sustituye las condiciones operacionales."
+            },
+            {
+              "texto": "No, todo BVLOS exige SORA nueva.",
+              "motivo": "Existen operaciones BVLOS ajustadas a STS-02."
+            }
+          ],
+          "fuente": "sts02"
+        }
+      ]
+    },
+    "2": {
+      "titulo": "Limitaciones del rendimiento humano",
+      "objetivo": "Detectar una degradación humana y elegir una medida proporcionada antes de que afecte al control.",
+      "conexion": "La aptitud humana forma parte del briefing y del cierre operacional del bloque 3.",
+      "lecciones": [
+        {
+          "titulo": "Fatiga y ritmo circadiano",
+          "contenido": "La fatiga reduce atención, juicio y reacción. Puede aparecer por falta de sueño, horas de vigilancia, carga de trabajo o alteración del ritmo circadiano. Sentirse motivado o tomar un estimulante no demuestra que se haya recuperado la aptitud.",
+          "ejemplo": "Tras una jornada larga, el piloto omite dos comprobaciones de la lista. Se pausa la preparación y se evalúa descanso, relevo o aplazamiento.",
+          "error_habitual": "Medir la aptitud solo por las ganas de terminar.",
+          "pregunta": "Un piloto comete omisiones tras muchas horas de vigilancia. ¿Qué decisión protege la operación?",
+          "respuesta": "Pausar y reevaluar su aptitud, con descanso, relevo o aplazamiento.",
+          "distractores": [
+            {
+              "texto": "Continuar porque aún no ha ocurrido un incidente.",
+              "motivo": "La ausencia de incidente no elimina la degradación."
+            },
+            {
+              "texto": "Sustituir la lista por memoria.",
+              "motivo": "La fatiga también deteriora la memoria."
+            },
+            {
+              "texto": "Acelerar el vuelo para terminar antes.",
+              "motivo": "Añade presión sin recuperar capacidad."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Salud, medicación y sustancias",
+          "contenido": "El piloto no opera bajo efectos de alcohol o sustancias psicoactivas ni cuando enfermedad, lesión, fatiga o medicación comprometen su capacidad. No todos los medicamentos tienen los mismos efectos: se atiende a las advertencias del tratamiento y al estado real, sin modificarlo por cuenta propia.",
+          "ejemplo": "Un medicamento lleva advertencia de somnolencia y el piloto nota lentitud. No inicia el vuelo y consulta las indicaciones y al profesional correspondiente.",
+          "error_habitual": "Afirmar que toda medicación está prohibida o que una receta elimina cualquier efecto.",
+          "pregunta": "Un tratamiento produce somnolencia perceptible. ¿Qué procede?",
+          "respuesta": "No operar mientras la capacidad esté comprometida.",
+          "distractores": [
+            {
+              "texto": "Volar porque el medicamento está recetado.",
+              "motivo": "La receta no demuestra aptitud operacional."
+            },
+            {
+              "texto": "Suspender el tratamiento por cuenta propia.",
+              "motivo": "No es una decisión operacional adecuada ni elimina necesariamente el efecto."
+            },
+            {
+              "texto": "Dejar que el observador pilote por el titular.",
+              "motivo": "Cambiar funciones exige competencia y planificación, no una sustitución improvisada."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Presión comercial y decisión",
+          "contenido": "Un compromiso comercial puede sesgar la valoración del riesgo. La decisión se compara con condiciones y límites definidos antes del vuelo. Acordar de antemano criterios de pausa o cancelación reduce la presión de improvisar cuando el cliente insiste.",
+          "ejemplo": "El cliente pide «solo una pasada más», pero se ha perdido la vigilancia necesaria. Se interrumpe la operación de acuerdo con los procedimientos.",
+          "error_habitual": "Cambiar los límites por presión de tiempo.",
+          "pregunta": "El cliente insiste en continuar tras perder una condición necesaria. ¿Qué debe pesar más?",
+          "respuesta": "Restablecer las condiciones seguras antes de continuar.",
+          "distractores": [
+            {
+              "texto": "La penalización económica.",
+              "motivo": "No restablece la condición perdida."
+            },
+            {
+              "texto": "La confianza del cliente en el piloto.",
+              "motivo": "La confianza no sustituye la comprobación."
+            },
+            {
+              "texto": "Que el vuelo pendiente dure poco.",
+              "motivo": "La corta duración no elimina el riesgo."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Conciencia situacional",
+          "contenido": "Consiste en percibir lo que ocurre, comprender su significado y anticipar cómo puede evolucionar. No se limita a mirar telemetría: incluye posición, entorno, energía, personas, tráfico y estado de la tripulación.",
+          "ejemplo": "Se detecta descenso de batería, se comprende que hay viento de cara al regreso y se anticipa que el retorno puede necesitar más energía. Se decide antes de agotar la reserva.",
+          "error_habitual": "Acumular datos sin interpretar qué cambiarán en la misión.",
+          "pregunta": "El piloto ve la batería bajar y anticipa un regreso contra el viento. ¿Qué componente está usando?",
+          "respuesta": "La proyección de la situación futura.",
+          "distractores": [
+            {
+              "texto": "Solo la memorización del porcentaje.",
+              "motivo": "La anticipación añade interpretación a la lectura."
+            },
+            {
+              "texto": "Una autorización administrativa.",
+              "motivo": "No es una función cognitiva."
+            },
+            {
+              "texto": "La certeza de que el RTH resolverá todo.",
+              "motivo": "Una función automática también tiene límites."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Visión y deslumbramiento",
+          "contenido": "Sol, contraste, tamaño aparente, lluvia, nieve, humo u obstáculos afectan a la detección. Que un objeto sea visible no implica poder identificar su actitud y trayectoria o detectar otro tráfico a tiempo. Se revisa la posición del piloto y de los observadores.",
+          "ejemplo": "Al girar hacia el sol se pierde contraste. Cambiar el punto de operación exige comprobar de nuevo cobertura, comunicaciones y límites; no basta con entrecerrar los ojos.",
+          "error_habitual": "Equiparar ver un punto con vigilancia eficaz.",
+          "pregunta": "Se ve un punto, pero no se distingue su trayectoria. ¿Qué valoración es correcta?",
+          "respuesta": "La mera detección no demuestra vigilancia visual suficiente.",
+          "distractores": [
+            {
+              "texto": "Ver cualquier punto siempre garantiza VLOS.",
+              "motivo": "La percepción debe permitir las tareas de seguridad."
+            },
+            {
+              "texto": "Una cámara elimina toda limitación visual.",
+              "motivo": "La imagen tiene campo y condiciones de uso limitados."
+            },
+            {
+              "texto": "La etiqueta C5 corrige el deslumbramiento.",
+              "motivo": "La clase no recupera la visión del piloto."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Barrido visual y atención",
+          "contenido": "El syllabus propone barridos en sectores de unos 10 a 15 grados, fijando brevemente la vista para detectar tráfico. Una mirada fija o un barrido apresurado deja huecos. Se eliminan distracciones y se distribuyen las tareas de vigilancia y comunicación.",
+          "ejemplo": "Una llamada durante el vuelo rompe el barrido. El equipo evita esa distracción y mantiene la vigilancia prevista. El tráfico puede ser difícil de detectar incluso con buena visibilidad.",
+          "error_habitual": "Mirar solo la pantalla porque no aparecen alertas.",
+          "pregunta": "¿Qué técnica favorece detectar tráfico visualmente?",
+          "respuesta": "Explorar sectores de unos 10 a 15 grados con fijaciones breves.",
+          "distractores": [
+            {
+              "texto": "Fijar la vista siempre en el mismo punto.",
+              "motivo": "Deja partes del espacio sin explorar."
+            },
+            {
+              "texto": "Mirar solo el mapa del mando.",
+              "motivo": "No muestra necesariamente todo el tráfico."
+            },
+            {
+              "texto": "Hacer movimientos continuos muy rápidos.",
+              "motivo": "Dificulta la fijación y la detección."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Frío, calor y destreza",
+          "contenido": "Las condiciones extremas también afectan al personal. El frío puede reducir la destreza de los dedos; el calor, el deslumbramiento y la deshidratación pueden degradar atención y juicio. Se planifican protección, pausas y relevo según las condiciones.",
+          "ejemplo": "El piloto siente torpeza en los mandos. Prioriza recuperar o terminar la operación de forma segura y revisa su aptitud antes de otro vuelo; no se prescribe activar un ERP por cualquier incomodidad.",
+          "error_habitual": "Tratar cualquier molestia como emergencia o ignorarla hasta perder el control.",
+          "pregunta": "El frío está degradando la precisión en los mandos. ¿Qué acción es proporcionada?",
+          "respuesta": "Gestionar una recuperación segura y reevaluar la aptitud.",
+          "distractores": [
+            {
+              "texto": "Esperar a que se pierda el control.",
+              "motivo": "Se desaprovecha la oportunidad de actuar antes."
+            },
+            {
+              "texto": "Activar necesariamente el FTS.",
+              "motivo": "No es una respuesta automática a toda degradación humana."
+            },
+            {
+              "texto": "Compensar con más velocidad.",
+              "motivo": "Puede aumentar la dificultad de control."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Coordinación y comunicación",
+          "contenido": "En BVLOS aumenta la importancia de una imagen compartida de la situación. Si hay observadores, se acuerdan roles, sectores, mensajes y confirmaciones. La telemetría informa sobre el UAS; no reemplaza por sí sola la vigilancia del espacio aéreo. STS-02 también prevé una configuración sin observadores bajo condiciones específicas.",
+          "ejemplo": "Un observador comunica tráfico con posición y evolución; el piloto confirma y aplica el procedimiento previsto. Si se pierde la comunicación, se aplica la contingencia definida.",
+          "error_habitual": "Suponer que el observador transmite datos o que el piloto los ha entendido sin confirmación.",
+          "pregunta": "Un aviso de tráfico resulta ambiguo. ¿Qué debe hacer el equipo?",
+          "respuesta": "Aclarar y confirmar el mensaje aplicando el procedimiento previsto.",
+          "distractores": [
+            {
+              "texto": "Adivinar la trayectoria y seguir.",
+              "motivo": "Un mensaje ambiguo deja incertidumbre operacional."
+            },
+            {
+              "texto": "Ignorar el aviso si el mapa no muestra tráfico.",
+              "motivo": "El mapa no garantiza detección de todas las aeronaves."
+            },
+            {
+              "texto": "Dar por transferida la responsabilidad al observador.",
+              "motivo": "El piloto mantiene sus responsabilidades."
+            }
+          ],
+          "fuente": "sts02"
+        }
+      ]
+    },
+    "3": {
+      "titulo": "Procedimientos operacionales",
+      "objetivo": "Distinguir prevención, contingencia, emergencia y respuesta externa mediante decisiones concretas.",
+      "conexion": "Las barreras técnicas del bloque 5 se comprueban antes del vuelo y se usan según el manual.",
+      "lecciones": [
+        {
+          "titulo": "Preparar la misión",
+          "contenido": "Antes del vuelo se comprueban objetivo, espacio aéreo, zonas UAS, meteorología, personas, volumen, márgenes, equipo y competencias. La lista ayuda a ejecutar comprobaciones, pero no sustituye el juicio ni el manual. MEUH (Meteorología, Entorno, UAS, Humanos) puede usarse como ayuda didáctica, no como regla legal independiente.",
+          "ejemplo": "El plano no incluye un camino usado por trabajadores. La comprobación del lugar obliga a revisar la zona antes de aprobar el inicio.",
+          "error_habitual": "Completar una lista sin verificar la realidad.",
+          "pregunta": "La lista está firmada, pero aparece un acceso no controlado. ¿Qué procede?",
+          "respuesta": "Resolver el acceso y revisar la adecuación antes de iniciar.",
+          "distractores": [
+            {
+              "texto": "Despegar porque ya se firmó.",
+              "motivo": "La firma no asegura el control real."
+            },
+            {
+              "texto": "Omitir el camino del plano.",
+              "motivo": "Ocultar el acceso no elimina usuarios."
+            },
+            {
+              "texto": "Confiar solo en la batería cargada.",
+              "motivo": "La energía no resuelve la exposición de terceros."
+            }
+          ],
+          "fuente": "sts01"
+        },
+        {
+          "titulo": "Comprobar barreras C5 y C6",
+          "contenido": "Se verifica el estado del UAS, fijaciones, energía, enlace C2, limitaciones y sistemas de seguridad según fabricante y escenario. En STS-01 se comprueban los medios de terminación y la identificación remota activa y actualizada; en STS-02, además, la contención configurada y operativa. La DRI también debe estar activa y actualizada en STS-02.",
+          "ejemplo": "El sistema de contención tiene cargado el volumen de otra parcela. Aunque se encienda sin error, no está correctamente configurado para esta misión.",
+          "error_habitual": "Confundir sistema encendido con sistema comprobado y adecuado.",
+          "pregunta": "El C6 conserva los límites de otra parcela. ¿Puede iniciarse la misión?",
+          "respuesta": "No; hay que configurar y comprobar los límites de esta operación.",
+          "distractores": [
+            {
+              "texto": "Sí, porque tiene etiqueta C6.",
+              "motivo": "La etiqueta no configura la misión."
+            },
+            {
+              "texto": "Sí, si el enlace es potente.",
+              "motivo": "La potencia del enlace no corrige el volumen."
+            },
+            {
+              "texto": "Sí, porque la DRI está encendida.",
+              "motivo": "Identificación remota y contención cumplen funciones diferentes."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "Contingencia y emergencia",
+          "contenido": "Una contingencia gestiona una desviación y busca recuperar el estado normal dentro del volumen operacional. Una emergencia exige las acciones previstas para una situación que ya no puede recuperarse con los procedimientos normales o de contingencia. La geografía de vuelo y el volumen operacional tienen límites diferentes.",
+          "ejemplo": "La UA se aproxima al límite de la geografía de vuelo: se ejecuta la contingencia definida. Amenazar con superar el volumen operacional requiere la respuesta de emergencia prevista; no se espera a salir.",
+          "error_habitual": "Esperar a cruzar el último límite para actuar.",
+          "pregunta": "La UA va a superar la geografía de vuelo, pero sigue dentro del volumen operacional. ¿Qué marco corresponde inicialmente?",
+          "respuesta": "Aplicar la contingencia prevista para esa desviación.",
+          "distractores": [
+            {
+              "texto": "Esperar sin actuar hasta salir del volumen.",
+              "motivo": "La contingencia existe para intervenir antes."
+            },
+            {
+              "texto": "Activar siempre el FTS sin evaluar el procedimiento.",
+              "motivo": "La respuesta concreta depende de la situación y del manual."
+            },
+            {
+              "texto": "Declarar finalizado el vuelo solo en el registro.",
+              "motivo": "Un apunte no corrige la trayectoria."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "Intrusión de una persona",
+          "contenido": "La entrada de una persona no participante altera el control de la zona. Se aplican medidas para protegerla de acuerdo con el procedimiento y la situación: no se despega si aún se está en tierra; en vuelo se adapta o termina de forma segura. Un cartel no convierte a una persona en participante.",
+          "ejemplo": "La aeronave aún no ha despegado y entra alguien. Se mantiene en tierra, se controla el acceso y se reevalúa antes de continuar.",
+          "error_habitual": "Aplicar una maniobra de vuelo a un UAS que sigue en tierra.",
+          "pregunta": "Una persona entra antes del despegue. ¿Qué acción tiene sentido?",
+          "respuesta": "Mantener la aeronave en tierra y restablecer el control de la zona.",
+          "distractores": [
+            {
+              "texto": "Ponerla en estacionario para avisar.",
+              "motivo": "Introduce un vuelo innecesario durante la intrusión."
+            },
+            {
+              "texto": "Despegar rápidamente antes de que se acerque.",
+              "motivo": "La condición de seguridad ya está alterada."
+            },
+            {
+              "texto": "Considerarla participante por haber visto un cartel.",
+              "motivo": "Faltan consentimiento e información adecuados."
+            }
+          ],
+          "fuente": "sts01"
+        },
+        {
+          "titulo": "Pérdida de enlace y terminación",
+          "contenido": "Se revisa la respuesta prevista ante degradación o pérdida de C2 y su adecuación al entorno. RTH, estacionario, aterrizaje y FTS son funciones diferentes. El FTS termina el vuelo conforme a su diseño; no garantiza un aterrizaje sin daño ni sustituye la planificación del margen de riesgo.",
+          "ejemplo": "Un RTH automático a una altura incompatible con el entorno sería un peligro. Se comprueba la configuración antes del vuelo y se siguen los procedimientos ante la pérdida real.",
+          "error_habitual": "Llamar FTS a cualquier función automática de retorno.",
+          "pregunta": "¿Qué diferencia esencial hay entre RTH y FTS?",
+          "respuesta": "RTH busca retornar; FTS termina el vuelo conforme a su diseño.",
+          "distractores": [
+            {
+              "texto": "Son sinónimos.",
+              "motivo": "Persiguen respuestas distintas."
+            },
+            {
+              "texto": "FTS siempre aterriza sin daños.",
+              "motivo": "La terminación puede causar impacto; se mitigan sus consecuencias."
+            },
+            {
+              "texto": "RTH permite ignorar los obstáculos.",
+              "motivo": "El retorno también requiere configuración y evaluación."
+            }
+          ],
+          "fuente": "clases"
+        },
+        {
+          "titulo": "ERP y comunicación",
+          "contenido": "El plan de respuesta ante emergencias (ERP) organiza cómo limitar consecuencias, alertar y coordinar ayuda. No se confunde con una maniobra individual ni se activa por una receta universal ante cualquier incidencia. Roles, contactos, acceso y criterios de activación deben estar definidos antes de operar.",
+          "ejemplo": "Un impacto genera riesgo de incendio. El equipo aplica el ERP, protege a las personas y comunica la información necesaria a los servicios que correspondan.",
+          "error_habitual": "Reducir el ERP a pulsar un botón del mando.",
+          "pregunta": "¿Qué aporta el ERP además de una maniobra del piloto?",
+          "respuesta": "Organización de respuesta, roles, comunicaciones y limitación de consecuencias.",
+          "distractores": [
+            {
+              "texto": "Una autorización para continuar tras cualquier fallo.",
+              "motivo": "El ERP gestiona una emergencia, no exime condiciones."
+            },
+            {
+              "texto": "La eliminación de toda responsabilidad.",
+              "motivo": "Las responsabilidades siguen existiendo."
+            },
+            {
+              "texto": "La garantía de que nunca habrá daños.",
+              "motivo": "El plan busca limitar consecuencias, no prometer su ausencia."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "Cerrar, registrar y aprender",
+          "contenido": "Después del vuelo se asegura e inspecciona el UAS, se registra información relevante y se realiza un debriefing. Se identifican los sucesos que deban notificarse y los datos de mantenimiento y de fatiga pertinentes. Los plazos se consultan por tipo de registro y disposición; no se aplica una cifra única a cualquier documento. Para la clasificación de sucesos se consulta la lista aplicable actualizada, incluida la modificación del Reglamento (UE) 2026/1821, sin sustituirla por una lista memorizada de un curso anterior.",
+          "ejemplo": "Se detecta una fijación floja al terminar. Se registra y resuelve antes del siguiente vuelo, aunque las imágenes obtenidas hayan sido buenas.",
+          "error_habitual": "Confundir éxito del encargo con ausencia de incidencias.",
+          "pregunta": "Se detecta una fijación floja al finalizar. ¿Qué procede?",
+          "respuesta": "Registrarla, evaluar su causa y resolverla antes de otro vuelo.",
+          "distractores": [
+            {
+              "texto": "Borrar el dato porque la misión terminó.",
+              "motivo": "Se pierde una oportunidad de prevenir repetición."
+            },
+            {
+              "texto": "Reutilizarla mientras las imágenes salgan bien.",
+              "motivo": "La calidad de imagen no prueba seguridad."
+            },
+            {
+              "texto": "Aplicar cualquier plazo de archivo a todos los registros.",
+              "motivo": "El plazo depende del tipo de registro y su disposición."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Decidir sin recetas universales",
+          "contenido": "Las decisiones se apoyan en el escenario, manual, fabricante, coordinaciones y datos reales. OODA significa observar, orientar, decidir y actuar; puede ayudar a organizar el razonamiento. Un indicador aislado, como actividad geomagnética, no establece por sí solo una prohibición universal STS ni garantiza aptitud del GNSS.",
+          "ejemplo": "Hay una alerta de posicionamiento pese a un indicador geomagnético bajo. Se atiende al fallo del sistema y al procedimiento; no se ignora por una cifra externa.",
+          "error_habitual": "Sustituir una comprobación real por un umbral sin contexto.",
+          "pregunta": "El GNSS da una alerta y otro indicador parece favorable. ¿Qué debe guiar la decisión?",
+          "respuesta": "El estado real del sistema, sus limitaciones y el procedimiento aplicable.",
+          "distractores": [
+            {
+              "texto": "Solo el indicador favorable.",
+              "motivo": "No invalida la alerta del equipo."
+            },
+            {
+              "texto": "Una regla universal K < 4.",
+              "motivo": "No constituye por sí sola una condición universal STS."
+            },
+            {
+              "texto": "La expectativa de que se arregle en vuelo.",
+              "motivo": "No resuelve un fallo previo al despegue."
+            }
+          ],
+          "fuente": "syllabus"
+        }
+      ]
+    },
+    "4": {
+      "titulo": "Mitigación técnica y operacional del riesgo en aire",
+      "objetivo": "Planificar la vigilancia y responder a tráfico sin confundir alcance, visibilidad y contención.",
+      "conexion": "La vigilancia evita encuentros; la contención del bloque 5 limita salidas, pero no detecta tráfico.",
+      "lecciones": [
+        {
+          "titulo": "Peligro, exposición y riesgo",
+          "contenido": "El riesgo en aire considera la posibilidad de colisión y sus consecuencias. La mitigación estratégica reduce encuentros antes de volar; la táctica actúa ante una amenaza concreta durante la operación. Técnica/operacional y estratégica/táctica son clasificaciones distintas que pueden cruzarse.",
+          "ejemplo": "Elegir horario y zona para reducir encuentros es estratégico. Responder a una aeronave que se aproxima es táctico. Ambas decisiones pueden coexistir.",
+          "error_habitual": "Clasificar todo en cuatro cajones excluyentes.",
+          "pregunta": "Se elige un horario para reducir encuentros antes del vuelo. ¿Qué tipo de mitigación es?",
+          "respuesta": "Estratégica.",
+          "distractores": [
+            {
+              "texto": "Táctica por reaccionar a un tráfico ya detectado.",
+              "motivo": "Todavía no se está respondiendo a un encuentro concreto."
+            },
+            {
+              "texto": "Una identificación remota.",
+              "motivo": "La DRI identifica el UAS; no es una elección de horario."
+            },
+            {
+              "texto": "Una terminación de vuelo.",
+              "motivo": "El FTS cumple otra función."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Ver y evitar en STS-01",
+          "contenido": "El piloto mantiene VLOS y vigilancia del espacio aéreo, con posible asistencia de un observador de la UA. Esa ayuda no transfiere la responsabilidad. Ver la aeronave y detectar otro tráfico son tareas relacionadas, pero diferentes. Una pantalla no acredita por sí sola vigilancia del entorno.",
+          "ejemplo": "El piloto ve perfectamente su dron, pero no ha explorado el sector desde el que llega una aeronave. Ver el UAS no equivale a haber vigilado todo el tráfico.",
+          "error_habitual": "Reducir VLOS a no perder el punto del dron.",
+          "pregunta": "Un observador asiste en STS-01. ¿Quién mantiene la responsabilidad del piloto?",
+          "respuesta": "El piloto a distancia.",
+          "distractores": [
+            {
+              "texto": "El observador automáticamente.",
+              "motivo": "La asistencia no transfiere la responsabilidad."
+            },
+            {
+              "texto": "El fabricante del mando.",
+              "motivo": "El equipo no asume decisiones del piloto."
+            },
+            {
+              "texto": "El cliente de la misión.",
+              "motivo": "El encargo no sustituye las responsabilidades operacionales."
+            }
+          ],
+          "fuente": "sts01"
+        },
+        {
+          "titulo": "STS-02 sin observador",
+          "contenido": "La configuración sin observador del espacio aéreo está prevista: UA a no más de 1 km del piloto y trayectoria preprogramada cuando deja de estar en VLOS, además de las restantes condiciones STS-02. No se deduce que una ruta programada detecte aeronaves o evite por sí sola una colisión.",
+          "ejemplo": "Una misión a 800 m sin observador puede valorarse si cumple todas las condiciones. A 1,2 km ya no cumple esta configuración, aunque la radio funcione.",
+          "error_habitual": "Tratar «ruta automática» como detector de tráfico.",
+          "pregunta": "Sin observador, una UA se aleja 1,2 km en STS-02. ¿Cumple el límite de esta configuración?",
+          "respuesta": "No; el máximo UA-piloto es 1 km.",
+          "distractores": [
+            {
+              "texto": "Sí, porque el límite siempre es 2 km.",
+              "motivo": "2 km corresponde a la configuración con observadores y otras condiciones."
+            },
+            {
+              "texto": "Sí, si está programada.",
+              "motivo": "La trayectoria programada no amplía el alcance."
+            },
+            {
+              "texto": "Sí, si recibe señal.",
+              "motivo": "Cobertura de radio y límite operacional no son equivalentes."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "STS-02 con observadores",
+          "contenido": "Se comprueban tres distancias a la vez: UA-piloto no superior a 2 km, UA-observador más próximo no superior a 1 km y cada observador-piloto no superior a 1 km. También se verifica cobertura del volumen y espacio circundante y comunicación robusta.",
+          "ejemplo": "UA a 1,8 km del piloto y a 900 m del observador puede cumplir esas dos distancias; falta comprobar la distancia observador-piloto, cobertura, comunicaciones y demás condiciones.",
+          "error_habitual": "Comprobar una sola distancia del triángulo.",
+          "pregunta": "UA a 1,8 km del piloto y 900 m del observador; este está a 1,2 km del piloto. ¿Cumple las distancias?",
+          "respuesta": "No; el observador supera 1 km respecto al piloto.",
+          "distractores": [
+            {
+              "texto": "Sí, la UA no supera 2 km.",
+              "motivo": "Falta cumplir la distancia observador-piloto."
+            },
+            {
+              "texto": "Sí, porque la UA está cerca del observador.",
+              "motivo": "También se limita la separación entre observador y piloto."
+            },
+            {
+              "texto": "No, porque toda UA debe estar a menos de 500 m.",
+              "motivo": "No existe aquí ese límite general de 500 m."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "Visibilidad de vuelo",
+          "contenido": "UAS.STS-02.020(3) exige visibilidad de vuelo superior a 5 km. Es una condición de vigilancia en el entorno, no permiso para alejar la UA 5 km. Se evalúan todas las direcciones relevantes y efectos de obstáculos, luz, humo o nubes; un dato de otro lugar no basta.",
+          "ejemplo": "Una visibilidad exactamente de 5 km no supera el umbral literal de la disposición. Además, una montaña puede ocultar un sector pese a un informe meteorológico favorable.",
+          "error_habitual": "Usar «5 km o más» o confundir visibilidad con alcance UA-piloto.",
+          "pregunta": "La visibilidad es exactamente 5 km. ¿Cumple la redacción de UAS.STS-02.020(3)?",
+          "respuesta": "No; exige que sea superior a 5 km.",
+          "distractores": [
+            {
+              "texto": "Sí, porque 5 km equivale a más de 5 km.",
+              "motivo": "La igualdad no cumple una desigualdad estricta."
+            },
+            {
+              "texto": "Sí, si el dron se aleja menos de 5 km.",
+              "motivo": "Son dos condiciones diferentes."
+            },
+            {
+              "texto": "Solo importa el alcance del mando.",
+              "motivo": "No sustituye la visibilidad de vuelo."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "Avisar, confirmar y actuar",
+          "contenido": "Se acuerdan mensajes que identifiquen amenaza, posición y evolución, y se confirma su recepción. El piloto aplica el procedimiento para evitar el riesgo de colisión e interrumpe cuando continuar no es seguro. No se prescribe una maniobra única válida para cualquier tráfico o terreno.",
+          "ejemplo": "Al avisar «tráfico por el norte aproximándose», se confirma el mensaje y se ejecuta la respuesta prevista sin dirigir el UAS hacia otra zona con personas.",
+          "error_habitual": "Reaccionar sin considerar el riesgo en tierra.",
+          "pregunta": "Se detecta una aeronave aproximándose. ¿Qué criterio es correcto?",
+          "respuesta": "Aplicar la respuesta prevista para evitar colisión considerando también el entorno en tierra.",
+          "distractores": [
+            {
+              "texto": "Subir siempre por encima del tráfico.",
+              "motivo": "No es una respuesta universal segura."
+            },
+            {
+              "texto": "Seguir porque el UAS tiene prioridad.",
+              "motivo": "No elimina el deber de evitar colisiones."
+            },
+            {
+              "texto": "Activar siempre el FTS sin evaluar consecuencias.",
+              "motivo": "La terminación requiere el criterio y procedimiento aplicables."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "Contención y vigilancia",
+          "contenido": "La contención busca impedir que la UA rebase límites programados. El FTS permite terminar el vuelo. Ninguno es por sí solo un sistema de detección de tráfico ni una barrera física infalible. Se distinguen geografía de vuelo, volumen operacional y medios técnicos del UAS.",
+          "ejemplo": "El geocaging está operativo, pero una aeronave entra en las proximidades: sigue siendo necesario vigilar y responder.",
+          "error_habitual": "Atribuir al confinamiento la capacidad de detectar cualquier aeronave.",
+          "pregunta": "Con geocaging activo, ¿puede omitirse la vigilancia de tráfico?",
+          "respuesta": "No; contención y vigilancia cumplen funciones distintas.",
+          "distractores": [
+            {
+              "texto": "Sí, porque evita toda colisión.",
+              "motivo": "Limitar un volumen no detecta a otros usuarios."
+            },
+            {
+              "texto": "Sí, si también hay DRI.",
+              "motivo": "La DRI transmite identificación, no garantiza separación."
+            },
+            {
+              "texto": "Sí, porque el volumen es una pared física.",
+              "motivo": "Es un límite programado, no una pared."
+            }
+          ],
+          "fuente": "clases"
+        },
+        {
+          "titulo": "Información aeronáutica aplicable",
+          "contenido": "Se seleccionan fuentes y coordinaciones pertinentes a lugar, altura, horario y operación. No se imponen transpondedores, códigos de catálogos o medidas particulares como requisitos universales de cualquier STS. Una condición específica sí se cumple cuando resulta aplicable a la operación coordinada.",
+          "ejemplo": "Una coordinación establece un límite inferior al general de altura. Se planifica con ese límite y no se invocan los 120 m como permiso automático.",
+          "error_habitual": "Convertir una medida particular en regla para todos o ignorarla cuando sí aplica.",
+          "pregunta": "La coordinación aplicable limita el vuelo a 60 m. ¿Permite STS volar a 120 m por defecto?",
+          "respuesta": "No; debe respetarse el límite aplicable más restrictivo.",
+          "distractores": [
+            {
+              "texto": "Sí, STS anula la coordinación.",
+              "motivo": "El escenario no elimina las condiciones del espacio aéreo."
+            },
+            {
+              "texto": "Sí, si el dron puede llegar.",
+              "motivo": "La capacidad técnica no concede permiso."
+            },
+            {
+              "texto": "Solo si el observador está de acuerdo.",
+              "motivo": "El observador no modifica la coordinación."
+            }
+          ],
+          "fuente": "espana"
+        }
+      ]
+    },
+    "5": {
+      "titulo": "Conocimientos generales del UAS",
+      "objetivo": "Explicar qué hace cada sistema y comprobar su configuración y sus limitaciones.",
+      "conexion": "Masa, baterías y sensores se conectan con el rendimiento del bloque 7.",
+      "lecciones": [
+        {
+          "titulo": "Clases C5 y C6",
+          "contenido": "C5 se vincula a STS-01 y C6 a STS-02. Se comprueban marcado, declaración UE de conformidad, configuración y manual. Las partes 16 y 17 del Reglamento 2019/945 establecen excepciones a ciertos requisitos C3: no se puede afirmar que toda función C3 sea obligatoria sin leer esas excepciones.",
+          "ejemplo": "Añadir un paracaídas por cuenta propia a un dron no demuestra conversión conforme a C5. Se necesita la documentación y el proceso aplicables.",
+          "error_habitual": "Confundir accesorio instalado con conformidad de clase.",
+          "pregunta": "Un dron recibe un paracaídas no documentado como conversión. ¿Eso basta para considerarlo C5?",
+          "respuesta": "No; debe acreditarse la conformidad aplicable a la configuración.",
+          "distractores": [
+            {
+              "texto": "Sí, cualquier paracaídas convierte la clase.",
+              "motivo": "El accesorio por sí solo no demuestra conformidad."
+            },
+            {
+              "texto": "Sí, si pesa menos de 25 kg.",
+              "motivo": "La masa es solo uno de los requisitos."
+            },
+            {
+              "texto": "Sí, si el piloto tiene A2.",
+              "motivo": "La formación del piloto no cambia la clase del producto."
+            }
+          ],
+          "fuente": "clases"
+        },
+        {
+          "titulo": "Geoconsciencia, contención y DRI",
+          "contenido": "La geoconsciencia informa de posibles vulneraciones de zonas; la contención limita el vuelo respecto a límites programados; la identificación remota directa transmite datos de identificación. En C5/C6 la geoconsciencia se regula si está instalada: no es una obligación universal común en los términos antes atribuidos a C3. En STS la DRI debe estar activa y actualizada.",
+          "ejemplo": "Un aviso de zona no garantiza que el UAS detenga su avance. Y una emisión DRI correcta no demuestra que el volumen de vuelo esté bien cargado.",
+          "error_habitual": "Usar geoconsciencia, geocaging y DRI como sinónimos.",
+          "pregunta": "¿Qué afirmación distingue correctamente las funciones?",
+          "respuesta": "La geoconsciencia avisa; la contención limita; la DRI identifica.",
+          "distractores": [
+            {
+              "texto": "La DRI impide automáticamente toda salida.",
+              "motivo": "Identificar no es confinar."
+            },
+            {
+              "texto": "Todo aviso de zona es una barrera física.",
+              "motivo": "Un aviso no garantiza bloqueo."
+            },
+            {
+              "texto": "C5 y C6 deben heredar sin excepciones toda función C3.",
+              "motivo": "Las partes 16 y 17 establecen excepciones."
+            }
+          ],
+          "fuente": "clases"
+        },
+        {
+          "titulo": "C5: modo lento y terminación",
+          "contenido": "En C5 sin anclaje, el modo lento seleccionable limita a no más de 5 m/s. STS-01 sin anclaje exige operar a menos de 5 m/s. Los medios de terminación y su activación deben ser independientes del control y guiado automáticos; se prevén medios de reducción de las consecuencias del impacto. Se revisa el manual, sin prometer aterrizaje indemne.",
+          "ejemplo": "Un modo cuyo máximo técnico sea 5 m/s puede cumplir ese requisito de producto; la operación STS-01 sigue teniendo que mantenerse por debajo de 5 m/s.",
+          "error_habitual": "Confundir límite de diseño con velocidad autorizada exacta de operación.",
+          "pregunta": "¿Qué par distingue modo técnico y operación STS-01 sin anclaje?",
+          "respuesta": "Modo C5 ≤ 5 m/s; operación STS-01 < 5 m/s.",
+          "distractores": [
+            {
+              "texto": "Ambos permiten exactamente 5 m/s.",
+              "motivo": "La condición operacional usa inferior a 5."
+            },
+            {
+              "texto": "Ambos permiten 50 m/s.",
+              "motivo": "No corresponde a C5/STS-01."
+            },
+            {
+              "texto": "El modo lento elimina la necesidad de terminación.",
+              "motivo": "Son requisitos diferentes."
+            }
+          ],
+          "fuente": "clases"
+        },
+        {
+          "titulo": "C6: información y límites",
+          "contenido": "C6 tiene velocidad máxima respecto al suelo en vuelo nivelado no superior a 50 m/s. Proporciona posición geográfica, velocidad y altura, programación de trayectoria y medios de limitación del volumen. El FTS y su activación son independientes del control automático y de los medios que evitan rebasar el volumen.",
+          "ejemplo": "Que la clase permita un máximo de 50 m/s no obliga a usarlo ni garantiza que sea adecuado con esa carga, viento o margen de riesgo.",
+          "error_habitual": "Tomar un máximo de producto como velocidad recomendada.",
+          "pregunta": "C6 declara un máximo de 50 m/s. ¿Qué significa para la misión?",
+          "respuesta": "Es un límite de clase; la operación puede exigir una velocidad menor.",
+          "distractores": [
+            {
+              "texto": "Debe volar siempre a 50 m/s.",
+              "motivo": "Un máximo no es una obligación de usarlo."
+            },
+            {
+              "texto": "Puede superar cualquier límite del manual.",
+              "motivo": "Se siguen respetando las limitaciones del equipo."
+            },
+            {
+              "texto": "Elimina el margen en tierra.",
+              "motivo": "La velocidad no sustituye la mitigación del riesgo."
+            }
+          ],
+          "fuente": "clases"
+        },
+        {
+          "titulo": "Enlace C2 y funciones automáticas",
+          "contenido": "C2 es el enlace de mando y control. Se supervisa su calidad y se atienden alertas de degradación o pérdida. La existencia de telemetría, vídeo o una ruta automática no demuestra que todos los enlaces estén disponibles ni elimina los procedimientos ante fallo.",
+          "ejemplo": "La imagen sigue visible pero aparece alarma C2. El piloto no deduce que el mando sea correcto solo porque recibe vídeo.",
+          "error_habitual": "Confundir enlace de imagen con estado de mando y control.",
+          "pregunta": "Se recibe vídeo pero hay alarma de degradación C2. ¿Qué interpretación es correcta?",
+          "respuesta": "El vídeo no invalida la alarma; se aplica el procedimiento correspondiente.",
+          "distractores": [
+            {
+              "texto": "Todo el enlace funciona porque hay imagen.",
+              "motivo": "Pueden existir funciones o canales distintos."
+            },
+            {
+              "texto": "La ruta automática elimina el riesgo.",
+              "motivo": "La automatización no suprime las limitaciones."
+            },
+            {
+              "texto": "La DRI sirve de mando alternativo.",
+              "motivo": "La identificación no es un enlace de control."
+            }
+          ],
+          "fuente": "clases"
+        },
+        {
+          "titulo": "IMU, GNSS y brújula",
+          "contenido": "La IMU mide magnitudes inerciales mediante sensores como acelerómetros y giróscopos; GNSS aporta posicionamiento por satélite; la brújula contribuye al rumbo magnético. No son intercambiables. Se siguen las instrucciones del fabricante para calibración y comprobación, evitando calibrar indiscriminadamente en lugares con interferencia.",
+          "ejemplo": "Un aviso de rumbo junto a una estructura metálica pide evaluar interferencia y el procedimiento del fabricante, no asumir que más satélites corrigen cualquier error.",
+          "error_habitual": "Pensar que GNSS resuelve todo fallo de orientación.",
+          "pregunta": "Hay error de rumbo cerca de una estructura metálica. ¿Qué criterio es adecuado?",
+          "respuesta": "Evaluar interferencia y seguir las comprobaciones del fabricante antes de operar.",
+          "distractores": [
+            {
+              "texto": "Despegar porque hay muchos satélites.",
+              "motivo": "El posicionamiento no elimina toda interferencia magnética."
+            },
+            {
+              "texto": "Calibrar siempre allí mismo sin evaluar el entorno.",
+              "motivo": "Un entorno alterado puede hacer inadecuada la calibración."
+            },
+            {
+              "texto": "Cambiar el nombre de la misión.",
+              "motivo": "No corrige el sistema."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Velocidades, altura y referencia",
+          "contenido": "Se distingue velocidad respecto al suelo de velocidad respecto al aire, y altura relativa del sistema de separación real al terreno. En instrumentos aerodinámicos, velocidad indicada y verdadera no son necesariamente iguales. Antes de comparar cifras se identifican unidad, magnitud y referencia.",
+          "ejemplo": "El mando muestra 80 m respecto al despegue sobre un terreno que asciende 40 m. En el ejemplo geométrico, la separación vertical local sería 40 m; la lectura no equivale automáticamente a 80 m sobre el suelo.",
+          "error_habitual": "Comparar lecturas sin saber de qué punto o magnitud proceden.",
+          "pregunta": "El terreno sube 40 m y la UA está a 80 m sobre el despegue. En este ejemplo vertical, ¿cuánto la separa del terreno local?",
+          "respuesta": "40 m.",
+          "distractores": [
+            {
+              "texto": "80 m siempre.",
+              "motivo": "Ignora la elevación del terreno."
+            },
+            {
+              "texto": "120 m.",
+              "motivo": "Suma en vez de restar la cota del terreno."
+            },
+            {
+              "texto": "No hay diferencia entre altura y altitud.",
+              "motivo": "Tienen referencias diferentes."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Baterías: V, Ah, Wh y conexiones",
+          "contenido": "Ah expresa capacidad de carga eléctrica; Wh, energía. Para una estimación nominal, Wh = V × Ah. En serie se suman tensiones de elementos compatibles; en paralelo, capacidades a igual tensión. No se deduce autonomía exacta ni se recomienda modificar conexiones sin aprobación del fabricante.",
+          "ejemplo": "Una batería de 22,2 V y 5 Ah almacena nominalmente 111 Wh. Una de 11,1 V y 5 Ah tiene 55,5 Wh: igual Ah no significa igual energía.",
+          "error_habitual": "Confundir mAh con energía o prometer el doble de autonomía.",
+          "pregunta": "¿Qué energía nominal resulta de 22,2 V y 5 Ah?",
+          "respuesta": "111 Wh.",
+          "distractores": [
+            {
+              "texto": "27,2 Wh.",
+              "motivo": "Se multiplican V y Ah, no se suman."
+            },
+            {
+              "texto": "4,44 Wh.",
+              "motivo": "No se divide la tensión por la capacidad."
+            },
+            {
+              "texto": "5 Wh.",
+              "motivo": "5 Ah no equivalen por sí solos a 5 Wh."
+            }
+          ],
+          "fuente": "syllabus"
+        }
+      ]
+    },
+    "6": {
+      "titulo": "Meteorología",
+      "objetivo": "Interpretar información vigente y local para justificar una decisión de operar, adaptar o aplazar.",
+      "conexion": "El viento modifica vigilancia y energía; la densidad conecta con rendimiento y carga del bloque 7.",
+      "lecciones": [
+        {
+          "titulo": "Viento y unidades",
+          "contenido": "La dirección meteorológica indica de dónde viene el viento. 1 kt = 0,5144 m/s; 1 m/s = 3,6 km/h. Se comparan rachas y viento sostenido con los límites aplicables del manual y los márgenes de la operación, no solo con el valor medio.",
+          "ejemplo": "Un límite del ejemplo de 10 m/s se supera con rachas de 25 kt: 25 × 0,5144 = 12,86 m/s. Se aplaza o replantea; convertir unidades evita una falsa aceptación.",
+          "error_habitual": "Comparar números expresados en unidades diferentes.",
+          "pregunta": "Con límite de 10 m/s y rachas de 25 kt, ¿qué concluyes?",
+          "respuesta": "Las rachas equivalen a unos 12,9 m/s y superan el límite del ejemplo.",
+          "distractores": [
+            {
+              "texto": "25 kt son 6,9 m/s.",
+              "motivo": "Se ha usado una conversión equivocada."
+            },
+            {
+              "texto": "25 kt son siempre menores que 10 m/s.",
+              "motivo": "La cifra sin convertir no permite comparar."
+            },
+            {
+              "texto": "Solo importa el viento medio.",
+              "motivo": "Las rachas también afectan al control."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Relieve, obstáculos y turbulencia",
+          "contenido": "Edificios, árboles y relieve alteran velocidad y dirección; el calentamiento diferencial produce convección. La cizalladura es un cambio de velocidad o dirección del viento entre puntos. Un promedio moderado puede esconder rachas o turbulencias locales.",
+          "ejemplo": "En la ladera protegida parece haber calma, pero el tramo pasa a sotavento de una cresta. Se valora el viento en la trayectoria y en las recuperaciones, no solo donde está el piloto.",
+          "error_habitual": "Extrapolar la medida del punto de despegue a todo el volumen.",
+          "pregunta": "Hay calma al despegar y turbulencia prevista tras una cresta. ¿Qué debe evaluarse?",
+          "respuesta": "Las condiciones de toda la trayectoria y sus alternativas de recuperación.",
+          "distractores": [
+            {
+              "texto": "Solo el viento junto al mando.",
+              "motivo": "No representa necesariamente el volumen de vuelo."
+            },
+            {
+              "texto": "Solo la previsión del día anterior.",
+              "motivo": "Puede estar desactualizada y no resolver el efecto local."
+            },
+            {
+              "texto": "La cobertura de telefonía como medida del viento.",
+              "motivo": "No mide la condición meteorológica."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Temperatura, presión y densidad",
+          "contenido": "A presión constante, el aire más caliente tiene menor densidad. La densidad suele disminuir con la altitud. Para producir la misma sustentación, el sistema puede necesitar más esfuerzo y disponer de menos margen. La presión baja con la altura; se identifican hPa e inHg. K = °C + 273,15 y °F = 1,8 × °C + 32.",
+          "ejemplo": "Con 20 °C se obtienen 293,15 K y 68 °F. En una misión cálida de montaña, respetar la MTOM no demuestra que haya margen suficiente de rendimiento.",
+          "error_habitual": "Suponer que la potencia disponible y la MTOM admisible son iguales en cualquier ambiente.",
+          "pregunta": "A presión constante aumenta la temperatura. ¿Qué ocurre con la densidad?",
+          "respuesta": "Disminuye.",
+          "distractores": [
+            {
+              "texto": "Aumenta siempre.",
+              "motivo": "A presión fija la relación con temperatura absoluta es inversa."
+            },
+            {
+              "texto": "No cambia por definición.",
+              "motivo": "Sí depende de la temperatura."
+            },
+            {
+              "texto": "Pasa a ser igual a la presión.",
+              "motivo": "Densidad y presión son magnitudes diferentes."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Niebla, nubes y visibilidad",
+          "contenido": "La niebla reduce la visibilidad horizontal por debajo de 1 km; puede formarse por enfriamiento nocturno (radiación) o por desplazamiento de aire húmedo sobre una superficie más fría (advección). Las nubes de desarrollo convectivo pueden indicar turbulencia y precipitaciones intensas. La visibilidad local se contrasta con referencias, luz y obstáculos.",
+          "ejemplo": "Un parte cercano es favorable, pero hay niebla en el valle de la misión. Prevalece la evaluación de si se cumplen las condiciones reales del vuelo; no se acepta el parte como garantía.",
+          "error_habitual": "Trasladar sin comprobar la visibilidad de un aeródromo al lugar de operación.",
+          "pregunta": "El METAR cercano es favorable y el valle tiene niebla. ¿Qué procede?",
+          "respuesta": "Evaluar el lugar y no iniciar si no se cumplen las condiciones necesarias.",
+          "distractores": [
+            {
+              "texto": "Volar porque el METAR garantiza todo el valle.",
+              "motivo": "El parte describe otro lugar y momento."
+            },
+            {
+              "texto": "Cambiar a BVLOS para ignorar visibilidad.",
+              "motivo": "BVLOS también tiene condiciones de vigilancia y visibilidad."
+            },
+            {
+              "texto": "Usar solo la previsión semanal.",
+              "motivo": "No resuelve la condición actual local."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "METAR, SPECI y TAF",
+          "contenido": "METAR es observación ordinaria de aeródromo; SPECI es observación especial ante cambios significativos; TAF es pronóstico con un período de validez explícito. Se leen lugar, fecha/hora UTC, unidades, viento, visibilidad, nubes y cambios. El período del TAF se lee en el propio mensaje, sin adivinarlo.",
+          "ejemplo": "En el fragmento ficticio 18012G22KT, el viento procede de 180°, es de 12 kt con rachas de 22 kt. El sufijo KT identifica la unidad.",
+          "error_habitual": "Confundir observación y pronóstico o ignorar las rachas.",
+          "pregunta": "En 18012G22KT, ¿qué significa G22?",
+          "respuesta": "Rachas de 22 kt.",
+          "distractores": [
+            {
+              "texto": "Viento constante de 22 m/s.",
+              "motivo": "G indica racha y KT nudos."
+            },
+            {
+              "texto": "Dirección de 22 grados.",
+              "motivo": "La dirección aparece en 180."
+            },
+            {
+              "texto": "Visibilidad de 22 km.",
+              "motivo": "Este grupo describe viento."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Hora UTC y vigencia",
+          "contenido": "La información aeronáutica utiliza UTC, indicada con Z. Se identifica fecha y período de validez antes de usar el mensaje. La conversión a hora local depende de la fecha y del huso; no se usa una diferencia fija durante todo el año.",
+          "ejemplo": "Un TAF válido hasta 1200Z no describe automáticamente una misión a 1500Z. Se busca información válida para esa hora y se observa la evolución.",
+          "error_habitual": "Usar un pronóstico fuera de su intervalo de validez.",
+          "pregunta": "La misión empieza a 1500Z y el pronóstico acaba a 1200Z. ¿Qué falta?",
+          "respuesta": "Información meteorológica válida para la hora de la misión.",
+          "distractores": [
+            {
+              "texto": "Nada; todos los TAF duran el día completo.",
+              "motivo": "Cada mensaje tiene su propia validez."
+            },
+            {
+              "texto": "Sumar siempre dos horas a cualquier fecha y país.",
+              "motivo": "La conversión depende de fecha y ubicación."
+            },
+            {
+              "texto": "Reutilizar el mensaje sin mirar las horas.",
+              "motivo": "Se perdería la vigencia temporal."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Efectos regionales y precipitación",
+          "contenido": "Las brisas costeras suelen soplar del mar a tierra durante el día y pueden invertirse de noche; el relieve genera otros efectos locales. Lluvia, nieve, granizo, hielo y polvo pueden afectar sensores, hélices, electrónica y visión. Se respetan las limitaciones ambientales del fabricante.",
+          "ejemplo": "Un UAS sin aptitud para lluvia no pasa a ser apto por llevar protección improvisada. En montaña se revisan viento, densidad, hielo y puntos de recuperación.",
+          "error_habitual": "Concluir aptitud ambiental solo por una apariencia robusta.",
+          "pregunta": "El equipo no está autorizado por su fabricante para operar bajo lluvia. ¿Qué decisión corresponde?",
+          "respuesta": "No usarlo bajo esas condiciones.",
+          "distractores": [
+            {
+              "texto": "Añadir una bolsa y volar.",
+              "motivo": "Una modificación improvisada no acredita aptitud."
+            },
+            {
+              "texto": "Volar más alto para evitar humedad.",
+              "motivo": "No elimina la precipitación ni respeta necesariamente límites."
+            },
+            {
+              "texto": "Usar más velocidad como impermeabilización.",
+              "motivo": "No protege el sistema."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Briefing meteorológico y decisión",
+          "contenido": "Se combinan observaciones recientes, pronóstico, radar o satélite, condiciones locales y límites del equipo. Ninguna fuente aislada garantiza seguridad. Para STS-02 se comprueba también la visibilidad de vuelo superior a 5 km, separándola del alcance UA-piloto.",
+          "ejemplo": "Hay visibilidad de 6 km pero rachas incompatibles con el manual. El cumplimiento de una condición no compensa el incumplimiento de otra.",
+          "error_habitual": "Aceptar la misión porque una sola variable es favorable.",
+          "pregunta": "Se cumple visibilidad STS-02, pero se supera el viento permitido por el manual. ¿Puede iniciarse?",
+          "respuesta": "No; deben cumplirse simultáneamente las condiciones aplicables.",
+          "distractores": [
+            {
+              "texto": "Sí, la visibilidad compensa el viento.",
+              "motivo": "No existe esa compensación."
+            },
+            {
+              "texto": "Sí, si el cliente acepta.",
+              "motivo": "El consentimiento del cliente no cambia límites técnicos."
+            },
+            {
+              "texto": "Sí, si la batería es nueva.",
+              "motivo": "La batería no elimina el límite de viento."
+            }
+          ],
+          "fuente": "sts02"
+        }
+      ]
+    },
+    "7": {
+      "titulo": "Rendimiento de vuelo del UAS",
+      "objetivo": "Comprobar masa, centrado, energía y límites ambientales con ejemplos calculados.",
+      "conexion": "Una carga cambia rendimiento y margen de riesgo; conecta con los bloques 5 y 8.",
+      "lecciones": [
+        {
+          "titulo": "MTOM y masa real",
+          "contenido": "MTOM es la masa máxima al despegue especificada para el UAS. La masa real incluye aeronave, batería, fijaciones y carga útil. No se suma la carga por fuera del máximo. Además, las condiciones pueden imponer una masa de despegue limitada por rendimiento menor que la MTOM.",
+          "ejemplo": "MTOM 6 kg, aeronave con batería 4,8 kg y carga con soporte 1,4 kg: total 6,2 kg. No cumple el máximo, aunque consiga despegar.",
+          "error_habitual": "Tomar la capacidad de elevarse como prueba de cumplimiento.",
+          "pregunta": "Con esos datos, ¿qué conclusión corresponde?",
+          "respuesta": "La masa real de 6,2 kg supera la MTOM de 6 kg.",
+          "distractores": [
+            {
+              "texto": "La carga no cuenta en la masa total.",
+              "motivo": "Sí cuenta, incluido el soporte."
+            },
+            {
+              "texto": "Cumple porque el motor logra elevarla.",
+              "motivo": "La capacidad momentánea no cambia el máximo."
+            },
+            {
+              "texto": "La MTOM pasa automáticamente a 6,2 kg.",
+              "motivo": "No la redefine el operador por cargar más."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Centro de gravedad y momentos",
+          "contenido": "El CG representa el punto de aplicación de la resultante del peso. Su posición depende de la distribución de masas. En un modelo unidimensional, xCG = suma(m × x) / suma(m). Los límites admisibles proceden del diseño y manual de esa aeronave, no de que parezca equilibrada a simple vista.",
+          "ejemplo": "Masas de 2 kg a -0,10 m y 1 kg a +0,20 m dan momentos -0,20 y +0,20 kg·m: xCG = 0/3 = 0 m. Es un modelo didáctico; no autoriza una instalación real.",
+          "error_habitual": "Mirar solo la masa total y olvidar dónde está situada.",
+          "pregunta": "En el ejemplo, ¿dónde queda xCG?",
+          "respuesta": "En 0 m respecto a la referencia elegida.",
+          "distractores": [
+            {
+              "texto": "En +0,10 m por sumar distancias.",
+              "motivo": "Los momentos se ponderan por masa."
+            },
+            {
+              "texto": "En +0,30 m.",
+              "motivo": "No se suman posiciones sin ponderar."
+            },
+            {
+              "texto": "Siempre en el motor.",
+              "motivo": "La ubicación depende de toda la distribución."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Equilibrio de palanca",
+          "contenido": "Para equilibrar dos masas bajo la misma gravedad respecto a un apoyo ideal se igualan momentos: m1 × d1 = m2 × d2. Se conserva la unidad de distancia en ambos lados. La imagen aportada sirve para este modelo de estática, no para establecer por sí sola el CG válido de un UAS.",
+          "ejemplo": "100 kg a 0,25 m equilibran 25 kg a 1 m: 100 × 0,25 = 25 × 1. Si el brazo derecho se reduce a 0,5 m, la masa equivalente sería 50 kg.",
+          "error_habitual": "Responder 100 kg por simetría visual sin comparar brazos.",
+          "pregunta": "¿Qué masa a 1 m equilibra 100 kg situados a 25 cm del apoyo ideal?",
+          "respuesta": "25 kg.",
+          "distractores": [
+            {
+              "texto": "100 kg.",
+              "motivo": "Los brazos no tienen igual longitud."
+            },
+            {
+              "texto": "400 kg.",
+              "motivo": "Invierte la relación entre masa y brazo."
+            },
+            {
+              "texto": "2,5 kg.",
+              "motivo": "25 cm equivalen a 0,25 m, no a 0,025 m."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Estabilidad y carga útil",
+          "contenido": "Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación.",
+          "ejemplo": "Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos.",
+          "error_habitual": "Creer que respetar la MTOM resuelve todo el balance.",
+          "pregunta": "La masa cumple MTOM, pero el soporte permite deslizarse a la cámara. ¿Está resuelta la configuración?",
+          "respuesta": "No; hay que asegurar la carga y comprobar el centrado.",
+          "distractores": [
+            {
+              "texto": "Sí, la MTOM es la única condición.",
+              "motivo": "También importan CG, fijación y límites."
+            },
+            {
+              "texto": "Sí, si se corrige con el mando.",
+              "motivo": "El piloto no sustituye un anclaje adecuado."
+            },
+            {
+              "texto": "Sí, si la cámara es pequeña.",
+              "motivo": "Una carga pequeña también puede desplazarse."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Envolvente y masa por rendimiento",
+          "contenido": "La envolvente reúne condiciones y límites de operación. Tipo de aeronave, masa, densidad, viento, temperatura y estado de sistemas modifican el margen disponible. Respetar un máximo de masa no garantiza que esa masa sea adecuada para el ambiente y la misión.",
+          "ejemplo": "Un multirrotor caliente en altura requiere casi toda la potencia en estacionario. Se recupera con seguridad y se revisa la configuración; no se establece un porcentaje universal de potencia admisible.",
+          "error_habitual": "Convertir un dato ilustrativo en límite universal.",
+          "pregunta": "Un UAS queda sin margen de potencia para maniobrar. ¿Qué criterio es correcto?",
+          "respuesta": "Recuperar de forma segura y revisar masa, ambiente y límites.",
+          "distractores": [
+            {
+              "texto": "Continuar porque aún mantiene altura.",
+              "motivo": "Mantener altura no demuestra margen para contingencias."
+            },
+            {
+              "texto": "Aumentar la carga para estabilizarlo.",
+              "motivo": "Puede reducir más el margen."
+            },
+            {
+              "texto": "Aplicar un porcentaje de otro modelo como autorización.",
+              "motivo": "Los límites dependen del UAS y su manual."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Energía y autonomía",
+          "contenido": "La energía nominal permite comparar baterías, pero la energía utilizable y la autonomía dependen de carga, estado, temperatura, viento y consumo. No se extrapola un dato comercial como duración garantizada. Para un consumo constante ideal, tiempo(h) = energía(Wh) / potencia(W), antes de reservas y pérdidas.",
+          "ejemplo": "111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real.",
+          "error_habitual": "Confundir un cálculo ideal con plan de vuelo seguro.",
+          "pregunta": "Con 111 Wh y consumo ideal de 222 W, ¿qué tiempo se obtiene antes de reservas?",
+          "respuesta": "30 minutos teóricos.",
+          "distractores": [
+            {
+              "texto": "2 horas.",
+              "motivo": "La división se ha invertido."
+            },
+            {
+              "texto": "111 minutos garantizados.",
+              "motivo": "Wh no son minutos y faltan condiciones."
+            },
+            {
+              "texto": "30 minutos reales en cualquier ambiente.",
+              "motivo": "El cálculo ideal no garantiza autonomía real."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Baterías y seguridad de uso",
+          "contenido": "Se identifican química, tensión, capacidad y tasa C. La corriente asociada a una tasa es I = C × Ah; no autoriza superar lo permitido por fabricante, cargador o sistema. Se usan equipos compatibles, se inspecciona la batería y se siguen las instrucciones de carga, almacenamiento y retirada de unidades dañadas.",
+          "ejemplo": "Para una batería de 5 Ah, 2C corresponde aritméticamente a 10 A. Solo se usa ese régimen si está permitido para esa función y batería. No se intenta recuperar una unidad hinchada.",
+          "error_habitual": "Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada.",
+          "pregunta": "¿Qué corriente representa 2C en una batería de 5 Ah?",
+          "respuesta": "10 A, sujeto a que ese régimen esté permitido para el uso considerado.",
+          "distractores": [
+            {
+              "texto": "2 A siempre.",
+              "motivo": "La tasa se multiplica por la capacidad Ah."
+            },
+            {
+              "texto": "2 V.",
+              "motivo": "C-rate no expresa voltaje."
+            },
+            {
+              "texto": "Permiso para cargar cualquier batería a 10 A.",
+              "motivo": "La aritmética no sustituye la especificación del fabricante."
+            }
+          ],
+          "fuente": "syllabus"
+        },
+        {
+          "titulo": "Verificación tras un cambio",
+          "contenido": "Cambiar batería, hélice, soporte, sensor o software puede alterar masa, CG, consumo o funciones. Se comprueban compatibilidad, límites y documentación de la configuración antes de operar. No se plantea una conexión de baterías ni modificación como experimento de vuelo.",
+          "ejemplo": "Se cambia a una batería más pesada para ganar energía. Se recalculan masa y CG y se revisa aprobación; el aumento de Wh no asegura más autonomía.",
+          "error_habitual": "Mejorar una cifra aislada ignorando las demás.",
+          "pregunta": "Se propone una batería más pesada. ¿Qué comprobación es necesaria?",
+          "respuesta": "Compatibilidad, masa total, CG y efecto en el rendimiento.",
+          "distractores": [
+            {
+              "texto": "Solo comparar mAh.",
+              "motivo": "Ignora tensión, masa y compatibilidad."
+            },
+            {
+              "texto": "Aprobarla porque cabe en el alojamiento.",
+              "motivo": "Encajar físicamente no demuestra aptitud."
+            },
+            {
+              "texto": "Despegar para averiguar si funciona.",
+              "motivo": "La verificación previa no se sustituye por un ensayo improvisado."
+            }
+          ],
+          "fuente": "syllabus"
+        }
+      ]
+    },
+    "8": {
+      "titulo": "Mitigaciones del riesgo en tierra",
+      "objetivo": "Dibujar la zona controlada y justificar sus dimensiones sin trasladar reglas de categoría abierta.",
+      "conexion": "La zona y el FTS se planifican juntos; una medida técnica no elimina el espacio necesario.",
+      "lecciones": [
+        {
+          "titulo": "Personas y zona controlada",
+          "contenido": "La zona terrestre controlada es aquella donde el operador garantiza que solo hay personas participantes. Participar requiere consentimiento explícito e información y medidas adecuadas; estar cerca o ver una señal no basta. Se controla toda la superficie necesaria, sin concentraciones de personas.",
+          "ejemplo": "Una valla cubre el despegue pero deja un camino dentro de la huella del vuelo. La zona no está resuelta aunque nadie esté junto al piloto.",
+          "error_habitual": "Confundir señalizar con garantizar control efectivo.",
+          "pregunta": "Un peatón ve un cartel de drones. ¿Se convierte automáticamente en participante?",
+          "respuesta": "No; ver un cartel no sustituye consentimiento e información adecuados.",
+          "distractores": [
+            {
+              "texto": "Sí, por entrar en la zona.",
+              "motivo": "Entrar no demuestra consentimiento informado."
+            },
+            {
+              "texto": "Sí, porque sale en la cámara.",
+              "motivo": "Ser grabado no implica participar."
+            },
+            {
+              "texto": "Sí, si el operador lo anota después.",
+              "motivo": "Un registro posterior no aporta las condiciones previas."
+            }
+          ],
+          "fuente": "sts01"
+        },
+        {
+          "titulo": "Geografía, contingencia y volumen",
+          "contenido": "La geografía de vuelo contiene el vuelo normal. El volumen de contingencia permite gestionar desviaciones; juntos forman el volumen operacional. En superficie, la zona controlada comprende las áreas correspondientes y el margen de riesgo en tierra. Se distinguen volumen tridimensional y proyección sobre el terreno.",
+          "ejemplo": "Un plano que solo dibuja la trayectoria omite espacio para contingencias y riesgo residual. La valla no debe decidirse antes de dimensionar la huella completa.",
+          "error_habitual": "Usar trayectoria, volumen y zona terrestre como sinónimos.",
+          "pregunta": "¿Qué integra el volumen operacional?",
+          "respuesta": "La geografía de vuelo y el volumen de contingencia.",
+          "distractores": [
+            {
+              "texto": "Solo la línea de la ruta.",
+              "motivo": "La línea no representa un volumen."
+            },
+            {
+              "texto": "Únicamente el margen de riesgo en tierra.",
+              "motivo": "El margen es una región adicional para mitigar riesgo."
+            },
+            {
+              "texto": "Todo el municipio sin límites.",
+              "motivo": "El volumen debe definirse para la operación."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "Contingencia: mínimo exterior",
+          "contenido": "En STS-01 sin anclaje y en STS-02, el límite exterior de la zona de contingencia se sitúa al menos 10 m más allá del límite de la zona geográfica de vuelo. El margen de riesgo en tierra empieza después de la contingencia; no se suman como si fueran la misma banda.",
+          "ejemplo": "Desde un borde de la geografía de vuelo, 10 m de contingencia y 15 m de margen del ejemplo suman 25 m hasta el límite exterior. Los 15 m no incluyen los 10 m.",
+          "error_habitual": "Contar el margen desde la trayectoria o absorber la contingencia dentro de él.",
+          "pregunta": "Con 10 m de contingencia y 15 m de margen, ¿qué separación hay desde ese borde de geografía hasta el exterior?",
+          "respuesta": "25 m en el ejemplo unidimensional.",
+          "distractores": [
+            {
+              "texto": "15 m.",
+              "motivo": "Omite la banda de contingencia."
+            },
+            {
+              "texto": "10 m.",
+              "motivo": "Omite el margen de riesgo."
+            },
+            {
+              "texto": "5 m.",
+              "motivo": "Se suman bandas consecutivas, no se restan."
+            }
+          ],
+          "fuente": "sts01"
+        },
+        {
+          "titulo": "Tabla STS-01 sin anclaje",
+          "contenido": "El mínimo del margen depende de altura máxima sobre el suelo y de MTOM: a 30/60/90/120 m, para MTOM hasta 10 kg inclusive, 10/15/20/25 m; para MTOM superior a 10 kg, 20/30/45/60 m. Se mide más allá de la contingencia. Son mínimos: viento, características de vuelo y reacción pueden exigir ampliación.",
+          "ejemplo": "MTOM exactamente 10 kg y altura máxima 60 m: margen mínimo 15 m más allá de la contingencia. Con contingencia mínima de 10 m, suman 25 m desde el borde de geografía en ese lado.",
+          "error_habitual": "Elegir columna por masa real en vez de MTOM o sumar desde el punto de despegue.",
+          "pregunta": "Con MTOM 12 kg y altura máxima 90 m, ¿qué margen mínimo indica la tabla STS-01 sin anclaje?",
+          "respuesta": "45 m más allá de la zona de contingencia.",
+          "distractores": [
+            {
+              "texto": "20 m.",
+              "motivo": "Corresponde a la columna hasta 10 kg."
+            },
+            {
+              "texto": "10 m.",
+              "motivo": "Confunde contingencia con margen."
+            },
+            {
+              "texto": "90 m por la regla 1:1.",
+              "motivo": "La tabla STS-01 no se sustituye por una regla de categoría abierta."
+            }
+          ],
+          "fuente": "sts01"
+        },
+        {
+          "titulo": "Margen STS-02",
+          "contenido": "En STS-02 el margen cubre al menos la distancia que con mayor probabilidad recorrerá la UA tras activar los medios de terminación, indicada por el fabricante y considerando las condiciones dentro de sus límites. No se inventa una cifra universal a partir de altura o velocidad ni se traslada sin más la tabla de STS-01.",
+          "ejemplo": "El manual del ejemplo indica 80 m para la condición prevista y el plano deja 50 m. Faltan 30 m respecto a ese dato; se replantea antes de operar.",
+          "error_habitual": "Aplicar la tabla STS-01 a cualquier C6.",
+          "pregunta": "El fabricante indica 80 m tras terminación para el caso y el margen previsto es 50 m. ¿Qué concluyes?",
+          "respuesta": "No cubre la distancia indicada; hay que replantear el margen.",
+          "distractores": [
+            {
+              "texto": "Cumple si la masa es menor de 10 kg.",
+              "motivo": "No sustituye el criterio STS-02."
+            },
+            {
+              "texto": "Cumple porque el campo es rural.",
+              "motivo": "El entorno no elimina el margen."
+            },
+            {
+              "texto": "Se cambia la cifra del manual a 50 m.",
+              "motivo": "El operador no redefine el dato del fabricante."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "FTS y riesgo residual",
+          "contenido": "El FTS reduce el riesgo mediante la terminación prevista, pero no garantiza un punto exacto de impacto ni ausencia de daños. En C5 sin anclaje se requieren medios para reducir las consecuencias dinámicas del impacto; su efectividad y condiciones de uso se comprueban. El margen sigue siendo necesario.",
+          "ejemplo": "Un paracaídas puede reducir consecuencias, pero necesita condiciones de despliegue. Su presencia no permite eliminar el margen ni situar personas bajo la trayectoria.",
+          "error_habitual": "Presentar el FTS como caída controlada e infalible.",
+          "pregunta": "Hay FTS y reducción de impacto. ¿Puede eliminarse el margen de riesgo en tierra?",
+          "respuesta": "No; la terminación no elimina el riesgo residual ni el margen requerido.",
+          "distractores": [
+            {
+              "texto": "Sí, el impacto será siempre en un punto exacto.",
+              "motivo": "El sistema no ofrece esa garantía."
+            },
+            {
+              "texto": "Sí, si la batería está llena.",
+              "motivo": "La energía disponible no elimina consecuencias de terminación."
+            },
+            {
+              "texto": "Sí, porque C5 permite cualquier sobrevuelo.",
+              "motivo": "La clase no concede ese permiso."
+            }
+          ],
+          "fuente": "clases"
+        },
+        {
+          "titulo": "STS-02: entorno y fases",
+          "contenido": "La zona controlada debe estar enteramente en entorno escasamente poblado. Lanzamiento y recuperación se mantienen a la vista del piloto, salvo recuperación como resultado de terminación de emergencia. Durante el crucero se cumplen distancias, vigilancia, visibilidad y demás condiciones; el entorno rural no exime de controlar personas.",
+          "ejemplo": "Una misión se aleja 3 km del piloto y recupera en VLOS. Recuperar a la vista no corrige la superación del máximo de separación STS-02.",
+          "error_habitual": "Comprobar solo despegue y aterrizaje.",
+          "pregunta": "Una misión con observadores alcanza 3 km y recupera en VLOS. ¿Queda resuelta por esa recuperación?",
+          "respuesta": "No; sigue incumpliendo el máximo UA-piloto de 2 km.",
+          "distractores": [
+            {
+              "texto": "Sí, el VLOS final compensa cualquier alcance.",
+              "motivo": "Son condiciones simultáneas."
+            },
+            {
+              "texto": "Sí, si toda la zona es rural.",
+              "motivo": "El entorno no amplía la separación."
+            },
+            {
+              "texto": "Sí, si el cliente no participa.",
+              "motivo": "No modifica el límite."
+            }
+          ],
+          "fuente": "sts02"
+        },
+        {
+          "titulo": "Intrusión y replanteo",
+          "contenido": "Si no se puede garantizar la zona, no se inicia o se adapta/termina con seguridad según el procedimiento. El operador define la zona y el piloto verifica su adecuación real. La regla A2 de distancias y su referencia 1:1 no sustituyen la geometría propia de STS. Para UAS anclados STS-01, se consulta la condición específica de radio: longitud del anclaje más 5 m.",
+          "ejemplo": "Con anclaje de 20 m, el radio de zona del ejemplo es 25 m respecto al punto de fijación. Eso no convierte 25 m en margen universal de una aeronave sin anclaje.",
+          "error_habitual": "Importar una fórmula de otro escenario sin comprobar su ámbito.",
+          "pregunta": "En STS-01 con anclaje de 20 m, ¿qué radio resulta de la regla específica?",
+          "respuesta": "25 m desde el punto de fijación en superficie.",
+          "distractores": [
+            {
+              "texto": "20 m.",
+              "motivo": "Faltan los 5 m adicionales."
+            },
+            {
+              "texto": "5 m.",
+              "motivo": "Se omite la longitud del anclaje."
+            },
+            {
+              "texto": "120 m siempre.",
+              "motivo": "La altura general no es esta fórmula de radio."
+            }
+          ],
+          "fuente": "sts01"
+        }
+      ]
+    }
+  }
+}

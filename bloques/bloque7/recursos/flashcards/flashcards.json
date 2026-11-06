@@ -1,14 +1,387 @@
-{"titulo":"Flashcards Bloque 7 STS","bloque":"Rendimiento de vuelo del UAS | Syllabus STS pagina 11 | Estado VALIDADO","total":12,"flashcards":[
-{"id":"B7-F-001","tema":"MTOM","subtema":"Limite estructural","dificultad":"facil","tipo":"concepto","pregunta":"Quien define la MTOM de un UAS?","respuesta":"El fabricante.","explicacion_breve":"La MTOM es una limitacion estructural absoluta definida por el fabricante.","error_habitual":"Pensar que el piloto puede ampliarla si el dron tiene potencia.","regla_mnemotecnica":"MTOM manda fabricante."},
-{"id":"B7-F-002","tema":"MTOM","subtema":"Composicion","dificultad":"facil","tipo":"concepto","pregunta":"Que incluye la MTOM?","respuesta":"Aeronave, bateria y carga util.","explicacion_breve":"La carga util no se suma por fuera de la MTOM.","error_habitual":"Creer que payload es adicional a la MTOM.","regla_mnemotecnica":"MTOM = UAS + bateria + payload."},
-{"id":"B7-F-003","tema":"Envolvente","subtema":"Operacion segura","dificultad":"media","tipo":"concepto","pregunta":"Que es la envolvente de operacion?","respuesta":"El rango de peso, velocidad y altitud donde el UAS opera con seguridad garantizada.","explicacion_breve":"Salir de esos limites compromete el rendimiento seguro.","error_habitual":"Reducirla solo a la velocidad maxima.","regla_mnemotecnica":"Envolvente: peso, velocidad y altitud."},
-{"id":"B7-F-004","tema":"Envolvente","subtema":"Factores de salida","dificultad":"media","tipo":"riesgo","pregunta":"Que factores pueden sacar al UAS de su envolvente segura?","respuesta":"Exceso de peso, viento excesivo, IMU mal calibrada o hielo en las palas.","explicacion_breve":"Son variables citadas en la ingenieria del bloque.","error_habitual":"Pensar solo en sobrepeso.","regla_mnemotecnica":"Peso, viento, IMU, hielo."},
-{"id":"B7-F-005","tema":"CG","subtema":"Definicion","dificultad":"facil","tipo":"concepto","pregunta":"Que es el centro de gravedad?","respuesta":"El punto imaginario donde se concentra la masa total del UAS.","explicacion_breve":"Sobre el CG rotan los tres ejes del UAS.","error_habitual":"Confundirlo con el centro geometrico visible.","regla_mnemotecnica":"CG: centro de masa, no de dibujo."},
-{"id":"B7-F-006","tema":"Ejes","subtema":"Rotaciones","dificultad":"media","tipo":"dato","pregunta":"A que eje corresponde el cabeceo o pitch?","respuesta":"Al eje lateral.","explicacion_breve":"Alabeo es longitudinal, cabeceo lateral y guinada vertical.","error_habitual":"Cambiar lateral y longitudinal.","regla_mnemotecnica":"Pitch pisa lateral."},
-{"id":"B7-F-007","tema":"CG","subtema":"Fuera de limites","dificultad":"media","tipo":"riesgo","pregunta":"Que consecuencias puede tener un CG fuera de limites?","respuesta":"Inestabilidad, incontrolabilidad y fatiga prematura de motores.","explicacion_breve":"Los motores compensan desequilibrios y pueden trabajar en exceso.","error_habitual":"Pensar que solo afecta al despegue.","regla_mnemotecnica":"Mal CG: vibra, vence y fatiga."},
-{"id":"B7-F-008","tema":"Payload","subtema":"Carga util","dificultad":"media","tipo":"concepto","pregunta":"Que efecto tiene instalar una camara o sensor adicional?","respuesta":"Altera peso, centrado y equilibrio original, por lo que exige verificar CG.","explicacion_breve":"Cualquier accesorio puede modificar el rendimiento y la certificacion de clase.","error_habitual":"Pensar que si pesa poco no importa.","regla_mnemotecnica":"Todo payload mueve el CG."},
-{"id":"B7-F-009","tema":"Fijacion","subtema":"Carga util","dificultad":"media","tipo":"procedimiento","pregunta":"Como debe asegurarse la carga util?","respuesta":"Con sistemas mecanicos o quimicos que impidan desprendimiento o desplazamiento en maniobras bruscas.","explicacion_breve":"La verificacion pre-vuelo incluye todos los componentes desmontables.","error_habitual":"Confundir fijacion con poner cinta sin criterio.","regla_mnemotecnica":"Fijar es resistir tensiones."},
-{"id":"B7-F-010","tema":"STS-01","subtema":"C5","dificultad":"facil","tipo":"dato","pregunta":"Que velocidad caracteriza el control a baja velocidad en STS-01/C5?","respuesta":"Hasta 5 m/s.","explicacion_breve":"Permite activacion efectiva de dispositivos de reduccion de energia.","error_habitual":"Confundirla con los 50 m/s de C6.","regla_mnemotecnica":"C5: cinco."},
-{"id":"B7-F-011","tema":"STS-02","subtema":"C6","dificultad":"media","tipo":"dato","pregunta":"Que velocidad maxima C6 se cita en el bloque?","respuesta":"50 m/s respecto al suelo en vuelo horizontal.","explicacion_breve":"Implica mayor energia cinetica involucrada.","error_habitual":"Olvidar la relacion entre velocidad y energia de impacto.","regla_mnemotecnica":"C6: cincuenta."},
-{"id":"B7-F-012","tema":"Complementario","subtema":"MME8 y STS-ES","dificultad":"dificil","tipo":"trazabilidad","pregunta":"Como se presenta MME8 y las masas STS-ES nacionales?","respuesta":"Como contenido complementario separado: geocaging por software, STS-ES-01NE < 10 kg y STS-ES-02NE < 25 kg.","explicacion_breve":"No se presenta como Syllabus AESA pagina 11.","error_habitual":"Mezclarlo con la trazabilidad principal AESA.","regla_mnemotecnica":"Nacional y MME8 van aparte."}
-]}
+{
+  "titulo": "Flashcards · Bloque 7",
+  "bloque": "Rendimiento de vuelo del UAS",
+  "total": 20,
+  "flashcards": [
+    {
+      "id": "B7-R26-FC-001",
+      "tema": "MTOM y masa real",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué se suma al comprobar masa frente a MTOM?",
+      "respuesta": "Aeronave, batería, fijaciones y carga útil forman la masa real que se compara con el límite MTOM.",
+      "explicacion_breve": "MTOM 6 kg, aeronave con batería 4,8 kg y carga con soporte 1,4 kg: total 6,2 kg. No cumple el máximo, aunque consiga despegar.",
+      "error_habitual": "Tomar la capacidad de elevarse como prueba de cumplimiento.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-01"
+    },
+    {
+      "id": "B7-R26-FC-002",
+      "tema": "MTOM y masa real",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Con esos datos, ¿qué conclusión corresponde?",
+      "respuesta": "La masa real de 6,2 kg supera la MTOM de 6 kg.",
+      "explicacion_breve": "MTOM 6 kg, aeronave con batería 4,8 kg y carga con soporte 1,4 kg: total 6,2 kg. No cumple el máximo, aunque consiga despegar.",
+      "error_habitual": "Tomar la capacidad de elevarse como prueba de cumplimiento.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-01"
+    },
+    {
+      "id": "B7-R26-FC-003",
+      "tema": "Centro de gravedad y momentos",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿De qué depende la posición del CG?",
+      "respuesta": "De las masas y sus posiciones, no solo de la suma total.",
+      "explicacion_breve": "Masas de 2 kg a -0,10 m y 1 kg a +0,20 m dan momentos -0,20 y +0,20 kg·m: xCG = 0/3 = 0 m. Es un modelo didáctico; no autoriza una instalación real.",
+      "error_habitual": "Mirar solo la masa total y olvidar dónde está situada.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-02"
+    },
+    {
+      "id": "B7-R26-FC-004",
+      "tema": "Centro de gravedad y momentos",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "En el ejemplo, ¿dónde queda xCG?",
+      "respuesta": "En 0 m respecto a la referencia elegida.",
+      "explicacion_breve": "Masas de 2 kg a -0,10 m y 1 kg a +0,20 m dan momentos -0,20 y +0,20 kg·m: xCG = 0/3 = 0 m. Es un modelo didáctico; no autoriza una instalación real.",
+      "error_habitual": "Mirar solo la masa total y olvidar dónde está situada.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-02"
+    },
+    {
+      "id": "B7-R26-FC-005",
+      "tema": "Centro de gravedad y momentos",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre centro de gravedad y momentos?",
+      "respuesta": "Mirar solo la masa total y olvidar dónde está situada.",
+      "explicacion_breve": "Masas de 2 kg a -0,10 m y 1 kg a +0,20 m dan momentos -0,20 y +0,20 kg·m: xCG = 0/3 = 0 m. Es un modelo didáctico; no autoriza una instalación real.",
+      "error_habitual": "Mirar solo la masa total y olvidar dónde está situada.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-02"
+    },
+    {
+      "id": "B7-R26-FC-006",
+      "tema": "Equilibrio de palanca",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué igualdad permite equilibrar una palanca ideal?",
+      "respuesta": "m1 × d1 = m2 × d2, con la misma unidad de distancia a ambos lados.",
+      "explicacion_breve": "100 kg a 0,25 m equilibran 25 kg a 1 m: 100 × 0,25 = 25 × 1. Si el brazo derecho se reduce a 0,5 m, la masa equivalente sería 50 kg.",
+      "error_habitual": "Responder 100 kg por simetría visual sin comparar brazos.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-03"
+    },
+    {
+      "id": "B7-R26-FC-007",
+      "tema": "Equilibrio de palanca",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "¿Qué masa a 1 m equilibra 100 kg situados a 25 cm del apoyo ideal?",
+      "respuesta": "25 kg.",
+      "explicacion_breve": "100 kg a 0,25 m equilibran 25 kg a 1 m: 100 × 0,25 = 25 × 1. Si el brazo derecho se reduce a 0,5 m, la masa equivalente sería 50 kg.",
+      "error_habitual": "Responder 100 kg por simetría visual sin comparar brazos.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-03"
+    },
+    {
+      "id": "B7-R26-FC-008",
+      "tema": "Estabilidad y carga útil",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Cumplir MTOM elimina la necesidad de fijar y centrar la carga?",
+      "respuesta": "No. También se comprueban CG, fijación, compatibilidad y límites.",
+      "explicacion_breve": "Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos.",
+      "error_habitual": "Creer que respetar la MTOM resuelve todo el balance.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-04"
+    },
+    {
+      "id": "B7-R26-FC-009",
+      "tema": "Estabilidad y carga útil",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "La masa cumple MTOM, pero el soporte permite deslizarse a la cámara. ¿Está resuelta la configuración?",
+      "respuesta": "No; hay que asegurar la carga y comprobar el centrado.",
+      "explicacion_breve": "Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos.",
+      "error_habitual": "Creer que respetar la MTOM resuelve todo el balance.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-04"
+    },
+    {
+      "id": "B7-R26-FC-010",
+      "tema": "Estabilidad y carga útil",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre estabilidad y carga útil?",
+      "respuesta": "Creer que respetar la MTOM resuelve todo el balance.",
+      "explicacion_breve": "Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos.",
+      "error_habitual": "Creer que respetar la MTOM resuelve todo el balance.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-04"
+    },
+    {
+      "id": "B7-R26-FC-011",
+      "tema": "Envolvente y masa por rendimiento",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué significa tener poco margen de rendimiento?",
+      "respuesta": "Que queda poca capacidad adicional para maniobras o contingencias; se revisan ambiente, masa y límites.",
+      "explicacion_breve": "Un multirrotor caliente en altura requiere casi toda la potencia en estacionario. Se recupera con seguridad y se revisa la configuración; no se establece un porcentaje universal de potencia admisible.",
+      "error_habitual": "Convertir un dato ilustrativo en límite universal.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-05"
+    },
+    {
+      "id": "B7-R26-FC-012",
+      "tema": "Envolvente y masa por rendimiento",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Un UAS queda sin margen de potencia para maniobrar. ¿Qué criterio es correcto?",
+      "respuesta": "Recuperar de forma segura y revisar masa, ambiente y límites.",
+      "explicacion_breve": "Un multirrotor caliente en altura requiere casi toda la potencia en estacionario. Se recupera con seguridad y se revisa la configuración; no se establece un porcentaje universal de potencia admisible.",
+      "error_habitual": "Convertir un dato ilustrativo en límite universal.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-05"
+    },
+    {
+      "id": "B7-R26-FC-013",
+      "tema": "Energía y autonomía",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Cómo estimas el tiempo ideal con energía y potencia constantes?",
+      "respuesta": "Tiempo en horas = Wh / W, antes de reservas y pérdidas. No garantiza autonomía real.",
+      "explicacion_breve": "111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real.",
+      "error_habitual": "Confundir un cálculo ideal con plan de vuelo seguro.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-06"
+    },
+    {
+      "id": "B7-R26-FC-014",
+      "tema": "Energía y autonomía",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Con 111 Wh y consumo ideal de 222 W, ¿qué tiempo se obtiene antes de reservas?",
+      "respuesta": "30 minutos teóricos.",
+      "explicacion_breve": "111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real.",
+      "error_habitual": "Confundir un cálculo ideal con plan de vuelo seguro.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-06"
+    },
+    {
+      "id": "B7-R26-FC-015",
+      "tema": "Energía y autonomía",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre energía y autonomía?",
+      "respuesta": "Confundir un cálculo ideal con plan de vuelo seguro.",
+      "explicacion_breve": "111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real.",
+      "error_habitual": "Confundir un cálculo ideal con plan de vuelo seguro.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-06"
+    },
+    {
+      "id": "B7-R26-FC-016",
+      "tema": "Baterías y seguridad de uso",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué corriente representa 2C en una batería de 5 Ah?",
+      "respuesta": "10 A, solo si ese régimen está permitido para la batería y la función considerada.",
+      "explicacion_breve": "Para una batería de 5 Ah, 2C corresponde aritméticamente a 10 A. Solo se usa ese régimen si está permitido para esa función y batería. No se intenta recuperar una unidad hinchada.",
+      "error_habitual": "Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-07"
+    },
+    {
+      "id": "B7-R26-FC-017",
+      "tema": "Baterías y seguridad de uso",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "¿Qué corriente representa 2C en una batería de 5 Ah?",
+      "respuesta": "10 A, sujeto a que ese régimen esté permitido para el uso considerado.",
+      "explicacion_breve": "Para una batería de 5 Ah, 2C corresponde aritméticamente a 10 A. Solo se usa ese régimen si está permitido para esa función y batería. No se intenta recuperar una unidad hinchada.",
+      "error_habitual": "Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-07"
+    },
+    {
+      "id": "B7-R26-FC-018",
+      "tema": "Verificación tras un cambio",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué revisas al cambiar a una batería más pesada?",
+      "respuesta": "Compatibilidad, masa total, CG y efecto sobre el rendimiento.",
+      "explicacion_breve": "Se cambia a una batería más pesada para ganar energía. Se recalculan masa y CG y se revisa aprobación; el aumento de Wh no asegura más autonomía.",
+      "error_habitual": "Mejorar una cifra aislada ignorando las demás.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-08"
+    },
+    {
+      "id": "B7-R26-FC-019",
+      "tema": "Verificación tras un cambio",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Se propone una batería más pesada. ¿Qué comprobación es necesaria?",
+      "respuesta": "Compatibilidad, masa total, CG y efecto en el rendimiento.",
+      "explicacion_breve": "Se cambia a una batería más pesada para ganar energía. Se recalculan masa y CG y se revisa aprobación; el aumento de Wh no asegura más autonomía.",
+      "error_habitual": "Mejorar una cifra aislada ignorando las demás.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-08"
+    },
+    {
+      "id": "B7-R26-FC-020",
+      "tema": "Verificación tras un cambio",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre verificación tras un cambio?",
+      "respuesta": "Mejorar una cifra aislada ignorando las demás.",
+      "explicacion_breve": "Se cambia a una batería más pesada para ganar energía. Se recalculan masa y CG y se revisa aprobación; el aumento de Wh no asegura más autonomía.",
+      "error_habitual": "Mejorar una cifra aislada ignorando las demás.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b7-08"
+    }
+  ]
+}

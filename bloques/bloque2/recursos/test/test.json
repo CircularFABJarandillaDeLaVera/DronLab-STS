@@ -1,535 +1,714 @@
-﻿{
-    "titulo":  "Test Bloque 2 STS",
-    "bloque":  "Limitaciones del rendimiento humano · Syllabus STS paginas 4-5 · Estado VALIDADO",
-    "total":  24,
-    "preguntas":  [
-                      {
-                          "id":  "B2-T-001",
-                          "tema":  "Aptitud medica",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que condicion debe mantener el piloto para operar con seguridad?",
-                          "respuestas":  [
-                                             "Solo bateria suficiente",
-                                             "Estado fisico y mental optimo",
-                                             "Solo enlace C2 estable",
-                                             "Un observador siempre presente"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "La aptitud medica exige estado fisico y mental adecuado.",
-                          "error_habitual":  "Centrarse solo en el UAS.",
-                          "referencia_concepto":  "AESA · Syllabus STS paginas 4-5 · VALIDADO",
-                          "subtema":  "Aptitud medica",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-002",
-                          "tema":  "Sustancias",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que degradan alcohol, drogas, medicinas y sustancias psicoactivas?",
-                          "respuestas":  [
-                                             "Solo la autonomia del UAS",
-                                             "La geoconsciencia",
-                                             "La categoria de operacion",
-                                             "Reflejos y juicio"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "Alcohol, drogas, medicinas y sustancias psicoactivas pueden reducir reflejos y juicio.",
-                          "error_habitual":  "Olvidar que las medicinas tambien pueden influir.",
-                          "referencia_concepto":  "Aptitud medica",
-                          "subtema":  "Sustancias",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-003",
-                          "tema":  "Fatiga",
-                          "dificultad":  "facil",
-                          "pregunta":  "Cual es una definicion correcta de fatiga?",
-                          "respuestas":  [
-                                             "Disminucion de alerta y rendimiento por sueno o carga de trabajo",
-                                             "Molestia leve sin efecto sobre la vigilancia del piloto",
-                                             "Perdida tecnica de señal entre el mando y el UAS",
-                                             "Requisito documental sin relacion con la seguridad"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "La fatiga reduce la vigilancia, el juicio y la capacidad de reaccion; por eso afecta directamente a la seguridad de la operacion.",
-                          "error_habitual":  "Pensar que la fatiga solo es cansancio fisico y no una degradacion operacional.",
-                          "referencia_concepto":  "Gestion del descanso",
-                          "subtema":  "Fatiga",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-004",
-                          "tema":  "Ritmo circadiano",
-                          "dificultad":  "media",
-                          "pregunta":  "Que regula el ritmo circadiano?",
-                          "respuestas":  [
-                                             "El limite de altura",
-                                             "El marcado C5",
-                                             "Periodos de sueno y vigilia en ciclos de 24 horas",
-                                             "La publicacion de NOTAM"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "El ritmo circadiano regula ciclos de alerta y descanso; alterarlo aumenta errores por somnolencia o baja atencion.",
-                          "error_habitual":  "Creer que dormir pocas horas puede compensarse solo con motivacion.",
-                          "referencia_concepto":  "Ritmo circadiano",
-                          "subtema":  "Ritmo circadiano",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-005",
-                          "tema":  "Presion comercial",
-                          "dificultad":  "media",
-                          "pregunta":  "Por que la presion comercial compromete la seguridad?",
-                          "respuestas":  [
-                                             "Siempre mejora la concentracion",
-                                             "Convierte una operacion en VLOS",
-                                             "Puede llevar a asumir riesgos innecesarios para cumplir plazos",
-                                             "Sustituye al observador"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "La fuente la identifica como factor de riesgo.",
-                          "error_habitual":  "Volar por compromiso con el cliente.",
-                          "referencia_concepto":  "Factores psicologicos",
-                          "subtema":  "Presion comercial",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-006",
-                          "tema":  "Consciencia situacional",
-                          "dificultad":  "media",
-                          "pregunta":  "Que relacion existe entre fatiga y consciencia situacional?",
-                          "respuestas":  [
-                                             "Reduce la capacidad de proyectar la trayectoria futura del UAS",
-                                             "Mejora la vigilancia al aumentar la tension del piloto",
-                                             "No tiene relacion con la vigilancia operacional",
-                                             "Solo afecta al observador, no al piloto remoto"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "La fatiga reduce vigilancia, anticipacion y capacidad de proyectar la trayectoria futura del UAS.",
-                          "error_habitual":  "Ver la fatiga como incomodidad menor.",
-                          "referencia_concepto":  "Fatiga y consciencia situacional",
-                          "subtema":  "Consciencia situacional",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-007",
-                          "tema":  "BVLOS",
-                          "dificultad":  "media",
-                          "pregunta":  "En STS-02 BVLOS, de que depende mas la vigilancia?",
-                          "respuestas":  [
-                                             "Mirar siempre directamente el UAS",
-                                             "Solo del cliente",
-                                             "Del numero de operador",
-                                             "Telemetria y observadores"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "BVLOS implica no ver directamente la aeronave.",
-                          "error_habitual":  "Aplicar criterios VLOS a BVLOS.",
-                          "referencia_concepto":  "Percepcion humana en BVLOS",
-                          "subtema":  "BVLOS",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-008",
-                          "tema":  "Medio ambiente",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que factor ambiental puede degradar la vision del piloto?",
-                          "respuestas":  [
-                                             "El numero de serie",
-                                             "Deslumbramiento por sol",
-                                             "El nombre del curso",
-                                             "El icono del recurso"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "El sol puede causar deslumbramiento y afectar al piloto.",
-                          "error_habitual":  "Creer que el sol solo afecta al UAS.",
-                          "referencia_concepto":  "Influencias medioambientales",
-                          "subtema":  "Medio ambiente",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-009",
-                          "tema":  "Motricidad fina",
-                          "dificultad":  "media",
-                          "pregunta":  "Que puede causar el frio extremo en el manejo del UAS?",
-                          "respuestas":  [
-                                             "Perdida de motricidad fina en los dedos",
-                                             "Mayor precision automatica",
-                                             "Cambio de categoria legal",
-                                             "Activacion de Remote ID"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "La fuente cita deterioro de motricidad fina ante temperaturas extremas.",
-                          "error_habitual":  "Subestimar dedos torpes en una emergencia.",
-                          "referencia_concepto":  "Efectos en el ser humano",
-                          "subtema":  "Motricidad fina",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-010",
-                          "tema":  "Barrido visual",
-                          "dificultad":  "media",
-                          "pregunta":  "Cual es la tecnica de barrido visual indicada?",
-                          "respuestas":  [
-                                             "Giro completo de 360 grados continuo",
-                                             "Mirada fija en un punto",
-                                             "Saltos de 10 a 15 grados",
-                                             "Cerrar un ojo durante 30 segundos"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "El barrido visual eficaz se realiza en saltos de 10-15 grados, no con mirada fija o giros continuos.",
-                          "error_habitual":  "Mirada fija en vez de barrido.",
-                          "referencia_concepto":  "Tecnica de barrido visual",
-                          "subtema":  "Barrido visual",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-011",
-                          "tema":  "Trafico tripulado",
-                          "dificultad":  "dificil",
-                          "pregunta":  "Que debe asumir el piloto sobre trafico tripulado a distancia?",
-                          "respuestas":  [
-                                             "Que siempre se detecta facil",
-                                             "Que es muy dificil detectarlo visualmente",
-                                             "Que no existe en BVLOS",
-                                             "Que solo lo detecta el cliente"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "La fuente advierte la dificultad de deteccion visual a distancia.",
-                          "error_habitual":  "Sobreestimar la vision humana.",
-                          "referencia_concepto":  "Deteccion de trafico",
-                          "subtema":  "Trafico tripulado",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-012",
-                          "tema":  "Distracciones",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que debe hacerse con elementos distractores durante el vuelo?",
-                          "respuestas":  [
-                                             "Ignorarlos si son breves",
-                                             "Asignarlos al cliente",
-                                             "Usarlos para mantener alerta",
-                                             "Eliminarlos"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La fuente indica la necesidad vital de eliminar distractores.",
-                          "error_habitual":  "Permitir interrupciones no esenciales.",
-                          "referencia_concepto":  "Capacidad de atencion",
-                          "subtema":  "Distracciones",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-013",
-                          "tema":  "Gestion de sucesos",
-                          "dificultad":  "dificil",
-                          "pregunta":  "Que factor humano debe registrarse en informes post-vuelo cuando afecta a la operacion?",
-                          "respuestas":  [
-                                             "Color del icono",
-                                             "Solo temperatura del motor",
-                                             "Numero de tarjetas vistas",
-                                             "Fatiga de la tripulacion"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La fatiga de la tripulacion debe registrarse cuando sea relevante para la seguridad y trazabilidad post-vuelo.",
-                          "error_habitual":  "No documentar factores humanos.",
-                          "referencia_concepto":  "Gestion de sucesos",
-                          "subtema":  "Gestion de sucesos",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-014",
-                          "tema":  "STS-01 / STS-02",
-                          "dificultad":  "media",
-                          "pregunta":  "Que diferencia perceptiva destaca entre STS-01 y STS-02?",
-                          "respuestas":  [
-                                             "STS-02 siempre exige menos vigilancia que STS-01",
-                                             "STS-01 usa VLOS directo; STS-02 telemetria y observadores",
-                                             "STS-01 elimina la necesidad de barrido visual",
-                                             "Ambos escenarios tienen la misma carga perceptiva"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "STS-01 se basa en VLOS directo, mientras que STS-02 depende mas de telemetria y observadores.",
-                          "error_habitual":  "No ajustar la vigilancia al escenario.",
-                          "referencia_concepto":  "Diferencias STS-01 / STS-02",
-                          "subtema":  "STS-01 / STS-02",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-015",
-                          "tema":  "Estres",
-                          "subtema":  "Juicio operacional",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Que efecto puede tener el estres durante una operacion STS?",
-                          "respuestas":  [
-                                             "Mejora siempre la concentracion del piloto",
-                                             "Solo afecta a la bateria del UAS",
-                                             "Puede nublar el juicio y favorecer decisiones inseguras",
-                                             "Permite ignorar procedimientos si hay presion"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "El estres es un factor psicologico que puede comprometer juicio y seguridad operacional.",
-                          "error_habitual":  "Confundir activacion o tension normal con una mejora automatica del rendimiento.",
-                          "referencia_concepto":  "Factores psicologicos operacionales",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-016",
-                          "tema":  "Presion comercial",
-                          "subtema":  "Toma de decisiones",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "escenario",
-                          "pregunta":  "Un cliente exige terminar una inspeccion aunque el piloto lleva muchas horas de trabajo. Que riesgo humano aparece?",
-                          "respuestas":  [
-                                             "Presion comercial que induce a asumir riesgos innecesarios",
-                                             "Mejora de rendimiento por compromiso contractual",
-                                             "Reduccion del riesgo por repetir maniobras",
-                                             "Exencion automatica de limitaciones humanas"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "La presion comercial puede sesgar la decision del piloto y empujar a continuar pese a fatiga o condiciones no adecuadas.",
-                          "error_habitual":  "Aceptar objetivos comerciales como si fueran criterios de seguridad.",
-                          "referencia_concepto":  "Presion comercial y fatiga",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-017",
-                          "tema":  "Medio ambiente",
-                          "subtema":  "Frio extremo",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "escenario",
-                          "pregunta":  "Durante una operacion a baja temperatura el piloto nota torpeza en los dedos. Que decision es coherente?",
-                          "respuestas":  [
-                                             "Continuar porque el frio solo afecta al UAS",
-                                             "Aterrizar o aplicar el ERP por degradacion del rendimiento humano",
-                                             "Aumentar la velocidad para compensar",
-                                             "Desactivar observadores para simplificar"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "El frio extremo puede reducir motricidad fina y capacidad de control, por lo que debe tratarse como degradacion operacional.",
-                          "error_habitual":  "Subestimar sintomas fisicos pequenos hasta que condicionan una emergencia.",
-                          "referencia_concepto":  "Influencias medioambientales",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-018",
-                          "tema":  "Barrido visual",
-                          "subtema":  "Tecnica 10-15 grados",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Durante la vigilancia del espacio aereo, que tecnica de barrido visual es adecuada?",
-                          "respuestas":  [
-                                             "Saltos de 10 a 15 grados",
-                                             "Mirada fija al horizonte",
-                                             "Giros continuos sin pausas",
-                                             "Cerrar un ojo para mejorar contraste"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "El barrido en saltos facilita la deteccion frente a una mirada fija o movimientos continuos poco eficaces.",
-                          "error_habitual":  "Pensar que mirar mucho tiempo a un punto equivale a vigilancia eficaz.",
-                          "referencia_concepto":  "Tecnica de barrido visual",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-019",
-                          "tema":  "BVLOS",
-                          "subtema":  "Percepcion humana",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "comprension",
-                          "pregunta":  "Por que STS-02 exige mayor disciplina de vigilancia humana que STS-01?",
-                          "respuestas":  [
-                                             "Porque STS-02 elimina el trafico tripulado",
-                                             "Porque en BVLOS no hay factores humanos",
-                                             "Porque la telemetria sustituye toda decision",
-                                             "Porque el piloto no tiene contacto visual directo constante y depende de observadores o informacion externa"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "BVLOS reduce la percepcion directa del piloto y obliga a gestionar observadores, telemetria y comunicacion.",
-                          "error_habitual":  "Aplicar el modelo mental VLOS a una operacion BVLOS.",
-                          "referencia_concepto":  "Percepcion humana en BVLOS",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-020",
-                          "tema":  "Sustancias",
-                          "subtema":  "Aptitud medica",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "recuerdo",
-                          "pregunta":  "Que sustancias deben considerarse incompatibles con una aptitud operacional segura?",
-                          "respuestas":  [
-                                             "Solo alcohol si supera una tasa concreta",
-                                             "Cafe en cualquier cantidad",
-                                             "Alcohol, drogas, medicinas y sustancias psicoactivas",
-                                             "Agua y alimentos ligeros"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "Alcohol, drogas, medicinas y sustancias psicoactivas degradan reflejos y juicio, por lo que comprometen la aptitud operacional.",
-                          "error_habitual":  "Olvidar que medicamentos legales tambien pueden afectar al piloto.",
-                          "referencia_concepto":  "Aptitud medica y sustancias",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-021",
-                          "tema":  "Consciencia situacional",
-                          "subtema":  "Fatiga",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "comprension",
-                          "pregunta":  "Como afecta la fatiga a la proyeccion de la trayectoria futura del UAS?",
-                          "respuestas":  [
-                                             "Aumenta la precision de anticipacion",
-                                             "Solo afecta a la autonomia electrica",
-                                             "Reduce la capacidad de anticipar la evolucion de la operacion",
-                                             "No influye si hay GPS"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "La fatiga deteriora percepcion, comprension y proyeccion, que son componentes de la consciencia situacional.",
-                          "error_habitual":  "Limitar la fatiga a una sensacion subjetiva sin efecto operacional.",
-                          "referencia_concepto":  "Fatiga y consciencia situacional",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-022",
-                          "tema":  "Distracciones",
-                          "subtema":  "Atencion",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Que capacidad se protege al eliminar elementos distractores durante el vuelo?",
-                          "respuestas":  [
-                                             "La velocidad maxima C6",
-                                             "La configuracion de baterias",
-                                             "La clase de espacio aereo",
-                                             "La atencion y vigilancia operacional"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "Eliminar distractores preserva recursos atencionales necesarios para detectar cambios y responder a amenazas.",
-                          "error_habitual":  "Normalizar llamadas o interrupciones ajenas a la mision durante fases criticas.",
-                          "referencia_concepto":  "Capacidad de atencion",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-023",
-                          "tema":  "STS-01 / STS-02",
-                          "subtema":  "Diferencias humanas",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "comparacion",
-                          "pregunta":  "Que diferencia humana destaca entre STS-01 y STS-02?",
-                          "respuestas":  [
-                                             "STS-02 exige mayor coordinacion por BVLOS y observadores",
-                                             "STS-01 exige siempre menos vigilancia visual",
-                                             "STS-02 elimina necesidad de consciencia situacional",
-                                             "Ambos escenarios tienen exactamente la misma vigilancia"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "STS-02 introduce BVLOS y dependencia de observadores, elevando exigencias de coordinacion y comunicacion.",
-                          "error_habitual":  "Ignorar que el tipo de escenario modifica la carga cognitiva.",
-                          "referencia_concepto":  "Diferencias STS-01 / STS-02",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B2-T-024",
-                          "tema":  "Gestion de sucesos",
-                          "subtema":  "Fatiga post-vuelo",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Que factor humano debe quedar reflejado si afecta a la gestion de sucesos post-vuelo?",
-                          "respuestas":  [
-                                             "El color del UAS",
-                                             "La fatiga de la tripulacion cuando condicione la operacion",
-                                             "La marca de la emisora",
-                                             "El numero de tarjetas estudiadas"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "Registrar fatiga permite trazar causas humanas y mejorar procedimientos posteriores.",
-                          "error_habitual":  "Excluir factores humanos de informes porque no son fallos tecnicos.",
-                          "referencia_concepto":  "Gestion de sucesos",
-                          "bloque":  2,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque2/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      }
-                  ]
+{
+  "titulo": "Test · Bloque 2",
+  "bloque": "Limitaciones del rendimiento humano",
+  "total": 23,
+  "preguntas": [
+    {
+      "id": "B2-T-001",
+      "tema": "Aptitud medica",
+      "dificultad": "facil",
+      "pregunta": "Que condicion debe mantener el piloto para operar con seguridad?",
+      "respuestas": [
+        "Solo bateria suficiente",
+        "Un estado físico y mental adecuado para sus tareas.",
+        "Solo enlace C2 estable",
+        "Un observador siempre presente"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Se evalúa la capacidad real para operar. Enfermedad, fatiga, sustancias o medicación que comprometan esa capacidad impiden operar con seguridad.",
+      "error_habitual": "Centrarse solo en el UAS.",
+      "referencia_concepto": "Bloque 2: Aptitud medica",
+      "subtema": "Aptitud medica",
+      "tipo_pregunta": "comprension",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-003",
+      "tema": "Fatiga",
+      "dificultad": "facil",
+      "pregunta": "Cual es una definicion correcta de fatiga?",
+      "respuestas": [
+        "Disminucion de alerta y rendimiento por sueno o carga de trabajo",
+        "Molestia leve sin efecto sobre la vigilancia del piloto",
+        "Perdida tecnica de señal entre el mando y el UAS",
+        "Requisito documental sin relacion con la seguridad"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La fatiga reduce la vigilancia, el juicio y la capacidad de reaccion; por eso afecta directamente a la seguridad de la operacion.",
+      "error_habitual": "Pensar que la fatiga solo es cansancio fisico y no una degradacion operacional.",
+      "referencia_concepto": "Bloque 2: Fatiga",
+      "subtema": "Fatiga",
+      "tipo_pregunta": "comprension",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-004",
+      "tema": "Ritmo circadiano",
+      "dificultad": "media",
+      "pregunta": "Que regula el ritmo circadiano?",
+      "respuestas": [
+        "El limite de altura",
+        "El marcado C5",
+        "Periodos de sueno y vigilia en ciclos de 24 horas",
+        "La publicacion de NOTAM"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El ritmo circadiano regula ciclos de alerta y descanso; alterarlo aumenta errores por somnolencia o baja atencion.",
+      "error_habitual": "Creer que dormir pocas horas puede compensarse solo con motivacion.",
+      "referencia_concepto": "Bloque 2: Ritmo circadiano",
+      "subtema": "Ritmo circadiano",
+      "tipo_pregunta": "comprension",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-005",
+      "tema": "Presion comercial",
+      "dificultad": "media",
+      "pregunta": "Por que la presion comercial compromete la seguridad?",
+      "respuestas": [
+        "Siempre mejora la concentracion",
+        "Convierte una operacion en VLOS",
+        "Puede llevar a asumir riesgos innecesarios para cumplir plazos",
+        "Sustituye al observador"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La presión de plazos puede sesgar el juicio. Definir antes del vuelo criterios de pausa o cancelación ayuda a mantener la decisión vinculada a condiciones verificables.",
+      "error_habitual": "Volar por compromiso con el cliente.",
+      "referencia_concepto": "Bloque 2: Presion comercial",
+      "subtema": "Presion comercial",
+      "tipo_pregunta": "comprension",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-006",
+      "tema": "Consciencia situacional",
+      "dificultad": "media",
+      "pregunta": "Que relacion existe entre fatiga y consciencia situacional?",
+      "respuestas": [
+        "Reduce la capacidad de proyectar la trayectoria futura del UAS",
+        "Mejora la vigilancia al aumentar la tension del piloto",
+        "No tiene relacion con la vigilancia operacional",
+        "Solo afecta al observador, no al piloto remoto"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La fatiga reduce vigilancia, anticipacion y capacidad de proyectar la trayectoria futura del UAS.",
+      "error_habitual": "Ver la fatiga como incomodidad menor.",
+      "referencia_concepto": "Bloque 2: Consciencia situacional",
+      "subtema": "Consciencia situacional",
+      "tipo_pregunta": "comprension",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-008",
+      "tema": "Medio ambiente",
+      "dificultad": "facil",
+      "pregunta": "Que factor ambiental puede degradar la vision del piloto?",
+      "respuestas": [
+        "El numero de serie",
+        "Deslumbramiento por sol",
+        "El nombre del curso",
+        "El icono del recurso"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El sol puede causar deslumbramiento y afectar al piloto.",
+      "error_habitual": "Creer que el sol solo afecta al UAS.",
+      "referencia_concepto": "Bloque 2: Medio ambiente",
+      "subtema": "Medio ambiente",
+      "tipo_pregunta": "comprension",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-009",
+      "tema": "Motricidad fina",
+      "dificultad": "media",
+      "pregunta": "Que puede causar el frio extremo en el manejo del UAS?",
+      "respuestas": [
+        "Perdida de motricidad fina en los dedos",
+        "Mayor precision automatica",
+        "Cambio de categoria legal",
+        "Activacion de Remote ID"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La fuente cita deterioro de motricidad fina ante temperaturas extremas.",
+      "error_habitual": "Subestimar dedos torpes en una emergencia.",
+      "referencia_concepto": "Bloque 2: Motricidad fina",
+      "subtema": "Motricidad fina",
+      "tipo_pregunta": "comprension",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-010",
+      "tema": "Barrido visual",
+      "dificultad": "media",
+      "pregunta": "Cual es la tecnica de barrido visual indicada?",
+      "respuestas": [
+        "Giro completo de 360 grados continuo",
+        "Mirada fija en un punto",
+        "Saltos de 10 a 15 grados",
+        "Cerrar un ojo durante 30 segundos"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El barrido visual eficaz se realiza en saltos de 10-15 grados, no con mirada fija o giros continuos.",
+      "error_habitual": "Mirada fija en vez de barrido.",
+      "referencia_concepto": "Bloque 2: Barrido visual",
+      "subtema": "Barrido visual",
+      "tipo_pregunta": "comprension",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-011",
+      "tema": "Trafico tripulado",
+      "dificultad": "dificil",
+      "pregunta": "Que debe asumir el piloto sobre trafico tripulado a distancia?",
+      "respuestas": [
+        "Que siempre se detecta facil",
+        "Que es muy dificil detectarlo visualmente",
+        "Que no existe en BVLOS",
+        "Que solo lo detecta el cliente"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La fuente advierte la dificultad de deteccion visual a distancia.",
+      "error_habitual": "Sobreestimar la vision humana.",
+      "referencia_concepto": "Bloque 2: Trafico tripulado",
+      "subtema": "Trafico tripulado",
+      "tipo_pregunta": "escenario",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-012",
+      "tema": "Distracciones",
+      "dificultad": "facil",
+      "pregunta": "Que debe hacerse con elementos distractores durante el vuelo?",
+      "respuestas": [
+        "Ignorarlos si son breves",
+        "Asignarlos al cliente",
+        "Usarlos para mantener alerta",
+        "Eliminarlos"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La fuente indica la necesidad vital de eliminar distractores.",
+      "error_habitual": "Permitir interrupciones no esenciales.",
+      "referencia_concepto": "Bloque 2: Distracciones",
+      "subtema": "Distracciones",
+      "tipo_pregunta": "comprension",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-013",
+      "tema": "Gestion de sucesos",
+      "dificultad": "dificil",
+      "pregunta": "Que factor humano debe registrarse en informes post-vuelo cuando afecta a la operacion?",
+      "respuestas": [
+        "Color del icono",
+        "Solo temperatura del motor",
+        "Numero de tarjetas vistas",
+        "Fatiga de la tripulacion"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La fatiga de la tripulacion debe registrarse cuando sea relevante para la seguridad y trazabilidad post-vuelo.",
+      "error_habitual": "No documentar factores humanos.",
+      "referencia_concepto": "Bloque 2: Gestion de sucesos",
+      "subtema": "Gestion de sucesos",
+      "tipo_pregunta": "escenario",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-015",
+      "tema": "Estres",
+      "subtema": "Juicio operacional",
+      "dificultad": "media",
+      "tipo_pregunta": "aplicacion",
+      "pregunta": "Que efecto puede tener el estres durante una operacion STS?",
+      "respuestas": [
+        "Mejora siempre la concentracion del piloto",
+        "Solo afecta a la bateria del UAS",
+        "Puede nublar el juicio y favorecer decisiones inseguras",
+        "Permite ignorar procedimientos si hay presion"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El estres es un factor psicologico que puede comprometer juicio y seguridad operacional.",
+      "error_habitual": "Confundir activacion o tension normal con una mejora automatica del rendimiento.",
+      "referencia_concepto": "Bloque 2: Estres",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-016",
+      "tema": "Presion comercial",
+      "subtema": "Toma de decisiones",
+      "dificultad": "media",
+      "tipo_pregunta": "escenario",
+      "pregunta": "Un cliente exige terminar una inspeccion aunque el piloto lleva muchas horas de trabajo. Que riesgo humano aparece?",
+      "respuestas": [
+        "Presion comercial que induce a asumir riesgos innecesarios",
+        "Mejora de rendimiento por compromiso contractual",
+        "Reduccion del riesgo por repetir maniobras",
+        "Exencion automatica de limitaciones humanas"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La presion comercial puede sesgar la decision del piloto y empujar a continuar pese a fatiga o condiciones no adecuadas.",
+      "error_habitual": "Aceptar objetivos comerciales como si fueran criterios de seguridad.",
+      "referencia_concepto": "Bloque 2: Presion comercial",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-021",
+      "tema": "Consciencia situacional",
+      "subtema": "Fatiga",
+      "dificultad": "media",
+      "tipo_pregunta": "comprension",
+      "pregunta": "Como afecta la fatiga a la proyeccion de la trayectoria futura del UAS?",
+      "respuestas": [
+        "Aumenta la precision de anticipacion",
+        "Solo afecta a la autonomia electrica",
+        "Reduce la capacidad de anticipar la evolucion de la operacion",
+        "No influye si hay GPS"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La fatiga deteriora percepcion, comprension y proyeccion, que son componentes de la consciencia situacional.",
+      "error_habitual": "Limitar la fatiga a una sensacion subjetiva sin efecto operacional.",
+      "referencia_concepto": "Bloque 2: Consciencia situacional",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-T-022",
+      "tema": "Distracciones",
+      "subtema": "Atencion",
+      "dificultad": "facil",
+      "tipo_pregunta": "aplicacion",
+      "pregunta": "Que capacidad se protege al eliminar elementos distractores durante el vuelo?",
+      "respuestas": [
+        "La velocidad maxima C6",
+        "La configuracion de baterias",
+        "La clase de espacio aereo",
+        "La atencion y vigilancia operacional"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Eliminar distractores preserva recursos atencionales necesarios para detectar cambios y responder a amenazas.",
+      "error_habitual": "Normalizar llamadas o interrupciones ajenas a la mision durante fases criticas.",
+      "referencia_concepto": "Bloque 2: Distracciones",
+      "bloque": 2,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque2/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-R26-001",
+      "tema": "Fatiga y ritmo circadiano",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Un piloto comete omisiones tras muchas horas de vigilancia. ¿Qué decisión protege la operación?",
+      "respuestas": [
+        "Acelerar el vuelo para terminar antes.",
+        "Pausar y reevaluar su aptitud, con descanso, relevo o aplazamiento.",
+        "Continuar porque aún no ha ocurrido un incidente.",
+        "Sustituir la lista por memoria."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La fatiga reduce atención, juicio y reacción. Puede aparecer por falta de sueño, horas de vigilancia, carga de trabajo o alteración del ritmo circadiano. Sentirse motivado o tomar un estimulante no demuestra que se haya recuperado la aptitud. Ejemplo: Tras una jornada larga, el piloto omite dos comprobaciones de la lista. Se pausa la preparación y se evalúa descanso, relevo o aplazamiento.",
+      "explicaciones_opciones": [
+        "Añade presión sin recuperar capacidad.",
+        "La fatiga reduce atención, juicio y reacción. Puede aparecer por falta de sueño, horas de vigilancia, carga de trabajo o alteración del ritmo circadiano. Sentirse motivado o tomar un estimulante no demuestra que se haya recuperado la aptitud.",
+        "La ausencia de incidente no elimina la degradación.",
+        "La fatiga también deteriora la memoria."
+      ],
+      "error_habitual": "Medir la aptitud solo por las ganas de terminar.",
+      "referencia_concepto": "Fatiga y ritmo circadiano",
+      "leccion_id": "b2-s1",
+      "bloque": 2,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-R26-002",
+      "tema": "Salud, medicación y sustancias",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Un tratamiento produce somnolencia perceptible. ¿Qué procede?",
+      "respuestas": [
+        "No operar mientras la capacidad esté comprometida.",
+        "Volar porque el medicamento está recetado.",
+        "Suspender el tratamiento por cuenta propia.",
+        "Dejar que el observador pilote por el titular."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El piloto no opera bajo efectos de alcohol o sustancias psicoactivas ni cuando enfermedad, lesión, fatiga o medicación comprometen su capacidad. No todos los medicamentos tienen los mismos efectos: se atiende a las advertencias del tratamiento y al estado real, sin modificarlo por cuenta propia. Ejemplo: Un medicamento lleva advertencia de somnolencia y el piloto nota lentitud. No inicia el vuelo y consulta las indicaciones y al profesional correspondiente.",
+      "explicaciones_opciones": [
+        "El piloto no opera bajo efectos de alcohol o sustancias psicoactivas ni cuando enfermedad, lesión, fatiga o medicación comprometen su capacidad. No todos los medicamentos tienen los mismos efectos: se atiende a las advertencias del tratamiento y al estado real, sin modificarlo por cuenta propia.",
+        "La receta no demuestra aptitud operacional.",
+        "No es una decisión operacional adecuada ni elimina necesariamente el efecto.",
+        "Cambiar funciones exige competencia y planificación, no una sustitución improvisada."
+      ],
+      "error_habitual": "Afirmar que toda medicación está prohibida o que una receta elimina cualquier efecto.",
+      "referencia_concepto": "Salud, medicación y sustancias",
+      "leccion_id": "b2-s2",
+      "bloque": 2,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-R26-003",
+      "tema": "Presión comercial y decisión",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "El cliente insiste en continuar tras perder una condición necesaria. ¿Qué debe pesar más?",
+      "respuestas": [
+        "La penalización económica.",
+        "La confianza del cliente en el piloto.",
+        "Que el vuelo pendiente dure poco.",
+        "Restablecer las condiciones seguras antes de continuar."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Un compromiso comercial puede sesgar la valoración del riesgo. La decisión se compara con condiciones y límites definidos antes del vuelo. Acordar de antemano criterios de pausa o cancelación reduce la presión de improvisar cuando el cliente insiste. Ejemplo: El cliente pide «solo una pasada más», pero se ha perdido la vigilancia necesaria. Se interrumpe la operación de acuerdo con los procedimientos.",
+      "explicaciones_opciones": [
+        "No restablece la condición perdida.",
+        "La confianza no sustituye la comprobación.",
+        "La corta duración no elimina el riesgo.",
+        "Un compromiso comercial puede sesgar la valoración del riesgo. La decisión se compara con condiciones y límites definidos antes del vuelo. Acordar de antemano criterios de pausa o cancelación reduce la presión de improvisar cuando el cliente insiste."
+      ],
+      "error_habitual": "Cambiar los límites por presión de tiempo.",
+      "referencia_concepto": "Presión comercial y decisión",
+      "leccion_id": "b2-s3",
+      "bloque": 2,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-R26-004",
+      "tema": "Conciencia situacional",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "El piloto ve la batería bajar y anticipa un regreso contra el viento. ¿Qué componente está usando?",
+      "respuestas": [
+        "Una autorización administrativa.",
+        "La certeza de que el RTH resolverá todo.",
+        "La proyección de la situación futura.",
+        "Solo la memorización del porcentaje."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Consiste en percibir lo que ocurre, comprender su significado y anticipar cómo puede evolucionar. No se limita a mirar telemetría: incluye posición, entorno, energía, personas, tráfico y estado de la tripulación. Ejemplo: Se detecta descenso de batería, se comprende que hay viento de cara al regreso y se anticipa que el retorno puede necesitar más energía. Se decide antes de agotar la reserva.",
+      "explicaciones_opciones": [
+        "No es una función cognitiva.",
+        "Una función automática también tiene límites.",
+        "Consiste en percibir lo que ocurre, comprender su significado y anticipar cómo puede evolucionar. No se limita a mirar telemetría: incluye posición, entorno, energía, personas, tráfico y estado de la tripulación.",
+        "La anticipación añade interpretación a la lectura."
+      ],
+      "error_habitual": "Acumular datos sin interpretar qué cambiarán en la misión.",
+      "referencia_concepto": "Conciencia situacional",
+      "leccion_id": "b2-s4",
+      "bloque": 2,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-R26-005",
+      "tema": "Visión y deslumbramiento",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Se ve un punto, pero no se distingue su trayectoria. ¿Qué valoración es correcta?",
+      "respuestas": [
+        "La etiqueta C5 corrige el deslumbramiento.",
+        "La mera detección no demuestra vigilancia visual suficiente.",
+        "Ver cualquier punto siempre garantiza VLOS.",
+        "Una cámara elimina toda limitación visual."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Sol, contraste, tamaño aparente, lluvia, nieve, humo u obstáculos afectan a la detección. Que un objeto sea visible no implica poder identificar su actitud y trayectoria o detectar otro tráfico a tiempo. Se revisa la posición del piloto y de los observadores. Ejemplo: Al girar hacia el sol se pierde contraste. Cambiar el punto de operación exige comprobar de nuevo cobertura, comunicaciones y límites; no basta con entrecerrar los ojos.",
+      "explicaciones_opciones": [
+        "La clase no recupera la visión del piloto.",
+        "Sol, contraste, tamaño aparente, lluvia, nieve, humo u obstáculos afectan a la detección. Que un objeto sea visible no implica poder identificar su actitud y trayectoria o detectar otro tráfico a tiempo. Se revisa la posición del piloto y de los observadores.",
+        "La percepción debe permitir las tareas de seguridad.",
+        "La imagen tiene campo y condiciones de uso limitados."
+      ],
+      "error_habitual": "Equiparar ver un punto con vigilancia eficaz.",
+      "referencia_concepto": "Visión y deslumbramiento",
+      "leccion_id": "b2-s5",
+      "bloque": 2,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-R26-006",
+      "tema": "Barrido visual y atención",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "¿Qué técnica favorece detectar tráfico visualmente?",
+      "respuestas": [
+        "Explorar sectores de unos 10 a 15 grados con fijaciones breves.",
+        "Fijar la vista siempre en el mismo punto.",
+        "Mirar solo el mapa del mando.",
+        "Hacer movimientos continuos muy rápidos."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El syllabus propone barridos en sectores de unos 10 a 15 grados, fijando brevemente la vista para detectar tráfico. Una mirada fija o un barrido apresurado deja huecos. Se eliminan distracciones y se distribuyen las tareas de vigilancia y comunicación. Ejemplo: Una llamada durante el vuelo rompe el barrido. El equipo evita esa distracción y mantiene la vigilancia prevista. El tráfico puede ser difícil de detectar incluso con buena visibilidad.",
+      "explicaciones_opciones": [
+        "El syllabus propone barridos en sectores de unos 10 a 15 grados, fijando brevemente la vista para detectar tráfico. Una mirada fija o un barrido apresurado deja huecos. Se eliminan distracciones y se distribuyen las tareas de vigilancia y comunicación.",
+        "Deja partes del espacio sin explorar.",
+        "No muestra necesariamente todo el tráfico.",
+        "Dificulta la fijación y la detección."
+      ],
+      "error_habitual": "Mirar solo la pantalla porque no aparecen alertas.",
+      "referencia_concepto": "Barrido visual y atención",
+      "leccion_id": "b2-s6",
+      "bloque": 2,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-R26-007",
+      "tema": "Frío, calor y destreza",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "El frío está degradando la precisión en los mandos. ¿Qué acción es proporcionada?",
+      "respuestas": [
+        "Esperar a que se pierda el control.",
+        "Activar necesariamente el FTS.",
+        "Compensar con más velocidad.",
+        "Gestionar una recuperación segura y reevaluar la aptitud."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Las condiciones extremas también afectan al personal. El frío puede reducir la destreza de los dedos; el calor, el deslumbramiento y la deshidratación pueden degradar atención y juicio. Se planifican protección, pausas y relevo según las condiciones. Ejemplo: El piloto siente torpeza en los mandos. Prioriza recuperar o terminar la operación de forma segura y revisa su aptitud antes de otro vuelo; no se prescribe activar un ERP por cualquier incomodidad.",
+      "explicaciones_opciones": [
+        "Se desaprovecha la oportunidad de actuar antes.",
+        "No es una respuesta automática a toda degradación humana.",
+        "Puede aumentar la dificultad de control.",
+        "Las condiciones extremas también afectan al personal. El frío puede reducir la destreza de los dedos; el calor, el deslumbramiento y la deshidratación pueden degradar atención y juicio. Se planifican protección, pausas y relevo según las condiciones."
+      ],
+      "error_habitual": "Tratar cualquier molestia como emergencia o ignorarla hasta perder el control.",
+      "referencia_concepto": "Frío, calor y destreza",
+      "leccion_id": "b2-s7",
+      "bloque": 2,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B2-R26-008",
+      "tema": "Coordinación y comunicación",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Un aviso de tráfico resulta ambiguo. ¿Qué debe hacer el equipo?",
+      "respuestas": [
+        "Ignorar el aviso si el mapa no muestra tráfico.",
+        "Dar por transferida la responsabilidad al observador.",
+        "Aclarar y confirmar el mensaje aplicando el procedimiento previsto.",
+        "Adivinar la trayectoria y seguir."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "En BVLOS aumenta la importancia de una imagen compartida de la situación. Si hay observadores, se acuerdan roles, sectores, mensajes y confirmaciones. La telemetría informa sobre el UAS; no reemplaza por sí sola la vigilancia del espacio aéreo. STS-02 también prevé una configuración sin observadores bajo condiciones específicas. Ejemplo: Un observador comunica tráfico con posición y evolución; el piloto confirma y aplica el procedimiento previsto. Si se pierde la comunicación, se aplica la contingencia definida.",
+      "explicaciones_opciones": [
+        "El mapa no garantiza detección de todas las aeronaves.",
+        "El piloto mantiene sus responsabilidades.",
+        "En BVLOS aumenta la importancia de una imagen compartida de la situación. Si hay observadores, se acuerdan roles, sectores, mensajes y confirmaciones. La telemetría informa sobre el UAS; no reemplaza por sí sola la vigilancia del espacio aéreo. STS-02 también prevé una configuración sin observadores bajo condiciones específicas.",
+        "Un mensaje ambiguo deja incertidumbre operacional."
+      ],
+      "error_habitual": "Suponer que el observador transmite datos o que el piloto los ha entendido sin confirmación.",
+      "referencia_concepto": "Coordinación y comunicación",
+      "leccion_id": "b2-s8",
+      "bloque": 2,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    }
+  ]
 }

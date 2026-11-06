@@ -6,7 +6,7 @@
 
   function normalize(json) {
     const cards = Array.isArray(json) ? json : json.flashcards || [];
-    return {titulo: json.titulo || 'Flashcards Bloque 5 STS', bloque: json.bloque || 'Conocimientos generales del UAS | Syllabus STS paginas 7-8 | Estado VALIDADO', total: json.total || cards.length, flashcards: cards};
+    return {titulo: json.titulo || 'Flashcards Bloque 5 STS', bloque: json.bloque || 'Conocimientos generales del UAS | Syllabus STS paginas 7-8 | Material formativo revisado', total: json.total || cards.length, flashcards: cards};
   }
 
   function byDifficulty(cards) {

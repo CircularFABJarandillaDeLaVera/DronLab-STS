@@ -1,491 +1,708 @@
-﻿{
-    "titulo":  "Test Bloque 5 STS",
-    "bloque":  "Conocimientos generales del UAS | Syllabus STS paginas 7-8 | Estado VALIDADO",
-    "total":  22,
-    "preguntas":  [
-                      {
-                          "id":  "B5-T-001",
-                          "tema":  "C5/C6",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que requisito comun de geoconsciencia deben cumplir C5 y C6?",
-                          "respuestas":  [
-                                             "Equivalente a clase C0",
-                                             "Solo aviso visual del piloto",
-                                             "Equivalente a clase C3",
-                                             "Ninguno"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "C5 y C6 deben cumplir requisitos tecnicos de geoconsciencia equivalentes a la clase C3.",
-                          "error_habitual":  "Creer que C5/C6 no heredan requisitos C3.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "C5/C6",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-002",
-                          "tema":  "C5",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que limite tiene el modo de baja velocidad C5?",
-                          "respuestas":  [
-                                             "5 m/s",
-                                             "50 m/s",
-                                             "15 m/s",
-                                             "5 km"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "El modo de baja velocidad C5 limita la velocidad a 5 m/s y no debe confundirse con el limite de C6.",
-                          "error_habitual":  "Confundir 5 m/s de modo lento C5 con 50 m/s de C6.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "C5",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-003",
-                          "tema":  "C6",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que velocidad no debe superar C6 en vuelo nivelado?",
-                          "respuestas":  [
-                                             "5 m/s",
-                                             "120 km/h exactos",
-                                             "No tiene limite",
-                                             "50 m/s"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La clase C6 no debe superar 50 m/s de velocidad en tierra en vuelo nivelado.",
-                          "error_habitual":  "Aplicar a C6 el modo lento C5.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "C6",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-004",
-                          "tema":  "FTS",
-                          "dificultad":  "media",
-                          "pregunta":  "En C5, el FTS debe ser independiente de...",
-                          "respuestas":  [
-                                             "La bateria principal siempre",
-                                             "La controladora de vuelo",
-                                             "El piloto remoto",
-                                             "La etiqueta de clase"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "La independencia respecto a la controladora permite actuar si falla el control principal.",
-                          "error_habitual":  "Creer que basta con una funcion del software de vuelo.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "FTS",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-005",
-                          "tema":  "C6",
-                          "dificultad":  "media",
-                          "pregunta":  "Que informacion constante debe recibir el piloto en C6?",
-                          "respuestas":  [
-                                             "Altura, velocidad y posicion geografica",
-                                             "Solo altura",
-                                             "Solo bateria y rumbo",
-                                             "Solo enlace C2"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "C6 exige altura, velocidad y posicion geografica.",
-                          "error_habitual":  "Olvidar la posicion geografica.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "C6",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-006",
-                          "tema":  "Geocaging",
-                          "dificultad":  "media",
-                          "pregunta":  "La funcion de geocaging sirve para...",
-                          "respuestas":  [
-                                             "Avisar sin impedir la salida",
-                                             "Medir capacidad de bateria",
-                                             "Impedir fisicamente salir del volumen preconfigurado",
-                                             "Sustituir el enlace C2"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "Geocaging es confinamiento tecnico del vuelo.",
-                          "error_habitual":  "Confundirlo con geoconsciencia.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "Geocaging",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-007",
-                          "tema":  "Baterias",
-                          "dificultad":  "media",
-                          "pregunta":  "Que ocurre con dos baterias iguales conectadas en paralelo?",
-                          "respuestas":  [
-                                             "Se suma voltaje y baja capacidad",
-                                             "Se suma capacidad/autonomia y se mantiene voltaje",
-                                             "Se pierde enlace C2",
-                                             "Activa el FTS"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "La configuracion en paralelo suma capacidades Ah.",
-                          "error_habitual":  "Confundir paralelo con serie.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "Baterias",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-008",
-                          "tema":  "Baterias",
-                          "dificultad":  "media",
-                          "pregunta":  "Que ocurre al conectar baterias en serie?",
-                          "respuestas":  [
-                                             "Aumentan solo los Ah",
-                                             "Se activa geocaging",
-                                             "Se reduce la velocidad C6",
-                                             "Aumenta la tension"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La configuracion en serie aumenta la tension total al sumar voltajes de baterias compatibles.",
-                          "error_habitual":  "Usar la regla de paralelo para serie y esperar solo aumento de capacidad.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "Baterias",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-009",
-                          "tema":  "C5",
-                          "dificultad":  "dificil",
-                          "pregunta":  "Que configuracion NO encaja con C5 salvo condicion especifica?",
-                          "respuestas":  [
-                                             "Multirotor con FTS independiente",
-                                             "UAS con modo lento 5 m/s",
-                                             "Ala fija convencional no anclada",
-                                             "UAS con informacion de altura"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "C5 debe tener configuracion distinta a ala fija salvo si esta anclado.",
-                          "error_habitual":  "Aceptar cualquier ala fija como C5.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "C5",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-010",
-                          "tema":  "FTS",
-                          "dificultad":  "dificil",
-                          "pregunta":  "Que requisito complementa al FTS C5 para reducir energia de impacto?",
-                          "respuestas":  [
-                                             "Solo una alerta sonora",
-                                             "Un dispositivo como paracaidas",
-                                             "Aumentar tension en serie",
-                                             "Eliminar geoconsciencia"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "El FTS C5 se complementa con un dispositivo, por ejemplo paracaidas, que reduzca la energia de impacto al activarse.",
-                          "error_habitual":  "Pensar que terminar vuelo no exige gestionar impacto.",
-                          "referencia_concepto":  "AESA | Syllabus STS paginas 7-8 | VALIDADO",
-                          "subtema":  "FTS",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-011",
-                          "tema":  "Enlace C2",
-                          "subtema":  "Alertas",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "comprension",
-                          "pregunta":  "Que debe aportar el sistema respecto al enlace C2?",
-                          "respuestas":  [
-                                             "Alertas cuando el enlace C2 se degrade o se pierda",
-                                             "Un aumento automatico de MTOM",
-                                             "La sustitucion del piloto por geocaging",
-                                             "Un cambio de clase C5 a C6"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "Las alertas C2 permiten reconocer degradacion de mando y control para activar procedimientos adecuados.",
-                          "error_habitual":  "No tratar una degradacion C2 como precursor de contingencia.",
-                          "referencia_concepto":  "Alertas C2",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-012",
-                          "tema":  "Geoconsciencia",
-                          "subtema":  "Clase C3",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "comparacion",
-                          "pregunta":  "A que clase se equipara el requisito de geoconsciencia de C5 y C6?",
-                          "respuestas":  [
-                                             "Clase C0",
-                                             "Clase C1 exclusivamente",
-                                             "Ninguna clase",
-                                             "Clase C3"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "C5 y C6 incorporan requisitos de geoconsciencia equivalentes a C3.",
-                          "error_habitual":  "Pensar que C5/C6 son clases aisladas sin requisitos heredados.",
-                          "referencia_concepto":  "Geoconsciencia C3",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-013",
-                          "tema":  "C5",
-                          "subtema":  "Modo baja velocidad",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Cual es el limite del modo de baja velocidad en C5?",
-                          "respuestas":  [
-                                             "50 m/s",
-                                             "5 m/s",
-                                             "5 km",
-                                             "120 m"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "El modo de baja velocidad C5 se fija en 5 m/s para controlar energia y maniobrabilidad en STS-01.",
-                          "error_habitual":  "Aplicar a C5 el limite de velocidad de C6.",
-                          "referencia_concepto":  "C5 | 5 m/s",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-014",
-                          "tema":  "C6",
-                          "subtema":  "Velocidad maxima",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Que velocidad no debe superar C6 en vuelo nivelado respecto al suelo?",
-                          "respuestas":  [
-                                             "5 m/s",
-                                             "25 kg",
-                                             "10 kg",
-                                             "50 m/s"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La clase C6 esta limitada a 50 m/s en vuelo nivelado, dato critico asociado a STS-02.",
-                          "error_habitual":  "Confundir velocidad con masa o con modo lento C5.",
-                          "referencia_concepto":  "C6 | 50 m/s",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-015",
-                          "tema":  "FTS",
-                          "subtema":  "Finalidad",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "comprension",
-                          "pregunta":  "Cual es la finalidad operacional del FTS?",
-                          "respuestas":  [
-                                             "Terminar el vuelo para limitar consecuencias ante perdida de control o salida de zona",
-                                             "Aumentar la autonomia del UAS",
-                                             "Sustituir el mantenimiento preventivo",
-                                             "Cambiar la meteorologia local"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "El FTS es una mitigacion tecnica que permite finalizar el vuelo en condiciones anormales para reducir consecuencias.",
-                          "error_habitual":  "Ver el FTS como un boton accesorio sin relacion con procedimientos de emergencia.",
-                          "referencia_concepto":  "Sistema de terminacion de vuelo",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-016",
-                          "tema":  "Baterias",
-                          "subtema":  "Conexion en serie",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Que efecto tiene conectar baterias compatibles en serie?",
-                          "respuestas":  [
-                                             "Mantiene tension y suma capacidad",
-                                             "Reduce siempre consumo a cero",
-                                             "Aumenta la tension total",
-                                             "Activa geocaging"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "La conexion en serie suma voltajes y debe distinguirse de la configuracion en paralelo.",
-                          "error_habitual":  "Aplicar a serie la regla de paralelo.",
-                          "referencia_concepto":  "Baterias en serie",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-017",
-                          "tema":  "Baterias",
-                          "subtema":  "Conexion en paralelo",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Que efecto tiene conectar baterias compatibles en paralelo?",
-                          "respuestas":  [
-                                             "Suma tension y reduce capacidad",
-                                             "Convierte C5 en C6",
-                                             "Elimina necesidad de alertas C2",
-                                             "Suma capacidad manteniendo la tension"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La configuracion en paralelo aumenta capacidad disponible manteniendo voltaje si las baterias son adecuadas.",
-                          "error_habitual":  "Confundir capacidad en Ah con tension en voltios.",
-                          "referencia_concepto":  "Baterias en paralelo",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-018",
-                          "tema":  "C5",
-                          "subtema":  "Independencia FTS",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "comprension",
-                          "pregunta":  "Por que el FTS C5 debe ser independiente de la controladora de vuelo?",
-                          "respuestas":  [
-                                             "Para seguir siendo util si falla el sistema principal de control",
-                                             "Para aumentar el limite a 50 m/s",
-                                             "Para evitar toda planificacion pre-vuelo",
-                                             "Para sustituir el Remote ID"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "La independencia evita fallo comun entre controladora y sistema de terminacion de vuelo.",
-                          "error_habitual":  "Aceptar una funcion software integrada como si fuera independencia real.",
-                          "referencia_concepto":  "FTS independiente C5",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-019",
-                          "tema":  "Geocaging",
-                          "subtema":  "STS-02",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "comparacion",
-                          "pregunta":  "Que diferencia hay entre geoconsciencia y geocaging?",
-                          "respuestas":  [
-                                             "Ambas son sinonimos exactos",
-                                             "Geocaging solo mide bateria",
-                                             "Geoconsciencia informa; geocaging confina el volumen operacional",
-                                             "Geoconsciencia termina el vuelo siempre"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "Geocaging tiene funcion de confinamiento, mientras geoconsciencia proporciona informacion/alerta de zonas.",
-                          "error_habitual":  "Usar ambos terminos como equivalentes.",
-                          "referencia_concepto":  "Geoconsciencia y geocaging",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-020",
-                          "tema":  "Marcado",
-                          "subtema":  "C5/C6",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "recuerdo",
-                          "pregunta":  "Que marcado de clase corresponde a los escenarios STS europeos?",
-                          "respuestas":  [
-                                             "C1 para STS-01 y C2 para STS-02",
-                                             "C5 para STS-01 y C6 para STS-02",
-                                             "C0 para ambos escenarios",
-                                             "C3 siempre para STS-02"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "El bloque vincula C5 con STS-01 y C6 con STS-02 dentro de los requisitos tecnicos STS.",
-                          "error_habitual":  "Pensar que cualquier clase abierta sirve para STS.",
-                          "referencia_concepto":  "Marcado C5/C6",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-021",
-                          "tema":  "Enlace C2",
-                          "subtema":  "Perdida de mando",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "escenario",
-                          "pregunta":  "Durante STS-02 aparece una alerta persistente de degradacion C2. Que interpretacion es correcta?",
-                          "respuestas":  [
-                                             "Es una condicion que puede exigir procedimiento de contingencia",
-                                             "Es una mejora automatica del enlace",
-                                             "Permite aumentar velocidad por encima de C6",
-                                             "No tiene relevancia si hay bateria"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "Las alertas C2 son indicadores operacionales para anticipar perdida de mando y control.",
-                          "error_habitual":  "Ignorar alertas porque el UAS sigue volando unos segundos.",
-                          "referencia_concepto":  "Alertas C2 y contingencias",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B5-T-022",
-                          "tema":  "Baterias",
-                          "subtema":  "Aplicacion operacional",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "escenario",
-                          "pregunta":  "Se busca mas autonomia sin cambiar la tension nominal del sistema. Que configuracion corresponde?",
-                          "respuestas":  [
-                                             "Baterias en serie",
-                                             "Eliminar una celda",
-                                             "Activar FTS",
-                                             "Baterias equivalentes en paralelo"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "El paralelo mantiene tension y suma capacidad, lo adecuado cuando se busca mas autonomia con misma tension.",
-                          "error_habitual":  "Elegir serie por creer que toda conexion aumenta autonomia del mismo modo.",
-                          "referencia_concepto":  "Baterias en paralelo",
-                          "bloque":  5,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque5/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      }
-                  ]
+{
+  "titulo": "Test · Bloque 5",
+  "bloque": "Conocimientos generales del UAS",
+  "total": 21,
+  "preguntas": [
+    {
+      "id": "B5-T-002",
+      "tema": "C5",
+      "dificultad": "facil",
+      "pregunta": "En un C5 sin anclaje, ¿qué máximo establece el modo técnico de baja velocidad?",
+      "respuestas": [
+        "5 m/s",
+        "50 m/s",
+        "15 m/s",
+        "5 km"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El modo seleccionable limita a no más de 5 m/s. La condición operacional STS-01 sin anclaje exige volar a menos de 5 m/s: no son redacciones intercambiables.",
+      "error_habitual": "Confundir 5 m/s de modo lento C5 con 50 m/s de C6.",
+      "referencia_concepto": "Bloque 5: C5",
+      "subtema": "C5",
+      "tipo_pregunta": "comprension",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-003",
+      "tema": "C6",
+      "dificultad": "facil",
+      "pregunta": "Que velocidad no debe superar C6 en vuelo nivelado?",
+      "respuestas": [
+        "5 m/s",
+        "120 km/h exactos",
+        "No tiene limite",
+        "50 m/s"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La clase C6 no debe superar 50 m/s de velocidad en tierra en vuelo nivelado.",
+      "error_habitual": "Aplicar a C6 el modo lento C5.",
+      "referencia_concepto": "Bloque 5: C6",
+      "subtema": "C6",
+      "tipo_pregunta": "comprension",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-004",
+      "tema": "FTS",
+      "dificultad": "media",
+      "pregunta": "En C5 sin anclaje, los medios de terminación y su activación deben ser independientes de...",
+      "respuestas": [
+        "La bateria principal siempre",
+        "El sistema automático de control y guiado de vuelo.",
+        "El piloto remoto",
+        "La etiqueta de clase"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La independencia también comprende la activación. Se comprueba la configuración y el procedimiento del fabricante.",
+      "error_habitual": "Creer que basta con una funcion del software de vuelo.",
+      "referencia_concepto": "Bloque 5: FTS",
+      "subtema": "FTS",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-005",
+      "tema": "C6",
+      "dificultad": "media",
+      "pregunta": "Que informacion constante debe recibir el piloto en C6?",
+      "respuestas": [
+        "Altura, velocidad y posicion geografica",
+        "Solo altura",
+        "Solo bateria y rumbo",
+        "Solo enlace C2"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "C6 exige altura, velocidad y posicion geografica.",
+      "error_habitual": "Olvidar la posicion geografica.",
+      "referencia_concepto": "Bloque 5: C6",
+      "subtema": "C6",
+      "tipo_pregunta": "comprension",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-008",
+      "tema": "Baterias",
+      "dificultad": "media",
+      "pregunta": "Que ocurre al conectar baterias en serie?",
+      "respuestas": [
+        "Aumentan solo los Ah",
+        "Se activa geocaging",
+        "Se reduce la velocidad C6",
+        "Aumenta la tension"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La configuracion en serie aumenta la tension total al sumar voltajes de baterias compatibles.",
+      "error_habitual": "Usar la regla de paralelo para serie y esperar solo aumento de capacidad.",
+      "referencia_concepto": "Bloque 5: Baterias",
+      "subtema": "Baterias",
+      "tipo_pregunta": "comprension",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-009",
+      "tema": "C5",
+      "dificultad": "dificil",
+      "pregunta": "Que configuracion NO encaja con C5 salvo condicion especifica?",
+      "respuestas": [
+        "Multirotor con FTS independiente",
+        "UAS con modo lento 5 m/s",
+        "Ala fija convencional no anclada",
+        "UAS con informacion de altura"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "C5 debe tener configuracion distinta a ala fija salvo si esta anclado.",
+      "error_habitual": "Aceptar cualquier ala fija como C5.",
+      "referencia_concepto": "Bloque 5: C5",
+      "subtema": "C5",
+      "tipo_pregunta": "escenario",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-010",
+      "tema": "FTS",
+      "dificultad": "dificil",
+      "pregunta": "En C5 sin anclaje, ¿qué finalidad deben tener los medios que complementan la terminación?",
+      "respuestas": [
+        "Solo una alerta sonora",
+        "Reducir las consecuencias dinámicas del impacto, por ejemplo mediante un paracaídas adecuado.",
+        "Aumentar tension en serie",
+        "Eliminar geoconsciencia"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La norma prescribe una función de mitigación; no convierte un dispositivo concreto en garantía de aterrizaje sin daño.",
+      "error_habitual": "Pensar que terminar vuelo no exige gestionar impacto.",
+      "referencia_concepto": "Bloque 5: FTS",
+      "subtema": "FTS",
+      "tipo_pregunta": "escenario",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-011",
+      "tema": "Enlace C2",
+      "subtema": "Alertas",
+      "dificultad": "media",
+      "tipo_pregunta": "comprension",
+      "pregunta": "Que debe aportar el sistema respecto al enlace C2?",
+      "respuestas": [
+        "Alertas cuando el enlace C2 se degrade o se pierda",
+        "Un aumento automatico de MTOM",
+        "La sustitucion del piloto por geocaging",
+        "Un cambio de clase C5 a C6"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Las alertas C2 permiten reconocer degradacion de mando y control para activar procedimientos adecuados.",
+      "error_habitual": "No tratar una degradacion C2 como precursor de contingencia.",
+      "referencia_concepto": "Bloque 5: Enlace C2",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-015",
+      "tema": "FTS",
+      "subtema": "Finalidad",
+      "dificultad": "media",
+      "tipo_pregunta": "comprension",
+      "pregunta": "Cual es la finalidad operacional del FTS?",
+      "respuestas": [
+        "Terminar el vuelo para limitar consecuencias ante perdida de control o salida de zona",
+        "Aumentar la autonomia del UAS",
+        "Sustituir el mantenimiento preventivo",
+        "Cambiar la meteorologia local"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El FTS es una mitigacion tecnica que permite finalizar el vuelo en condiciones anormales para reducir consecuencias.",
+      "error_habitual": "Ver el FTS como un boton accesorio sin relacion con procedimientos de emergencia.",
+      "referencia_concepto": "Bloque 5: FTS",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-017",
+      "tema": "Baterias",
+      "subtema": "Conexion en paralelo",
+      "dificultad": "media",
+      "tipo_pregunta": "dato critico",
+      "pregunta": "Que efecto tiene conectar baterias compatibles en paralelo?",
+      "respuestas": [
+        "Suma tension y reduce capacidad",
+        "Convierte C5 en C6",
+        "Elimina necesidad de alertas C2",
+        "Suma capacidad manteniendo la tension"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La configuracion en paralelo aumenta capacidad disponible manteniendo voltaje si las baterias son adecuadas.",
+      "error_habitual": "Confundir capacidad en Ah con tension en voltios.",
+      "referencia_concepto": "Bloque 5: Baterias",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-019",
+      "tema": "Geocaging",
+      "subtema": "STS-02",
+      "dificultad": "media",
+      "tipo_pregunta": "comparacion",
+      "pregunta": "Que diferencia hay entre geoconsciencia y geocaging?",
+      "respuestas": [
+        "Ambas son sinonimos exactos",
+        "Geocaging solo mide bateria",
+        "Geoconsciencia informa; geocaging confina el volumen operacional",
+        "Geoconsciencia termina el vuelo siempre"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Geocaging tiene funcion de confinamiento, mientras geoconsciencia proporciona informacion/alerta de zonas.",
+      "error_habitual": "Usar ambos terminos como equivalentes.",
+      "referencia_concepto": "Bloque 5: Geocaging",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-020",
+      "tema": "Marcado",
+      "subtema": "C5/C6",
+      "dificultad": "media",
+      "tipo_pregunta": "recuerdo",
+      "pregunta": "Que marcado de clase corresponde a los escenarios STS europeos?",
+      "respuestas": [
+        "C1 para STS-01 y C2 para STS-02",
+        "C5 para STS-01 y C6 para STS-02",
+        "C0 para ambos escenarios",
+        "C3 siempre para STS-02"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El bloque vincula C5 con STS-01 y C6 con STS-02 dentro de los requisitos tecnicos STS.",
+      "error_habitual": "Pensar que cualquier clase abierta sirve para STS.",
+      "referencia_concepto": "Bloque 5: Marcado",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-T-021",
+      "tema": "Enlace C2",
+      "subtema": "Perdida de mando",
+      "dificultad": "dificil",
+      "tipo_pregunta": "escenario",
+      "pregunta": "Durante STS-02 aparece una alerta persistente de degradacion C2. Que interpretacion es correcta?",
+      "respuestas": [
+        "Es una condicion que puede exigir procedimiento de contingencia",
+        "Es una mejora automatica del enlace",
+        "Permite aumentar velocidad por encima de C6",
+        "No tiene relevancia si hay bateria"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Las alertas C2 son indicadores operacionales para anticipar perdida de mando y control.",
+      "error_habitual": "Ignorar alertas porque el UAS sigue volando unos segundos.",
+      "referencia_concepto": "Bloque 5: Enlace C2",
+      "bloque": 5,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque5/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-R26-001",
+      "tema": "Clases C5 y C6",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Un dron recibe un paracaídas no documentado como conversión. ¿Eso basta para considerarlo C5?",
+      "respuestas": [
+        "Sí, si pesa menos de 25 kg.",
+        "Sí, si el piloto tiene A2.",
+        "No; debe acreditarse la conformidad aplicable a la configuración.",
+        "Sí, cualquier paracaídas convierte la clase."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "C5 se vincula a STS-01 y C6 a STS-02. Se comprueban marcado, declaración UE de conformidad, configuración y manual. Las partes 16 y 17 del Reglamento 2019/945 establecen excepciones a ciertos requisitos C3: no se puede afirmar que toda función C3 sea obligatoria sin leer esas excepciones. Ejemplo: Añadir un paracaídas por cuenta propia a un dron no demuestra conversión conforme a C5. Se necesita la documentación y el proceso aplicables.",
+      "explicaciones_opciones": [
+        "La masa es solo uno de los requisitos.",
+        "La formación del piloto no cambia la clase del producto.",
+        "C5 se vincula a STS-01 y C6 a STS-02. Se comprueban marcado, declaración UE de conformidad, configuración y manual. Las partes 16 y 17 del Reglamento 2019/945 establecen excepciones a ciertos requisitos C3: no se puede afirmar que toda función C3 sea obligatoria sin leer esas excepciones.",
+        "El accesorio por sí solo no demuestra conformidad."
+      ],
+      "error_habitual": "Confundir accesorio instalado con conformidad de clase.",
+      "referencia_concepto": "Clases C5 y C6",
+      "leccion_id": "b5-01",
+      "bloque": 5,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-R26-002",
+      "tema": "Geoconsciencia, contención y DRI",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "¿Qué afirmación distingue correctamente las funciones?",
+      "respuestas": [
+        "C5 y C6 deben heredar sin excepciones toda función C3.",
+        "La geoconsciencia avisa; la contención limita; la DRI identifica.",
+        "La DRI impide automáticamente toda salida.",
+        "Todo aviso de zona es una barrera física."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La geoconsciencia informa de posibles vulneraciones de zonas; la contención limita el vuelo respecto a límites programados; la identificación remota directa transmite datos de identificación. En C5/C6 la geoconsciencia se regula si está instalada: no es una obligación universal común en los términos antes atribuidos a C3. En STS la DRI debe estar activa y actualizada. Ejemplo: Un aviso de zona no garantiza que el UAS detenga su avance. Y una emisión DRI correcta no demuestra que el volumen de vuelo esté bien cargado.",
+      "explicaciones_opciones": [
+        "Las partes 16 y 17 establecen excepciones.",
+        "La geoconsciencia informa de posibles vulneraciones de zonas; la contención limita el vuelo respecto a límites programados; la identificación remota directa transmite datos de identificación. En C5/C6 la geoconsciencia se regula si está instalada: no es una obligación universal común en los términos antes atribuidos a C3. En STS la DRI debe estar activa y actualizada.",
+        "Identificar no es confinar.",
+        "Un aviso no garantiza bloqueo."
+      ],
+      "error_habitual": "Usar geoconsciencia, geocaging y DRI como sinónimos.",
+      "referencia_concepto": "Geoconsciencia, contención y DRI",
+      "leccion_id": "b5-02",
+      "bloque": 5,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-R26-003",
+      "tema": "C5: modo lento y terminación",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "¿Qué par distingue modo técnico y operación STS-01 sin anclaje?",
+      "respuestas": [
+        "Modo C5 ≤ 5 m/s; operación STS-01 < 5 m/s.",
+        "Ambos permiten exactamente 5 m/s.",
+        "Ambos permiten 50 m/s.",
+        "El modo lento elimina la necesidad de terminación."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "En C5 sin anclaje, el modo lento seleccionable limita a no más de 5 m/s. STS-01 sin anclaje exige operar a menos de 5 m/s. Los medios de terminación y su activación deben ser independientes del control y guiado automáticos; se prevén medios de reducción de las consecuencias del impacto. Se revisa el manual, sin prometer aterrizaje indemne. Ejemplo: Un modo cuyo máximo técnico sea 5 m/s puede cumplir ese requisito de producto; la operación STS-01 sigue teniendo que mantenerse por debajo de 5 m/s.",
+      "explicaciones_opciones": [
+        "En C5 sin anclaje, el modo lento seleccionable limita a no más de 5 m/s. STS-01 sin anclaje exige operar a menos de 5 m/s. Los medios de terminación y su activación deben ser independientes del control y guiado automáticos; se prevén medios de reducción de las consecuencias del impacto. Se revisa el manual, sin prometer aterrizaje indemne.",
+        "La condición operacional usa inferior a 5.",
+        "No corresponde a C5/STS-01.",
+        "Son requisitos diferentes."
+      ],
+      "error_habitual": "Confundir límite de diseño con velocidad autorizada exacta de operación.",
+      "referencia_concepto": "C5: modo lento y terminación",
+      "leccion_id": "b5-03",
+      "bloque": 5,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-R26-004",
+      "tema": "C6: información y límites",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "C6 declara un máximo de 50 m/s. ¿Qué significa para la misión?",
+      "respuestas": [
+        "Debe volar siempre a 50 m/s.",
+        "Puede superar cualquier límite del manual.",
+        "Elimina el margen en tierra.",
+        "Es un límite de clase; la operación puede exigir una velocidad menor."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "C6 tiene velocidad máxima respecto al suelo en vuelo nivelado no superior a 50 m/s. Proporciona posición geográfica, velocidad y altura, programación de trayectoria y medios de limitación del volumen. El FTS y su activación son independientes del control automático y de los medios que evitan rebasar el volumen. Ejemplo: Que la clase permita un máximo de 50 m/s no obliga a usarlo ni garantiza que sea adecuado con esa carga, viento o margen de riesgo.",
+      "explicaciones_opciones": [
+        "Un máximo no es una obligación de usarlo.",
+        "Se siguen respetando las limitaciones del equipo.",
+        "La velocidad no sustituye la mitigación del riesgo.",
+        "C6 tiene velocidad máxima respecto al suelo en vuelo nivelado no superior a 50 m/s. Proporciona posición geográfica, velocidad y altura, programación de trayectoria y medios de limitación del volumen. El FTS y su activación son independientes del control automático y de los medios que evitan rebasar el volumen."
+      ],
+      "error_habitual": "Tomar un máximo de producto como velocidad recomendada.",
+      "referencia_concepto": "C6: información y límites",
+      "leccion_id": "b5-04",
+      "bloque": 5,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-R26-005",
+      "tema": "Enlace C2 y funciones automáticas",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Se recibe vídeo pero hay alarma de degradación C2. ¿Qué interpretación es correcta?",
+      "respuestas": [
+        "La ruta automática elimina el riesgo.",
+        "La DRI sirve de mando alternativo.",
+        "El vídeo no invalida la alarma; se aplica el procedimiento correspondiente.",
+        "Todo el enlace funciona porque hay imagen."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "C2 es el enlace de mando y control. Se supervisa su calidad y se atienden alertas de degradación o pérdida. La existencia de telemetría, vídeo o una ruta automática no demuestra que todos los enlaces estén disponibles ni elimina los procedimientos ante fallo. Ejemplo: La imagen sigue visible pero aparece alarma C2. El piloto no deduce que el mando sea correcto solo porque recibe vídeo.",
+      "explicaciones_opciones": [
+        "La automatización no suprime las limitaciones.",
+        "La identificación no es un enlace de control.",
+        "C2 es el enlace de mando y control. Se supervisa su calidad y se atienden alertas de degradación o pérdida. La existencia de telemetría, vídeo o una ruta automática no demuestra que todos los enlaces estén disponibles ni elimina los procedimientos ante fallo.",
+        "Pueden existir funciones o canales distintos."
+      ],
+      "error_habitual": "Confundir enlace de imagen con estado de mando y control.",
+      "referencia_concepto": "Enlace C2 y funciones automáticas",
+      "leccion_id": "b5-05",
+      "bloque": 5,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B5-R26-006",
+      "tema": "IMU, GNSS y brújula",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "Hay error de rumbo cerca de una estructura metálica. ¿Qué criterio es adecuado?",
+      "respuestas": [
+        "Cambiar el nombre de la misión.",
+        "Evaluar interferencia y seguir las comprobaciones del fabricante antes de operar.",
+        "Despegar porque hay muchos satélites.",
+        "Calibrar siempre allí mismo sin evaluar el entorno."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La IMU mide magnitudes inerciales mediante sensores como acelerómetros y giróscopos; GNSS aporta posicionamiento por satélite; la brújula contribuye al rumbo magnético. No son intercambiables. Se siguen las instrucciones del fabricante para calibración y comprobación, evitando calibrar indiscriminadamente en lugares con interferencia. Ejemplo: Un aviso de rumbo junto a una estructura metálica pide evaluar interferencia y el procedimiento del fabricante, no asumir que más satélites corrigen cualquier error.",
+      "explicaciones_opciones": [
+        "No corrige el sistema.",
+        "La IMU mide magnitudes inerciales mediante sensores como acelerómetros y giróscopos; GNSS aporta posicionamiento por satélite; la brújula contribuye al rumbo magnético. No son intercambiables. Se siguen las instrucciones del fabricante para calibración y comprobación, evitando calibrar indiscriminadamente en lugares con interferencia.",
+        "El posicionamiento no elimina toda interferencia magnética.",
+        "Un entorno alterado puede hacer inadecuada la calibración."
+      ],
+      "error_habitual": "Pensar que GNSS resuelve todo fallo de orientación.",
+      "referencia_concepto": "IMU, GNSS y brújula",
+      "leccion_id": "b5-06",
+      "bloque": 5,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B5-R26-007",
+      "tema": "Velocidades, altura y referencia",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "El terreno sube 40 m y la UA está a 80 m sobre el despegue. En este ejemplo vertical, ¿cuánto la separa del terreno local?",
+      "respuestas": [
+        "40 m.",
+        "80 m siempre.",
+        "120 m.",
+        "No hay diferencia entre altura y altitud."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Se distingue velocidad respecto al suelo de velocidad respecto al aire, y altura relativa del sistema de separación real al terreno. En instrumentos aerodinámicos, velocidad indicada y verdadera no son necesariamente iguales. Antes de comparar cifras se identifican unidad, magnitud y referencia. Ejemplo: El mando muestra 80 m respecto al despegue sobre un terreno que asciende 40 m. En el ejemplo geométrico, la separación vertical local sería 40 m; la lectura no equivale automáticamente a 80 m sobre el suelo.",
+      "explicaciones_opciones": [
+        "Se distingue velocidad respecto al suelo de velocidad respecto al aire, y altura relativa del sistema de separación real al terreno. En instrumentos aerodinámicos, velocidad indicada y verdadera no son necesariamente iguales. Antes de comparar cifras se identifican unidad, magnitud y referencia.",
+        "Ignora la elevación del terreno.",
+        "Suma en vez de restar la cota del terreno.",
+        "Tienen referencias diferentes."
+      ],
+      "error_habitual": "Comparar lecturas sin saber de qué punto o magnitud proceden.",
+      "referencia_concepto": "Velocidades, altura y referencia",
+      "leccion_id": "b5-07",
+      "bloque": 5,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B5-R26-008",
+      "tema": "Baterías: V, Ah, Wh y conexiones",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "¿Qué energía nominal resulta de 22,2 V y 5 Ah?",
+      "respuestas": [
+        "27,2 Wh.",
+        "4,44 Wh.",
+        "5 Wh.",
+        "111 Wh."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Ah expresa capacidad de carga eléctrica; Wh, energía. Para una estimación nominal, Wh = V × Ah. En serie se suman tensiones de elementos compatibles; en paralelo, capacidades a igual tensión. No se deduce autonomía exacta ni se recomienda modificar conexiones sin aprobación del fabricante. Ejemplo: Una batería de 22,2 V y 5 Ah almacena nominalmente 111 Wh. Una de 11,1 V y 5 Ah tiene 55,5 Wh: igual Ah no significa igual energía.",
+      "explicaciones_opciones": [
+        "Se multiplican V y Ah, no se suman.",
+        "No se divide la tensión por la capacidad.",
+        "5 Ah no equivalen por sí solos a 5 Wh.",
+        "Ah expresa capacidad de carga eléctrica; Wh, energía. Para una estimación nominal, Wh = V × Ah. En serie se suman tensiones de elementos compatibles; en paralelo, capacidades a igual tensión. No se deduce autonomía exacta ni se recomienda modificar conexiones sin aprobación del fabricante."
+      ],
+      "error_habitual": "Confundir mAh con energía o prometer el doble de autonomía.",
+      "referencia_concepto": "Baterías: V, Ah, Wh y conexiones",
+      "leccion_id": "b5-08",
+      "bloque": 5,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    }
+  ]
 }

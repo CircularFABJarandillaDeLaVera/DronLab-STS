@@ -1,5 +1,126 @@
-{"titulo":"Practicas Bloque 6 STS","total":3,"practicas":[
-{"id":"B6-P-001","titulo":"Decision Go/No-Go con viento","objetivo":"Comparar rafagas pronosticadas con limite del UAS.","dificultad":"media","tiempo_estimado":"15 min","material_necesario":["TAF del caso","Conversion 1 m/s = 2 kt","Limite de manual"],"contexto":"Rafagas de 25 kt y manual limitado a 10 m/s.","instrucciones_paso_a_paso":["Identifica si el parte es actual o pronostico.","Convierte 25 kt a m/s aproximados.","Compara con 10 m/s.","Redacta decision Go/No-Go."],"criterios_de_exito":["Reconoce TAF como pronostico.","Concluye que 25 kt supera 10 m/s.","Cancela o aplaza."],"errores_habituales":["Confundir unidades.","Ignorar manual.","Tratar TAF como METAR."],"conceptos_relacionados":["TAF","kt","m/s","Go/No-Go"],"referencia_al_bloque":"Bloque 6 | Syllabus STS paginas 8-10 | Estado VALIDADO"},
-{"id":"B6-P-002","titulo":"Ficha METAR TAF SPECI","objetivo":"Distinguir informe actual, especial y pronostico.","dificultad":"facil","tiempo_estimado":"12 min","material_necesario":["Ficha vacia","Ingenieria Bloque 6"],"contexto":"Preparacion para interpretar partes meteorologicos.","instrucciones_paso_a_paso":["Define METAR en una frase.","Define SPECI en una frase.","Define TAF en una frase.","Anade el error habitual de cada uno."],"criterios_de_exito":["METAR ahora.","SPECI cambio significativo.","TAF 9 a 30 horas."],"errores_habituales":["Confundir actual y pronostico.","Olvidar cambios significativos.","No citar UTC/Zulu."],"conceptos_relacionados":["METAR","SPECI","TAF","UTC"],"referencia_al_bloque":"Bloque 6 | Syllabus STS paginas 8-10 | Estado VALIDADO"},
-{"id":"B6-P-003","titulo":"Auditoria de trazabilidad complementaria","objetivo":"Separar Syllabus AESA 8-10 de ENAIRE/MAE22/MMT9.","dificultad":"dificil","tiempo_estimado":"10 min","material_necesario":["Lista de conceptos","Marcadores AESA y ENAIRE"],"contexto":"Evitar que indice K o estacion portatil se presenten como contenido principal.","instrucciones_paso_a_paso":["Marca METAR, TAF, viento y densidad como AESA 8-10.","Marca estacion portatil MAE22 como complementario.","Marca indice K MMT9 como complementario.","Redacta una nota de trazabilidad separada."],"criterios_de_exito":["No mezcla indice K con AESA paginas 8-10.","Cita ENAIRE MAE22/MMT9.","Mantiene indice K < 4 como complementario."],"errores_habituales":["Unificar trazabilidades.","Omitir ENAIRE.","Presentar indice K como Syllabus 8-10."],"conceptos_relacionados":["AESA","ENAIRE","MAE22","MMT9","indice K"],"referencia_al_bloque":"Complementario ENAIRE MAE22/MMT9 | Trazabilidad separada"}
-]}
+{
+  "titulo": "Practicas · Bloque 6",
+  "total": 3,
+  "practicas": [
+    {
+      "id": "B6-R26-P-001",
+      "titulo": "Taller de decisión: Relieve, obstáculos y turbulencia",
+      "objetivo": "Interpretar información vigente y local para justificar una decisión de operar, adaptar o aplazar.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "En la ladera protegida parece haber calma, pero el tramo pasa a sotavento de una cresta. Se valora el viento en la trayectoria y en las recuperaciones, no solo donde está el piloto.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Hay calma al despegar y turbulencia prevista tras una cresta. ¿Qué debe evaluarse?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Extrapolar la medida del punto de despegue a todo el volumen."
+      ],
+      "conceptos_relacionados": [
+        "Relieve, obstáculos y turbulencia"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "resultado_esperado": "Las condiciones de toda la trayectoria y sus alternativas de recuperación. Edificios, árboles y relieve alteran velocidad y dirección; el calentamiento diferencial produce convección. La cizalladura es un cambio de velocidad o dirección del viento entre puntos. Un promedio moderado puede esconder rachas o turbulencias locales.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B6-R26-P-002",
+      "titulo": "Taller de decisión: METAR, SPECI y TAF",
+      "objetivo": "Interpretar información vigente y local para justificar una decisión de operar, adaptar o aplazar.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "En el fragmento ficticio 18012G22KT, el viento procede de 180°, es de 12 kt con rachas de 22 kt. El sufijo KT identifica la unidad.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "En 18012G22KT, ¿qué significa G22?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Confundir observación y pronóstico o ignorar las rachas."
+      ],
+      "conceptos_relacionados": [
+        "METAR, SPECI y TAF"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "resultado_esperado": "Rachas de 22 kt. METAR es observación ordinaria de aeródromo; SPECI es observación especial ante cambios significativos; TAF es pronóstico con un período de validez explícito. Se leen lugar, fecha/hora UTC, unidades, viento, visibilidad, nubes y cambios. El período del TAF se lee en el propio mensaje, sin adivinarlo.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B6-R26-P-003",
+      "titulo": "Taller de decisión: Briefing meteorológico y decisión",
+      "objetivo": "Interpretar información vigente y local para justificar una decisión de operar, adaptar o aplazar.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Hay visibilidad de 6 km pero rachas incompatibles con el manual. El cumplimiento de una condición no compensa el incumplimiento de otra.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Se cumple visibilidad STS-02, pero se supera el viento permitido por el manual. ¿Puede iniciarse?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Aceptar la misión porque una sola variable es favorable."
+      ],
+      "conceptos_relacionados": [
+        "Briefing meteorológico y decisión"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "resultado_esperado": "No; deben cumplirse simultáneamente las condiciones aplicables. Se combinan observaciones recientes, pronóstico, radar o satélite, condiciones locales y límites del equipo. Ninguna fuente aislada garantiza seguridad. Para STS-02 se comprueba también la visibilidad de vuelo superior a 5 km, separándola del alcance UA-piloto.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    }
+  ]
+}

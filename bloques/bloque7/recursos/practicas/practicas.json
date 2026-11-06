@@ -1,5 +1,126 @@
-{"titulo":"Practicas Bloque 7 STS","total":3,"practicas":[
-{"id":"B7-P-001","titulo":"Checklist MTOM y payload","objetivo":"Verificar que una configuracion de mision no supera MTOM y mantiene CG valido.","dificultad":"media","tiempo_estimado":"15 min","material_necesario":["Ficha del bloque","Datos de masa del UAS","Lista de payload"],"contexto":"Preparacion de vuelo con bateria y carga util adicional.","instrucciones_paso_a_paso":["Anota la MTOM de fabricante.","Suma aeronave, bateria y carga util.","Comprueba que el total no supera MTOM.","Marca si la carga exige nueva verificacion de CG."],"criterios_de_exito":["Incluye payload dentro de MTOM.","No supera limite estructural.","Exige verificar CG tras accesorio."],"errores_habituales":["Sumar payload fuera de MTOM.","Ignorar peso de bateria.","No revisar centrado."],"conceptos_relacionados":["MTOM","payload","CG","fabricante"],"referencia_al_bloque":"Bloque 7 | Syllabus STS pagina 11 | Estado VALIDADO"},
-{"id":"B7-P-002","titulo":"Diagnostico de CG desplazado","objetivo":"Relacionar sintomas de vuelo con CG fuera de limites.","dificultad":"media","tiempo_estimado":"12 min","material_necesario":["Caso de camara lateral","Tabla de ejes"],"contexto":"Un multirotor tiene dificultad para mantener vuelo estacionario tras instalar un sensor lateral.","instrucciones_paso_a_paso":["Identifica que accesorio modifica el equilibrio.","Describe efecto sobre CG.","Relaciona el sintoma con motores compensando.","Propone accion pre-vuelo segura."],"criterios_de_exito":["Reconoce inestabilidad.","Menciona fatiga prematura de motores.","Propone reubicar o retirar payload y verificar limites."],"errores_habituales":["Atribuir todo a falta de potencia.","No vincular CG con motores.","Volver a despegar sin corregir."],"conceptos_relacionados":["CG","equilibrio de masas","inestabilidad","payload"],"referencia_al_bloque":"Bloque 7 | Syllabus STS pagina 11 | Estado VALIDADO"},
-{"id":"B7-P-003","titulo":"Auditoria de trazabilidad complementaria","objetivo":"Separar Syllabus AESA pagina 11 de MME8 y masas STS-ES nacionales.","dificultad":"dificil","tiempo_estimado":"10 min","material_necesario":["Lista de conceptos","Marcadores AESA y complementario"],"contexto":"Revisión de contenidos antes de publicar recursos del Bloque 7.","instrucciones_paso_a_paso":["Marca MTOM, CG, envolvente y aseguramiento como AESA pagina 11.","Marca MME8/geocaging como complementario.","Marca STS-ES-01NE < 10 kg y STS-ES-02NE < 25 kg como complementario.","Redacta una nota de trazabilidad separada."],"criterios_de_exito":["No mezcla MME8 con AESA pagina 11.","Conserva masas nacionales como complementarias.","No altera el contenido principal."],"errores_habituales":["Unificar trazabilidades.","Presentar geocaging MME8 como epigrafe AESA pagina 11.","Intercambiar masas nacionales."],"conceptos_relacionados":["AESA","MME8","STS-ES-01NE","STS-ES-02NE"],"referencia_al_bloque":"Complementario | MME8 | STS-ES nacional | Trazabilidad separada"}
-]}
+{
+  "titulo": "Practicas · Bloque 7",
+  "total": 3,
+  "practicas": [
+    {
+      "id": "B7-R26-P-001",
+      "titulo": "Taller de decisión: Centro de gravedad y momentos",
+      "objetivo": "Comprobar masa, centrado, energía y límites ambientales con ejemplos calculados.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Masas de 2 kg a -0,10 m y 1 kg a +0,20 m dan momentos -0,20 y +0,20 kg·m: xCG = 0/3 = 0 m. Es un modelo didáctico; no autoriza una instalación real.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "En el ejemplo, ¿dónde queda xCG?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Mirar solo la masa total y olvidar dónde está situada."
+      ],
+      "conceptos_relacionados": [
+        "Centro de gravedad y momentos"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "resultado_esperado": "En 0 m respecto a la referencia elegida. El CG representa el punto de aplicación de la resultante del peso. Su posición depende de la distribución de masas. En un modelo unidimensional, xCG = suma(m × x) / suma(m). Los límites admisibles proceden del diseño y manual de esa aeronave, no de que parezca equilibrada a simple vista.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B7-R26-P-002",
+      "titulo": "Taller de decisión: Envolvente y masa por rendimiento",
+      "objetivo": "Comprobar masa, centrado, energía y límites ambientales con ejemplos calculados.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Un multirrotor caliente en altura requiere casi toda la potencia en estacionario. Se recupera con seguridad y se revisa la configuración; no se establece un porcentaje universal de potencia admisible.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Un UAS queda sin margen de potencia para maniobrar. ¿Qué criterio es correcto?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Convertir un dato ilustrativo en límite universal."
+      ],
+      "conceptos_relacionados": [
+        "Envolvente y masa por rendimiento"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "resultado_esperado": "Recuperar de forma segura y revisar masa, ambiente y límites. La envolvente reúne condiciones y límites de operación. Tipo de aeronave, masa, densidad, viento, temperatura y estado de sistemas modifican el margen disponible. Respetar un máximo de masa no garantiza que esa masa sea adecuada para el ambiente y la misión.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B7-R26-P-003",
+      "titulo": "Taller de decisión: Verificación tras un cambio",
+      "objetivo": "Comprobar masa, centrado, energía y límites ambientales con ejemplos calculados.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Se cambia a una batería más pesada para ganar energía. Se recalculan masa y CG y se revisa aprobación; el aumento de Wh no asegura más autonomía.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Se propone una batería más pesada. ¿Qué comprobación es necesaria?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Mejorar una cifra aislada ignorando las demás."
+      ],
+      "conceptos_relacionados": [
+        "Verificación tras un cambio"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "resultado_esperado": "Compatibilidad, masa total, CG y efecto en el rendimiento. Cambiar batería, hélice, soporte, sensor o software puede alterar masa, CG, consumo o funciones. Se comprueban compatibilidad, límites y documentación de la configuración antes de operar. No se plantea una conexión de baterías ni modificación como experimento de vuelo.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    }
+  ]
+}

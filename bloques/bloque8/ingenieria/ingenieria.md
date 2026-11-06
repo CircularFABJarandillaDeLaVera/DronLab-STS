@@ -1,121 +1,131 @@
-# DRONLAB STS · INGENIERÍA PROFUNDA BLOQUE 8
+# Bloque 8 · Mitigaciones del riesgo en tierra
 
-Este documento constituye la **Ingeniería del Conocimiento** detallada para el **Bloque 8: Mitigaciones técnicas y operacionales del riesgo en tierra**, diseñada para ser procesada por el agente DronLab-SDK 1.0. La información se basa estrictamente en el syllabus oficial de AESA y el marco normativo de los escenarios estándar nacionales y europeos.
+Revisión documental: 06/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
 
----
+## Objetivo y conexión
 
-# 0. TRAZABILIDAD DOCUMENTAL
-- **Organismo:** AESA
-- **Documento:** MATERIAS DEL EXAMEN DE CONOCIMIENTOS TEÓRICOS DE LA CATEGORÍA «ESPECÍFICA» PARA OPERACIONES DE UAS BAJO ESCENARIOS ESTÁNDAR (STS)
-- **Código / referencia:** Syllabus oficial STS
-- **Edición / versión:** 2
-- **Fecha:** 17/04/2023
-- **Páginas relacionadas:** 11–12 (Materia 8 completa)
-- **Estado:** VALIDADO
+Dibujar la zona controlada y justificar sus dimensiones sin trasladar reglas de categoría abierta.
 
----
+La zona y el FTS se planifican juntos; una medida técnica no elimina el espacio necesario.
 
-## 1. CONCEPTOS PRINCIPALES
-- **Riesgo en tierra (Ground Risk):** Probabilidad y gravedad de que un UAS cause daños a personas no participantes o infraestructuras en la superficie durante una operación.
-- **Zona Terrestre Controlada:** Área en la superficie donde el operador garantiza que solo se encuentran personas participantes en la operación y que no comprende ninguna concentración de personas.
-- **Margen de riesgo en tierra:** Distancia de seguridad adicional que rodea al volumen operacional para mitigar el riesgo ante una pérdida de control.
-- **Entorno escasamente poblado:** Requisito operativo para STS-02 que limita la exposición de terceros al riesgo en tierra.
-- **Mitigación por FTS:** Uso del sistema de terminación de vuelo como barrera técnica para evitar que la aeronave impacte fuera de las zonas seguras.
+## Método
 
----
+Recuperar una idea previa → explicar → resolver un ejemplo → decidir sin ver la solución → contrastar → transferir cambiando una condición.
 
-## 2. CONCEPTOS PUENTE Y RELACIONES
-- **FTS (Bloque 5) ↔ Riesgo en tierra:** El FTS es el puente técnico. Su activación en el momento oportuno impide que la UA vuele fuera del volumen de operación, conteniendo el riesgo en tierra.
-- **VLOS (Bloque 3/4) ↔ Despegue y Aterrizaje:** El mantenimiento del alcance visual (VLOS) durante las fases críticas de despegue y aterrizaje es una mitigación operacional obligatoria en STS-02 para asegurar el área de contacto.
-- **Geografía de vuelo ↔ Zona terrestre controlada:** La zona terrestre controlada debe comprender las proyecciones en superficie tanto del volumen operacional como de la zona de prevención.
+Las preguntas nuevas son adaptadas, no preguntas oficiales de AESA. Los ejemplos son ficticios y no autorizan vuelos. Los límites del escenario, del equipo y del lugar deben cumplirse simultáneamente.
 
----
+## Personas y zona controlada
 
-## 3. DEPENDENCIAS Y GRAFO DE CONOCIMIENTO
-1. **Definiciones Base:** Riesgo en tierra y Zona terrestre controlada.
-2. **Mitigación STS-01:** Contención en entornos poblados mediante FTS y zona controlada.
-3. **Mitigación STS-02:** Operación en entornos escasamente poblados y márgenes de seguridad calculados.
-4. **Procedimientos de Vuelo:** Gestión de la trayectoria y vigilancia VLOS en fases críticas.
+La zona terrestre controlada es aquella donde el operador garantiza que solo hay personas participantes. Participar requiere consentimiento explícito e información y medidas adecuadas; estar cerca o ver una señal no basta. Se controla toda la superficie necesaria, sin concentraciones de personas.
 
----
+**Ejemplo resuelto:** Una valla cubre el despegue pero deja un camino dentro de la huella del vuelo. La zona no está resuelta aunque nadie esté junto al piloto.
 
-## 4. DESARROLLO COMPLETO DE EPÍGRAFES OFICIALES (PÁGS. 11–12)
+**Error habitual:** Confundir señalizar con garantizar control efectivo.
 
-### I. Definiciones y responsabilidades
-- **a) Riesgo en tierra:** Definición técnica de la amenaza a terceros en superficie.
-- **b) Zona terrestre controlada:** Concepto de área segregada bajo responsabilidad del operador.
-- **l) Margen de riesgo en tierra (STS-02):** El piloto debe ser capaz de describir la distancia necesaria para cubrir este margen, la cual depende de la velocidad y altura de la aeronave para asegurar que, en caso de fallo, el impacto ocurra dentro de un área segura.
+**Comprobación:** Un peatón ve un cartel de drones. ¿Se convierte automáticamente en participante?
 
-### II. Riesgo en tierra en STS-01 (VLOS / Poblado)
-- **a) Riesgo Intrínseco:** Se debe explicar que el riesgo en tierra en STS-01 es significativamente mayor que en la categoría abierta debido a la operación en **entornos poblados**. Por ello, la finalidad de la zona terrestre controlada es crear un "escudo" físico libre de personas ajenas.
-- **b) Mitigación Técnica (FTS):** El Sistema de Terminación de Vuelo no solo sirve para el riesgo en aire; es una herramienta crítica para mitigar el riesgo en tierra al forzar la caída controlada del UAS dentro del perímetro de seguridad si se pierde el mando.
+**Respuesta razonada:** No; ver un cartel no sustituye consentimiento e información adecuados.
 
-### III. Riesgo en tierra en STS-02 (BVLOS / Poco poblado)
-- **a) Riesgo Intrínseco:** El riesgo es mayor que en categoría abierta debido a la **falta de visión directa constante** (BVLOS) y las velocidades/pesos de los UAS de clase C6.
-- **b) Entorno Escasamente Poblado:** Es un requisito operativo fundamental. El hecho de que la zona terrestre controlada esté en un entorno rural o poco poblado reduce drásticamente la probabilidad de que haya personas no participantes expuestas.
-- **c) Despegue y Aterrizaje en VLOS:** Aunque el vuelo de crucero sea BVLOS, el despegue y el aterrizaje deben realizarse **siempre en VLOS**. Este es un requisito operacional específico para mitigar el riesgo de impacto accidental con personas u obstáculos cercanos al punto de contacto con el suelo.
+**Fuente:** [Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777).
 
----
+## Geografía, contingencia y volumen
 
-## 5. RELACIÓN STS-01 / STS-02
-- **STS-01:** Zona controlada en entorno poblado; alta dependencia del FTS para evitar impactos fuera del área.
-- **STS-02:** Zona controlada en entorno escasamente poblado; despegue/aterrizaje obligatorio en VLOS y aplicación de márgenes de riesgo calculados.
+La geografía de vuelo contiene el vuelo normal. El volumen de contingencia permite gestionar desviaciones; juntos forman el volumen operacional. En superficie, la zona controlada comprende las áreas correspondientes y el margen de riesgo en tierra. Se distinguen volumen tridimensional y proyección sobre el terreno.
 
----
+**Ejemplo resuelto:** Un plano que solo dibuja la trayectoria omite espacio para contingencias y riesgo residual. La valla no debe decidirse antes de dimensionar la huella completa.
 
-## 6. DATOS CRÍTICOS PARA EXAMEN
-- **Concentraciones de personas:** Prohibición absoluta de que la zona terrestre controlada comprenda alguna concentración de personas.
-- **VLOS STS-02:** El despegue y aterrizaje deben ser obligatoriamente en alcance visual.
-- **Función dual del FTS:** Mitiga el riesgo tanto en aire como en tierra.
-- **Proyecciones en superficie:** La zona controlada debe incluir la proyección de todo el volumen operacional y la zona de prevención.
+**Error habitual:** Usar trayectoria, volumen y zona terrestre como sinónimos.
 
----
+**Comprobación:** ¿Qué integra el volumen operacional?
 
-## 7. ERRORES Y CONFUSIONES FRECUENTES
-1. **Confundir VLOS en STS-02:** Creer que toda la misión puede ser BVLOS; se olvida que el despegue/aterrizaje exige VLOS.
-2. **Criterio de Población:** Pensar que STS-01 y STS-02 operan bajo las mismas condiciones de población (STS-01 es para poblado, STS-02 para poco poblado).
-3. **Responsabilidad de Zona:** Creer que la zona controlada es solo un papel; el piloto debe asegurar físicamente que no hay intrusos.
+**Respuesta razonada:** La geografía de vuelo y el volumen de contingencia.
 
----
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
 
-## 8. PREGUNTAS QUE NACEN DEL CONTENIDO
-- ¿Por qué se considera que el riesgo intrínseco en tierra de un STS-01 es mayor que el de la categoría abierta?
-- ¿En qué fase de una operación STS-02 es obligatorio para el piloto mantener el dron dentro de su alcance visual (VLOS)?
-- ¿Cuál es la finalidad técnica del Sistema de Terminación de Vuelo (FTS) en relación con el riesgo en tierra?
-- ¿Qué áreas en superficie debe comprender obligatoriamente la zona terrestre controlada?
-- ¿Qué limitación poblacional existe para la ubicación de una zona terrestre controlada en STS-ES-NE?
+## Contingencia: mínimo exterior
 
----
+En STS-01 sin anclaje y en STS-02, el límite exterior de la zona de contingencia se sitúa al menos 10 m más allá del límite de la zona geográfica de vuelo. El margen de riesgo en tierra empieza después de la contingencia; no se suman como si fueran la misma banda.
 
-## 9. ESCENARIOS PRÁCTICOS
-- **Escenario 1 (STS-01):** Un piloto opera en una plaza urbana vallada. Si el dron experimenta una pérdida de mando y deriva hacia la valla, el piloto activa el **FTS** para asegurar que la UA caiga dentro de la zona controlada y no sobre los peatones fuera del vallado.
-- **Escenario 2 (STS-02):** Un operador planifica un vuelo BVLOS en un campo de cultivo. Sitúa al piloto en una loma para asegurar el **despegue y el aterrizaje en VLOS**, mientras el dron realiza la inspección a 3 km de distancia en modo BVLOS.
+**Ejemplo resuelto:** Desde un borde de la geografía de vuelo, 10 m de contingencia y 15 m de margen del ejemplo suman 25 m hasta el límite exterior. Los 15 m no incluyen los 10 m.
 
----
+**Error habitual:** Contar el margen desde la trayectoria o absorber la contingencia dentro de él.
 
-## 10. VOCABULARIO Y SIGLAS
-- **FTS:** Flight Termination System (Sistema de Terminación de Vuelo).
-- **VLOS:** Visual Line of Sight (Alcance visual).
-- **BVLOS:** Beyond Visual Line of Sight (Más allá del alcance visual).
-- **Zona Terrestre Controlada:** Área delimitada libre de personas ajenas.
-- **Margen de riesgo:** Distancia de amortiguación para seguridad en tierra.
+**Comprobación:** Con 10 m de contingencia y 15 m de margen, ¿qué separación hay desde ese borde de geografía hasta el exterior?
 
----
+**Respuesta razonada:** 25 m en el ejemplo unidimensional.
 
-## 11. MATERIAL PARA PROFESOR PLUS (Contenido Complementario)
+**Fuente:** [Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777).
 
-*Basado en Resolución 10/11/2024 y RD 517/2024:*
+## Tabla STS-01 sin anclaje
 
-- **Identificación de Obstáculos:** Antes del vuelo, el piloto debe detectar obstáculos en el volumen operacional que puedan dificultar la misión o afectar a las corrientes de viento locales.
-- **Intrusión de personas:** Ante la entrada de una persona no participante en la zona terrestre controlada, el piloto debe adoptar medidas inmediatas para mantener la seguridad (ej. estacionario, alejamiento o aterrizaje).
-- **UAS de Construcción Privada (STS-ES-02NE):** Si no hay MTOM del fabricante, el operador debe garantizar que la masa es inferior a **25 kg**.
-- **Luz verde intermitente:** Obligatoria para vuelos nocturnos para asegurar la visibilidad de la aeronave (mitigación operativa de riesgo).
+El mínimo del margen depende de altura máxima sobre el suelo y de MTOM: a 30/60/90/120 m, para MTOM hasta 10 kg inclusive, 10/15/20/25 m; para MTOM superior a 10 kg, 20/30/45/60 m. Se mide más allá de la contingencia. Son mínimos: viento, características de vuelo y reacción pueden exigir ampliación.
 
----
+**Ejemplo resuelto:** MTOM exactamente 10 kg y altura máxima 60 m: margen mínimo 15 m más allá de la contingencia. Con contingencia mínima de 10 m, suman 25 m desde el borde de geografía en ese lado.
 
-## 12. AUDITORÍA DE EPÍGRAFES
-- [x] **I. Definiciones y responsabilidades:** Riesgo, zona controlada y márgenes cubiertos.
-- [x] **II. Riesgo en tierra STS-01:** Comparación con categoría abierta y uso del FTS cubiertos.
-- [x] **III. Riesgo en tierra STS-02:** Comparación con categoría abierta, entorno poco poblado y requisito VLOS cubiertos.
+**Error habitual:** Elegir columna por masa real en vez de MTOM o sumar desde el punto de despegue.
 
-**Ingeniería del Bloque 8 finalizada y auditada bajo estándares Syllabus STS Ed.2.**
+**Comprobación:** Con MTOM 12 kg y altura máxima 90 m, ¿qué margen mínimo indica la tabla STS-01 sin anclaje?
+
+**Respuesta razonada:** 45 m más allá de la zona de contingencia.
+
+**Fuente:** [Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777).
+
+## Margen STS-02
+
+En STS-02 el margen cubre al menos la distancia que con mayor probabilidad recorrerá la UA tras activar los medios de terminación, indicada por el fabricante y considerando las condiciones dentro de sus límites. No se inventa una cifra universal a partir de altura o velocidad ni se traslada sin más la tabla de STS-01.
+
+**Ejemplo resuelto:** El manual del ejemplo indica 80 m para la condición prevista y el plano deja 50 m. Faltan 30 m respecto a ese dato; se replantea antes de operar.
+
+**Error habitual:** Aplicar la tabla STS-01 a cualquier C6.
+
+**Comprobación:** El fabricante indica 80 m tras terminación para el caso y el margen previsto es 50 m. ¿Qué concluyes?
+
+**Respuesta razonada:** No cubre la distancia indicada; hay que replantear el margen.
+
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
+
+## FTS y riesgo residual
+
+El FTS reduce el riesgo mediante la terminación prevista, pero no garantiza un punto exacto de impacto ni ausencia de daños. En C5 sin anclaje se requieren medios para reducir las consecuencias dinámicas del impacto; su efectividad y condiciones de uso se comprueban. El margen sigue siendo necesario.
+
+**Ejemplo resuelto:** Un paracaídas puede reducir consecuencias, pero necesita condiciones de despliegue. Su presencia no permite eliminar el margen ni situar personas bajo la trayectoria.
+
+**Error habitual:** Presentar el FTS como caída controlada e infalible.
+
+**Comprobación:** Hay FTS y reducción de impacto. ¿Puede eliminarse el margen de riesgo en tierra?
+
+**Respuesta razonada:** No; la terminación no elimina el riesgo residual ni el margen requerido.
+
+**Fuente:** [Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523).
+
+## STS-02: entorno y fases
+
+La zona controlada debe estar enteramente en entorno escasamente poblado. Lanzamiento y recuperación se mantienen a la vista del piloto, salvo recuperación como resultado de terminación de emergencia. Durante el crucero se cumplen distancias, vigilancia, visibilidad y demás condiciones; el entorno rural no exime de controlar personas.
+
+**Ejemplo resuelto:** Una misión se aleja 3 km del piloto y recupera en VLOS. Recuperar a la vista no corrige la superación del máximo de separación STS-02.
+
+**Error habitual:** Comprobar solo despegue y aterrizaje.
+
+**Comprobación:** Una misión con observadores alcanza 3 km y recupera en VLOS. ¿Queda resuelta por esa recuperación?
+
+**Respuesta razonada:** No; sigue incumpliendo el máximo UA-piloto de 2 km.
+
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
+
+## Intrusión y replanteo
+
+Si no se puede garantizar la zona, no se inicia o se adapta/termina con seguridad según el procedimiento. El operador define la zona y el piloto verifica su adecuación real. La regla A2 de distancias y su referencia 1:1 no sustituyen la geometría propia de STS. Para UAS anclados STS-01, se consulta la condición específica de radio: longitud del anclaje más 5 m.
+
+**Ejemplo resuelto:** Con anclaje de 20 m, el radio de zona del ejemplo es 25 m respecto al punto de fijación. Eso no convierte 25 m en margen universal de una aeronave sin anclaje.
+
+**Error habitual:** Importar una fórmula de otro escenario sin comprobar su ámbito.
+
+**Comprobación:** En STS-01 con anclaje de 20 m, ¿qué radio resulta de la regla específica?
+
+**Respuesta razonada:** 25 m desde el punto de fijación en superficie.
+
+**Fuente:** [Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777).
+
+## Revisión de cobertura
+
+Este refuerzo reorganiza las ideas centrales en ocho unidades. No se presenta como desarrollo exhaustivo de cada subepígrafe del syllabus. La matriz global registra las ampliaciones que aún requieren desarrollo y revisión humana.

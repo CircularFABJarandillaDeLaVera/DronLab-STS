@@ -1,114 +1,126 @@
-[
-  {
-    "id": "B2-PR-001",
-    "titulo": "Checklist de aptitud psicofisica",
-    "objetivo": "Crear una comprobacion previa de aptitud medica, sustancias, fatiga, estres y salud general.",
-    "dificultad": "facil",
-    "tiempo_estimado": "20 min",
-    "material_necesario": ["Ingenieria del Bloque 2", "Plantilla de checklist", "Ficha de operacion"],
-    "contexto": "Antes de una operacion STS, el piloto debe confirmar que su estado fisico y mental permite operar con seguridad.",
-    "instrucciones_paso_a_paso": [
-      "Incluye una pregunta sobre estado general de salud.",
-      "Incluye una pregunta sobre alcohol, medicinas, drogas y sustancias psicoactivas.",
-      "Incluye una escala simple de fatiga y alerta.",
-      "Incluye una pregunta sobre estres y presion comercial.",
-      "Define un criterio claro para detener o aplazar la operacion."
-    ],
-    "criterios_de_exito": [
-      "La checklist cubre aptitud medica y factores psicologicos.",
-      "No reduce el problema solo al consumo de alcohol.",
-      "Incluye una decision operativa conservadora."
-    ],
-    "errores_habituales": [
-      "Olvidar medicinas.",
-      "No preguntar por estres.",
-      "No definir criterio de parada."
-    ],
-    "conceptos_relacionados": ["Aptitud medica", "Sustancias", "Fatiga", "Estres"],
-    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
-  },
-  {
-    "id": "B2-PR-002",
-    "titulo": "Practica de barrido visual 10-15 grados",
-    "objetivo": "Ejecutar y explicar la tecnica de barrido visual en saltos de 10 a 15 grados.",
-    "dificultad": "media",
-    "tiempo_estimado": "25 min",
-    "material_necesario": ["Espacio abierto seguro", "Referencia visual en el horizonte", "Cronometro"],
-    "contexto": "La deteccion de trafico tripulado a distancia es dificil y no debe hacerse con mirada fija.",
-    "instrucciones_paso_a_paso": [
-      "Elige un sector visual libre de obstaculos.",
-      "Fija la mirada en un punto durante unos instantes.",
-      "Salta 10 a 15 grados hacia un lado.",
-      "Vuelve a enfocar y repite el patron.",
-      "Explica por que la mirada fija reduce la deteccion."
-    ],
-    "criterios_de_exito": [
-      "El alumno describe la tecnica de 10-15 grados.",
-      "Evita barridos continuos sin enfoque.",
-      "Relaciona la tecnica con deteccion de trafico."
-    ],
-    "errores_habituales": [
-      "Mover la mirada de forma aleatoria.",
-      "Mirar fijo un unico punto.",
-      "No eliminar distracciones."
-    ],
-    "conceptos_relacionados": ["Barrido visual", "Atencion", "Trafico tripulado", "Distracciones"],
-    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
-  },
-  {
-    "id": "B2-PR-003",
-    "titulo": "Evaluacion de entorno y cuerpo humano",
-    "objetivo": "Identificar como sol, clima y temperatura afectan al piloto, no solo al UAS.",
-    "dificultad": "media",
-    "tiempo_estimado": "25 min",
-    "material_necesario": ["Ficha meteorologica de ejemplo", "Tabla de riesgos humanos", "Checklist de operacion"],
-    "contexto": "El bloque incluye deslumbramiento, lluvia, nieve, cenizas, hipotermia, congelacion, quemaduras solares y motricidad fina.",
-    "instrucciones_paso_a_paso": [
-      "Lista los factores ambientales previstos.",
-      "Marca cuales afectan a la vision del piloto.",
-      "Marca cuales afectan a motricidad fina o salud.",
-      "Anade una medida preventiva por cada factor.",
-      "Decide si la operacion es aceptable, requiere pausa o debe aplazarse."
-    ],
-    "criterios_de_exito": [
-      "Se identifican efectos sobre el ser humano.",
-      "Aparecen vision y motricidad fina.",
-      "La decision no se basa solo en el rendimiento del UAS."
-    ],
-    "errores_habituales": [
-      "Pensar que el sol solo afecta al UAS.",
-      "Subestimar frio intenso.",
-      "No proteger al piloto."
-    ],
-    "conceptos_relacionados": ["Sol", "Clima", "Motricidad fina", "Consciencia situacional"],
-    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
-  },
-  {
-    "id": "B2-PR-004",
-    "titulo": "Registro post-vuelo de fatiga",
-    "objetivo": "Preparar una nota post-vuelo que incluya fatiga de la tripulacion y factores humanos observados.",
-    "dificultad": "dificil",
-    "tiempo_estimado": "30 min",
-    "material_necesario": ["Informe post-vuelo ficticio", "Ingenieria del Bloque 2", "Lista de factores humanos"],
-    "contexto": "La ingenieria indica la obligacion de registrar la fatiga de la tripulacion en informes post-vuelo.",
-    "instrucciones_paso_a_paso": [
-      "Describe duracion y carga de trabajo de la operacion.",
-      "Anota signos de fatiga, estres o perdida de atencion.",
-      "Relaciona cada signo con un efecto operativo.",
-      "Propone una accion preventiva para la siguiente operacion.",
-      "Redacta una conclusion breve sin ocultar factores humanos."
-    ],
-    "criterios_de_exito": [
-      "La fatiga queda registrada.",
-      "Se conectan sintomas con seguridad operacional.",
-      "La accion preventiva es concreta."
-    ],
-    "errores_habituales": [
-      "Registrar solo incidencias tecnicas.",
-      "No documentar fatiga por parecer subjetiva.",
-      "No cerrar con accion preventiva."
-    ],
-    "conceptos_relacionados": ["Fatiga", "Gestion de sucesos", "Post-vuelo", "Consciencia situacional"],
-    "referencia_al_bloque": "Bloque 2 · Syllabus STS paginas 4-5 · Estado VALIDADO"
-  }
-]
+{
+  "titulo": "Practicas · Bloque 2",
+  "total": 3,
+  "practicas": [
+    {
+      "id": "B2-R26-P-001",
+      "titulo": "Taller de decisión: Salud, medicación y sustancias",
+      "objetivo": "Detectar una degradación humana y elegir una medida proporcionada antes de que afecte al control.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Un medicamento lleva advertencia de somnolencia y el piloto nota lentitud. No inicia el vuelo y consulta las indicaciones y al profesional correspondiente.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Un tratamiento produce somnolencia perceptible. ¿Qué procede?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Afirmar que toda medicación está prohibida o que una receta elimina cualquier efecto."
+      ],
+      "conceptos_relacionados": [
+        "Salud, medicación y sustancias"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "resultado_esperado": "No operar mientras la capacidad esté comprometida. El piloto no opera bajo efectos de alcohol o sustancias psicoactivas ni cuando enfermedad, lesión, fatiga o medicación comprometen su capacidad. No todos los medicamentos tienen los mismos efectos: se atiende a las advertencias del tratamiento y al estado real, sin modificarlo por cuenta propia.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B2-R26-P-002",
+      "titulo": "Taller de decisión: Visión y deslumbramiento",
+      "objetivo": "Detectar una degradación humana y elegir una medida proporcionada antes de que afecte al control.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Al girar hacia el sol se pierde contraste. Cambiar el punto de operación exige comprobar de nuevo cobertura, comunicaciones y límites; no basta con entrecerrar los ojos.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Se ve un punto, pero no se distingue su trayectoria. ¿Qué valoración es correcta?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Equiparar ver un punto con vigilancia eficaz."
+      ],
+      "conceptos_relacionados": [
+        "Visión y deslumbramiento"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "resultado_esperado": "La mera detección no demuestra vigilancia visual suficiente. Sol, contraste, tamaño aparente, lluvia, nieve, humo u obstáculos afectan a la detección. Que un objeto sea visible no implica poder identificar su actitud y trayectoria o detectar otro tráfico a tiempo. Se revisa la posición del piloto y de los observadores.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B2-R26-P-003",
+      "titulo": "Taller de decisión: Coordinación y comunicación",
+      "objetivo": "Detectar una degradación humana y elegir una medida proporcionada antes de que afecte al control.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Un observador comunica tráfico con posición y evolución; el piloto confirma y aplica el procedimiento previsto. Si se pierde la comunicación, se aplica la contingencia definida.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Un aviso de tráfico resulta ambiguo. ¿Qué debe hacer el equipo?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Suponer que el observador transmite datos o que el piloto los ha entendido sin confirmación."
+      ],
+      "conceptos_relacionados": [
+        "Coordinación y comunicación"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "resultado_esperado": "Aclarar y confirmar el mensaje aplicando el procedimiento previsto. En BVLOS aumenta la importancia de una imagen compartida de la situación. Si hay observadores, se acuerdan roles, sectores, mensajes y confirmaciones. La telemetría informa sobre el UAS; no reemplaza por sí sola la vigilancia del espacio aéreo. STS-02 también prevé una configuración sin observadores bajo condiciones específicas.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    }
+  ]
+}

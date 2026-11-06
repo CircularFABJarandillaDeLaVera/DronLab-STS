@@ -1,4 +1,4 @@
-﻿(() => {
+(() => {
   const app = document.getElementById('examApp');
   const configUrl = app?.dataset.config || 'exam-config.json';
   let config;
@@ -262,7 +262,7 @@
       </section>
       <section class="mode-grid">
         <button class="mode-card" id="studyMode"><h2>Modo estudio</h2><p>Intentos ilimitados, explicaciones, errores habituales, repeticion por bloque y preguntas falladas.</p></button>
-        <button class="mode-card" id="simMode"><h2>Simulacro oficial</h2><p>${config.exam.question_count} preguntas, ${config.exam.time_minutes} minutos, ${config.exam.pass_percent}% para aprobar. Intento simulado.</p></button>
+        <button class="mode-card" id="simMode"><h2>Simulacro formativo</h2><p>${config.exam.question_count} preguntas, ${config.exam.time_minutes} minutos, ${config.exam.pass_percent}% para aprobar. Intento simulado.</p></button>
       </section>
       <section class="panel question-card">
         <h2>Banco cargado</h2>

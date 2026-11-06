@@ -1,552 +1,935 @@
-﻿[
+{
+  "titulo": "Test · Bloque 1",
+  "bloque": "Reglamentación de la aviación",
+  "total": 24,
+  "preguntas": [
     {
-        "id":  "B1-T-001",
-        "tema":  "Categoria especifica",
-        "subtema":  "Riesgo operacional",
-        "dificultad":  "facil",
-        "pregunta":  "Que caracteriza a la categoria especifica en operaciones UAS?",
-        "respuestas":  [
-                           "Operaciones UAS sin requisitos de registro ni evaluacion",
-                           "Vuelos permitidos automaticamente por tener marcado C1 o C2",
-                           "Operaciones UAS que no cumplen la categoria abierta y requieren evaluacion previa del riesgo",
-                           "Misiones que solo dependen de la meteorologia del dia"
-                       ],
-        "respuesta_correcta":  2,
-        "explicacion":  "La categoria especifica se basa en el riesgo operacional y requiere evaluacion previa para garantizar la seguridad.",
-        "error_habitual":  "Tratar la categoria especifica como una simple extension de la categoria abierta.",
-        "referencia_concepto":  "Categoria especifica",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-001",
+      "tema": "Categoria especifica",
+      "subtema": "Riesgo operacional",
+      "dificultad": "facil",
+      "pregunta": "Que caracteriza a la categoria especifica en operaciones UAS?",
+      "respuestas": [
+        "Operaciones UAS sin requisitos de registro ni evaluacion",
+        "Vuelos permitidos automaticamente por tener marcado C1 o C2",
+        "Operaciones UAS que no cumplen la categoria abierta y requieren evaluacion previa del riesgo",
+        "Misiones que solo dependen de la meteorologia del dia"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La operación no encaja en abierta y debe determinarse si corresponde a específica o certificada. STS usa una evaluación previamente establecida; no se exige una SORA nueva para cada operación ajustada a STS.",
+      "error_habitual": "Tratar la categoria especifica como una simple extension de la categoria abierta.",
+      "referencia_concepto": "Bloque 1: Categoria especifica",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-002",
-        "tema":  "Marco legal",
-        "subtema":  "Fundamento",
-        "dificultad":  "media",
-        "pregunta":  "Que normas forman parte del fundamento legal de las operaciones STS?",
-        "respuestas":  [
-                           "Reglamento (UE) 2019/947 y RD 517/2024",
-                           "Solo el manual interno del operador",
-                           "Unicamente el marcado de clase C5/C6",
-                           "La escala Beaufort y las reglas meteorologicas"
-                       ],
-        "respuesta_correcta":  0,
-        "explicacion":  "El Reglamento (UE) 2019/947 y el RD 517/2024 forman parte del marco normativo aplicable.",
-        "error_habitual":  "Estudiar STS sin ubicarlo en su marco normativo.",
-        "referencia_concepto":  "Marco normativo STS",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-002",
+      "tema": "Marco legal",
+      "subtema": "Fundamento",
+      "dificultad": "media",
+      "pregunta": "Que normas forman parte del fundamento legal de las operaciones STS?",
+      "respuestas": [
+        "Reglamento (UE) 2019/947 y RD 517/2024",
+        "Solo el manual interno del operador",
+        "Unicamente el marcado de clase C5/C6",
+        "La escala Beaufort y las reglas meteorologicas"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El Reglamento (UE) 2019/947 y el RD 517/2024 forman parte del marco normativo aplicable.",
+      "error_habitual": "Estudiar STS sin ubicarlo en su marco normativo.",
+      "referencia_concepto": "Bloque 1: Marco legal",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-003",
-        "tema":  "SORA",
-        "subtema":  "Evaluacion de riesgo",
-        "dificultad":  "facil",
-        "pregunta":  "Que es SORA?",
-        "respuestas":  [
-                           "Una declaracion telematica para cualquier vuelo recreativo",
-                           "Una zona geografica UAS restringida",
-                           "Una herramienta de consulta cartografica equivalente a ENAIRE Drones",
-                           "Una metodologia armonizada por EASA para evaluar sistematicamente el riesgo de una operacion UAS"
-                       ],
-        "respuesta_correcta":  3,
-        "explicacion":  "SORA significa Specific Operations Risk Assessment y evalua de forma sistematica el riesgo operacional.",
-        "error_habitual":  "Memorizar la sigla sin asociarla a la evaluacion de riesgos.",
-        "referencia_concepto":  "Evaluacion de Riesgos y Metodologia SORA",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-003",
+      "tema": "SORA",
+      "subtema": "Evaluacion de riesgo",
+      "dificultad": "facil",
+      "pregunta": "Que es SORA?",
+      "respuestas": [
+        "Una declaracion telematica para cualquier vuelo recreativo",
+        "Una zona geografica UAS restringida",
+        "Una herramienta de consulta cartografica equivalente a ENAIRE Drones",
+        "Una metodologia armonizada por EASA para evaluar sistematicamente el riesgo de una operacion UAS"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "SORA significa Specific Operations Risk Assessment y evalua de forma sistematica el riesgo operacional.",
+      "error_habitual": "Memorizar la sigla sin asociarla a la evaluacion de riesgos.",
+      "referencia_concepto": "Bloque 1: SORA",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-004",
-        "tema":  "SORA y STS",
-        "subtema":  "Concepto puente",
-        "dificultad":  "media",
-        "pregunta":  "Como se relacionan los escenarios STS con SORA?",
-        "respuestas":  [
-                           "Los STS obligan siempre al operador a hacer una SORA desde cero",
-                           "Los STS nacen de una evaluacion SORA ya realizada previamente por la autoridad competente",
-                           "SORA solo aplica a categoria abierta",
-                           "SORA sustituye a la declaracion operacional en todos los casos"
-                       ],
-        "respuesta_correcta":  1,
-        "explicacion":  "Al acogerse a un STS, el operador utiliza un escenario cuya evaluacion de riesgo ya fue realizada por la autoridad.",
-        "error_habitual":  "Creer que todo operador STS debe construir una SORA completa desde cero.",
-        "referencia_concepto":  "SORA - STS",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-005",
+      "tema": "PDRA",
+      "subtema": "Evaluacion predefinida",
+      "dificultad": "media",
+      "pregunta": "Que es una PDRA?",
+      "respuestas": [
+        "Una evaluacion de riesgo predefinida publicada para tipos de misiones comunes",
+        "Un permiso automatico para sobrevolar concentraciones de personas",
+        "Una clase de espacio aereo peligroso",
+        "Un sistema de identificacion remota obligatorio"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "PDRA significa Pre-Defined Risk Assessment y estandariza requisitos de seguridad para misiones comunes.",
+      "error_habitual": "Confundir PDRA con un escenario STS o con una autorizacion sin requisitos.",
+      "referencia_concepto": "Bloque 1: PDRA",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-005",
-        "tema":  "PDRA",
-        "subtema":  "Evaluacion predefinida",
-        "dificultad":  "media",
-        "pregunta":  "Que es una PDRA?",
-        "respuestas":  [
-                           "Una evaluacion de riesgo predefinida publicada para tipos de misiones comunes",
-                           "Un permiso automatico para sobrevolar concentraciones de personas",
-                           "Una clase de espacio aereo peligroso",
-                           "Un sistema de identificacion remota obligatorio"
-                       ],
-        "respuesta_correcta":  0,
-        "explicacion":  "PDRA significa Pre-Defined Risk Assessment y estandariza requisitos de seguridad para misiones comunes.",
-        "error_habitual":  "Confundir PDRA con un escenario STS o con una autorizacion sin requisitos.",
-        "referencia_concepto":  "PDRA",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-006",
+      "tema": "Declaracion operacional",
+      "subtema": "Naturaleza",
+      "dificultad": "media",
+      "pregunta": "Que comunica el operador mediante una declaracion operacional STS?",
+      "respuestas": [
+        "Que la autoridad ya ha autorizado una operacion fuera de STS sin revisar riesgos",
+        "Que puede operar sin manuales ni mantenimiento",
+        "Su intencion de realizar una operacion ajustada a un STS y que cumple sus requisitos tecnicos y operativos",
+        "Que no necesita estar registrado en ningun Estado miembro"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La declaracion operacional es un tramite administrativo responsable para operaciones ajustadas a un escenario estandar.",
+      "error_habitual": "Confundir declaracion operacional con autorizacion especifica.",
+      "referencia_concepto": "Bloque 1: Declaracion operacional",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-006",
-        "tema":  "Declaracion operacional",
-        "subtema":  "Naturaleza",
-        "dificultad":  "media",
-        "pregunta":  "Que comunica el operador mediante una declaracion operacional STS?",
-        "respuestas":  [
-                           "Que la autoridad ya ha autorizado una operacion fuera de STS sin revisar riesgos",
-                           "Que puede operar sin manuales ni mantenimiento",
-                           "Su intencion de realizar una operacion ajustada a un STS y que cumple sus requisitos tecnicos y operativos",
-                           "Que no necesita estar registrado en ningun Estado miembro"
-                       ],
-        "respuesta_correcta":  2,
-        "explicacion":  "La declaracion operacional es un tramite administrativo responsable para operaciones ajustadas a un escenario estandar.",
-        "error_habitual":  "Confundir declaracion operacional con autorizacion especifica.",
-        "referencia_concepto":  "Declaracion Operacional",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-008",
+      "tema": "Responsabilidades",
+      "subtema": "Operador",
+      "dificultad": "facil",
+      "pregunta": "Que responsabilidad corresponde al operador?",
+      "respuestas": [
+        "Realizar siempre la maniobra evasiva en vuelo",
+        "Sustituir al observador del espacio aereo en STS-02",
+        "Determinar la escala Beaufort de la operacion",
+        "Establecer procedimientos, manuales y asegurar el mantenimiento"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "El operador establece procedimientos, manuales y mantenimiento dentro de sus responsabilidades.",
+      "error_habitual": "Atribuir al piloto todas las obligaciones del operador.",
+      "referencia_concepto": "Bloque 1: Responsabilidades",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-007",
-        "tema":  "Declaracion y autorizacion",
-        "subtema":  "Diferenciacion",
-        "dificultad":  "media",
-        "pregunta":  "Cuando se requiere autorizacion en lugar de declaracion STS?",
-        "respuestas":  [
-                           "Siempre que se use un dron C5 en STS-01",
-                           "Cuando la mision no encaja en STS o PDRA y requiere SORA especifica",
-                           "Cuando el piloto opera en VLOS dentro de STS-01",
-                           "Cuando se consulta ENAIRE Drones antes del vuelo"
-                       ],
-        "respuesta_correcta":  1,
-        "explicacion":  "Si la mision no encaja en STS o PDRA, debe tramitarse autorizacion basada en evaluacion SORA.",
-        "error_habitual":  "Pensar que toda operacion especifica puede resolverse por declaracion.",
-        "referencia_concepto":  "Errores y confusiones frecuentes",
-        "tipo_pregunta":  "recuerdo",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-009",
+      "tema": "Responsabilidades",
+      "subtema": "Piloto",
+      "dificultad": "facil",
+      "pregunta": "Que responsabilidad corresponde al piloto a distancia?",
+      "respuestas": [
+        "Publicar las zonas geograficas UAS",
+        "Emitir una AIC cuando cambie la normativa",
+        "Conducir el vuelo de forma segura y no operar bajo sustancias psicoactivas o fatiga",
+        "Aprobar la declaracion operacional del operador"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El piloto es responsable de la conduccion segura del vuelo y de su aptitud para operar.",
+      "error_habitual": "Olvidar que fatiga y sustancias psicoactivas afectan directamente a la seguridad.",
+      "referencia_concepto": "Bloque 1: Responsabilidades",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-008",
-        "tema":  "Responsabilidades",
-        "subtema":  "Operador",
-        "dificultad":  "facil",
-        "pregunta":  "Que responsabilidad corresponde al operador?",
-        "respuestas":  [
-                           "Realizar siempre la maniobra evasiva en vuelo",
-                           "Sustituir al observador del espacio aereo en STS-02",
-                           "Determinar la escala Beaufort de la operacion",
-                           "Establecer procedimientos, manuales y asegurar el mantenimiento"
-                       ],
-        "respuesta_correcta":  3,
-        "explicacion":  "El operador establece procedimientos, manuales y mantenimiento dentro de sus responsabilidades.",
-        "error_habitual":  "Atribuir al piloto todas las obligaciones del operador.",
-        "referencia_concepto":  "Responsabilidades generales",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-010",
+      "tema": "STS-01",
+      "subtema": "STS-01 frente a STS-02",
+      "dificultad": "facil",
+      "pregunta": "En una mision VLOS en entorno poblado con zona terrestre controlada, que escenario STS encaja?",
+      "respuestas": [
+        "BVLOS, entorno poco poblado, observadores y dron C6",
+        "STS-01 con dron C5",
+        "Vuelo sin zona terrestre controlada sobre concentraciones",
+        "Operacion transfronteriza sin declaracion ni autorizacion"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "STS-01 es el escenario compatible con los datos. Su viabilidad exige comprobar todas las condiciones, no solo VLOS, entorno y marcado C5.",
+      "error_habitual": "Confundir el entorno poblado con permiso para sobrevolar concentraciones.",
+      "referencia_concepto": "Bloque 1: STS-01",
+      "tipo_pregunta": "comparacion",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-009",
-        "tema":  "Responsabilidades",
-        "subtema":  "Piloto",
-        "dificultad":  "facil",
-        "pregunta":  "Que responsabilidad corresponde al piloto a distancia?",
-        "respuestas":  [
-                           "Publicar las zonas geograficas UAS",
-                           "Emitir una AIC cuando cambie la normativa",
-                           "Conducir el vuelo de forma segura y no operar bajo sustancias psicoactivas o fatiga",
-                           "Aprobar la declaracion operacional del operador"
-                       ],
-        "respuesta_correcta":  2,
-        "explicacion":  "El piloto es responsable de la conduccion segura del vuelo y de su aptitud para operar.",
-        "error_habitual":  "Olvidar que fatiga y sustancias psicoactivas afectan directamente a la seguridad.",
-        "referencia_concepto":  "Responsabilidades generales",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-013",
+      "tema": "Marcado de clase",
+      "subtema": "C5/C6",
+      "dificultad": "media",
+      "pregunta": "Que marcado de clase corresponde a los STS europeos?",
+      "respuestas": [
+        "C1 para STS-01 y C2 para STS-02",
+        "C5 para STS-01 y C6 para STS-02",
+        "C0 para ambos escenarios",
+        "C3 para STS-01 y C4 para STS-02"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Para STS europeo se emplean drones con marcado C5 o C6 segun el escenario.",
+      "error_habitual": "Creer que un dron C1 o C2 sirve para STS europeo.",
+      "referencia_concepto": "Bloque 1: Marcado de clase",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-010",
-        "tema":  "STS-01",
-        "subtema":  "STS-01 frente a STS-02",
-        "dificultad":  "facil",
-        "pregunta":  "En una mision VLOS en entorno poblado con zona terrestre controlada, que escenario STS encaja?",
-        "respuestas":  [
-                           "BVLOS, entorno poco poblado, observadores y dron C6",
-                           "STS-01 con dron C5",
-                           "Vuelo sin zona terrestre controlada sobre concentraciones",
-                           "Operacion transfronteriza sin declaracion ni autorizacion"
-                       ],
-        "respuesta_correcta":  1,
-        "explicacion":  "STS-01 se describe como VLOS en entorno poblado, con zona terrestre controlada y drones de clase C5.",
-        "error_habitual":  "Confundir el entorno poblado con permiso para sobrevolar concentraciones.",
-        "referencia_concepto":  "STS-01",
-        "tipo_pregunta":  "comparacion",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-014",
+      "tema": "Concentraciones de personas",
+      "subtema": "Prohibicion",
+      "dificultad": "facil",
+      "pregunta": "Que regla aplica al vuelo sobre concentraciones de personas?",
+      "respuestas": [
+        "Esta permitido en STS-01 por ser entorno poblado",
+        "Esta permitido en STS-02 si hay observadores",
+        "Depende solo del peso del dron",
+        "Esta prohibido tanto en STS-01 como en STS-02"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "El sobrevuelo de concentraciones de personas esta prohibido tanto en STS-01 como en STS-02.",
+      "error_habitual": "Confundir entorno poblado con permiso para sobrevolar concentraciones.",
+      "referencia_concepto": "Bloque 1: Concentraciones de personas",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-011",
-        "tema":  "STS-02",
-        "subtema":  "STS-02 frente a STS-01",
-        "dificultad":  "facil",
-        "pregunta":  "En una inspeccion BVLOS en entorno poco poblado con observadores del espacio aereo, que escenario STS encaja?",
-        "respuestas":  [
-                           "STS-02 con dron C6",
-                           "VLOS, entorno poblado, zona terrestre controlada y dron C5",
-                           "Vuelo urbano con C1 y sin observadores",
-                           "Operacion de categoria abierta sin evaluacion de riesgo"
-                       ],
-        "respuesta_correcta":  0,
-        "explicacion":  "STS-02 permite BVLOS en entorno poco poblado y requiere observadores del espacio aereo y drones C6.",
-        "error_habitual":  "Olvidar el papel de los observadores en STS-02.",
-        "referencia_concepto":  "STS-02",
-        "tipo_pregunta":  "comparacion",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-015",
+      "tema": "Espacio aereo",
+      "subtema": "Soberania",
+      "dificultad": "media",
+      "pregunta": "Que principio juridico se aplica al espacio aereo?",
+      "respuestas": [
+        "El Estado tiene soberania plena sobre su espacio aereo",
+        "El operador privado decide las clases de espacio aereo",
+        "Las zonas UAS no tienen efecto operacional",
+        "El piloto puede ignorar restricciones si vuela bajo STS"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La seccion de espacio aereo indica soberania plena del Estado y restricciones segun tipo de trafico.",
+      "error_habitual": "Pensar que acogerse a STS elimina las restricciones de espacio aereo.",
+      "referencia_concepto": "Bloque 1: Espacio aereo",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-012",
-        "tema":  "Observador",
-        "subtema":  "STS-02",
-        "dificultad":  "media",
-        "pregunta":  "Cual es la funcion del observador del espacio aereo en STS-02?",
-        "respuestas":  [
-                           "Asumir la responsabilidad ultima de la maniobra evasiva",
-                           "Sustituir el Remote ID del UAS",
-                           "Autorizar operaciones transfronterizas",
-                           "Detectar aeronaves tripuladas y obstaculos que el piloto no puede ver directamente"
-                       ],
-        "respuesta_correcta":  3,
-        "explicacion":  "El observador funciona como puente sensorial en BVLOS, pero la responsabilidad final permanece en el piloto.",
-        "error_habitual":  "Pensar que el observador asume la responsabilidad final de la seguridad.",
-        "referencia_concepto":  "Observador del espacio aereo - Piloto",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-017",
+      "tema": "Zonas geograficas UAS",
+      "subtema": "P/R/D",
+      "dificultad": "media",
+      "pregunta": "Que significa una zona R?",
+      "respuestas": [
+        "Remota: zona reservada a BVLOS sin condiciones",
+        "Regular: zona sin restricciones",
+        "Rapida: zona de transito preferente para UAS",
+        "Restringida: vuelo sujeto a condiciones o autorizaciones especificas"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La zona R permite vuelo solo sujeto a condiciones o autorizaciones especificas.",
+      "error_habitual": "Interpretar restringida como prohibida absoluta o como libre.",
+      "referencia_concepto": "Bloque 1: Zonas geograficas UAS",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-013",
-        "tema":  "Marcado de clase",
-        "subtema":  "C5/C6",
-        "dificultad":  "media",
-        "pregunta":  "Que marcado de clase corresponde a los STS europeos?",
-        "respuestas":  [
-                           "C1 para STS-01 y C2 para STS-02",
-                           "C5 para STS-01 y C6 para STS-02",
-                           "C0 para ambos escenarios",
-                           "C3 para STS-01 y C4 para STS-02"
-                       ],
-        "respuesta_correcta":  1,
-        "explicacion":  "Para STS europeo se emplean drones con marcado C5 o C6 segun el escenario.",
-        "error_habitual":  "Creer que un dron C1 o C2 sirve para STS europeo.",
-        "referencia_concepto":  "Marcado de Clase",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-018",
+      "tema": "Informacion aeronautica",
+      "subtema": "AIP y AIC",
+      "dificultad": "media",
+      "pregunta": "Cual es la diferencia correcta entre AIP y AIC?",
+      "respuestas": [
+        "AIP reúne información duradera; AIC comunica información explicativa o de asesoramiento.",
+        "AIP es un mapa de baterias; AIC es una clase de dron",
+        "AIP solo sirve para meteorologia; AIC solo para rendimiento de vuelo",
+        "AIP y AIC son sinonimos exactos"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "AIC puede tratar cuestiones normativas, técnicas o de seguridad y no sustituye el NOTAM cuando corresponde información operacional oportuna.",
+      "error_habitual": "Usar AIP y AIC como sinonimos.",
+      "referencia_concepto": "Bloque 1: Informacion aeronautica",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-014",
-        "tema":  "Concentraciones de personas",
-        "subtema":  "Prohibicion",
-        "dificultad":  "facil",
-        "pregunta":  "Que regla aplica al vuelo sobre concentraciones de personas?",
-        "respuestas":  [
-                           "Esta permitido en STS-01 por ser entorno poblado",
-                           "Esta permitido en STS-02 si hay observadores",
-                           "Depende solo del peso del dron",
-                           "Esta prohibido tanto en STS-01 como en STS-02"
-                       ],
-        "respuesta_correcta":  3,
-        "explicacion":  "El sobrevuelo de concentraciones de personas esta prohibido tanto en STS-01 como en STS-02.",
-        "error_habitual":  "Confundir entorno poblado con permiso para sobrevolar concentraciones.",
-        "referencia_concepto":  "Vuelo sobre concentraciones",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-019",
+      "tema": "ENAIRE Drones",
+      "subtema": "Consulta de zonas",
+      "dificultad": "facil",
+      "pregunta": "Que utilidad tiene ENAIRE Drones para la preparacion de una operacion UAS?",
+      "respuestas": [
+        "Emitir el certificado teorico STS automaticamente",
+        "Sustituir el Manual de Operaciones",
+        "Consultar zonas geograficas UAS representadas en mapas",
+        "Activar el FTS del dron"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "ENAIRE Drones se presenta como herramienta digital oficial para consultar zonas UAS.",
+      "error_habitual": "No consultar zonas geograficas UAS antes del vuelo.",
+      "referencia_concepto": "Bloque 1: ENAIRE Drones",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-015",
-        "tema":  "Espacio aereo",
-        "subtema":  "Soberania",
-        "dificultad":  "media",
-        "pregunta":  "Que principio juridico se aplica al espacio aereo?",
-        "respuestas":  [
-                           "El Estado tiene soberania plena sobre su espacio aereo",
-                           "El operador privado decide las clases de espacio aereo",
-                           "Las zonas UAS no tienen efecto operacional",
-                           "El piloto puede ignorar restricciones si vuela bajo STS"
-                       ],
-        "respuesta_correcta":  0,
-        "explicacion":  "La seccion de espacio aereo indica soberania plena del Estado y restricciones segun tipo de trafico.",
-        "error_habitual":  "Pensar que acogerse a STS elimina las restricciones de espacio aereo.",
-        "referencia_concepto":  "Soberania y designaciones",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-022",
+      "tema": "Remote ID",
+      "subtema": "Requisito critico",
+      "dificultad": "media",
+      "pregunta": "Que se exige sobre identificacion remota en operaciones STS?",
+      "respuestas": [
+        "Remote ID solo es opcional en STS-01",
+        "Remote ID sustituye al observador del espacio aereo",
+        "Remote ID solo se activa tras una emergencia",
+        "La identificación remota directa debe estar activa y actualizada durante la operación STS."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "STS-01 y STS-02 requieren DRI activa y actualizada. Identificar la aeronave no sustituye la vigilancia, la contención ni el control de la zona.",
+      "error_habitual": "Tratar Remote ID como una opcion no obligatoria.",
+      "referencia_concepto": "Bloque 1: Remote ID",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-016",
-        "tema":  "Zonas geograficas UAS",
-        "subtema":  "P/R/D",
-        "dificultad":  "media",
-        "pregunta":  "Que significa una zona P en la clasificacion de zonas UAS?",
-        "respuestas":  [
-                           "Peligrosa: hay actividades peligrosas para la navegacion aerea",
-                           "Publica: permite cualquier vuelo sin condiciones",
-                           "Prohibida: el vuelo esta totalmente prohibido salvo excepciones de Estado",
-                           "Preferente: reservada para operaciones STS-02"
-                       ],
-        "respuesta_correcta":  2,
-        "explicacion":  "La zona P es prohibida; la D es peligrosa y la R restringida.",
-        "error_habitual":  "Mezclar P, R y D como si fueran equivalentes.",
-        "referencia_concepto":  "Zonas Geograficas UAS",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-T-023",
+      "tema": "Manual de Operaciones",
+      "subtema": "Operador",
+      "dificultad": "media",
+      "pregunta": "Que condicion debe cumplir el Manual de Operaciones?",
+      "respuestas": [
+        "Debe existir solo si el piloto opera en categoria abierta",
+        "Debe ser obligatorio, estar actualizado y ser accesible para los pilotos",
+        "Puede estar desactualizado si existe declaracion operacional",
+        "Lo sustituye la consulta a ENAIRE Drones"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El Manual de Operaciones es obligatorio para el operador y debe estar actualizado y accesible.",
+      "error_habitual": "Pensar que el tramite declarativo elimina la necesidad de manual actualizado.",
+      "referencia_concepto": "Bloque 1: Manual de Operaciones",
+      "tipo_pregunta": "comprension",
+      "bloque": 1,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque1/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-017",
-        "tema":  "Zonas geograficas UAS",
-        "subtema":  "P/R/D",
-        "dificultad":  "media",
-        "pregunta":  "Que significa una zona R?",
-        "respuestas":  [
-                           "Remota: zona reservada a BVLOS sin condiciones",
-                           "Regular: zona sin restricciones",
-                           "Rapida: zona de transito preferente para UAS",
-                           "Restringida: vuelo sujeto a condiciones o autorizaciones especificas"
-                       ],
-        "respuesta_correcta":  3,
-        "explicacion":  "La zona R permite vuelo solo sujeto a condiciones o autorizaciones especificas.",
-        "error_habitual":  "Interpretar restringida como prohibida absoluta o como libre.",
-        "referencia_concepto":  "Zonas Geograficas UAS",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-R26-001",
+      "tema": "Riesgo, SORA y PDRA",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Una operación encaja en una PDRA, pero no en un STS. ¿Qué vía debe valorar el operador?",
+      "respuestas": [
+        "Volar directamente por estar el riesgo predefinido.",
+        "Cambiar la PDRA por su cuenta y empezar.",
+        "Solicitar autorización operacional apoyándose en la PDRA.",
+        "Presentar una declaración STS."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La categoría específica cubre operaciones que no cumplen las condiciones de la abierta y que no corresponden a la certificada. SORA es una metodología de evaluación del riesgo; una PDRA es una evaluación predefinida que puede apoyar una solicitud de autorización. El STS ofrece una vía declarativa si se cumplen todas sus condiciones. Una PDRA no es una declaración STS. Ejemplo: Una inspección encaja en una PDRA pero no en STS: el operador utiliza la PDRA para solicitar autorización; no presenta una declaración STS para sustituirla.",
+      "explicaciones_opciones": [
+        "La evaluación no sustituye la autorización.",
+        "Cambiar condiciones requiere evaluación y aceptación de la autoridad.",
+        "La categoría específica cubre operaciones que no cumplen las condiciones de la abierta y que no corresponden a la certificada. SORA es una metodología de evaluación del riesgo; una PDRA es una evaluación predefinida que puede apoyar una solicitud de autorización. El STS ofrece una vía declarativa si se cumplen todas sus condiciones. Una PDRA no es una declaración STS.",
+        "No cumple las condiciones de un STS."
+      ],
+      "error_habitual": "Confundir una evaluación predefinida con permiso automático.",
+      "referencia_concepto": "Riesgo, SORA y PDRA",
+      "leccion_id": "b1-s1",
+      "bloque": 1,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ]
     },
     {
-        "id":  "B1-T-018",
-        "tema":  "Informacion aeronautica",
-        "subtema":  "AIP y AIC",
-        "dificultad":  "media",
-        "pregunta":  "Cual es la diferencia correcta entre AIP y AIC?",
-        "respuestas":  [
-                           "AIP contiene informacion aeronautica duradera; AIC avisa sobre cambios en legislacion o reglamentacion",
-                           "AIP es un mapa de baterias; AIC es una clase de dron",
-                           "AIP solo sirve para meteorologia; AIC solo para rendimiento de vuelo",
-                           "AIP y AIC son sinonimos exactos"
-                       ],
-        "respuesta_correcta":  0,
-        "explicacion":  "AIP contiene informacion aeronautica duradera y AIC avisa sobre cambios normativos o reglamentarios.",
-        "error_habitual":  "Usar AIP y AIC como sinonimos.",
-        "referencia_concepto":  "Fuentes de informacion",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-R26-002",
+      "tema": "Declaración, operador y piloto",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Con declaración STS y UAS C5, una zona sigue abierta a peatones. ¿Qué procede?",
+      "respuestas": [
+        "Cambiar el nombre de la misión a categoría abierta.",
+        "No iniciar hasta que se cumplan las condiciones de la operación.",
+        "Despegar porque basta con la declaración.",
+        "Pedir al piloto que firme para sustituir el control."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El operador prepara el manual, los procedimientos, la competencia del personal y la adecuación del UAS. El piloto verifica las condiciones reales y conduce el vuelo con seguridad. La declaración STS no sustituye las coordinaciones, las zonas geográficas ni los requisitos del piloto. Antes de iniciar, se necesita la confirmación de recepción y de integridad de la declaración por la autoridad. Ejemplo: Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada.",
+      "explicaciones_opciones": [
+        "La categoría depende de las condiciones reales.",
+        "El operador prepara el manual, los procedimientos, la competencia del personal y la adecuación del UAS. El piloto verifica las condiciones reales y conduce el vuelo con seguridad. La declaración STS no sustituye las coordinaciones, las zonas geográficas ni los requisitos del piloto. Antes de iniciar, se necesita la confirmación de recepción y de integridad de la declaración por la autoridad.",
+        "La declaración no hace segura la zona.",
+        "La firma no elimina la exposición de terceros."
+      ],
+      "error_habitual": "Tomar un trámite administrativo como autorización para cualquier vuelo.",
+      "referencia_concepto": "Declaración, operador y piloto",
+      "leccion_id": "b1-s2",
+      "bloque": 1,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ]
     },
     {
-        "id":  "B1-T-019",
-        "tema":  "ENAIRE Drones",
-        "subtema":  "Consulta de zonas",
-        "dificultad":  "facil",
-        "pregunta":  "Que utilidad tiene ENAIRE Drones para la preparacion de una operacion UAS?",
-        "respuestas":  [
-                           "Emitir el certificado teorico STS automaticamente",
-                           "Sustituir el Manual de Operaciones",
-                           "Consultar zonas geograficas UAS representadas en mapas",
-                           "Activar el FTS del dron"
-                       ],
-        "respuesta_correcta":  2,
-        "explicacion":  "ENAIRE Drones se presenta como herramienta digital oficial para consultar zonas UAS.",
-        "error_habitual":  "No consultar zonas geograficas UAS antes del vuelo.",
-        "referencia_concepto":  "ENAIRE Drones",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-R26-003",
+      "tema": "STS-01: encaje completo",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "Un C5 vuela sin anclaje a exactamente 5 m/s en STS-01. ¿Cumple la condición de velocidad?",
+      "respuestas": [
+        "No: la operación exige una velocidad inferior a 5 m/s.",
+        "Sí, porque el modo C5 admite hasta 5 m/s.",
+        "Sí, si no hay espectadores.",
+        "Solo incumple si supera 50 m/s."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "STS-01 exige VLOS, UAS C5 y zona terrestre controlada, que puede situarse en entorno poblado. Para aeronaves sin anclaje, la velocidad respecto al suelo debe ser inferior a 5 m/s. Tener un C5 o volar en un pueblo no demuestra por sí solo el cumplimiento: también se comprueban manual, competencias, identificación remota, espacio aéreo y zonas. El límite general de vuelo es 120 m desde el punto más próximo de la superficie, adaptado al relieve. Existe una excepción junto a obstáculos artificiales de más de 105 m: a menos de 50 m horizontalmente y a petición del responsable, hasta 15 m por encima del obstáculo. Los 30 m adicionales posibles del volumen operacional no autorizan vuelo normal a 150 m. No se transportan mercancías peligrosas en STS. Ejemplo: Una grabación VLOS en una plaza solo se valora como STS-01 tras controlar toda la huella necesaria y comprobar las restantes condiciones. Una cinta en el punto de despegue no basta.",
+      "explicaciones_opciones": [
+        "STS-01 exige VLOS, UAS C5 y zona terrestre controlada, que puede situarse en entorno poblado. Para aeronaves sin anclaje, la velocidad respecto al suelo debe ser inferior a 5 m/s. Tener un C5 o volar en un pueblo no demuestra por sí solo el cumplimiento: también se comprueban manual, competencias, identificación remota, espacio aéreo y zonas.",
+        "El requisito técnico del modo y la condición operacional tienen redacciones distintas.",
+        "La ausencia de espectadores no cambia el límite.",
+        "50 m/s es un requisito máximo de clase C6, no el de STS-01."
+      ],
+      "error_habitual": "Elegir escenario solo por masa, ubicación o etiqueta.",
+      "referencia_concepto": "STS-01: encaje completo",
+      "leccion_id": "b1-s3",
+      "bloque": 1,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ]
     },
     {
-        "id":  "B1-T-020",
-        "tema":  "Datos criticos",
-        "subtema":  "Examen STS",
-        "dificultad":  "facil",
-        "pregunta":  "Que condiciones se exigen para el examen teorico STS?",
-        "respuestas":  [
-                           "Minimo 10 preguntas y 50% de acierto",
-                           "Minimo 40 preguntas y 75% de acierto",
-                           "Sin numero minimo de preguntas ni nota de corte",
-                           "Solo preguntas practicas sin evaluacion teorica"
-                       ],
-        "respuesta_correcta":  1,
-        "explicacion":  "La certificacion final indicada exige examen teorico STS con minimo 40 preguntas y 75% de acierto.",
-        "error_habitual":  "Confundir el test de bloque con los parametros del examen teorico STS.",
-        "referencia_concepto":  "Certificacion final",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-R26-004",
+      "tema": "STS-02: dos configuraciones",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "En STS-02 con observadores, la UA queda a 3 km del piloto. ¿Basta con añadir un observador cercano?",
+      "respuestas": [
+        "Sí, la cadena de observadores amplía el alcance sin límite.",
+        "Sí, si la ruta total mide menos de 10 km.",
+        "Sí, si el enlace de radio llega.",
+        "No: sigue superándose el máximo de 2 km entre UA y piloto."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "STS-02 usa C6 y zona terrestre controlada enteramente en entorno escasamente poblado. Sin observador del espacio aéreo, la UA permanece a no más de 1 km del piloto y sigue trayectoria preprogramada cuando no está en VLOS. Con observadores, el máximo UA-piloto es 2 km, UA-observador más próximo 1 km y observador-piloto 1 km; se exige cobertura y comunicación eficaz. Ejemplo: Una ruta puede tener 10 km de longitud acumulada y exigir varios tramos. Eso no autoriza a alejar la UA 10 km del piloto: se comprueban las distancias en cada instante.",
+      "explicaciones_opciones": [
+        "Los observadores no eliminan el máximo UA-piloto.",
+        "La longitud acumulada no determina la separación admisible.",
+        "El alcance de radio no sustituye las condiciones del escenario.",
+        "STS-02 usa C6 y zona terrestre controlada enteramente en entorno escasamente poblado. Sin observador del espacio aéreo, la UA permanece a no más de 1 km del piloto y sigue trayectoria preprogramada cuando no está en VLOS. Con observadores, el máximo UA-piloto es 2 km, UA-observador más próximo 1 km y observador-piloto 1 km; se exige cobertura y comunicación eficaz."
+      ],
+      "error_habitual": "Confundir longitud de ruta con alcance máximo desde el piloto.",
+      "referencia_concepto": "STS-02: dos configuraciones",
+      "leccion_id": "b1-s4",
+      "bloque": 1,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
     },
     {
-        "id":  "B1-T-021",
-        "tema":  "STS-ES",
-        "subtema":  "Vigencia",
-        "dificultad":  "dificil",
-        "pregunta":  "Hasta que fecha son validos los STS-ES nacionales?",
-        "respuestas":  [
-                           "31/12/2025",
-                           "17/04/2023",
-                           "31/12/2030",
-                           "No tienen fecha limite"
-                       ],
-        "respuesta_correcta":  0,
-        "explicacion":  "Los STS-ES nacionales son validos hasta el 31/12/2025.",
-        "error_habitual":  "Confundir STS europeo con la vigencia concreta de STS-ES nacional.",
-        "referencia_concepto":  "Vigencia STS-ES",
-        "tipo_pregunta":  "escenario",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-R26-005",
+      "tema": "Formación teórica y práctica",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Una persona con A2 obtiene 22 aciertos en 30 preguntas STS. ¿Alcanza el 75 %?",
+      "respuestas": [
+        "Necesita 30 aciertos.",
+        "El A2 sustituye todo el examen STS.",
+        "No; necesita al menos 23 respuestas correctas.",
+        "Sí, porque 22 se redondea a 75 %."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "AESA ofrece examen STS completo de 40 preguntas en 40 minutos desde A1/A3; con A2, 30 en 30 minutos sobre las materias 1 a 5 del syllabus AESA. Se requiere al menos 75 % de aciertos: 30/40 y, por redondeo al entero necesario, 23/30. El certificado teórico no sustituye la acreditación práctica específica para cada escenario. Ejemplo: En el simulacro reducido, 22/30 son 73,33 % y no alcanzan el 75 %. Con 23/30 sí se supera el umbral. La distribución por dificultad del simulador es una decisión didáctica, no oficial.",
+      "explicaciones_opciones": [
+        "El umbral no exige el 100 %.",
+        "A2 permite la vía reducida; no elimina el examen STS.",
+        "AESA ofrece examen STS completo de 40 preguntas en 40 minutos desde A1/A3; con A2, 30 en 30 minutos sobre las materias 1 a 5 del syllabus AESA. Se requiere al menos 75 % de aciertos: 30/40 y, por redondeo al entero necesario, 23/30. El certificado teórico no sustituye la acreditación práctica específica para cada escenario.",
+        "22/30 es 73,33 %."
+      ],
+      "error_habitual": "Confundir aprobar teoría con estar habilitado para toda operación.",
+      "referencia_concepto": "Formación teórica y práctica",
+      "leccion_id": "b1-s5",
+      "bloque": 1,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Formación STS europeos (actualización 27/07/2026)",
+          "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/formacion-de-pilotos-a-distancia-de-uas-drones/formacion-de-pilotos-uas-drones-en-escenarios-estandar-europeos-sts"
+        }
+      ]
     },
     {
-        "id":  "B1-T-022",
-        "tema":  "Remote ID",
-        "subtema":  "Requisito critico",
-        "dificultad":  "media",
-        "pregunta":  "Que se exige sobre identificacion remota en operaciones STS?",
-        "respuestas":  [
-                           "Remote ID solo es opcional en STS-01",
-                           "Remote ID sustituye al observador del espacio aereo",
-                           "Remote ID solo se activa tras una emergencia",
-                           "Remote ID es obligatoria y debe estar activa en todo momento"
-                       ],
-        "respuesta_correcta":  3,
-        "explicacion":  "La identificacion remota aparece como requisito critico obligatorio y activo en todo momento.",
-        "error_habitual":  "Tratar Remote ID como una opcion no obligatoria.",
-        "referencia_concepto":  "Identificacion remota",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-R26-006",
+      "tema": "Espacio aéreo y zonas",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "El dron permite despegar y la aplicación del fabricante no muestra bloqueo. ¿Qué puedes concluir?",
+      "respuestas": [
+        "Se puede ignorar una zona restringida si hay GNSS.",
+        "Hay que comprobar igualmente la información aeronáutica y las condiciones oficiales.",
+        "La operación está autorizada.",
+        "No hace falta consultar restricciones temporales."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Las zonas prohibidas, restringidas y peligrosas y las zonas geográficas UAS se consultan en información aeronáutica vigente. Una zona D advierte actividad peligrosa; una R impone condiciones; una P establece prohibición en su ámbito. No se deduce un permiso solo del color de un mapa ni de que el equipo permita despegar. Ejemplo: Un mapa consultado ayer no resuelve un NOTAM que entra en vigor hoy. Se revisan lugar, horario, alturas, condiciones y coordinaciones aplicables antes de la misión.",
+      "explicaciones_opciones": [
+        "El posicionamiento no elimina una restricción.",
+        "Las zonas prohibidas, restringidas y peligrosas y las zonas geográficas UAS se consultan en información aeronáutica vigente. Una zona D advierte actividad peligrosa; una R impone condiciones; una P establece prohibición en su ámbito. No se deduce un permiso solo del color de un mapa ni de que el equipo permita despegar.",
+        "La aplicación del fabricante no concede autorización.",
+        "Pueden existir cambios temporales."
+      ],
+      "error_habitual": "Confundir desbloqueo del fabricante con permiso de operación.",
+      "referencia_concepto": "Espacio aéreo y zonas",
+      "leccion_id": "b1-s6",
+      "bloque": 1,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "RD 517/2024 · texto consolidado del BOE",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11377"
+        }
+      ]
     },
     {
-        "id":  "B1-T-023",
-        "tema":  "Manual de Operaciones",
-        "subtema":  "Operador",
-        "dificultad":  "media",
-        "pregunta":  "Que condicion debe cumplir el Manual de Operaciones?",
-        "respuestas":  [
-                           "Debe existir solo si el piloto opera en categoria abierta",
-                           "Debe ser obligatorio, estar actualizado y ser accesible para los pilotos",
-                           "Puede estar desactualizado si existe declaracion operacional",
-                           "Lo sustituye la consulta a ENAIRE Drones"
-                       ],
-        "respuesta_correcta":  1,
-        "explicacion":  "El Manual de Operaciones es obligatorio para el operador y debe estar actualizado y accesible.",
-        "error_habitual":  "Pensar que el tramite declarativo elimina la necesidad de manual actualizado.",
-        "referencia_concepto":  "Manual de Operaciones",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-R26-007",
+      "tema": "AIP, AIC y NOTAM",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "¿Qué dato resulta esencial al interpretar un NOTAM para la misión?",
+      "respuestas": [
+        "Su ámbito, período de validez y condiciones operacionales.",
+        "Solo el día en que se descargó.",
+        "El modelo del móvil del piloto.",
+        "La autonomía máxima comercial del dron."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "AIP reúne información aeronáutica de carácter duradero; AIC publica información explicativa o de asesoramiento, entre otras cuestiones normativas o técnicas; NOTAM comunica información de importancia operacional cuya difusión oportuna es necesaria. Se interpretan conjuntamente con mapas, zonas UAS y vigencia temporal. Ejemplo: Una restricción temporal de hoy puede aparecer mediante NOTAM aunque el AIP no cambie. Leer solo una fuente deja huecos en la preparación.",
+      "explicaciones_opciones": [
+        "AIP reúne información aeronáutica de carácter duradero; AIC publica información explicativa o de asesoramiento, entre otras cuestiones normativas o técnicas; NOTAM comunica información de importancia operacional cuya difusión oportuna es necesaria. Se interpretan conjuntamente con mapas, zonas UAS y vigencia temporal.",
+        "La descarga no establece su vigencia.",
+        "No define el ámbito del NOTAM.",
+        "No determina la restricción aeronáutica."
+      ],
+      "error_habitual": "Tratar AIC como sustituto universal del NOTAM.",
+      "referencia_concepto": "AIP, AIC y NOTAM",
+      "leccion_id": "b1-s7",
+      "bloque": 1,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
     },
     {
-        "id":  "B1-T-024",
-        "tema":  "Escenario practico",
-        "subtema":  "STS-01",
-        "dificultad":  "media",
-        "pregunta":  "Un operador quiere grabar en el centro de Madrid con un dron de 4 kg con marcado C5. Que corresponde?",
-        "respuestas":  [
-                           "Operacion STS-02 con dron C6 y observadores en via ferrea",
-                           "Vuelo libre sobre concentraciones por ser entorno poblado",
-                           "Declaracion para STS-01 y zona terrestre controlada libre de personas no participantes",
-                           "Operacion sin declaracion porque el dron pesa menos de 10 kg"
-                       ],
-        "respuesta_correcta":  2,
-        "explicacion":  "La operacion corresponde a STS-01 en entorno poblado con C5 y zona terrestre controlada.",
-        "error_habitual":  "Usar el peso del dron para ignorar requisitos STS-01.",
-        "referencia_concepto":  "Escenario 1",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
-    },
-    {
-        "id":  "B1-T-025",
-        "tema":  "Escenario practico",
-        "subtema":  "STS-02",
-        "dificultad":  "media",
-        "pregunta":  "Una empresa inspecciona 10 km de via ferrea rural y el piloto no ve el dron a esa distancia. Que corresponde?",
-        "respuestas":  [
-                           "Operar bajo STS-01 con dron C5 y sin observadores",
-                           "Operar como categoria abierta sin evaluacion",
-                           "Usar cualquier dron C1 si hay buena visibilidad",
-                           "Operar bajo STS-02 con observadores del espacio aereo y dron C6"
-                       ],
-        "respuesta_correcta":  3,
-        "explicacion":  "El escenario 2 se resuelve como STS-02 por BVLOS rural, con observadores y dron C6.",
-        "error_habitual":  "Resolver una operacion BVLOS como si fuera VLOS.",
-        "referencia_concepto":  "Escenario 2",
-        "tipo_pregunta":  "comprension",
-        "bloque":  1,
-        "origen":  "GENERADA",
-        "fuente":  "DronLab-STS/bloques/bloque1/ingenieria/ingenieria.md",
-        "estado_validacion":  "VALIDADO"
+      "id": "B1-R26-008",
+      "tema": "Decisión con datos incompletos",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Una misión es rural, BVLOS y con C6. ¿Basta para declararla viable en STS-02?",
+      "respuestas": [
+        "Sí, esas tres condiciones son suficientes.",
+        "Sí, siempre que el cliente pague seguro.",
+        "No, todo BVLOS exige SORA nueva.",
+        "No; faltan comprobaciones del escenario y del entorno real."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Elegir STS requiere comprobar todas sus condiciones. Una descripción como «rural, BVLOS y C6» permite plantear STS-02, pero aún faltan alcance, visibilidad, zona controlada, límites, competencias y demás verificaciones. Si un dato decisivo falta, la respuesta correcta es identificarlo y obtenerlo. Ejemplo: El cliente pide inspección rural BVLOS, pero no comunica dónde estarán los trabajadores. Primero se comprueba la posibilidad de controlar la zona; no se da por viable el escenario.",
+      "explicaciones_opciones": [
+        "El escenario tiene más requisitos simultáneos.",
+        "El seguro no sustituye las condiciones operacionales.",
+        "Existen operaciones BVLOS ajustadas a STS-02.",
+        "Elegir STS requiere comprobar todas sus condiciones. Una descripción como «rural, BVLOS y C6» permite plantear STS-02, pero aún faltan alcance, visibilidad, zona controlada, límites, competencias y demás verificaciones. Si un dato decisivo falta, la respuesta correcta es identificarlo y obtenerlo."
+      ],
+      "error_habitual": "Resolver una misión por dos palabras clave.",
+      "referencia_concepto": "Decisión con datos incompletos",
+      "leccion_id": "b1-s8",
+      "bloque": 1,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
     }
-]
+  ]
+}

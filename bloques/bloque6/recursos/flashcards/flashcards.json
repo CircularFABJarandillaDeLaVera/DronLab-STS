@@ -1,14 +1,387 @@
-{"titulo":"Flashcards Bloque 6 STS","bloque":"Meteorologia | Syllabus STS paginas 8-10 | Estado VALIDADO","total":12,"flashcards":[
-{"id":"B6-F-001","tema":"Viento","subtema":"Direccion","dificultad":"facil","tipo":"concepto","pregunta":"En aviacion, como se nombra la direccion del viento?","respuesta":"Por de donde viene el viento.","explicacion_breve":"La rosa de los vientos se interpreta por origen del viento.","error_habitual":"Nombrarlo por hacia donde va.","regla_mnemotecnica":"El viento se apellida por su origen."},
-{"id":"B6-F-002","tema":"Unidades","subtema":"Conversion","dificultad":"facil","tipo":"dato","pregunta":"Cual es la conversion rapida de 1 m/s?","respuesta":"Aproximadamente 2 kt y 3,6 km/h.","explicacion_breve":"La ingenieria aporta esta conversion rapida.","error_habitual":"Confundir kt con km/h.","regla_mnemotecnica":"1 m/s: doble en kt, 3,6 en km/h."},
-{"id":"B6-F-003","tema":"Turbulencia","subtema":"Tipos","dificultad":"media","tipo":"concepto","pregunta":"Que tipos de turbulencia cita el bloque?","respuesta":"Convectiva, orografica, por friccion y por obstaculos.","explicacion_breve":"Todas afectan a UAS, especialmente cerca del suelo.","error_habitual":"Pensar solo en viento fuerte general.","regla_mnemotecnica":"Calor, montana, suelo, obstaculo."},
-{"id":"B6-F-004","tema":"Nubes","subtema":"Cumulonimbos","dificultad":"media","tipo":"riesgo","pregunta":"Que nube indica turbulencia severa y corrientes descendentes?","respuesta":"Cumulonimbo en formacion.","explicacion_breve":"Es zona critica para UAS.","error_habitual":"Tratar cualquier nube igual.","regla_mnemotecnica":"CB: cuidado brusco."},
-{"id":"B6-F-005","tema":"Visibilidad","subtema":"Niebla","dificultad":"facil","tipo":"dato","pregunta":"Cual es el umbral de niebla?","respuesta":"Visibilidad horizontal inferior a 1000 metros.","explicacion_breve":"Es dato critico de examen.","error_habitual":"Confundir niebla y bruma.","regla_mnemotecnica":"Niebla: menos de un kilometro."},
-{"id":"B6-F-006","tema":"Densidad","subtema":"Temperatura","dificultad":"media","tipo":"relacion","pregunta":"Que ocurre si aumenta la temperatura con presion constante?","respuesta":"Disminuye la densidad y disminuye la sustentacion.","explicacion_breve":"Aire menos denso reduce sustentacion de las palas.","error_habitual":"Pensar que el calor mejora rendimiento.","regla_mnemotecnica":"Mas calor, menos aire util."},
-{"id":"B6-F-007","tema":"Brisas","subtema":"Marina","dificultad":"media","tipo":"concepto","pregunta":"Hacia donde sopla la brisa marina de dia?","respuesta":"Hacia tierra.","explicacion_breve":"De dia la tierra se calienta y atrae la brisa marina.","error_habitual":"Creer que de dia sopla hacia el mar.","regla_mnemotecnica":"De dia, el mar empuja a tierra."},
-{"id":"B6-F-008","tema":"METAR","subtema":"Actual","dificultad":"facil","tipo":"sigla","pregunta":"Que representa METAR?","respuesta":"Informe meteorologico ordinario de aerodromo con condiciones actuales.","explicacion_breve":"Se actualiza cada 30 o 60 minutos.","error_habitual":"Confundirlo con pronostico TAF.","regla_mnemotecnica":"METAR: ahora."},
-{"id":"B6-F-009","tema":"TAF","subtema":"Pronostico","dificultad":"facil","tipo":"sigla","pregunta":"Que representa TAF?","respuesta":"Pronostico de aerodromo para periodos de 9 a 30 horas.","explicacion_breve":"Es lo esperado, no lo actual.","error_habitual":"Usarlo como observacion actual.","regla_mnemotecnica":"TAF: luego."},
-{"id":"B6-F-010","tema":"SPECI","subtema":"Cambio","dificultad":"media","tipo":"sigla","pregunta":"Cuando aparece un SPECI?","respuesta":"Ante cambios significativos en las condiciones.","explicacion_breve":"Es un informe especial.","error_habitual":"Pensar que es parte rutinario.","regla_mnemotecnica":"SPECI: especial por cambio."},
-{"id":"B6-F-011","tema":"STS-02","subtema":"Visibilidad","dificultad":"media","tipo":"dato","pregunta":"Que visibilidad horizontal minima es critica en STS-02?","respuesta":"5 km para que los observadores detecten trafico.","explicacion_breve":"Dato ligado a BVLOS/observadores.","error_habitual":"Usar el umbral de niebla como requisito STS-02.","regla_mnemotecnica":"STS-02 observa a 5 km."},
-{"id":"B6-F-012","tema":"Complementario","subtema":"Indice K","dificultad":"dificil","tipo":"trazabilidad","pregunta":"Como debe tratarse el indice K planetario?","respuesta":"Como contenido complementario ENAIRE/MMT9 separado; menor que 4 para operar.","explicacion_breve":"No se presenta como Syllabus AESA paginas 8-10.","error_habitual":"Mezclarlo con la trazabilidad principal AESA.","regla_mnemotecnica":"K separado, K menor que 4."}
-]}
+{
+  "titulo": "Flashcards · Bloque 6",
+  "bloque": "Meteorología",
+  "total": 20,
+  "flashcards": [
+    {
+      "id": "B6-R26-FC-001",
+      "tema": "Viento y unidades",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿De dónde viene el viento indicado y cómo conviertes nudos a m/s?",
+      "respuesta": "Indica de dónde viene; m/s = kt × 0,5144.",
+      "explicacion_breve": "Un límite del ejemplo de 10 m/s se supera con rachas de 25 kt: 25 × 0,5144 = 12,86 m/s. Se aplaza o replantea; convertir unidades evita una falsa aceptación.",
+      "error_habitual": "Comparar números expresados en unidades diferentes.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-01"
+    },
+    {
+      "id": "B6-R26-FC-002",
+      "tema": "Viento y unidades",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Con límite de 10 m/s y rachas de 25 kt, ¿qué concluyes?",
+      "respuesta": "Las rachas equivalen a unos 12,9 m/s y superan el límite del ejemplo.",
+      "explicacion_breve": "Un límite del ejemplo de 10 m/s se supera con rachas de 25 kt: 25 × 0,5144 = 12,86 m/s. Se aplaza o replantea; convertir unidades evita una falsa aceptación.",
+      "error_habitual": "Comparar números expresados en unidades diferentes.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-01"
+    },
+    {
+      "id": "B6-R26-FC-003",
+      "tema": "Relieve, obstáculos y turbulencia",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Por qué el viento medido en el despegue puede no representar la misión?",
+      "respuesta": "Relieve, obstáculos y calentamiento pueden modificar el viento y generar turbulencia.",
+      "explicacion_breve": "En la ladera protegida parece haber calma, pero el tramo pasa a sotavento de una cresta. Se valora el viento en la trayectoria y en las recuperaciones, no solo donde está el piloto.",
+      "error_habitual": "Extrapolar la medida del punto de despegue a todo el volumen.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-02"
+    },
+    {
+      "id": "B6-R26-FC-004",
+      "tema": "Relieve, obstáculos y turbulencia",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Hay calma al despegar y turbulencia prevista tras una cresta. ¿Qué debe evaluarse?",
+      "respuesta": "Las condiciones de toda la trayectoria y sus alternativas de recuperación.",
+      "explicacion_breve": "En la ladera protegida parece haber calma, pero el tramo pasa a sotavento de una cresta. Se valora el viento en la trayectoria y en las recuperaciones, no solo donde está el piloto.",
+      "error_habitual": "Extrapolar la medida del punto de despegue a todo el volumen.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-02"
+    },
+    {
+      "id": "B6-R26-FC-005",
+      "tema": "Relieve, obstáculos y turbulencia",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre relieve, obstáculos y turbulencia?",
+      "respuesta": "Extrapolar la medida del punto de despegue a todo el volumen.",
+      "explicacion_breve": "En la ladera protegida parece haber calma, pero el tramo pasa a sotavento de una cresta. Se valora el viento en la trayectoria y en las recuperaciones, no solo donde está el piloto.",
+      "error_habitual": "Extrapolar la medida del punto de despegue a todo el volumen.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-02"
+    },
+    {
+      "id": "B6-R26-FC-006",
+      "tema": "Temperatura, presión y densidad",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué ocurre con la densidad al subir la temperatura a presión constante?",
+      "respuesta": "Disminuye la densidad.",
+      "explicacion_breve": "Con 20 °C se obtienen 293,15 K y 68 °F. En una misión cálida de montaña, respetar la MTOM no demuestra que haya margen suficiente de rendimiento.",
+      "error_habitual": "Suponer que la potencia disponible y la MTOM admisible son iguales en cualquier ambiente.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-03"
+    },
+    {
+      "id": "B6-R26-FC-007",
+      "tema": "Temperatura, presión y densidad",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "A presión constante aumenta la temperatura. ¿Qué ocurre con la densidad?",
+      "respuesta": "Disminuye.",
+      "explicacion_breve": "Con 20 °C se obtienen 293,15 K y 68 °F. En una misión cálida de montaña, respetar la MTOM no demuestra que haya margen suficiente de rendimiento.",
+      "error_habitual": "Suponer que la potencia disponible y la MTOM admisible son iguales en cualquier ambiente.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-03"
+    },
+    {
+      "id": "B6-R26-FC-008",
+      "tema": "Niebla, nubes y visibilidad",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué indica una niebla local pese a un parte favorable cercano?",
+      "respuesta": "Que debe comprobarse la condición real del lugar y no darse por válida la de otro punto.",
+      "explicacion_breve": "Un parte cercano es favorable, pero hay niebla en el valle de la misión. Prevalece la evaluación de si se cumplen las condiciones reales del vuelo; no se acepta el parte como garantía.",
+      "error_habitual": "Trasladar sin comprobar la visibilidad de un aeródromo al lugar de operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-04"
+    },
+    {
+      "id": "B6-R26-FC-009",
+      "tema": "Niebla, nubes y visibilidad",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "El METAR cercano es favorable y el valle tiene niebla. ¿Qué procede?",
+      "respuesta": "Evaluar el lugar y no iniciar si no se cumplen las condiciones necesarias.",
+      "explicacion_breve": "Un parte cercano es favorable, pero hay niebla en el valle de la misión. Prevalece la evaluación de si se cumplen las condiciones reales del vuelo; no se acepta el parte como garantía.",
+      "error_habitual": "Trasladar sin comprobar la visibilidad de un aeródromo al lugar de operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-04"
+    },
+    {
+      "id": "B6-R26-FC-010",
+      "tema": "Niebla, nubes y visibilidad",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre niebla, nubes y visibilidad?",
+      "respuesta": "Trasladar sin comprobar la visibilidad de un aeródromo al lugar de operación.",
+      "explicacion_breve": "Un parte cercano es favorable, pero hay niebla en el valle de la misión. Prevalece la evaluación de si se cumplen las condiciones reales del vuelo; no se acepta el parte como garantía.",
+      "error_habitual": "Trasladar sin comprobar la visibilidad de un aeródromo al lugar de operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-04"
+    },
+    {
+      "id": "B6-R26-FC-011",
+      "tema": "METAR, SPECI y TAF",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿En qué se diferencian METAR, SPECI y TAF?",
+      "respuesta": "METAR: observación ordinaria; SPECI: observación especial por cambios significativos; TAF: pronóstico.",
+      "explicacion_breve": "En el fragmento ficticio 18012G22KT, el viento procede de 180°, es de 12 kt con rachas de 22 kt. El sufijo KT identifica la unidad.",
+      "error_habitual": "Confundir observación y pronóstico o ignorar las rachas.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-05"
+    },
+    {
+      "id": "B6-R26-FC-012",
+      "tema": "METAR, SPECI y TAF",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "En 18012G22KT, ¿qué significa G22?",
+      "respuesta": "Rachas de 22 kt.",
+      "explicacion_breve": "En el fragmento ficticio 18012G22KT, el viento procede de 180°, es de 12 kt con rachas de 22 kt. El sufijo KT identifica la unidad.",
+      "error_habitual": "Confundir observación y pronóstico o ignorar las rachas.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-05"
+    },
+    {
+      "id": "B6-R26-FC-013",
+      "tema": "Hora UTC y vigencia",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué se comprueba sobre la hora de un pronóstico?",
+      "respuesta": "Fecha, referencia UTC y período de validez para la misión.",
+      "explicacion_breve": "Un TAF válido hasta 1200Z no describe automáticamente una misión a 1500Z. Se busca información válida para esa hora y se observa la evolución.",
+      "error_habitual": "Usar un pronóstico fuera de su intervalo de validez.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-06"
+    },
+    {
+      "id": "B6-R26-FC-014",
+      "tema": "Hora UTC y vigencia",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "La misión empieza a 1500Z y el pronóstico acaba a 1200Z. ¿Qué falta?",
+      "respuesta": "Información meteorológica válida para la hora de la misión.",
+      "explicacion_breve": "Un TAF válido hasta 1200Z no describe automáticamente una misión a 1500Z. Se busca información válida para esa hora y se observa la evolución.",
+      "error_habitual": "Usar un pronóstico fuera de su intervalo de validez.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-06"
+    },
+    {
+      "id": "B6-R26-FC-015",
+      "tema": "Hora UTC y vigencia",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre hora utc y vigencia?",
+      "respuesta": "Usar un pronóstico fuera de su intervalo de validez.",
+      "explicacion_breve": "Un TAF válido hasta 1200Z no describe automáticamente una misión a 1500Z. Se busca información válida para esa hora y se observa la evolución.",
+      "error_habitual": "Usar un pronóstico fuera de su intervalo de validez.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-06"
+    },
+    {
+      "id": "B6-R26-FC-016",
+      "tema": "Efectos regionales y precipitación",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Basta una protección improvisada para volar bajo lluvia?",
+      "respuesta": "No; se respetan las limitaciones ambientales y la configuración aprobada por el fabricante.",
+      "explicacion_breve": "Un UAS sin aptitud para lluvia no pasa a ser apto por llevar protección improvisada. En montaña se revisan viento, densidad, hielo y puntos de recuperación.",
+      "error_habitual": "Concluir aptitud ambiental solo por una apariencia robusta.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-07"
+    },
+    {
+      "id": "B6-R26-FC-017",
+      "tema": "Efectos regionales y precipitación",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "El equipo no está autorizado por su fabricante para operar bajo lluvia. ¿Qué decisión corresponde?",
+      "respuesta": "No usarlo bajo esas condiciones.",
+      "explicacion_breve": "Un UAS sin aptitud para lluvia no pasa a ser apto por llevar protección improvisada. En montaña se revisan viento, densidad, hielo y puntos de recuperación.",
+      "error_habitual": "Concluir aptitud ambiental solo por una apariencia robusta.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b6-07"
+    },
+    {
+      "id": "B6-R26-FC-018",
+      "tema": "Briefing meteorológico y decisión",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Basta cumplir visibilidad si se supera el viento del manual?",
+      "respuesta": "No; las condiciones aplicables deben cumplirse simultáneamente.",
+      "explicacion_breve": "Hay visibilidad de 6 km pero rachas incompatibles con el manual. El cumplimiento de una condición no compensa el incumplimiento de otra.",
+      "error_habitual": "Aceptar la misión porque una sola variable es favorable.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b6-08"
+    },
+    {
+      "id": "B6-R26-FC-019",
+      "tema": "Briefing meteorológico y decisión",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Se cumple visibilidad STS-02, pero se supera el viento permitido por el manual. ¿Puede iniciarse?",
+      "respuesta": "No; deben cumplirse simultáneamente las condiciones aplicables.",
+      "explicacion_breve": "Hay visibilidad de 6 km pero rachas incompatibles con el manual. El cumplimiento de una condición no compensa el incumplimiento de otra.",
+      "error_habitual": "Aceptar la misión porque una sola variable es favorable.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b6-08"
+    },
+    {
+      "id": "B6-R26-FC-020",
+      "tema": "Briefing meteorológico y decisión",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre briefing meteorológico y decisión?",
+      "respuesta": "Aceptar la misión porque una sola variable es favorable.",
+      "explicacion_breve": "Hay visibilidad de 6 km pero rachas incompatibles con el manual. El cumplimiento de una condición no compensa el incumplimiento de otra.",
+      "error_habitual": "Aceptar la misión porque una sola variable es favorable.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b6-08"
+    }
+  ]
+}

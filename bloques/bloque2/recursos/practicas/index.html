@@ -30,12 +30,6 @@
     <img class="corp-band__logo corp-band__logo--wide corp-logo--dark" src="../../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Logotipos institucionales de Circular FAB">
   </footer>
   </div>
-  <script>
-    const list=a=>`<ul>${(a||[]).map(x=>`<li>${x}</li>`).join('')}</ul>`;
-    fetch('practicas.json').then(r=>r.json()).then(practicas=>{
-      const d={titulo:'Practicas guiadas Bloque 2 STS',total:practicas.length,practicas};
-      document.getElementById('main').innerHTML=`<section class="block-hero block-hero--compact"><h1>${d.titulo}</h1><p>${d.total} practicas guiadas para completar tareas, comprobar informacion y justificar decisiones. Syllabus STS paginas 4-5 · Estado VALIDADO.</p></section>`+d.practicas.map(p=>`<section class="card practice"><div class="meta"><span class="tag">${p.id}</span><span class="tag">${p.dificultad}</span><span class="tag">${p.tiempo_estimado}</span></div><h2>${p.titulo}</h2><p><b>Objetivo:</b> ${p.objetivo}</p><p><b>Contexto:</b> ${p.contexto}</p><h3>Instrucciones paso a paso</h3><ol class="steps">${p.instrucciones_paso_a_paso.map(x=>`<li>${x}</li>`).join('')}</ol><div class="grid"><article><h3>Material necesario</h3>${list(p.material_necesario)}</article><article><h3>Criterios de exito</h3>${list(p.criterios_de_exito)}</article><article><h3>Errores habituales</h3>${list(p.errores_habituales)}</article><article><h3>Conceptos relacionados</h3>${list(p.conceptos_relacionados)}</article></div><p><b>Referencia:</b> ${p.referencia_al_bloque}</p></section>`).join('');
-    }).catch(()=>{document.getElementById('main').innerHTML='<section class="card cf-card cf-card--interactive">No se pudieron cargar las practicas. Abre esta vista desde Live Server.</section>';});
-  </script>
+  <script src="../../../../assets/js/sts-learning.js" data-sts-view="practicas"></script>
 </body>
 </html>

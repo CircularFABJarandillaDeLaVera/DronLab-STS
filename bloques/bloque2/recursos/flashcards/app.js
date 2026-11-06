@@ -8,7 +8,7 @@
     const cards = Array.isArray(json) ? json : json.flashcards || [];
     return {
       titulo: json.titulo || 'Flashcards Bloque 2 STS',
-      bloque: json.bloque || 'Limitaciones del rendimiento humano · Syllabus STS paginas 4-5 · Estado VALIDADO',
+      bloque: json.bloque || 'Limitaciones del rendimiento humano · Syllabus STS paginas 4-5 · Material formativo revisado',
       total: json.total || cards.length,
       flashcards: cards
     };

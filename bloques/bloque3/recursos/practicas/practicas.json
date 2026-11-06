@@ -1,58 +1,126 @@
-[
-  {
-    "id": "B3-PR-001",
-    "titulo": "Checklist pre-vuelo STS-01 / STS-02",
-    "objetivo": "Construir una lista que separe verificaciones especificas de STS-01, STS-02 y acciones comunes.",
-    "dificultad": "facil",
-    "tiempo_estimado": "20 min",
-    "material_necesario": ["Ingenieria del Bloque 3", "Plantilla de checklist", "Ficha de escenario"],
-    "contexto": "La ingenieria diferencia FTS e ID remota para STS-01, geocaging para STS-02 y adecuacion de zona como accion comun.",
-    "instrucciones_paso_a_paso": ["Crea tres apartados: STS-01, STS-02 y comun.", "En STS-01 incluye FTS operativo.", "En STS-01 incluye ID remota activa y actualizada.", "En STS-02 incluye geocaging configurado y operativo.", "En comun incluye adecuacion real de la zona terrestre controlada."],
-    "criterios_de_exito": ["No mezcla STS-01 y STS-02.", "Incluye la zona terrestre controlada como comprobacion comun.", "Permite decidir no despegar si falta una verificacion."],
-    "errores_habituales": ["Asignar geocaging a STS-01.", "Olvidar ID remota.", "No comprobar la zona real."],
-    "conceptos_relacionados": ["Pre-vuelo", "STS-01", "STS-02", "Zona terrestre controlada"],
-    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
-  },
-  {
-    "id": "B3-PR-002",
-    "titulo": "Clasificar contingencia, emergencia y ERP",
-    "objetivo": "Distinguir intrusion de personas, fallo FTS y salida de volumen.",
-    "dificultad": "media",
-    "tiempo_estimado": "25 min",
-    "material_necesario": ["Tres tarjetas de evento", "Pizarra", "Ingenieria del Bloque 3"],
-    "contexto": "El bloque separa procedimientos de contingencia, emergencia y ERP.",
-    "instrucciones_paso_a_paso": ["Escribe el evento: intrusion de persona no participante.", "Clasificalo como contingencia.", "Escribe el evento: fallo del FTS.", "Clasificalo como emergencia.", "Escribe el evento: UA fuera del volumen.", "Clasificalo como activacion de ERP."],
-    "criterios_de_exito": ["Cada evento queda en su categoria correcta.", "Se justifica con una frase del bloque.", "No se usa emergencia como saco comun."],
-    "errores_habituales": ["Confundir contingencia con emergencia.", "Olvidar que salida de volumen activa ERP.", "No tratar FTS como fallo critico."],
-    "conceptos_relacionados": ["Contingencia", "Emergencia", "ERP", "FTS"],
-    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
-  },
-  {
-    "id": "B3-PR-003",
-    "titulo": "Arbol ERP por salida de zona",
-    "objetivo": "Dibujar un arbol de decision para UA fuera del volumen y perdida de control.",
-    "dificultad": "media",
-    "tiempo_estimado": "30 min",
-    "material_necesario": ["Papel o pizarra", "Ingenieria del Bloque 3", "Ficha fly-away"],
-    "contexto": "La zona terrestre controlada es el limite cuya superacion activa el ERP.",
-    "instrucciones_paso_a_paso": ["Define el limite: volumen representado por la zona terrestre controlada.", "Anade condicion: UA sale del volumen.", "Conecta con activacion del ERP.", "Incluye aviso ATC como medida principal ante perdida de control fly-away.", "Anade cierre: registrar el suceso segun procedimientos."],
-    "criterios_de_exito": ["El ERP se activa por salida de volumen.", "Aparece aviso ATC en fly-away.", "El arbol no sustituye las verificaciones pre-vuelo."],
-    "errores_habituales": ["Esperar a recuperar control sin activar ERP.", "No avisar ante fly-away.", "No conectar zona y ERP."],
-    "conceptos_relacionados": ["ERP", "Zona terrestre controlada", "Fly-away", "ATC"],
-    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
-  },
-  {
-    "id": "B3-PR-004",
-    "titulo": "Revision complementaria MEUH/OODA",
-    "objetivo": "Usar MEUH y OODA como herramientas pedagogicas sin inventar contenido externo.",
-    "dificultad": "dificil",
-    "tiempo_estimado": "30 min",
-    "material_necesario": ["Ingenieria del Bloque 3", "Plantilla MEUH", "Plantilla OODA"],
-    "contexto": "La ingenieria incorpora MEUH y OODA como contenido complementario declarado.",
-    "instrucciones_paso_a_paso": ["Rellena MEUH: Meteorologia, Entorno, UAS, Humanos.", "Para cada columna escribe una verificacion permitida por la ingenieria.", "Aplica OODA a una intrusion o salida de volumen.", "No anadas requisitos no citados.", "Cierra con la decision operacional resultante."],
-    "criterios_de_exito": ["MEUH aparece como herramienta de orden.", "OODA ayuda a decidir sin sustituir procedimientos.", "No se inventan requisitos externos."],
-    "errores_habituales": ["Convertir MEUH en normativa nueva.", "Saltar de observar a actuar.", "Olvidar la fuente de la ingenieria."],
-    "conceptos_relacionados": ["MEUH", "OODA", "Consciencia situacional", "Procedimientos"],
-    "referencia_al_bloque": "Bloque 3 · Syllabus STS paginas 5-6 · Estado VALIDADO"
-  }
-]
+{
+  "titulo": "Practicas · Bloque 3",
+  "total": 3,
+  "practicas": [
+    {
+      "id": "B3-R26-P-001",
+      "titulo": "Taller de decisión: Comprobar barreras C5 y C6",
+      "objetivo": "Distinguir prevención, contingencia, emergencia y respuesta externa mediante decisiones concretas.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "El sistema de contención tiene cargado el volumen de otra parcela. Aunque se encienda sin error, no está correctamente configurado para esta misión.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "El C6 conserva los límites de otra parcela. ¿Puede iniciarse la misión?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Confundir sistema encendido con sistema comprobado y adecuado."
+      ],
+      "conceptos_relacionados": [
+        "Comprobar barreras C5 y C6"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "resultado_esperado": "No; hay que configurar y comprobar los límites de esta operación. Se verifica el estado del UAS, fijaciones, energía, enlace C2, limitaciones y sistemas de seguridad según fabricante y escenario. En STS-01 se comprueban los medios de terminación y la identificación remota activa y actualizada; en STS-02, además, la contención configurada y operativa. La DRI también debe estar activa y actualizada en STS-02.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B3-R26-P-002",
+      "titulo": "Taller de decisión: Pérdida de enlace y terminación",
+      "objetivo": "Distinguir prevención, contingencia, emergencia y respuesta externa mediante decisiones concretas.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Un RTH automático a una altura incompatible con el entorno sería un peligro. Se comprueba la configuración antes del vuelo y se siguen los procedimientos ante la pérdida real.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "¿Qué diferencia esencial hay entre RTH y FTS?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Llamar FTS a cualquier función automática de retorno."
+      ],
+      "conceptos_relacionados": [
+        "Pérdida de enlace y terminación"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ],
+      "resultado_esperado": "RTH busca retornar; FTS termina el vuelo conforme a su diseño. Se revisa la respuesta prevista ante degradación o pérdida de C2 y su adecuación al entorno. RTH, estacionario, aterrizaje y FTS son funciones diferentes. El FTS termina el vuelo conforme a su diseño; no garantiza un aterrizaje sin daño ni sustituye la planificación del margen de riesgo.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B3-R26-P-003",
+      "titulo": "Taller de decisión: Decidir sin recetas universales",
+      "objetivo": "Distinguir prevención, contingencia, emergencia y respuesta externa mediante decisiones concretas.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Hay una alerta de posicionamiento pese a un indicador geomagnético bajo. Se atiende al fallo del sistema y al procedimiento; no se ignora por una cifra externa.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "El GNSS da una alerta y otro indicador parece favorable. ¿Qué debe guiar la decisión?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Sustituir una comprobación real por un umbral sin contexto."
+      ],
+      "conceptos_relacionados": [
+        "Decidir sin recetas universales"
+      ],
+      "referencia_al_bloque": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "resultado_esperado": "El estado real del sistema, sus limitaciones y el procedimiento aplicable. Las decisiones se apoyan en el escenario, manual, fabricante, coordinaciones y datos reales. OODA significa observar, orientar, decidir y actuar; puede ayudar a organizar el razonamiento. Un indicador aislado, como actividad geomagnética, no establece por sí solo una prohibición universal STS ni garantiza aptitud del GNSS.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    }
+  ]
+}

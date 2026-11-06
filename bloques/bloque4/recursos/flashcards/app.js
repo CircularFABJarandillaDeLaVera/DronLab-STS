@@ -8,7 +8,7 @@
     const cards = Array.isArray(json) ? json : json.flashcards || [];
     return {
       titulo: json.titulo || 'Flashcards Bloque 4 STS',
-      bloque: json.bloque || 'Mitigacion tecnica y operacional del riesgo en aire · Syllabus STS paginas 6-7 · Estado VALIDADO',
+      bloque: json.bloque || 'Mitigacion tecnica y operacional del riesgo en aire · Syllabus STS paginas 6-7 · Material formativo revisado',
       total: json.total || cards.length,
       flashcards: cards
     };

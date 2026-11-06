@@ -1,242 +1,387 @@
-[
-  {
-    "id": "B1-FC-001",
-    "tema": "Categoria especifica",
-    "subtema": "Riesgo operacional",
-    "dificultad": "facil",
-    "tipo": "concepto",
-    "pregunta": "Que caracteriza a la categoria especifica?",
-    "respuesta": "Agrupa operaciones UAS que no cumplen la categoria abierta y exige evaluar previamente el riesgo operacional.",
-    "explicacion_breve": "La ingenieria profunda situa el riesgo como eje de la categoria especifica.",
-    "error_habitual": "Tratarla como una simple ampliacion administrativa de la categoria abierta.",
-    "regla_mnemotecnica": "Especifica = riesgo evaluado."
-  },
-  {
-    "id": "B1-FC-002",
-    "tema": "Marco legal",
-    "subtema": "Fundamento",
-    "dificultad": "media",
-    "tipo": "relacion",
-    "pregunta": "Que normas aparecen como fundamento legal del Bloque 1?",
-    "respuesta": "Reglamento (UE) 2019/947 y RD 517/2024.",
-    "explicacion_breve": "La ingenieria profunda incorpora ambos como base del grafo de conocimiento.",
-    "error_habitual": "Estudiar STS sin ubicarlo en su marco normativo.",
-    "regla_mnemotecnica": "UE + RD sostienen STS."
-  },
-  {
-    "id": "B1-FC-003",
-    "tema": "SORA",
-    "subtema": "Evaluacion de riesgo",
-    "dificultad": "facil",
-    "tipo": "definicion",
-    "pregunta": "Que es SORA en el contexto del Bloque 1?",
-    "respuesta": "Una metodologia armonizada por EASA para evaluar sistematicamente el riesgo de una operacion UAS.",
-    "explicacion_breve": "SORA ordena la evaluacion de riesgos en aire y tierra.",
-    "error_habitual": "Memorizar la sigla sin relacionarla con mitigaciones.",
-    "regla_mnemotecnica": "SORA mide el riesgo."
-  },
-  {
-    "id": "B1-FC-004",
-    "tema": "SORA y STS",
-    "subtema": "Relacion",
-    "dificultad": "media",
-    "tipo": "relacion",
-    "pregunta": "Como se relacionan SORA y los escenarios STS?",
-    "respuesta": "Los STS nacen de una evaluacion de riesgo ya realizada por la autoridad; al acogerse a un STS, el operador no hace una SORA desde cero.",
-    "explicacion_breve": "La ingenieria profunda declara esta relacion como concepto puente.",
-    "error_habitual": "Creer que todo operador STS debe construir una SORA completa desde cero.",
-    "regla_mnemotecnica": "STS trae SORA hecha."
-  },
-  {
-    "id": "B1-FC-005",
-    "tema": "PDRA",
-    "subtema": "Evaluacion predefinida",
-    "dificultad": "media",
-    "tipo": "concepto",
-    "pregunta": "Que es una PDRA?",
-    "respuesta": "Una evaluacion de riesgo predefinida publicada para tipos de misiones comunes.",
-    "explicacion_breve": "Estandariza requisitos de seguridad para facilitar autorizaciones en misiones comunes.",
-    "error_habitual": "Confundir PDRA con un escenario STS concreto.",
-    "regla_mnemotecnica": "PDRA = riesgo predefinido."
-  },
-  {
-    "id": "B1-FC-006",
-    "tema": "Declaracion operacional",
-    "subtema": "STS",
-    "dificultad": "media",
-    "tipo": "diferenciacion",
-    "pregunta": "Que declara el operador en una declaracion operacional STS?",
-    "respuesta": "Que realizara una operacion ajustada a un escenario estandar y que cumple sus requisitos tecnicos y operativos.",
-    "explicacion_breve": "Es un tramite de comunicacion responsable ante la autoridad competente.",
-    "error_habitual": "Confundir declaracion operacional con autorizacion especifica.",
-    "regla_mnemotecnica": "Declarar no es autorizar."
-  },
-  {
-    "id": "B1-FC-007",
-    "tema": "Autorizacion",
-    "subtema": "Fuera de STS/PDRA",
-    "dificultad": "media",
-    "tipo": "alcance",
-    "pregunta": "Cuando se requiere autorizacion en lugar de declaracion STS?",
-    "respuesta": "Cuando la mision no encaja en un STS o PDRA y necesita evaluacion SORA especifica.",
-    "explicacion_breve": "La ingenieria profunda senala esta diferencia como error frecuente.",
-    "error_habitual": "Pensar que toda operacion especifica puede resolverse con declaracion.",
-    "regla_mnemotecnica": "Si no encaja, autoriza."
-  },
-  {
-    "id": "B1-FC-008",
-    "tema": "Operador",
-    "subtema": "Responsabilidades",
-    "dificultad": "media",
-    "tipo": "diferenciacion",
-    "pregunta": "Que responsabilidades generales tiene el operador?",
-    "respuesta": "Establecer procedimientos, manuales y asegurar el mantenimiento.",
-    "explicacion_breve": "La ingenieria separa responsabilidades del operador y del piloto.",
-    "error_habitual": "Atribuir al piloto obligaciones propias del operador.",
-    "regla_mnemotecnica": "Operador organiza."
-  },
-  {
-    "id": "B1-FC-009",
-    "tema": "Piloto",
-    "subtema": "Responsabilidades",
-    "dificultad": "media",
-    "tipo": "diferenciacion",
-    "pregunta": "Que responsabilidad general tiene el piloto a distancia?",
-    "respuesta": "Conducir el vuelo de forma segura y no operar bajo sustancias psicoactivas o fatiga.",
-    "explicacion_breve": "La ingenieria profunda lo incluye en los elementos generales de categoria especifica.",
-    "error_habitual": "Olvidar que la condicion psicofisica afecta a la responsabilidad del piloto.",
-    "regla_mnemotecnica": "Piloto ejecuta seguro."
-  },
-  {
-    "id": "B1-FC-010",
-    "tema": "STS-01",
-    "subtema": "VLOS",
-    "dificultad": "facil",
-    "tipo": "comparacion",
-    "pregunta": "Que rasgos definen STS-01 en esta ingenieria?",
-    "respuesta": "VLOS en entorno poblado, zona terrestre controlada y drones de clase C5.",
-    "explicacion_breve": "La ingenieria profunda diferencia STS-01 frente a STS-02 por vista, entorno y marcado.",
-    "error_habitual": "Olvidar la zona terrestre controlada en entorno poblado.",
-    "regla_mnemotecnica": "01: lo ves, C5."
-  },
-  {
-    "id": "B1-FC-011",
-    "tema": "STS-02",
-    "subtema": "BVLOS",
-    "dificultad": "facil",
-    "tipo": "comparacion",
-    "pregunta": "Que rasgos definen STS-02 en esta ingenieria?",
-    "respuesta": "BVLOS en entorno poco poblado, observadores del espacio aereo y drones de clase C6.",
-    "explicacion_breve": "STS-02 permite operar mas alla del alcance visual del piloto.",
-    "error_habitual": "Olvidar que requiere observadores del espacio aereo dedicados.",
-    "regla_mnemotecnica": "02: lejos, C6, ojos extra."
-  },
-  {
-    "id": "B1-FC-012",
-    "tema": "Observador",
-    "subtema": "STS-02",
-    "dificultad": "media",
-    "tipo": "responsabilidad",
-    "pregunta": "Que papel tiene el observador del espacio aereo en STS-02?",
-    "respuesta": "Detectar aeronaves tripuladas y obstaculos que el piloto no puede ver directamente.",
-    "explicacion_breve": "Actua como puente sensorial en operaciones BVLOS.",
-    "error_habitual": "Pensar que el observador asume la responsabilidad final de la maniobra evasiva.",
-    "regla_mnemotecnica": "Observador ve; piloto decide."
-  },
-  {
-    "id": "B1-FC-013",
-    "tema": "Marcado de clase",
-    "subtema": "C5/C6",
-    "dificultad": "media",
-    "tipo": "dato critico",
-    "pregunta": "Que marcado de clase exige cada STS europeo?",
-    "respuesta": "STS-01 exige C5 y STS-02 exige C6.",
-    "explicacion_breve": "La ingenieria profunda advierte que C1 o C2 no sirven para STS europeo.",
-    "error_habitual": "Creer que un dron C1 o C2 sirve para STS.",
-    "regla_mnemotecnica": "01-C5, 02-C6."
-  },
-  {
-    "id": "B1-FC-014",
-    "tema": "Concentraciones de personas",
-    "subtema": "Prohibicion",
-    "dificultad": "facil",
-    "tipo": "regla",
-    "pregunta": "Que regla aplica al vuelo sobre concentraciones de personas?",
-    "respuesta": "Esta prohibido tanto en STS-01 como en STS-02.",
-    "explicacion_breve": "La ingenieria profunda lo identifica como confusion frecuente.",
-    "error_habitual": "Creer que STS-01 permite sobrevolar concentraciones por ser entorno poblado.",
-    "regla_mnemotecnica": "Concentraciones: nunca."
-  },
-  {
-    "id": "B1-FC-015",
-    "tema": "Zonas UAS",
-    "subtema": "P/R/D",
-    "dificultad": "media",
-    "tipo": "clasificacion",
-    "pregunta": "Como se distinguen las zonas P, R y D?",
-    "respuesta": "P prohibidas, R restringidas y D peligrosas.",
-    "explicacion_breve": "La ingenieria profunda las incluye en informacion de espacio aereo y zonas geograficas UAS.",
-    "error_habitual": "Tratar todas las zonas como simples avisos sin consecuencias operacionales.",
-    "regla_mnemotecnica": "P prohibe, R restringe, D advierte peligro."
-  },
-  {
-    "id": "B1-FC-016",
-    "tema": "Informacion aeronautica",
-    "subtema": "AIP y AIC",
-    "dificultad": "media",
-    "tipo": "diferenciacion",
-    "pregunta": "Cual es la diferencia basica entre AIP y AIC?",
-    "respuesta": "AIP contiene informacion aeronautica duradera; AIC avisa sobre cambios en legislacion o reglamentacion.",
-    "explicacion_breve": "La ingenieria profunda incorpora esta diferencia como pregunta nacida del contenido.",
-    "error_habitual": "Usar AIP y AIC como sinonimos.",
-    "regla_mnemotecnica": "AIP permanece; AIC comunica cambios."
-  },
-  {
-    "id": "B1-FC-017",
-    "tema": "ENAIRE Drones",
-    "subtema": "Consulta previa",
-    "dificultad": "facil",
-    "tipo": "herramienta",
-    "pregunta": "Para que sirve ENAIRE Drones en este bloque?",
-    "respuesta": "Para consultar zonas geograficas UAS representadas en mapas.",
-    "explicacion_breve": "La ingenieria lo identifica como herramienta digital oficial de consulta.",
-    "error_habitual": "No consultar zonas UAS antes del vuelo.",
-    "regla_mnemotecnica": "Antes de volar, mapa ENAIRE."
-  },
-  {
-    "id": "B1-FC-018",
-    "tema": "Remote ID",
-    "subtema": "Requisito critico",
-    "dificultad": "media",
-    "tipo": "dato critico",
-    "pregunta": "Que requisito indica la ingenieria sobre Remote ID?",
-    "respuesta": "La identificacion remota es obligatoria y debe estar activa en todo momento.",
-    "explicacion_breve": "Aparece en datos, requisitos y condiciones criticas.",
-    "error_habitual": "Tratar Remote ID como una opcion configurable sin obligatoriedad.",
-    "regla_mnemotecnica": "Remote ID siempre activo."
-  },
-  {
-    "id": "B1-FC-019",
-    "tema": "Manual de Operaciones",
-    "subtema": "Operador",
-    "dificultad": "media",
-    "tipo": "requisito",
-    "pregunta": "Que exige la ingenieria sobre el Manual de Operaciones?",
-    "respuesta": "Es obligatorio para el operador, debe estar actualizado y accesible para los pilotos.",
-    "explicacion_breve": "Forma parte de las condiciones criticas del bloque.",
-    "error_habitual": "Tener procedimientos no actualizados o no accesibles para los pilotos.",
-    "regla_mnemotecnica": "Manual vivo y accesible."
-  },
-  {
-    "id": "B1-FC-020",
-    "tema": "STS-ES",
-    "subtema": "Vigencia nacional",
-    "dificultad": "dificil",
-    "tipo": "dato critico",
-    "pregunta": "Hasta que fecha son validos los STS-ES nacionales segun la ingenieria?",
-    "respuesta": "Hasta el 31/12/2025.",
-    "explicacion_breve": "La ingenieria profunda lo incluye como dato critico.",
-    "error_habitual": "Confundir escenarios europeos STS con vigencias nacionales STS-ES.",
-    "regla_mnemotecnica": "STS-ES: cierre 2025."
-  }
-]
+{
+  "titulo": "Flashcards · Bloque 1",
+  "bloque": "Reglamentación de la aviación",
+  "total": 20,
+  "flashcards": [
+    {
+      "id": "B1-R26-FC-001",
+      "tema": "Riesgo, SORA y PDRA",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué distingue la categoría específica de la abierta y la certificada?",
+      "respuesta": "Operaciones que no cumplen abierta y que no corresponden a certificada; el riesgo determina la vía aplicable.",
+      "explicacion_breve": "Una inspección encaja en una PDRA pero no en STS: el operador utiliza la PDRA para solicitar autorización; no presenta una declaración STS para sustituirla.",
+      "error_habitual": "Confundir una evaluación predefinida con permiso automático.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ],
+      "leccion_id": "b1-s1"
+    },
+    {
+      "id": "B1-R26-FC-002",
+      "tema": "Riesgo, SORA y PDRA",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Una operación encaja en una PDRA, pero no en un STS. ¿Qué vía debe valorar el operador?",
+      "respuesta": "Solicitar autorización operacional apoyándose en la PDRA.",
+      "explicacion_breve": "Una inspección encaja en una PDRA pero no en STS: el operador utiliza la PDRA para solicitar autorización; no presenta una declaración STS para sustituirla.",
+      "error_habitual": "Confundir una evaluación predefinida con permiso automático.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15550"
+        }
+      ],
+      "leccion_id": "b1-s1"
+    },
+    {
+      "id": "B1-R26-FC-003",
+      "tema": "Declaración, operador y piloto",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿La declaración STS sustituye la comprobación real de la operación?",
+      "respuesta": "No. Se comprueban manual, personas, equipo, competencias, espacio aéreo y condiciones reales.",
+      "explicacion_breve": "Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada.",
+      "error_habitual": "Tomar un trámite administrativo como autorización para cualquier vuelo.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b1-s2"
+    },
+    {
+      "id": "B1-R26-FC-004",
+      "tema": "Declaración, operador y piloto",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Con declaración STS y UAS C5, una zona sigue abierta a peatones. ¿Qué procede?",
+      "respuesta": "No iniciar hasta que se cumplan las condiciones de la operación.",
+      "explicacion_breve": "Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada.",
+      "error_habitual": "Tomar un trámite administrativo como autorización para cualquier vuelo.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b1-s2"
+    },
+    {
+      "id": "B1-R26-FC-005",
+      "tema": "Declaración, operador y piloto",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre declaración, operador y piloto?",
+      "respuesta": "Tomar un trámite administrativo como autorización para cualquier vuelo.",
+      "explicacion_breve": "Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada.",
+      "error_habitual": "Tomar un trámite administrativo como autorización para cualquier vuelo.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b1-s2"
+    },
+    {
+      "id": "B1-R26-FC-006",
+      "tema": "STS-01: encaje completo",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué condiciones principales caracterizan STS-01?",
+      "respuesta": "VLOS, C5 y zona terrestre controlada; puede situarse en entorno poblado. Sin anclaje, velocidad inferior a 5 m/s.",
+      "explicacion_breve": "Una grabación VLOS en una plaza solo se valora como STS-01 tras controlar toda la huella necesaria y comprobar las restantes condiciones. Una cinta en el punto de despegue no basta.",
+      "error_habitual": "Elegir escenario solo por masa, ubicación o etiqueta.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b1-s3"
+    },
+    {
+      "id": "B1-R26-FC-007",
+      "tema": "STS-01: encaje completo",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Un C5 vuela sin anclaje a exactamente 5 m/s en STS-01. ¿Cumple la condición de velocidad?",
+      "respuesta": "No: la operación exige una velocidad inferior a 5 m/s.",
+      "explicacion_breve": "Una grabación VLOS en una plaza solo se valora como STS-01 tras controlar toda la huella necesaria y comprobar las restantes condiciones. Una cinta en el punto de despegue no basta.",
+      "error_habitual": "Elegir escenario solo por masa, ubicación o etiqueta.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "leccion_id": "b1-s3"
+    },
+    {
+      "id": "B1-R26-FC-008",
+      "tema": "STS-02: dos configuraciones",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué alcance tiene STS-02 sin observador del espacio aéreo?",
+      "respuesta": "Hasta 1 km del piloto y trayectoria preprogramada cuando la UA no está en VLOS, además del resto de condiciones.",
+      "explicacion_breve": "Una ruta puede tener 10 km de longitud acumulada y exigir varios tramos. Eso no autoriza a alejar la UA 10 km del piloto: se comprueban las distancias en cada instante.",
+      "error_habitual": "Confundir longitud de ruta con alcance máximo desde el piloto.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b1-s4"
+    },
+    {
+      "id": "B1-R26-FC-009",
+      "tema": "STS-02: dos configuraciones",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "En STS-02 con observadores, la UA queda a 3 km del piloto. ¿Basta con añadir un observador cercano?",
+      "respuesta": "No: sigue superándose el máximo de 2 km entre UA y piloto.",
+      "explicacion_breve": "Una ruta puede tener 10 km de longitud acumulada y exigir varios tramos. Eso no autoriza a alejar la UA 10 km del piloto: se comprueban las distancias en cada instante.",
+      "error_habitual": "Confundir longitud de ruta con alcance máximo desde el piloto.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b1-s4"
+    },
+    {
+      "id": "B1-R26-FC-010",
+      "tema": "STS-02: dos configuraciones",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre sts-02: dos configuraciones?",
+      "respuesta": "Confundir longitud de ruta con alcance máximo desde el piloto.",
+      "explicacion_breve": "Una ruta puede tener 10 km de longitud acumulada y exigir varios tramos. Eso no autoriza a alejar la UA 10 km del piloto: se comprueban las distancias en cada instante.",
+      "error_habitual": "Confundir longitud de ruta con alcance máximo desde el piloto.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b1-s4"
+    },
+    {
+      "id": "B1-R26-FC-011",
+      "tema": "Formación teórica y práctica",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué dos formatos de examen STS ofrece AESA según formación previa?",
+      "respuesta": "Desde A1/A3: 40 preguntas en 40 min. Con A2: 30 en 30 min, materias 1 a 5 del syllabus AESA.",
+      "explicacion_breve": "En el simulacro reducido, 22/30 son 73,33 % y no alcanzan el 75 %. Con 23/30 sí se supera el umbral. La distribución por dificultad del simulador es una decisión didáctica, no oficial.",
+      "error_habitual": "Confundir aprobar teoría con estar habilitado para toda operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Formación STS europeos (actualización 27/07/2026)",
+          "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/formacion-de-pilotos-a-distancia-de-uas-drones/formacion-de-pilotos-uas-drones-en-escenarios-estandar-europeos-sts"
+        }
+      ],
+      "leccion_id": "b1-s5"
+    },
+    {
+      "id": "B1-R26-FC-012",
+      "tema": "Formación teórica y práctica",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Una persona con A2 obtiene 22 aciertos en 30 preguntas STS. ¿Alcanza el 75 %?",
+      "respuesta": "No; necesita al menos 23 respuestas correctas.",
+      "explicacion_breve": "En el simulacro reducido, 22/30 son 73,33 % y no alcanzan el 75 %. Con 23/30 sí se supera el umbral. La distribución por dificultad del simulador es una decisión didáctica, no oficial.",
+      "error_habitual": "Confundir aprobar teoría con estar habilitado para toda operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Formación STS europeos (actualización 27/07/2026)",
+          "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/formacion-de-pilotos-a-distancia-de-uas-drones/formacion-de-pilotos-uas-drones-en-escenarios-estandar-europeos-sts"
+        }
+      ],
+      "leccion_id": "b1-s5"
+    },
+    {
+      "id": "B1-R26-FC-013",
+      "tema": "Espacio aéreo y zonas",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Permitir despegar en la aplicación del fabricante equivale a permiso de vuelo?",
+      "respuesta": "No. Hay que comprobar información oficial, zonas geográficas y condiciones aplicables.",
+      "explicacion_breve": "Un mapa consultado ayer no resuelve un NOTAM que entra en vigor hoy. Se revisan lugar, horario, alturas, condiciones y coordinaciones aplicables antes de la misión.",
+      "error_habitual": "Confundir desbloqueo del fabricante con permiso de operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "RD 517/2024 · texto consolidado del BOE",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11377"
+        }
+      ],
+      "leccion_id": "b1-s6"
+    },
+    {
+      "id": "B1-R26-FC-014",
+      "tema": "Espacio aéreo y zonas",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "El dron permite despegar y la aplicación del fabricante no muestra bloqueo. ¿Qué puedes concluir?",
+      "respuesta": "Hay que comprobar igualmente la información aeronáutica y las condiciones oficiales.",
+      "explicacion_breve": "Un mapa consultado ayer no resuelve un NOTAM que entra en vigor hoy. Se revisan lugar, horario, alturas, condiciones y coordinaciones aplicables antes de la misión.",
+      "error_habitual": "Confundir desbloqueo del fabricante con permiso de operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "RD 517/2024 · texto consolidado del BOE",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11377"
+        }
+      ],
+      "leccion_id": "b1-s6"
+    },
+    {
+      "id": "B1-R26-FC-015",
+      "tema": "Espacio aéreo y zonas",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre espacio aéreo y zonas?",
+      "respuesta": "Confundir desbloqueo del fabricante con permiso de operación.",
+      "explicacion_breve": "Un mapa consultado ayer no resuelve un NOTAM que entra en vigor hoy. Se revisan lugar, horario, alturas, condiciones y coordinaciones aplicables antes de la misión.",
+      "error_habitual": "Confundir desbloqueo del fabricante con permiso de operación.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "RD 517/2024 · texto consolidado del BOE",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11377"
+        }
+      ],
+      "leccion_id": "b1-s6"
+    },
+    {
+      "id": "B1-R26-FC-016",
+      "tema": "AIP, AIC y NOTAM",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Para qué sirven AIP, AIC y NOTAM?",
+      "respuesta": "AIP: información duradera; AIC: información explicativa o de asesoramiento; NOTAM: información operacional de difusión oportuna.",
+      "explicacion_breve": "Una restricción temporal de hoy puede aparecer mediante NOTAM aunque el AIP no cambie. Leer solo una fuente deja huecos en la preparación.",
+      "error_habitual": "Tratar AIC como sustituto universal del NOTAM.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b1-s7"
+    },
+    {
+      "id": "B1-R26-FC-017",
+      "tema": "AIP, AIC y NOTAM",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "¿Qué dato resulta esencial al interpretar un NOTAM para la misión?",
+      "respuesta": "Su ámbito, período de validez y condiciones operacionales.",
+      "explicacion_breve": "Una restricción temporal de hoy puede aparecer mediante NOTAM aunque el AIP no cambie. Leer solo una fuente deja huecos en la preparación.",
+      "error_habitual": "Tratar AIC como sustituto universal del NOTAM.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ],
+      "leccion_id": "b1-s7"
+    },
+    {
+      "id": "B1-R26-FC-018",
+      "tema": "Decisión con datos incompletos",
+      "subtema": "concepto",
+      "dificultad": "facil",
+      "tipo": "concepto",
+      "pregunta": "¿Qué haces si falta un dato necesario para elegir el escenario?",
+      "respuesta": "Identificarlo y obtenerlo antes de concluir la viabilidad; no suponerlo.",
+      "explicacion_breve": "El cliente pide inspección rural BVLOS, pero no comunica dónde estarán los trabajadores. Primero se comprueba la posibilidad de controlar la zona; no se da por viable el escenario.",
+      "error_habitual": "Resolver una misión por dos palabras clave.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b1-s8"
+    },
+    {
+      "id": "B1-R26-FC-019",
+      "tema": "Decisión con datos incompletos",
+      "subtema": "aplicacion",
+      "dificultad": "media",
+      "tipo": "aplicacion",
+      "pregunta": "Una misión es rural, BVLOS y con C6. ¿Basta para declararla viable en STS-02?",
+      "respuesta": "No; faltan comprobaciones del escenario y del entorno real.",
+      "explicacion_breve": "El cliente pide inspección rural BVLOS, pero no comunica dónde estarán los trabajadores. Primero se comprueba la posibilidad de controlar la zona; no se da por viable el escenario.",
+      "error_habitual": "Resolver una misión por dos palabras clave.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b1-s8"
+    },
+    {
+      "id": "B1-R26-FC-020",
+      "tema": "Decisión con datos incompletos",
+      "subtema": "Aprender del error",
+      "dificultad": "dificil",
+      "tipo": "contraste",
+      "pregunta": "¿Qué error debes evitar al decidir sobre decisión con datos incompletos?",
+      "respuesta": "Resolver una misión por dos palabras clave.",
+      "explicacion_breve": "El cliente pide inspección rural BVLOS, pero no comunica dónde estarán los trabajadores. Primero se comprueba la posibilidad de controlar la zona; no se da por viable el escenario.",
+      "error_habitual": "Resolver una misión por dos palabras clave.",
+      "regla_mnemotecnica": "Comprueba el dato, su ámbito y la decisión.",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "leccion_id": "b1-s8"
+    }
+  ]
+}

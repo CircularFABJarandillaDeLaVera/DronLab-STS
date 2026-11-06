@@ -119,6 +119,7 @@ html[data-theme="dark"] .corp-logo--dark {
 
 /* Shell para paginas doc (profesor-plus, recursos, test, alumno, profesor) */
 .doc-page {
+  box-sizing: border-box;
   display: grid;
   gap: var(--cf-space-4);
   margin: 0 auto;
@@ -129,6 +130,13 @@ html[data-theme="dark"] .corp-logo--dark {
 
 .doc-topbar {
   border-left: 4px solid var(--cf-block-accent, var(--cf-color-accent));
+  flex-wrap: wrap;
+}
+
+.doc-topbar > h1 {
+  flex: 0 0 auto;
+  min-width: 0;
+  width: 100%;
 }
 
 /* Rejilla de tarjetas doc (sustituye al antiguo .grid inline):

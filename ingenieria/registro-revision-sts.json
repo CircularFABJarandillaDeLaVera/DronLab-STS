@@ -1,0 +1,421 @@
+{
+  "fecha": "2026-11-06",
+  "commit_base": "0a481454a899c6f21ccf2e4a7967056edd227bad",
+  "estado": "PENDIENTE_REVISION_EXPERTA",
+  "alcance": "STS europeo EASA; excluye regímenes nacionales y no EASA. Material ZIP solo como referencia de ideas.",
+  "totales": [
+    {
+      "bloque": 1,
+      "preguntas_antes": 25,
+      "preguntas": 24,
+      "tarjetas": 20,
+      "casos": 3,
+      "practicas": 3
+    },
+    {
+      "bloque": 2,
+      "preguntas_antes": 24,
+      "preguntas": 23,
+      "tarjetas": 20,
+      "casos": 3,
+      "practicas": 3
+    },
+    {
+      "bloque": 3,
+      "preguntas_antes": 24,
+      "preguntas": 18,
+      "tarjetas": 20,
+      "casos": 3,
+      "practicas": 3
+    },
+    {
+      "bloque": 4,
+      "preguntas_antes": 15,
+      "preguntas": 15,
+      "tarjetas": 20,
+      "casos": 3,
+      "practicas": 3
+    },
+    {
+      "bloque": 5,
+      "preguntas_antes": 22,
+      "preguntas": 21,
+      "tarjetas": 20,
+      "casos": 3,
+      "practicas": 3
+    },
+    {
+      "bloque": 6,
+      "preguntas_antes": 26,
+      "preguntas": 26,
+      "tarjetas": 20,
+      "casos": 3,
+      "practicas": 3
+    },
+    {
+      "bloque": 7,
+      "preguntas_antes": 22,
+      "preguntas": 24,
+      "tarjetas": 20,
+      "casos": 3,
+      "practicas": 3
+    },
+    {
+      "bloque": 8,
+      "preguntas_antes": 10,
+      "preguntas": 13,
+      "tarjetas": 20,
+      "casos": 3,
+      "practicas": 3
+    }
+  ],
+  "preguntas_retiradas": [
+    {
+      "id": "B1-T-004",
+      "bloque": 1,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B1-T-007",
+      "bloque": 1,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B1-T-011",
+      "bloque": 1,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B1-T-012",
+      "bloque": 1,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B1-T-016",
+      "bloque": 1,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B1-T-020",
+      "bloque": 1,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B1-T-021",
+      "bloque": 1,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B1-T-024",
+      "bloque": 1,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B1-T-025",
+      "bloque": 1,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B2-T-002",
+      "bloque": 2,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B2-T-007",
+      "bloque": 2,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B2-T-014",
+      "bloque": 2,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B2-T-017",
+      "bloque": 2,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B2-T-018",
+      "bloque": 2,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B2-T-019",
+      "bloque": 2,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B2-T-020",
+      "bloque": 2,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B2-T-023",
+      "bloque": 2,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B2-T-024",
+      "bloque": 2,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-005",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-007",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-010",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-011",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-012",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-014",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-015",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-016",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-017",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-018",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-019",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-020",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-021",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B3-T-023",
+      "bloque": 3,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B4-T-001",
+      "bloque": 4,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B4-T-002",
+      "bloque": 4,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B4-T-008",
+      "bloque": 4,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B4-T-009",
+      "bloque": 4,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B4-T-010",
+      "bloque": 4,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B4-T-011",
+      "bloque": 4,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B4-T-013",
+      "bloque": 4,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B4-T-014",
+      "bloque": 4,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B5-T-001",
+      "bloque": 5,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B5-T-006",
+      "bloque": 5,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B5-T-007",
+      "bloque": 5,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B5-T-012",
+      "bloque": 5,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B5-T-013",
+      "bloque": 5,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B5-T-014",
+      "bloque": 5,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B5-T-016",
+      "bloque": 5,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B5-T-018",
+      "bloque": 5,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B5-T-022",
+      "bloque": 5,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B6-T-008",
+      "bloque": 6,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B6-T-010",
+      "bloque": 6,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B6-T-016",
+      "bloque": 6,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B6-T-019",
+      "bloque": 6,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B6-T-020",
+      "bloque": 6,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B6-T-021",
+      "bloque": 6,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B6-T-023",
+      "bloque": 6,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B6-T-024",
+      "bloque": 6,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B7-T-006",
+      "bloque": 7,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B7-T-007",
+      "bloque": 7,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B7-T-008",
+      "bloque": 7,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B7-T-010",
+      "bloque": 7,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B7-T-017",
+      "bloque": 7,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B7-T-021",
+      "bloque": 7,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B8-T-003",
+      "bloque": 8,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B8-T-005",
+      "bloque": 8,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B8-T-006",
+      "bloque": 8,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B8-T-009",
+      "bloque": 8,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    },
+    {
+      "id": "B8-T-010",
+      "bloque": 8,
+      "motivo": "Sustituida por pregunta contextual nueva o retirada por duplicación/simplificación; contenido anterior recuperable en el commit base."
+    }
+  ],
+  "criterios": [
+    "Se conservan IDs de preguntas retenidas.",
+    "Nuevas preguntas usan R26 y origen adaptado, nunca oficial.",
+    "Se retiran preguntas repetidas, dudosas, históricas o sobre códigos sin contexto aplicable.",
+    "No se utiliza la regla A2 1:1 para dimensionar STS.",
+    "No se presenta geoconsciencia C3 como función universal obligatoria de C5/C6."
+  ]
+}

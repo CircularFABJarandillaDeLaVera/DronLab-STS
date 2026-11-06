@@ -1,147 +1,135 @@
-# DRONLAB STS · INGENIERÍA PROFUNDA BLOQUE 3
+# Bloque 3 · Procedimientos operacionales
 
-Este documento constituye la **Ingeniería del Conocimiento** definitiva para el **Bloque 3: Procedimientos operacionales**, diseñada para ser procesada por el agente DronLab-SDK. El núcleo académico se basa estrictamente en el syllabus oficial de AESA para la categoría específica, páginas 5 y 6.
+Revisión documental: 06/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
 
----
+## Objetivo y conexión
 
-# 0. TRAZABILIDAD DOCUMENTAL
-- **Organismo:** AESA
-- **Documento:** MATERIAS DEL EXAMEN DE CONOCIMIENTOS TEÓRICOS DE LA CATEGORÍA «ESPECÍFICA» PARA OPERACIONES DE UAS BAJO ESCENARIOS ESTÁNDAR (STS)
-- **Código / referencia:** Syllabus oficial STS
-- **Edición / versión:** 2
-- **Fecha:** 17/04/2023
-- **Páginas relacionadas:** 5–6 (Materia 3: Procedimientos operacionales)
-- **Estado:** VALIDADO
+Distinguir prevención, contingencia, emergencia y respuesta externa mediante decisiones concretas.
 
----
+Las barreras técnicas del bloque 5 se comprueban antes del vuelo y se usan según el manual.
 
-## 1. CONCEPTOS PRINCIPALES DESARROLLADOS (Syllabus pág. 5–6)
+## Método
 
-### Acciones Pre-vuelo Específicas
-Conjunto de verificaciones obligatorias antes del despegue que varían según el escenario:
-- **Verificación del FTS (STS-01):** Comprobación de que los medios de terminación de vuelo están operativos.
-- **Identificación remota directa (STS-01):** Asegurar que el sistema está activo y actualizado.
-- **Configuración de Geocaging (STS-02):** Requisito de que esta función esté configurada y operativa para impedir que la aeronave salga del volumen operacional.
-- **Adecuación de la Zona Terrestre Controlada:** Responsabilidad del piloto de asegurar que el área definida por el operador es adecuada para la misión.
+Recuperar una idea previa → explicar → resolver un ejemplo → decidir sin ver la solución → contrastar → transferir cambiando una condición.
 
-### Procedimientos de Contingencia (Incursiones)
-Gestión de situaciones anómalas en vuelo, centradas en la seguridad de terceros:
-- **Intrusión de personas:** Acciones a realizar por el piloto y personal esencial en caso de que personas no participantes entren en la zona terrestre controlada.
+Las preguntas nuevas son adaptadas, no preguntas oficiales de AESA. Los ejemplos son ficticios y no autorizan vuelos. Los límites del escenario, del equipo y del lugar deben cumplirse simultáneamente.
 
-### Procedimientos de Emergencia (Fallos Técnicos)
-- **Fallo del FTS:** Protocolos de actuación específicos para el caso de que el Sistema de Terminación de Vuelo no funcione correctamente.
+## Preparar la misión
 
-### Plan de Respuesta ante Emergencias (ERP)
-- **Definición:** El ERP es el conjunto de procedimientos que definen las acciones ante situaciones críticas.
-- **Activación por salida de zona:** Acciones típicas a realizar cuando la aeronave vuela fuera del volumen representado por la zona terrestre controlada.
+Antes del vuelo se comprueban objetivo, espacio aéreo, zonas UAS, meteorología, personas, volumen, márgenes, equipo y competencias. La lista ayuda a ejecutar comprobaciones, pero no sustituye el juicio ni el manual. MEUH (Meteorología, Entorno, UAS, Humanos) puede usarse como ayuda didáctica, no como regla legal independiente.
 
----
+**Ejemplo resuelto:** El plano no incluye un camino usado por trabajadores. La comprobación del lugar obliga a revisar la zona antes de aprobar el inicio.
 
-## 2. CONCEPTOS PUENTE Y RELACIONES
+**Error habitual:** Completar una lista sin verificar la realidad.
 
-- **FTS ↔ Mitigación de Riesgo:** El FTS es la herramienta técnica verificada en el pre-vuelo que permite ejecutar el procedimiento de emergencia si la aeronave pierde el control o sale de la zona terrestre controlada.
-- **Zona Terrestre Controlada ↔ ERP:** La zona terrestre controlada es el límite geográfico cuya superación por parte de la aeronave activa inmediatamente el Plan de Respuesta ante Emergencias.
+**Comprobación:** La lista está firmada, pero aparece un acceso no controlado. ¿Qué procede?
 
----
+**Respuesta razonada:** Resolver el acceso y revisar la adecuación antes de iniciar.
 
-## 3. DEPENDENCIAS Y GRAFO DE CONOCIMIENTO (Nivel STS)
+**Fuente:** [Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777).
 
-### Grafo de conocimiento jerárquico
-1. **Configuración Técnica:** FTS, ID Remota y Geocaging (Pre-vuelo).
-2. **Seguridad Perimetral:** Adecuación de la Zona Terrestre Controlada.
-3. **Gestión de Incursiones:** Contingencia ante personas no participantes (En vuelo).
-4. **Gestión de Fallos Críticos:** Emergencia ante fallo de FTS (En vuelo).
-5. **Protocolo Final:** Ejecución del ERP por salida del volumen (En vuelo).
+## Comprobar barreras C5 y C6
 
----
+Se verifica el estado del UAS, fijaciones, energía, enlace C2, limitaciones y sistemas de seguridad según fabricante y escenario. En STS-01 se comprueban los medios de terminación y la identificación remota activa y actualizada; en STS-02, además, la contención configurada y operativa. La DRI también debe estar activa y actualizada en STS-02.
 
-## 4. DESARROLLO DE EPÍGRAFES OFICIALES (PÁGS. 5–6)
+**Ejemplo resuelto:** El sistema de contención tiene cargado el volumen de otra parcela. Aunque se encienda sin error, no está correctamente configurado para esta misión.
 
-### I. Pre-vuelo [Syllabus pág. 5]
-- **Acciones para STS-01:**
-    - Verificar que los medios de terminación de vuelo (**FTS**) están operativos.
-    - Verificar que la **identificación remota directa** está activa y actualizada.
-- **Acciones para STS-02:**
-    - Verificar que la función de **geocaging** está configurada y operativa.
-- **Acciones comunes:**
-    - Asegurarse de la **adecuación de la zona terrestre controlada** definida por el operador.
+**Error habitual:** Confundir sistema encendido con sistema comprobado y adecuado.
 
-### II. En vuelo [Syllabus pág. 6]
-- **a) Procedimientos de contingencia:**
-    - Manejo de la **intrusión de personas no participantes** en la zona terrestre controlada.
-- **b) Procedimientos de emergencia:**
-    - Acciones ante un **mal funcionamiento del FTS**.
-- **c) Plan de Respuesta ante Emergencias (ERP):**
-    - Definición y descripción del concepto ERP.
-    - Acciones ante una **UA que vuela fuera del volumen** de la zona terrestre controlada.
+**Comprobación:** El C6 conserva los límites de otra parcela. ¿Puede iniciarse la misión?
 
----
+**Respuesta razonada:** No; hay que configurar y comprobar los límites de esta operación.
 
-## 5. CONTENIDO ACADÉMICO COMPLEMENTARIO (Otras fuentes oficiales)
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
 
-*Las siguientes afirmaciones son herramientas pedagógicas o requisitos normativos adicionales al syllabus de las páginas 5–6:*
+## Contingencia y emergencia
 
-- **Metodología MEUH:** Herramienta pedagógica para la verificación sistemática (Meteorología, Entorno, UAS, Humanos).
-- **Ciclo OODA:** Técnica de consciencia situacional (Observar, Opciones, Decidir, Actuar).
-- **Acciones posteriores al vuelo:** Incluyen el apagado seguro, inspección y registro de datos de los sistemas y la **fatiga de la tripulación** (RD 517/2024).
-- **Conservación de registros:** Los registros de formación, mantenimiento y sucesos deben guardarse durante **3 años**.
-- **Índice K Planetario:** Se recomienda abortar la operación si el índice K es **≥ 4** para evitar interferencias electromagnéticas (Catálogo ENAIRE).
-- **Asistencia Barométrica:** Recomendada para mejorar la precisión del cálculo de altura AGL.
-- **Limitación de altura:** El ATSP puede requerir alturas inferiores a la general de 120 m. La limitación puede reforzarse por software.
-- **Comunicaciones:** La solicitud de "clearance" al ATC/AFIS se realizará según lo acordado en la coordinación pre-táctica.
+Una contingencia gestiona una desviación y busca recuperar el estado normal dentro del volumen operacional. Una emergencia exige las acciones previstas para una situación que ya no puede recuperarse con los procedimientos normales o de contingencia. La geografía de vuelo y el volumen operacional tienen límites diferentes.
 
----
+**Ejemplo resuelto:** La UA se aproxima al límite de la geografía de vuelo: se ejecuta la contingencia definida. Amenazar con superar el volumen operacional requiere la respuesta de emergencia prevista; no se espera a salir.
 
-## 6. DATOS, REQUISITOS Y CONDICIONES CRÍTICAS
+**Error habitual:** Esperar a cruzar el último límite para actuar.
 
-- **STS-01:** Obligatorio FTS operativo e ID remota activa.
-- **STS-02:** Obligatorio Geocaging configurado.
-- **Emergencia principal:** Salida de la aeronave de la zona terrestre controlada.
-- **Aviso ATC:** Medida principal del ERP ante pérdida de control (fly-away).
+**Comprobación:** La UA va a superar la geografía de vuelo, pero sigue dentro del volumen operacional. ¿Qué marco corresponde inicialmente?
 
----
+**Respuesta razonada:** Aplicar la contingencia prevista para esa desviación.
 
-## 7. ERRORES Y CONFUSIONES FRECUENTES DE EXAMEN
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
 
-1. **Confundir STS-01 y STS-02:** Creer que el geocaging es obligatorio para STS-01 en el pre-vuelo (es específico de STS-02 según syllabus pág. 5-6).
-2. **Responsabilidad de la zona:** Creer que la zona controlada solo la define el operador; el piloto debe asegurar su **adecuación** real antes de volar.
-3. **FTS y ERP:** No identificar que el fallo del FTS es por sí mismo un procedimiento de emergencia.
-4. **Fly-away:** No saber que la salida del volumen de la zona terrestre controlada obliga a activar el ERP.
+## Intrusión de una persona
 
----
+La entrada de una persona no participante altera el control de la zona. Se aplican medidas para protegerla de acuerdo con el procedimiento y la situación: no se despega si aún se está en tierra; en vuelo se adapta o termina de forma segura. Un cartel no convierte a una persona en participante.
 
-## 8. PREGUNTAS QUE NACEN DEL CONTENIDO
+**Ejemplo resuelto:** La aeronave aún no ha despegado y entra alguien. Se mantiene en tierra, se controla el acceso y se reevalúa antes de continuar.
 
-- ¿Qué dos elementos técnicos específicos debe verificar el piloto de un STS-01 antes del vuelo?
-- En una operación STS-02, ¿qué función debe estar operativa para evitar que la aeronave abandone el volumen operacional?
-- ¿Qué acción debe tomar el personal esencial si una persona no participante entra en la zona terrestre controlada durante el vuelo?
-- ¿Qué protocolo debe activarse si la aeronave vuela accidentalmente fuera de la zona terrestre controlada?
-- ¿A qué categoría de procedimiento (contingencia o emergencia) pertenece el fallo del sistema de terminación de vuelo (FTS)?
+**Error habitual:** Aplicar una maniobra de vuelo a un UAS que sigue en tierra.
 
----
+**Comprobación:** Una persona entra antes del despegue. ¿Qué acción tiene sentido?
 
-## 9. ESCENARIOS PRÁCTICOS
+**Respuesta razonada:** Mantener la aeronave en tierra y restablecer el control de la zona.
 
-- **Escenario 1:** Durante la inspección pre-vuelo de un dron clase C5 (STS-01), el piloto detecta que el sistema de identificación remota no emite señal. Debe abortar la operación hasta que el sistema esté activo y actualizado.
-- **Escenario 2:** Un piloto de STS-02 configura un límite de geocaging para rodear una antena. Durante el vuelo, el dron se acerca al límite; el piloto debe reaccionar para que la aeronave no supere el volumen definido.
-- **Escenario 3:** Una persona ajena a la operación cruza el perímetro de seguridad en un entorno urbano. El piloto activa el procedimiento de contingencia para gestionar la intrusión.
+**Fuente:** [Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777).
 
----
+## Pérdida de enlace y terminación
 
-## 10. VOCABULARIO Y SIGLAS ESENCIALES
+Se revisa la respuesta prevista ante degradación o pérdida de C2 y su adecuación al entorno. RTH, estacionario, aterrizaje y FTS son funciones diferentes. El FTS termina el vuelo conforme a su diseño; no garantiza un aterrizaje sin daño ni sustituye la planificación del margen de riesgo.
 
-- **ERP:** Emergency Response Plan (Plan de Respuesta ante Emergencias).
-- **FTS:** Flight Termination System (Sistema de Terminación de Vuelo).
-- **Geocaging:** Función para confinar el UAS en un volumen de espacio aéreo.
-- **ID Remota Directa:** Sistema de transmisión de datos de identificación y posición.
-- **Zona Terrestre Controlada:** Área en la superficie donde el operador garantiza que solo hay personas participantes.
+**Ejemplo resuelto:** Un RTH automático a una altura incompatible con el entorno sería un peligro. Se comprueba la configuración antes del vuelo y se siguen los procedimientos ante la pérdida real.
 
----
+**Error habitual:** Llamar FTS a cualquier función automática de retorno.
 
-## 11. AUDITORÍA DE EPÍGRAFES (PÁGS. 5–6)
+**Comprobación:** ¿Qué diferencia esencial hay entre RTH y FTS?
 
-- [x] **I. Pre-vuelo:** Cubierto (Acciones STS-01, STS-02 y comunes).
-- [x] **II. En vuelo:** Cubierto (Contingencia, Emergencia y ERP).
-- [x] **ERP:** Cubierto (Definición, descripción y salida de zona).
+**Respuesta razonada:** RTH busca retornar; FTS termina el vuelo conforme a su diseño.
 
-**Ingeniería del Bloque 3 finalizada y auditada bajo estándares Syllabus STS Ed.2.**
+**Fuente:** [Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523).
+
+## ERP y comunicación
+
+El plan de respuesta ante emergencias (ERP) organiza cómo limitar consecuencias, alertar y coordinar ayuda. No se confunde con una maniobra individual ni se activa por una receta universal ante cualquier incidencia. Roles, contactos, acceso y criterios de activación deben estar definidos antes de operar.
+
+**Ejemplo resuelto:** Un impacto genera riesgo de incendio. El equipo aplica el ERP, protege a las personas y comunica la información necesaria a los servicios que correspondan.
+
+**Error habitual:** Reducir el ERP a pulsar un botón del mando.
+
+**Comprobación:** ¿Qué aporta el ERP además de una maniobra del piloto?
+
+**Respuesta razonada:** Organización de respuesta, roles, comunicaciones y limitación de consecuencias.
+
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
+
+## Cerrar, registrar y aprender
+
+Después del vuelo se asegura e inspecciona el UAS, se registra información relevante y se realiza un debriefing. Se identifican los sucesos que deban notificarse y los datos de mantenimiento y de fatiga pertinentes. Los plazos se consultan por tipo de registro y disposición; no se aplica una cifra única a cualquier documento. Para la clasificación de sucesos se consulta la lista aplicable actualizada, incluida la modificación del Reglamento (UE) 2026/1821, sin sustituirla por una lista memorizada de un curso anterior.
+
+**Ejemplo resuelto:** Se detecta una fijación floja al terminar. Se registra y resuelve antes del siguiente vuelo, aunque las imágenes obtenidas hayan sido buenas.
+
+**Error habitual:** Confundir éxito del encargo con ausencia de incidencias.
+
+**Comprobación:** Se detecta una fijación floja al finalizar. ¿Qué procede?
+
+**Respuesta razonada:** Registrarla, evaluar su causa y resolverla antes de otro vuelo.
+
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
+
+## Decidir sin recetas universales
+
+Las decisiones se apoyan en el escenario, manual, fabricante, coordinaciones y datos reales. OODA significa observar, orientar, decidir y actuar; puede ayudar a organizar el razonamiento. Un indicador aislado, como actividad geomagnética, no establece por sí solo una prohibición universal STS ni garantiza aptitud del GNSS.
+
+**Ejemplo resuelto:** Hay una alerta de posicionamiento pese a un indicador geomagnético bajo. Se atiende al fallo del sistema y al procedimiento; no se ignora por una cifra externa.
+
+**Error habitual:** Sustituir una comprobación real por un umbral sin contexto.
+
+**Comprobación:** El GNSS da una alerta y otro indicador parece favorable. ¿Qué debe guiar la decisión?
+
+**Respuesta razonada:** El estado real del sistema, sus limitaciones y el procedimiento aplicable.
+
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
+
+## Revisión de cobertura
+
+Este refuerzo reorganiza las ideas centrales en ocho unidades. No se presenta como desarrollo exhaustivo de cada subepígrafe del syllabus. La matriz global registra las ampliaciones que aún requieren desarrollo y revisión humana.
+
+## Actualización de sucesos consultada
+
+[Reglamento (UE) 2026/1821](https://www.boe.es/buscar/doc.php?id=DOUE-L-2026-81188): revisión de la lista de clasificación, consultada junto al sistema de notificación de AESA. No se enseña una lista histórica como vigente.

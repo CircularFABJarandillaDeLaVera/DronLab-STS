@@ -1,535 +1,649 @@
-﻿{
-    "titulo":  "Test Bloque 3 STS",
-    "bloque":  "Procedimientos operacionales · Syllabus STS paginas 5-6 · Estado VALIDADO",
-    "total":  24,
-    "preguntas":  [
-                      {
-                          "id":  "B3-T-001",
-                          "tema":  "STS-01",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que dos elementos tecnicos especificos debe verificar el piloto en STS-01?",
-                          "respuestas":  [
-                                             "Geocaging y indice K",
-                                             "Solo bateria y helice",
-                                             "Clearance y asistencia barometrica",
-                                             "FTS operativo e ID remota directa activa y actualizada"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "FTS e ID remota son acciones pre-vuelo especificas de STS-01.",
-                          "error_habitual":  "Asignar geocaging a STS-01.",
-                          "referencia_concepto":  "AESA · Syllabus STS paginas 5-6 · VALIDADO",
-                          "subtema":  "STS-01",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-002",
-                          "tema":  "STS-02",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que debe verificarse en STS-02 antes del vuelo?",
-                          "respuestas":  [
-                                             "FTS como unica accion especifica",
-                                             "Geocaging configurado y operativo",
-                                             "Solo ID remota",
-                                             "Registro de tres anos"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "El geocaging debe impedir salida del volumen operacional.",
-                          "error_habitual":  "Olvidar que la ID remota activa es una comprobacion previa especifica de STS-01.",
-                          "referencia_concepto":  "Pre-vuelo STS-02",
-                          "subtema":  "STS-02",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-003",
-                          "tema":  "Zona terrestre controlada",
-                          "dificultad":  "media",
-                          "pregunta":  "Que responsabilidad tiene el piloto sobre la zona terrestre controlada?",
-                          "respuestas":  [
-                                             "Solo aceptar la zona definida sin comprobar",
-                                             "Delegarla siempre al cliente",
-                                             "Asegurar su adecuacion real para la mision",
-                                             "Ignorarla si hay FTS"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "La zona la define el operador, pero el piloto verifica su adecuacion.",
-                          "error_habitual":  "Pensar que el piloto no comprueba la zona.",
-                          "referencia_concepto":  "Acciones comunes pre-vuelo",
-                          "subtema":  "Zona terrestre controlada",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-004",
-                          "tema":  "Contingencia",
-                          "dificultad":  "media",
-                          "pregunta":  "La intrusion de personas no participantes en la zona terrestre controlada corresponde a...",
-                          "respuestas":  [
-                                             "Procedimiento de contingencia",
-                                             "Fallo FTS",
-                                             "Registro post-vuelo",
-                                             "Clearance ATC"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "La contingencia gestiona una desviacion o intrusion antes de que se convierta en emergencia operacional.",
-                          "error_habitual":  "Esperar a que el problema sea critico antes de aplicar el procedimiento.",
-                          "referencia_concepto":  "Procedimientos de contingencia",
-                          "subtema":  "Contingencia",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-005",
-                          "tema":  "Emergencia",
-                          "dificultad":  "media",
-                          "pregunta":  "El mal funcionamiento del FTS pertenece a...",
-                          "respuestas":  [
-                                             "Procedimiento administrativo",
-                                             "Procedimiento de emergencia",
-                                             "MEUH",
-                                             "Accion posterior al vuelo"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "La emergencia exige activar procedimientos definidos en el ERP para contener consecuencias de fallo o salida de zona.",
-                          "error_habitual":  "Improvisar en vez de ejecutar el plan de respuesta previsto.",
-                          "referencia_concepto":  "Procedimientos de emergencia",
-                          "subtema":  "Emergencia",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-006",
-                          "tema":  "ERP",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que es el ERP?",
-                          "respuestas":  [
-                                             "Indice planetario",
-                                             "Identificacion remota directa",
-                                             "Zona terrestre controlada",
-                                             "Plan de Respuesta ante Emergencias"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "ERP define acciones ante situaciones criticas.",
-                          "error_habitual":  "Usarlo como sinonimo de checklist general.",
-                          "referencia_concepto":  "ERP",
-                          "subtema":  "ERP",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-007",
-                          "tema":  "ERP",
-                          "dificultad":  "media",
-                          "pregunta":  "Que situacion activa el ERP durante una operacion UAS?",
-                          "respuestas":  [
-                              "UA fuera del volumen de la zona terrestre controlada",
-                              "Consulta meteorologica previa sin incidencias",
-                              "Finalizacion normal de la operacion",
-                              "Cambio de bateria durante la preparacion"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "La zona terrestre controlada delimita el area segura en superficie y condiciona contingencias y emergencias.",
-                          "error_habitual":  "Tratar la zona terrestre controlada como un tramite sin vigilancia real.",
-                          "referencia_concepto":  "Salida de zona",
-                          "subtema":  "ERP",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-008",
-                          "tema":  "FTS",
-                          "dificultad":  "media",
-                          "pregunta":  "Como se relaciona FTS con mitigacion de riesgo?",
-                          "respuestas":  [
-                                             "Sustituye toda planificacion",
-                                             "Solo sirve para imprimir registros",
-                                             "Permite ejecutar emergencia si se pierde control o se sale de zona",
-                                             "Es exclusivo de STS-02"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "FTS conecta verificacion tecnica y respuesta de emergencia.",
-                          "error_habitual":  "Verlo solo como dispositivo sin procedimiento.",
-                          "referencia_concepto":  "FTS y mitigacion",
-                          "subtema":  "FTS",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-009",
-                          "tema":  "MEUH",
-                          "dificultad":  "media",
-                          "pregunta":  "Que significa MEUH?",
-                          "respuestas":  [
-                                             "Manual, ERP, UAS y Helices",
-                                             "Mapa, Examen, Usuario y Hardware",
-                                             "Meteorologia, Entorno, UAS y Humanos",
-                                             "Mantenimiento, Energia, UTM y Horario"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "MEUH es herramienta pedagogica de verificacion sistematica.",
-                          "error_habitual":  "Inventar requisitos no incluidos.",
-                          "referencia_concepto":  "Contenido complementario",
-                          "subtema":  "MEUH",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-010",
-                          "tema":  "OODA",
-                          "dificultad":  "media",
-                          "pregunta":  "Que secuencia expresa el ciclo OODA como tecnica de consciencia situacional?",
-                          "respuestas":  [
-                                             "Observar, Opciones, Decidir, Actuar",
-                                             "Operar, Omitir, Despegar, Aterrizar",
-                                             "Ordenar, Observar, Declarar, Autorizar",
-                                             "Oir, Orientar, Dividir, Asistir"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "OODA se presenta como tecnica de consciencia situacional.",
-                          "error_habitual":  "Confundir una tecnica pedagogica complementaria con un requisito principal del Syllabus.",
-                          "referencia_concepto":  "Ciclo OODA",
-                          "subtema":  "OODA",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-011",
-                          "tema":  "Registros",
-                          "dificultad":  "dificil",
-                          "pregunta":  "Durante cuanto tiempo deben conservarse registros de formacion, mantenimiento y sucesos?",
-                          "respuestas":  [
-                                             "3 dias",
-                                             "3 anos",
-                                             "5 minutos",
-                                             "No se conservan"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "Los registros de formacion, mantenimiento y sucesos deben conservarse durante 3 anos.",
-                          "error_habitual":  "No conservar evidencia suficiente.",
-                          "referencia_concepto":  "Conservacion de registros",
-                          "subtema":  "Registros",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-012",
-                          "tema":  "Indice K",
-                          "dificultad":  "dificil",
-                          "pregunta":  "Que se recomienda si el indice K es mayor o igual que 4?",
-                          "respuestas":  [
-                                             "Aumentar altura",
-                                             "Ignorarlo",
-                                             "Activar solo ID remota",
-                                             "Abortar la operacion"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "Se recomienda abortar para evitar interferencias electromagneticas.",
-                          "error_habitual":  "Ignorar condiciones electromagneticas.",
-                          "referencia_concepto":  "Indice K Planetario",
-                          "subtema":  "Indice K",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-013",
-                          "tema":  "ATSP",
-                          "dificultad":  "dificil",
-                          "pregunta":  "Que puede requerir el ATSP respecto a altura?",
-                          "respuestas":  [
-                                             "Alturas inferiores a la general de 120 m",
-                                             "Siempre exactamente 120 m",
-                                             "Ninguna limitacion",
-                                             "Solo altura bajo tierra"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "El ATSP puede requerir alturas inferiores a la general de 120 m.",
-                          "error_habitual":  "Asumir 120 m como unico limite aplicable.",
-                          "referencia_concepto":  "Limitacion de altura",
-                          "subtema":  "ATSP",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-014",
-                          "tema":  "ATC/AFIS",
-                          "dificultad":  "dificil",
-                          "pregunta":  "Como debe solicitarse clearance al ATC/AFIS?",
-                          "respuestas":  [
-                                             "Con una frase inventada en vuelo",
-                                             "Solo por el cliente",
-                                             "No se solicita nunca",
-                                             "Segun lo acordado en la coordinacion pre-tactica"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La solicitud se realiza segun lo acordado previamente.",
-                          "error_habitual":  "Improvisar comunicaciones.",
-                          "referencia_concepto":  "Comunicaciones",
-                          "subtema":  "ATC/AFIS",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-015",
-                          "tema":  "STS-01",
-                          "subtema":  "Remote ID",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Antes de un vuelo STS-01, que debe comprobarse sobre identificacion remota?",
-                          "respuestas":  [
-                                             "Que el geocaging este desactivado",
-                                             "Que el indice K sea igual a 4",
-                                             "Que la ID remota directa este activa y actualizada",
-                                             "Que el ERP sustituya al Remote ID"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "La verificacion pre-vuelo STS-01 incluye ID remota directa activa y actualizada junto al FTS operativo.",
-                          "error_habitual":  "Trasladar a STS-01 requisitos especificos de STS-02 y olvidar Remote ID.",
-                          "referencia_concepto":  "Pre-vuelo STS-01 | Remote ID",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-016",
-                          "tema":  "STS-02",
-                          "subtema":  "Geocaging",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Que comprobacion tecnica es especifica de STS-02 antes del vuelo?",
-                          "respuestas":  [
-                                             "Solo modo baja velocidad C5",
-                                             "Geocaging configurado y operativo",
-                                             "FTS exclusivo de STS-01",
-                                             "Declaracion posterior al aterrizaje"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "El geocaging debe impedir salida del volumen operacional en STS-02 y comprobarse antes del vuelo.",
-                          "error_habitual":  "Confundir geocaging con geoconsciencia o con un aviso sin confinamiento.",
-                          "referencia_concepto":  "Pre-vuelo STS-02 | Geocaging",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-017",
-                          "tema":  "Pre-vuelo",
-                          "subtema":  "Zona terrestre controlada",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Antes del despegue, que debe verificar el piloto sobre la zona terrestre controlada?",
-                          "respuestas":  [
-                                             "Que solo figura en el manual sin revisarla",
-                                             "Que contiene concentraciones de personas",
-                                             "Que es adecuada realmente para la mision prevista",
-                                             "Que la define el cliente sin supervision"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "Aunque el operador define la zona, el piloto debe comprobar su adecuacion operacional antes del vuelo.",
-                          "error_habitual":  "Delegar la comprobacion practica de la zona en terceros.",
-                          "referencia_concepto":  "Acciones comunes pre-vuelo",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-018",
-                          "tema":  "Contingencia",
-                          "subtema":  "Intrusion de personas",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "escenario",
-                          "pregunta":  "Si entra una persona no participante en la zona terrestre controlada, que tipo de procedimiento corresponde?",
-                          "respuestas":  [
-                                             "Informe meteorologico METAR",
-                                             "Procedimiento de contingencia",
-                                             "Cambio de marcado de clase",
-                                             "Operacion normal sin accion"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "La intrusion altera las condiciones de seguridad y debe gestionarse antes de convertirse en emergencia.",
-                          "error_habitual":  "Continuar la operacion por considerar que una intrusion breve no cambia el riesgo.",
-                          "referencia_concepto":  "Procedimientos de contingencia",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-019",
-                          "tema":  "Emergencia",
-                          "subtema":  "Fallo FTS",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "escenario",
-                          "pregunta":  "Un mal funcionamiento del FTS durante la operacion debe tratarse como...",
-                          "respuestas":  [
-                                             "Procedimiento de emergencia",
-                                             "Checklist documental ordinaria",
-                                             "Contenido meteorologico complementario",
-                                             "Operacion sin incidencia"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "El FTS es una barrera critica; su fallo activa respuesta de emergencia segun el ERP.",
-                          "error_habitual":  "Tratar el fallo de una mitigacion critica como una incidencia menor.",
-                          "referencia_concepto":  "Procedimientos de emergencia | FTS",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-020",
-                          "tema":  "ERP",
-                          "subtema":  "Salida de zona",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Que situacion exige activar el ERP durante una operacion UAS?",
-                          "respuestas":  [
-                                             "Finalizacion normal del test teorico",
-                                             "Cambio de formato de registros",
-                                             "Consulta previa a ENAIRE sin hallazgos",
-                                             "UA fuera del volumen de la zona terrestre controlada"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "El ERP define acciones ante salida de volumen y otras situaciones criticas que pueden afectar a terceros.",
-                          "error_habitual":  "Esperar a recuperar control sin activar el plan previsto.",
-                          "referencia_concepto":  "ERP | Salida de zona",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-021",
-                          "tema":  "ATC/AFIS",
-                          "subtema":  "Coordinacion pre-tactica",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Como debe pedirse clearance ATC/AFIS cuando aplica a la operacion?",
-                          "respuestas":  [
-                                             "Con frase improvisada en el momento",
-                                             "Segun lo acordado en la coordinacion pre-tactica",
-                                             "Solo mediante el cliente",
-                                             "No se solicita nunca en ningun caso"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "La comunicacion debe seguir lo acordado previamente; este contenido conserva trazabilidad complementaria separada.",
-                          "error_habitual":  "Improvisar comunicaciones criticas sin respetar la coordinacion previa.",
-                          "referencia_concepto":  "Complementario | Comunicaciones ATC/AFIS",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-022",
-                          "tema":  "Registros",
-                          "subtema":  "Conservacion",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Por que deben conservarse registros de formacion, mantenimiento y sucesos?",
-                          "respuestas":  [
-                              "Para sustituir la inspeccion pre-vuelo",
-                              "Para justificar vuelos sobre concentraciones de personas",
-                              "Para mantener trazabilidad operacional posterior",
-                              "Para evitar aplicar el ERP"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "La conservacion de registros sostiene la trazabilidad posterior de formacion, mantenimiento y sucesos.",
-                          "error_habitual":  "Registrar solo datos tecnicos inmediatos y descartar evidencia operacional.",
-                          "referencia_concepto":  "Conservacion de registros",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-023",
-                          "tema":  "Indice K",
-                          "subtema":  "Trazabilidad complementaria",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Si se usa el indice K en la preparacion operacional, como debe tratarse?",
-                          "respuestas":  [
-                                             "Como requisito principal del Syllabus paginas 5-6",
-                                             "Como sustituto del ERP",
-                                             "Como prueba de Remote ID",
-                                             "Como contenido complementario separado de la trazabilidad principal"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "El indice K aparece como contenido complementario y debe conservar trazabilidad propia, sin atribuirlo al nucleo AESA paginas 5-6.",
-                          "error_habitual":  "Mezclar datos complementarios con la fuente principal del Syllabus.",
-                          "referencia_concepto":  "Complementario | Indice K Planetario",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B3-T-024",
-                          "tema":  "Post-vuelo",
-                          "subtema":  "Cierre operacional",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Que conjunto de acciones encaja con la fase posterior al vuelo?",
-                          "respuestas":  [
-                                             "Apagado, inspeccion, registros del sistema y datos de fatiga si aplican",
-                                             "Desactivar ERP antes de aterrizar",
-                                             "Omitir mantenimiento si no hubo emergencia",
-                                             "Cambiar el escenario STS usado"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "El cierre post-vuelo debe consolidar estado del UAS, registros y factores humanos relevantes.",
-                          "error_habitual":  "Dar por terminada la mision al aterrizar sin registrar informacion critica.",
-                          "referencia_concepto":  "Acciones posteriores al vuelo",
-                          "bloque":  3,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque3/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      }
-                  ]
+{
+  "titulo": "Test · Bloque 3",
+  "bloque": "Procedimientos operacionales",
+  "total": 18,
+  "preguntas": [
+    {
+      "id": "B3-T-001",
+      "tema": "STS-01",
+      "dificultad": "facil",
+      "pregunta": "Que dos elementos tecnicos especificos debe verificar el piloto en STS-01?",
+      "respuestas": [
+        "Solo configuración de cámara y vídeo",
+        "Solo bateria y helice",
+        "Clearance y asistencia barometrica",
+        "FTS operativo e ID remota directa activa y actualizada"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "FTS e ID remota son acciones pre-vuelo especificas de STS-01.",
+      "error_habitual": "Asignar geocaging a STS-01.",
+      "referencia_concepto": "Bloque 3: STS-01",
+      "subtema": "STS-01",
+      "tipo_pregunta": "comprension",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-T-002",
+      "tema": "STS-02",
+      "dificultad": "facil",
+      "pregunta": "Que debe verificarse en STS-02 antes del vuelo?",
+      "respuestas": [
+        "FTS como unica accion especifica",
+        "Geocaging configurado y operativo",
+        "Solo ID remota",
+        "Registro de tres anos"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El geocaging debe impedir salida del volumen operacional.",
+      "error_habitual": "Olvidar que la ID remota activa es una comprobacion previa especifica de STS-01.",
+      "referencia_concepto": "Bloque 3: STS-02",
+      "subtema": "STS-02",
+      "tipo_pregunta": "comprension",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-T-003",
+      "tema": "Zona terrestre controlada",
+      "dificultad": "media",
+      "pregunta": "Que responsabilidad tiene el piloto sobre la zona terrestre controlada?",
+      "respuestas": [
+        "Solo aceptar la zona definida sin comprobar",
+        "Delegarla siempre al cliente",
+        "Asegurar su adecuacion real para la mision",
+        "Ignorarla si hay FTS"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La zona la define el operador, pero el piloto verifica su adecuacion.",
+      "error_habitual": "Pensar que el piloto no comprueba la zona.",
+      "referencia_concepto": "Bloque 3: Zona terrestre controlada",
+      "subtema": "Zona terrestre controlada",
+      "tipo_pregunta": "comprension",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-T-004",
+      "tema": "Contingencia",
+      "dificultad": "media",
+      "pregunta": "La intrusion de personas no participantes en la zona terrestre controlada corresponde a...",
+      "respuestas": [
+        "Procedimiento de contingencia",
+        "Fallo FTS",
+        "Registro post-vuelo",
+        "Clearance ATC"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La contingencia gestiona una desviacion o intrusion antes de que se convierta en emergencia operacional.",
+      "error_habitual": "Esperar a que el problema sea critico antes de aplicar el procedimiento.",
+      "referencia_concepto": "Bloque 3: Contingencia",
+      "subtema": "Contingencia",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-T-006",
+      "tema": "ERP",
+      "dificultad": "facil",
+      "pregunta": "Que es el ERP?",
+      "respuestas": [
+        "Indice planetario",
+        "Identificacion remota directa",
+        "Zona terrestre controlada",
+        "Plan de Respuesta ante Emergencias"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "ERP define acciones ante situaciones criticas.",
+      "error_habitual": "Usarlo como sinonimo de checklist general.",
+      "referencia_concepto": "Bloque 3: ERP",
+      "subtema": "ERP",
+      "tipo_pregunta": "comprension",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-T-008",
+      "tema": "FTS",
+      "dificultad": "media",
+      "pregunta": "Como se relaciona FTS con mitigacion de riesgo?",
+      "respuestas": [
+        "Sustituye toda planificacion",
+        "Solo sirve para imprimir registros",
+        "Permite terminar el vuelo según el procedimiento y diseño ante una emergencia.",
+        "Es exclusivo de STS-02"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El FTS es distinto de RTH o aterrizaje normal. No se espera a salir del volumen ni se promete ausencia de daño; se aplican los criterios del manual.",
+      "error_habitual": "Verlo solo como dispositivo sin procedimiento.",
+      "referencia_concepto": "Bloque 3: FTS",
+      "subtema": "FTS",
+      "tipo_pregunta": "comprension",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-T-009",
+      "tema": "MEUH",
+      "dificultad": "media",
+      "pregunta": "Que significa MEUH?",
+      "respuestas": [
+        "Manual, ERP, UAS y Helices",
+        "Mapa, Examen, Usuario y Hardware",
+        "Meteorologia, Entorno, UAS y Humanos",
+        "Mantenimiento, Energia, UTM y Horario"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "MEUH es herramienta pedagogica de verificacion sistematica.",
+      "error_habitual": "Inventar requisitos no incluidos.",
+      "referencia_concepto": "Bloque 3: MEUH",
+      "subtema": "MEUH",
+      "tipo_pregunta": "comprension",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-T-013",
+      "tema": "ATSP",
+      "dificultad": "dificil",
+      "pregunta": "Que puede requerir el ATSP respecto a altura?",
+      "respuestas": [
+        "Alturas inferiores a la general de 120 m",
+        "Siempre exactamente 120 m",
+        "Ninguna limitacion",
+        "Solo altura bajo tierra"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El ATSP puede requerir alturas inferiores a la general de 120 m.",
+      "error_habitual": "Asumir 120 m como unico limite aplicable.",
+      "referencia_concepto": "Bloque 3: ATSP",
+      "subtema": "ATSP",
+      "tipo_pregunta": "escenario",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-T-022",
+      "tema": "Registros",
+      "subtema": "Conservacion",
+      "dificultad": "dificil",
+      "tipo_pregunta": "dato critico",
+      "pregunta": "Por que deben conservarse registros de formacion, mantenimiento y sucesos?",
+      "respuestas": [
+        "Para sustituir la inspeccion pre-vuelo",
+        "Para justificar vuelos sobre concentraciones de personas",
+        "Para mantener trazabilidad operacional posterior",
+        "Para evitar aplicar el ERP"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La conservacion de registros sostiene la trazabilidad posterior de formacion, mantenimiento y sucesos.",
+      "error_habitual": "Registrar solo datos tecnicos inmediatos y descartar evidencia operacional.",
+      "referencia_concepto": "Bloque 3: Registros",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-T-024",
+      "tema": "Post-vuelo",
+      "subtema": "Cierre operacional",
+      "dificultad": "media",
+      "tipo_pregunta": "aplicacion",
+      "pregunta": "Que conjunto de acciones encaja con la fase posterior al vuelo?",
+      "respuestas": [
+        "Apagado, inspeccion, registros del sistema y datos de fatiga si aplican",
+        "Desactivar ERP antes de aterrizar",
+        "Omitir mantenimiento si no hubo emergencia",
+        "Cambiar el escenario STS usado"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "El cierre post-vuelo debe consolidar estado del UAS, registros y factores humanos relevantes.",
+      "error_habitual": "Dar por terminada la mision al aterrizar sin registrar informacion critica.",
+      "referencia_concepto": "Bloque 3: Post-vuelo",
+      "bloque": 3,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque3/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-R26-001",
+      "tema": "Preparar la misión",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "La lista está firmada, pero aparece un acceso no controlado. ¿Qué procede?",
+      "respuestas": [
+        "Resolver el acceso y revisar la adecuación antes de iniciar.",
+        "Despegar porque ya se firmó.",
+        "Omitir el camino del plano.",
+        "Confiar solo en la batería cargada."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Antes del vuelo se comprueban objetivo, espacio aéreo, zonas UAS, meteorología, personas, volumen, márgenes, equipo y competencias. La lista ayuda a ejecutar comprobaciones, pero no sustituye el juicio ni el manual. MEUH (Meteorología, Entorno, UAS, Humanos) puede usarse como ayuda didáctica, no como regla legal independiente. Ejemplo: El plano no incluye un camino usado por trabajadores. La comprobación del lugar obliga a revisar la zona antes de aprobar el inicio.",
+      "explicaciones_opciones": [
+        "Antes del vuelo se comprueban objetivo, espacio aéreo, zonas UAS, meteorología, personas, volumen, márgenes, equipo y competencias. La lista ayuda a ejecutar comprobaciones, pero no sustituye el juicio ni el manual. MEUH (Meteorología, Entorno, UAS, Humanos) puede usarse como ayuda didáctica, no como regla legal independiente.",
+        "La firma no asegura el control real.",
+        "Ocultar el acceso no elimina usuarios.",
+        "La energía no resuelve la exposición de terceros."
+      ],
+      "error_habitual": "Completar una lista sin verificar la realidad.",
+      "referencia_concepto": "Preparar la misión",
+      "leccion_id": "b3-s1",
+      "bloque": 3,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ]
+    },
+    {
+      "id": "B3-R26-002",
+      "tema": "Comprobar barreras C5 y C6",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "El C6 conserva los límites de otra parcela. ¿Puede iniciarse la misión?",
+      "respuestas": [
+        "Sí, porque tiene etiqueta C6.",
+        "Sí, si el enlace es potente.",
+        "Sí, porque la DRI está encendida.",
+        "No; hay que configurar y comprobar los límites de esta operación."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Se verifica el estado del UAS, fijaciones, energía, enlace C2, limitaciones y sistemas de seguridad según fabricante y escenario. En STS-01 se comprueban los medios de terminación y la identificación remota activa y actualizada; en STS-02, además, la contención configurada y operativa. La DRI también debe estar activa y actualizada en STS-02. Ejemplo: El sistema de contención tiene cargado el volumen de otra parcela. Aunque se encienda sin error, no está correctamente configurado para esta misión.",
+      "explicaciones_opciones": [
+        "La etiqueta no configura la misión.",
+        "La potencia del enlace no corrige el volumen.",
+        "Identificación remota y contención cumplen funciones diferentes.",
+        "Se verifica el estado del UAS, fijaciones, energía, enlace C2, limitaciones y sistemas de seguridad según fabricante y escenario. En STS-01 se comprueban los medios de terminación y la identificación remota activa y actualizada; en STS-02, además, la contención configurada y operativa. La DRI también debe estar activa y actualizada en STS-02."
+      ],
+      "error_habitual": "Confundir sistema encendido con sistema comprobado y adecuado.",
+      "referencia_concepto": "Comprobar barreras C5 y C6",
+      "leccion_id": "b3-s2",
+      "bloque": 3,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-R26-003",
+      "tema": "Contingencia y emergencia",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "La UA va a superar la geografía de vuelo, pero sigue dentro del volumen operacional. ¿Qué marco corresponde inicialmente?",
+      "respuestas": [
+        "Activar siempre el FTS sin evaluar el procedimiento.",
+        "Declarar finalizado el vuelo solo en el registro.",
+        "Aplicar la contingencia prevista para esa desviación.",
+        "Esperar sin actuar hasta salir del volumen."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Una contingencia gestiona una desviación y busca recuperar el estado normal dentro del volumen operacional. Una emergencia exige las acciones previstas para una situación que ya no puede recuperarse con los procedimientos normales o de contingencia. La geografía de vuelo y el volumen operacional tienen límites diferentes. Ejemplo: La UA se aproxima al límite de la geografía de vuelo: se ejecuta la contingencia definida. Amenazar con superar el volumen operacional requiere la respuesta de emergencia prevista; no se espera a salir.",
+      "explicaciones_opciones": [
+        "La respuesta concreta depende de la situación y del manual.",
+        "Un apunte no corrige la trayectoria.",
+        "Una contingencia gestiona una desviación y busca recuperar el estado normal dentro del volumen operacional. Una emergencia exige las acciones previstas para una situación que ya no puede recuperarse con los procedimientos normales o de contingencia. La geografía de vuelo y el volumen operacional tienen límites diferentes.",
+        "La contingencia existe para intervenir antes."
+      ],
+      "error_habitual": "Esperar a cruzar el último límite para actuar.",
+      "referencia_concepto": "Contingencia y emergencia",
+      "leccion_id": "b3-s3",
+      "bloque": 3,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-R26-004",
+      "tema": "Intrusión de una persona",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Una persona entra antes del despegue. ¿Qué acción tiene sentido?",
+      "respuestas": [
+        "Considerarla participante por haber visto un cartel.",
+        "Mantener la aeronave en tierra y restablecer el control de la zona.",
+        "Ponerla en estacionario para avisar.",
+        "Despegar rápidamente antes de que se acerque."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La entrada de una persona no participante altera el control de la zona. Se aplican medidas para protegerla de acuerdo con el procedimiento y la situación: no se despega si aún se está en tierra; en vuelo se adapta o termina de forma segura. Un cartel no convierte a una persona en participante. Ejemplo: La aeronave aún no ha despegado y entra alguien. Se mantiene en tierra, se controla el acceso y se reevalúa antes de continuar.",
+      "explicaciones_opciones": [
+        "Faltan consentimiento e información adecuados.",
+        "La entrada de una persona no participante altera el control de la zona. Se aplican medidas para protegerla de acuerdo con el procedimiento y la situación: no se despega si aún se está en tierra; en vuelo se adapta o termina de forma segura. Un cartel no convierte a una persona en participante.",
+        "Introduce un vuelo innecesario durante la intrusión.",
+        "La condición de seguridad ya está alterada."
+      ],
+      "error_habitual": "Aplicar una maniobra de vuelo a un UAS que sigue en tierra.",
+      "referencia_concepto": "Intrusión de una persona",
+      "leccion_id": "b3-s4",
+      "bloque": 3,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ]
+    },
+    {
+      "id": "B3-R26-005",
+      "tema": "Pérdida de enlace y terminación",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "¿Qué diferencia esencial hay entre RTH y FTS?",
+      "respuestas": [
+        "RTH busca retornar; FTS termina el vuelo conforme a su diseño.",
+        "Son sinónimos.",
+        "FTS siempre aterriza sin daños.",
+        "RTH permite ignorar los obstáculos."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Se revisa la respuesta prevista ante degradación o pérdida de C2 y su adecuación al entorno. RTH, estacionario, aterrizaje y FTS son funciones diferentes. El FTS termina el vuelo conforme a su diseño; no garantiza un aterrizaje sin daño ni sustituye la planificación del margen de riesgo. Ejemplo: Un RTH automático a una altura incompatible con el entorno sería un peligro. Se comprueba la configuración antes del vuelo y se siguen los procedimientos ante la pérdida real.",
+      "explicaciones_opciones": [
+        "Se revisa la respuesta prevista ante degradación o pérdida de C2 y su adecuación al entorno. RTH, estacionario, aterrizaje y FTS son funciones diferentes. El FTS termina el vuelo conforme a su diseño; no garantiza un aterrizaje sin daño ni sustituye la planificación del margen de riesgo.",
+        "Persiguen respuestas distintas.",
+        "La terminación puede causar impacto; se mitigan sus consecuencias.",
+        "El retorno también requiere configuración y evaluación."
+      ],
+      "error_habitual": "Llamar FTS a cualquier función automática de retorno.",
+      "referencia_concepto": "Pérdida de enlace y terminación",
+      "leccion_id": "b3-s5",
+      "bloque": 3,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B3-R26-006",
+      "tema": "ERP y comunicación",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "¿Qué aporta el ERP además de una maniobra del piloto?",
+      "respuestas": [
+        "Una autorización para continuar tras cualquier fallo.",
+        "La eliminación de toda responsabilidad.",
+        "La garantía de que nunca habrá daños.",
+        "Organización de respuesta, roles, comunicaciones y limitación de consecuencias."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "El plan de respuesta ante emergencias (ERP) organiza cómo limitar consecuencias, alertar y coordinar ayuda. No se confunde con una maniobra individual ni se activa por una receta universal ante cualquier incidencia. Roles, contactos, acceso y criterios de activación deben estar definidos antes de operar. Ejemplo: Un impacto genera riesgo de incendio. El equipo aplica el ERP, protege a las personas y comunica la información necesaria a los servicios que correspondan.",
+      "explicaciones_opciones": [
+        "El ERP gestiona una emergencia, no exime condiciones.",
+        "Las responsabilidades siguen existiendo.",
+        "El plan busca limitar consecuencias, no prometer su ausencia.",
+        "El plan de respuesta ante emergencias (ERP) organiza cómo limitar consecuencias, alertar y coordinar ayuda. No se confunde con una maniobra individual ni se activa por una receta universal ante cualquier incidencia. Roles, contactos, acceso y criterios de activación deben estar definidos antes de operar."
+      ],
+      "error_habitual": "Reducir el ERP a pulsar un botón del mando.",
+      "referencia_concepto": "ERP y comunicación",
+      "leccion_id": "b3-s6",
+      "bloque": 3,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B3-R26-007",
+      "tema": "Cerrar, registrar y aprender",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Se detecta una fijación floja al finalizar. ¿Qué procede?",
+      "respuestas": [
+        "Reutilizarla mientras las imágenes salgan bien.",
+        "Aplicar cualquier plazo de archivo a todos los registros.",
+        "Registrarla, evaluar su causa y resolverla antes de otro vuelo.",
+        "Borrar el dato porque la misión terminó."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Después del vuelo se asegura e inspecciona el UAS, se registra información relevante y se realiza un debriefing. Se identifican los sucesos que deban notificarse y los datos de mantenimiento y de fatiga pertinentes. Los plazos se consultan por tipo de registro y disposición; no se aplica una cifra única a cualquier documento. Ejemplo: Se detecta una fijación floja al terminar. Se registra y resuelve antes del siguiente vuelo, aunque las imágenes obtenidas hayan sido buenas.",
+      "explicaciones_opciones": [
+        "La calidad de imagen no prueba seguridad.",
+        "El plazo depende del tipo de registro y su disposición.",
+        "Después del vuelo se asegura e inspecciona el UAS, se registra información relevante y se realiza un debriefing. Se identifican los sucesos que deban notificarse y los datos de mantenimiento y de fatiga pertinentes. Los plazos se consultan por tipo de registro y disposición; no se aplica una cifra única a cualquier documento.",
+        "Se pierde una oportunidad de prevenir repetición."
+      ],
+      "error_habitual": "Confundir éxito del encargo con ausencia de incidencias.",
+      "referencia_concepto": "Cerrar, registrar y aprender",
+      "leccion_id": "b3-s7",
+      "bloque": 3,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B3-R26-008",
+      "tema": "Decidir sin recetas universales",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "El GNSS da una alerta y otro indicador parece favorable. ¿Qué debe guiar la decisión?",
+      "respuestas": [
+        "La expectativa de que se arregle en vuelo.",
+        "El estado real del sistema, sus limitaciones y el procedimiento aplicable.",
+        "Solo el indicador favorable.",
+        "Una regla universal K < 4."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Las decisiones se apoyan en el escenario, manual, fabricante, coordinaciones y datos reales. OODA significa observar, orientar, decidir y actuar; puede ayudar a organizar el razonamiento. Un indicador aislado, como actividad geomagnética, no establece por sí solo una prohibición universal STS ni garantiza aptitud del GNSS. Ejemplo: Hay una alerta de posicionamiento pese a un indicador geomagnético bajo. Se atiende al fallo del sistema y al procedimiento; no se ignora por una cifra externa.",
+      "explicaciones_opciones": [
+        "No resuelve un fallo previo al despegue.",
+        "Las decisiones se apoyan en el escenario, manual, fabricante, coordinaciones y datos reales. OODA significa observar, orientar, decidir y actuar; puede ayudar a organizar el razonamiento. Un indicador aislado, como actividad geomagnética, no establece por sí solo una prohibición universal STS ni garantiza aptitud del GNSS.",
+        "No invalida la alerta del equipo.",
+        "No constituye por sí sola una condición universal STS."
+      ],
+      "error_habitual": "Sustituir una comprobación real por un umbral sin contexto.",
+      "referencia_concepto": "Decidir sin recetas universales",
+      "leccion_id": "b3-s8",
+      "bloque": 3,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    }
+  ]
 }

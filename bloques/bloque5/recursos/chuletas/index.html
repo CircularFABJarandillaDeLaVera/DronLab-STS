@@ -25,67 +25,7 @@
     <h1>Guias rapidas</h1>
   </header>
 
-  <main class="sheet">
-    <section class="hero block-hero block-hero--compact">
-      <div>
-        <p class="kicker">Resumen rapido</p>
-        <h2>C5, C6, FTS, geocaging y baterias</h2>
-      </div>
-      <div class="hero-grid">
-        <span><b>C5</b>STS-01</span>
-        <span><b>5 m/s</b>modo lento</span>
-        <span><b>C6</b>STS-02</span>
-        <span><b>50 m/s</b>maximo</span>
-        <span><b>C2</b>alertas</span>
-        <span><b>C3</b>geoconsciencia</span>
-      </div>
-    </section>
-
-    <section class="card compact">
-      <p class="kicker">Chuleta 1</p>
-      <h2>Requisitos que no se mezclan</h2>
-      <div class="tiles six">
-        <article><span class="ico">01</span><b>C5</b><p>No ala fija salvo anclado.</p></article>
-        <article><span class="ico">02</span><b>Modo lento</b><p>Maximo 5 m/s.</p></article>
-        <article><span class="ico">03</span><b>FTS</b><p>Independiente de controladora.</p></article>
-        <article><span class="ico">04</span><b>C6</b><p>Maximo 50 m/s.</p></article>
-        <article><span class="ico">05</span><b>Telemetria</b><p>Altura, velocidad, posicion.</p></article>
-        <article><span class="ico">06</span><b>C2</b><p>Alertas de degradacion.</p></article>
-      </div>
-    </section>
-
-    <section class="card cf-card cf-card--interactive">
-      <p class="kicker">Comparativa</p>
-      <h2>Clase C5 / Clase C6</h2>
-      <div class="flow">
-        <div><span>1</span><b>C5</b><small>STS-01</small></div>
-        <div><span>2</span><b>5 m/s</b><small>modo lento</small></div>
-        <div><span>3</span><b>FTS</b><small>independiente</small></div>
-        <div><span>4</span><b>C6</b><small>STS-02</small></div>
-        <div><span>5</span><b>50 m/s</b><small>nivelado</small></div>
-        <div><span>6</span><b>AVP</b><small>altura velocidad posicion</small></div>
-      </div>
-    </section>
-
-    <section class="grid two">
-      <article class="card cf-card cf-card--interactive">
-        <p class="kicker">No confundir</p>
-        <h2>Alertar, impedir, alimentar</h2>
-        <ul class="check">
-          <li>Geoconsciencia: avisa y cumple requisitos equivalentes C3.</li>
-          <li>Geocaging: impide salir del volumen preconfigurado.</li>
-          <li>Serie: suma tension o voltaje.</li>
-          <li>Paralelo: suma capacidad o autonomia.</li>
-        </ul>
-      </article>
-      <article class="card accent">
-        <p class="kicker">Trazabilidad</p>
-        <h2>Syllabus STS</h2>
-        <div class="idbox"><small>AESA</small><b>Paginas 7-8 | VALIDADO</b></div>
-        <p class="note">Fuente unica: ingenieria profunda permanente del Bloque 5.</p>
-      </article>
-    </section>
-  </main>
+  <main class="sheet"><section class="panel card cf-panel"><h1>Conocimientos generales del UAS</h1><p>Explicar qué hace cada sistema y comprobar su configuración y sus limitaciones.</p><p>Refuerzo revisado el 06/11/2026 · Material formativo propio</p></section><article class="panel card cf-card"><h2>Clases C5 y C6</h2><p>C5 se vincula a STS-01 y C6 a STS-02. Se comprueban marcado, declaración UE de conformidad, configuración y manual. Las partes 16 y 17 del Reglamento 2019/945 establecen excepciones a ciertos requisitos C3: no se puede afirmar que toda función C3 sea obligatoria sin leer esas excepciones.</p><p><b>Ejemplo resuelto:</b> Añadir un paracaídas por cuenta propia a un dron no demuestra conversión conforme a C5. Se necesita la documentación y el proceso aplicables.</p><p><b>Error habitual:</b> Confundir accesorio instalado con conformidad de clase.</p><p><a href="https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Geoconsciencia, contención y DRI</h2><p>La geoconsciencia informa de posibles vulneraciones de zonas; la contención limita el vuelo respecto a límites programados; la identificación remota directa transmite datos de identificación. En C5/C6 la geoconsciencia se regula si está instalada: no es una obligación universal común en los términos antes atribuidos a C3. En STS la DRI debe estar activa y actualizada.</p><p><b>Ejemplo resuelto:</b> Un aviso de zona no garantiza que el UAS detenga su avance. Y una emisión DRI correcta no demuestra que el volumen de vuelo esté bien cargado.</p><p><b>Error habitual:</b> Usar geoconsciencia, geocaging y DRI como sinónimos.</p><p><a href="https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>C5: modo lento y terminación</h2><p>En C5 sin anclaje, el modo lento seleccionable limita a no más de 5 m/s. STS-01 sin anclaje exige operar a menos de 5 m/s. Los medios de terminación y su activación deben ser independientes del control y guiado automáticos; se prevén medios de reducción de las consecuencias del impacto. Se revisa el manual, sin prometer aterrizaje indemne.</p><p><b>Ejemplo resuelto:</b> Un modo cuyo máximo técnico sea 5 m/s puede cumplir ese requisito de producto; la operación STS-01 sigue teniendo que mantenerse por debajo de 5 m/s.</p><p><b>Error habitual:</b> Confundir límite de diseño con velocidad autorizada exacta de operación.</p><p><a href="https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>C6: información y límites</h2><p>C6 tiene velocidad máxima respecto al suelo en vuelo nivelado no superior a 50 m/s. Proporciona posición geográfica, velocidad y altura, programación de trayectoria y medios de limitación del volumen. El FTS y su activación son independientes del control automático y de los medios que evitan rebasar el volumen.</p><p><b>Ejemplo resuelto:</b> Que la clase permita un máximo de 50 m/s no obliga a usarlo ni garantiza que sea adecuado con esa carga, viento o margen de riesgo.</p><p><b>Error habitual:</b> Tomar un máximo de producto como velocidad recomendada.</p><p><a href="https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Enlace C2 y funciones automáticas</h2><p>C2 es el enlace de mando y control. Se supervisa su calidad y se atienden alertas de degradación o pérdida. La existencia de telemetría, vídeo o una ruta automática no demuestra que todos los enlaces estén disponibles ni elimina los procedimientos ante fallo.</p><p><b>Ejemplo resuelto:</b> La imagen sigue visible pero aparece alarma C2. El piloto no deduce que el mando sea correcto solo porque recibe vídeo.</p><p><b>Error habitual:</b> Confundir enlace de imagen con estado de mando y control.</p><p><a href="https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>IMU, GNSS y brújula</h2><p>La IMU mide magnitudes inerciales mediante sensores como acelerómetros y giróscopos; GNSS aporta posicionamiento por satélite; la brújula contribuye al rumbo magnético. No son intercambiables. Se siguen las instrucciones del fabricante para calibración y comprobación, evitando calibrar indiscriminadamente en lugares con interferencia.</p><p><b>Ejemplo resuelto:</b> Un aviso de rumbo junto a una estructura metálica pide evaluar interferencia y el procedimiento del fabricante, no asumir que más satélites corrigen cualquier error.</p><p><b>Error habitual:</b> Pensar que GNSS resuelve todo fallo de orientación.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Velocidades, altura y referencia</h2><p>Se distingue velocidad respecto al suelo de velocidad respecto al aire, y altura relativa del sistema de separación real al terreno. En instrumentos aerodinámicos, velocidad indicada y verdadera no son necesariamente iguales. Antes de comparar cifras se identifican unidad, magnitud y referencia.</p><p><b>Ejemplo resuelto:</b> El mando muestra 80 m respecto al despegue sobre un terreno que asciende 40 m. En el ejemplo geométrico, la separación vertical local sería 40 m; la lectura no equivale automáticamente a 80 m sobre el suelo.</p><p><b>Error habitual:</b> Comparar lecturas sin saber de qué punto o magnitud proceden.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Baterías: V, Ah, Wh y conexiones</h2><p>Ah expresa capacidad de carga eléctrica; Wh, energía. Para una estimación nominal, Wh = V × Ah. En serie se suman tensiones de elementos compatibles; en paralelo, capacidades a igual tensión. No se deduce autonomía exacta ni se recomienda modificar conexiones sin aprobación del fabricante.</p><p><b>Ejemplo resuelto:</b> Una batería de 22,2 V y 5 Ah almacena nominalmente 111 Wh. Una de 11,1 V y 5 Ah tiene 55,5 Wh: igual Ah no significa igual energía.</p><p><b>Error habitual:</b> Confundir mAh con energía o prometer el doble de autonomía.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article></main>
   <footer class="corp-band" aria-label="Entidades colaboradoras">
     <img class="corp-band__logo corp-band__logo--wide corp-logo--light" src="../../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio.png" alt="Logotipos institucionales de Circular FAB">
     <img class="corp-band__logo corp-band__logo--wide corp-logo--dark" src="../../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Logotipos institucionales de Circular FAB">

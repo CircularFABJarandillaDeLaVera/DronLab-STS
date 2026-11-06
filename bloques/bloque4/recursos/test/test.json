@@ -1,337 +1,538 @@
-﻿{
-    "titulo":  "Test Bloque 4 STS",
-    "bloque":  "Mitigacion tecnica y operacional del riesgo en aire · Syllabus STS paginas 6-7 · Estado VALIDADO",
-    "total":  15,
-    "preguntas":  [
-                      {
-                          "id":  "B4-T-001",
-                          "tema":  "Riesgo en aire",
-                          "dificultad":  "facil",
-                          "pregunta":  "El riesgo en aire se relaciona principalmente con...",
-                          "respuestas":  [
-                                             "La probabilidad de colision en el espacio aereo",
-                                             "La carga administrativa de la operacion",
-                                             "La duracion de las baterias",
-                                             "El formato del registro post-vuelo"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "El bloque define el riesgo en aire desde la probabilidad de colision.",
-                          "error_habitual":  "Confundirlo con riesgo general.",
-                          "referencia_concepto":  "AESA · Syllabus STS paginas 6-7 · VALIDADO",
-                          "subtema":  "Riesgo en aire",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-002",
-                          "tema":  "Mitigacion tecnica",
-                          "dificultad":  "facil",
-                          "pregunta":  "Cual es un ejemplo de mitigacion tecnica?",
-                          "respuestas":  [
-                                             "VLOS",
-                                             "Comunicacion piloto-observador",
-                                             "FTS",
-                                             "Reconocimiento visual"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "Las mitigaciones tecnicas dependen del equipamiento del UAS, como FTS o geocaging, y reducen el riesgo por barreras tecnicas.",
-                          "error_habitual":  "Llamar tecnica a cualquier decision del piloto, aunque sea procedural.",
-                          "referencia_concepto":  "Tipos de mitigacion",
-                          "subtema":  "Mitigacion tecnica",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-003",
-                          "tema":  "Mitigacion operacional",
-                          "dificultad":  "facil",
-                          "pregunta":  "Cual es un ejemplo de mitigacion operacional?",
-                          "respuestas":  [
-                                             "Geocaging",
-                                             "VLOS",
-                                             "FTS",
-                                             "Modo S"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "VLOS es procedimiento operativo de separacion visual.",
-                          "error_habitual":  "Confundir un observador o procedimiento con una barrera tecnica instalada en el UAS.",
-                          "referencia_concepto":  "Tipos de mitigacion",
-                          "subtema":  "Mitigacion operacional",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-004",
-                          "tema":  "Estrategica",
-                          "dificultad":  "media",
-                          "pregunta":  "Una mitigacion estrategica se aplica...",
-                          "respuestas":  [
-                                             "Solo despues del aterrizaje",
-                                             "Unicamente al fallar el FTS",
-                                             "Solo al imprimir la ficha",
-                                             "Antes de la operacion"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "Busca reducir la probabilidad de encuentro antes del vuelo.",
-                          "error_habitual":  "Confundirla con respuesta tactica.",
-                          "referencia_concepto":  "Mitigaciones estrategicas",
-                          "subtema":  "Estrategica",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-005",
-                          "tema":  "Tactica",
-                          "dificultad":  "media",
-                          "pregunta":  "Una mitigacion tactica se aplica...",
-                          "respuestas":  [
-                                             "Siempre en la planificacion documental",
-                                             "Solo en mantenimiento",
-                                             "Solo para calcular visibilidad",
-                                             "En tiempo real tras detectar una amenaza"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La tactica evita la colision tras detectar una amenaza concreta.",
-                          "error_habitual":  "Llamar tactica a toda preparacion previa.",
-                          "referencia_concepto":  "Mitigaciones tacticas",
-                          "subtema":  "Tactica",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-006",
-                          "tema":  "Separacion",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que principio sostiene STS-01 VLOS?",
-                          "respuestas":  [
-                                             "Detectar por radar exclusivamente",
-                                             "Ver y evitar",
-                                             "Modo S obligatorio",
-                                             "Indice K menor que 4"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "STS-01 se apoya en deteccion visual y maniobra del piloto.",
-                          "error_habitual":  "Traer contenido complementario al nucleo Syllabus.",
-                          "referencia_concepto":  "STS-01 VLOS",
-                          "subtema":  "Separacion",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-007",
-                          "tema":  "STS-01",
-                          "dificultad":  "media",
-                          "pregunta":  "El UAS observer en STS-01...",
-                          "respuestas":  [
-                                             "Asiste al piloto, pero no asume su responsabilidad",
-                                             "Sustituye totalmente al piloto",
-                                             "Es siempre Airspace Observer BVLOS",
-                                             "Elimina la necesidad de VLOS"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "La responsabilidad de ver y evitar sigue siendo del piloto.",
-                          "error_habitual":  "Delegar la vigilancia completamente.",
-                          "referencia_concepto":  "UAS Observer",
-                          "subtema":  "STS-01",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-008",
-                          "tema":  "STS-01",
-                          "dificultad":  "facil",
-                          "pregunta":  "Que mitigacion tecnica obligatoria se asocia a STS-01?",
-                          "respuestas":  [
-                                             "Geoconsciencia",
-                                             "Indice K",
-                                             "FTS",
-                                             "Modo S"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "En STS-02 la operacion BVLOS aumenta la necesidad de separacion y mitigacion porque el piloto no mantiene vision directa continua.",
-                          "error_habitual":  "Pensar que BVLOS elimina la obligacion de gestionar el riesgo en aire.",
-                          "referencia_concepto":  "STS-01 FTS",
-                          "subtema":  "STS-01",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-009",
-                          "tema":  "STS-02",
-                          "dificultad":  "media",
-                          "pregunta":  "En STS-02, el incremento de riesgo BVLOS se mitiga principalmente mediante...",
-                          "respuestas":  [
-                                             "Solo UAS observer de STS-01",
-                                             "Observadores del espacio aereo o trayectoria pre-programada obligatoria",
-                                             "Solo bitacora post-vuelo",
-                                             "Una app meteorologica cualquiera"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "En STS-02, el riesgo BVLOS se mitiga mediante observadores del espacio aereo o una trayectoria pre-programada obligatoria.",
-                          "error_habitual":  "Hacer opcionales los observadores sin trayectoria obligatoria.",
-                          "referencia_concepto":  "STS-02 BVLOS",
-                          "subtema":  "STS-02",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-010",
-                          "tema":  "STS-02",
-                          "dificultad":  "facil",
-                          "pregunta":  "La visibilidad horizontal obligatoria en STS-02 es...",
-                          "respuestas":  [
-                                             "1 km exacto",
-                                             "Sin minimo",
-                                             "Solo alcance visual del piloto",
-                                             "5 km o mas"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La separacion evita encuentros peligrosos manteniendo distancia suficiente respecto al trafico u obstaculos relevantes.",
-                          "error_habitual":  "Reducir separacion a una distancia fija sin atender al escenario.",
-                          "referencia_concepto":  "Visibilidad STS-02",
-                          "subtema":  "STS-02",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-011",
-                          "tema":  "Geocaging",
-                          "dificultad":  "media",
-                          "pregunta":  "El geocaging debe...",
-                          "respuestas":  [
-                                             "Solo avisar al piloto",
-                                             "Registrar el vuelo durante tres anos",
-                                             "Impedir fisicamente que la UA salga del volumen operacional",
-                                             "Sustituir a observadores"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "La funcion es de confinamiento, no solo aviso.",
-                          "error_habitual":  "Confundir geocaging con geoconsciencia.",
-                          "referencia_concepto":  "Geocaging STS-02",
-                          "subtema":  "Geocaging",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-012",
-                          "tema":  "Posicion geografica",
-                          "dificultad":  "media",
-                          "pregunta":  "En STS-02 debe proporcionarse al piloto informacion sobre...",
-                          "respuestas":  [
-                                             "La posicion geografica de la UA",
-                                             "La nota final del examen",
-                                             "La edad del observador",
-                                             "El numero de tarjeta del operador"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "Es una mitigacion tecnica principal del escenario.",
-                          "error_habitual":  "Olvidarla al hablar de geocaging.",
-                          "referencia_concepto":  "STS-02 posicion geografica",
-                          "subtema":  "Posicion geografica",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-013",
-                          "tema":  "Complementario",
-                          "dificultad":  "dificil",
-                          "pregunta":  "MME8, MMT9, MAT16, MAT17, MAE36 y MMT11 deben presentarse como...",
-                          "respuestas":  [
-                                             "Contenido del Syllabus paginas 6-7",
-                                             "Requisito especifico de STS-01",
-                                             "Contenido complementario de otras fuentes oficiales",
-                                             "Contenido no validado"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "Deben distinguirse del nucleo del Syllabus paginas 6-7 porque proceden de otras fuentes oficiales.",
-                          "error_habitual":  "Fusionarlos con el temario principal.",
-                          "referencia_concepto":  "Contenido complementario",
-                          "subtema":  "Complementario",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-014",
-                          "tema":  "Complementario",
-                          "dificultad":  "dificil",
-                          "pregunta":  "Indice K y Modo S son, respecto al nucleo del Syllabus paginas 6-7...",
-                          "respuestas":  [
-                                             "Complementarios, no Syllabus paginas 6-7",
-                                             "El nucleo principal de STS-01",
-                                             "La definicion de VLOS",
-                                             "El requisito de visibilidad STS-02"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "Proceden de otras fuentes oficiales identificadas.",
-                          "error_habitual":  "Presentarlos como paginas 6-7.",
-                          "referencia_concepto":  "Contenido complementario",
-                          "subtema":  "Complementario",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B4-T-015",
-                          "tema":  "FTS C6",
-                          "dificultad":  "dificil",
-                          "pregunta":  "En drones clase C6, el FTS debe ser independiente de...",
-                          "respuestas":  [
-                                             "El piloto y el profesor",
-                                             "La visibilidad horizontal",
-                                             "El UAS observer exclusivamente",
-                                             "La controladora de vuelo y la funcion de geocaging"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La independencia evita dependencia comun con sistemas de control y geocaging.",
-                          "error_habitual":  "Hacer depender el FTS del geocaging.",
-                          "referencia_concepto":  "Datos criticos",
-                          "subtema":  "FTS C6",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  4,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque4/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      }
-                  ]
+{
+  "titulo": "Test · Bloque 4",
+  "bloque": "Mitigación técnica y operacional del riesgo en aire",
+  "total": 15,
+  "preguntas": [
+    {
+      "id": "B4-T-003",
+      "tema": "Mitigacion operacional",
+      "dificultad": "facil",
+      "pregunta": "Cual es un ejemplo de mitigacion operacional?",
+      "respuestas": [
+        "Geocaging",
+        "VLOS",
+        "FTS",
+        "Modo S"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "VLOS es procedimiento operativo de separacion visual.",
+      "error_habitual": "Confundir un observador o procedimiento con una barrera tecnica instalada en el UAS.",
+      "referencia_concepto": "Bloque 4: Mitigacion operacional",
+      "subtema": "Mitigacion operacional",
+      "tipo_pregunta": "comprension",
+      "bloque": 4,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque4/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-T-004",
+      "tema": "Estrategica",
+      "dificultad": "media",
+      "pregunta": "Una mitigacion estrategica se aplica...",
+      "respuestas": [
+        "Solo despues del aterrizaje",
+        "Unicamente al fallar el FTS",
+        "Solo al imprimir la ficha",
+        "Antes de la operacion"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "Busca reducir la probabilidad de encuentro antes del vuelo.",
+      "error_habitual": "Confundirla con respuesta tactica.",
+      "referencia_concepto": "Bloque 4: Estrategica",
+      "subtema": "Estrategica",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 4,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque4/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-T-005",
+      "tema": "Tactica",
+      "dificultad": "media",
+      "pregunta": "Una mitigacion tactica se aplica...",
+      "respuestas": [
+        "Siempre en la planificacion documental",
+        "Solo en mantenimiento",
+        "Solo para calcular visibilidad",
+        "En tiempo real tras detectar una amenaza"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La tactica evita la colision tras detectar una amenaza concreta.",
+      "error_habitual": "Llamar tactica a toda preparacion previa.",
+      "referencia_concepto": "Bloque 4: Tactica",
+      "subtema": "Tactica",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 4,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque4/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-T-006",
+      "tema": "Separacion",
+      "dificultad": "facil",
+      "pregunta": "Que principio sostiene STS-01 VLOS?",
+      "respuestas": [
+        "Detectar por radar exclusivamente",
+        "Ver y evitar",
+        "Modo S obligatorio",
+        "Indice K menor que 4"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "STS-01 se apoya en deteccion visual y maniobra del piloto.",
+      "error_habitual": "Confundir la información de posición con vigilancia de tráfico.",
+      "referencia_concepto": "Bloque 4: Separacion",
+      "subtema": "Separacion",
+      "tipo_pregunta": "comprension",
+      "bloque": 4,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque4/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-T-007",
+      "tema": "STS-01",
+      "dificultad": "media",
+      "pregunta": "El UAS observer en STS-01...",
+      "respuestas": [
+        "Asiste al piloto, pero no asume su responsabilidad",
+        "Sustituye totalmente al piloto",
+        "Es siempre Airspace Observer BVLOS",
+        "Elimina la necesidad de VLOS"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La responsabilidad de ver y evitar sigue siendo del piloto.",
+      "error_habitual": "Delegar la vigilancia completamente.",
+      "referencia_concepto": "Bloque 4: STS-01",
+      "subtema": "STS-01",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 4,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque4/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-T-012",
+      "tema": "Posicion geografica",
+      "dificultad": "media",
+      "pregunta": "En STS-02 debe proporcionarse al piloto informacion sobre...",
+      "respuestas": [
+        "La posicion geografica de la UA",
+        "La nota final del examen",
+        "La edad del observador",
+        "El numero de tarjeta del operador"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Es una mitigacion tecnica principal del escenario.",
+      "error_habitual": "Olvidarla al hablar de geocaging.",
+      "referencia_concepto": "Bloque 4: Posicion geografica",
+      "subtema": "Posicion geografica",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 4,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque4/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-T-015",
+      "tema": "FTS C6",
+      "dificultad": "dificil",
+      "pregunta": "En drones clase C6, el FTS debe ser independiente de...",
+      "respuestas": [
+        "El piloto y el profesor",
+        "La visibilidad horizontal",
+        "El UAS observer exclusivamente",
+        "La controladora de vuelo y la funcion de geocaging"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La independencia evita dependencia comun con sistemas de control y geocaging.",
+      "error_habitual": "Hacer depender el FTS del geocaging.",
+      "referencia_concepto": "Bloque 4: FTS C6",
+      "subtema": "FTS C6",
+      "tipo_pregunta": "escenario",
+      "bloque": 4,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque4/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-R26-001",
+      "tema": "Peligro, exposición y riesgo",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Se elige un horario para reducir encuentros antes del vuelo. ¿Qué tipo de mitigación es?",
+      "respuestas": [
+        "Táctica por reaccionar a un tráfico ya detectado.",
+        "Una identificación remota.",
+        "Una terminación de vuelo.",
+        "Estratégica."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "El riesgo en aire considera la posibilidad de colisión y sus consecuencias. La mitigación estratégica reduce encuentros antes de volar; la táctica actúa ante una amenaza concreta durante la operación. Técnica/operacional y estratégica/táctica son clasificaciones distintas que pueden cruzarse. Ejemplo: Elegir horario y zona para reducir encuentros es estratégico. Responder a una aeronave que se aproxima es táctico. Ambas decisiones pueden coexistir.",
+      "explicaciones_opciones": [
+        "Todavía no se está respondiendo a un encuentro concreto.",
+        "La DRI identifica el UAS; no es una elección de horario.",
+        "El FTS cumple otra función.",
+        "El riesgo en aire considera la posibilidad de colisión y sus consecuencias. La mitigación estratégica reduce encuentros antes de volar; la táctica actúa ante una amenaza concreta durante la operación. Técnica/operacional y estratégica/táctica son clasificaciones distintas que pueden cruzarse."
+      ],
+      "error_habitual": "Clasificar todo en cuatro cajones excluyentes.",
+      "referencia_concepto": "Peligro, exposición y riesgo",
+      "leccion_id": "b4-01",
+      "bloque": 4,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B4-R26-002",
+      "tema": "Ver y evitar en STS-01",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Un observador asiste en STS-01. ¿Quién mantiene la responsabilidad del piloto?",
+      "respuestas": [
+        "El fabricante del mando.",
+        "El cliente de la misión.",
+        "El piloto a distancia.",
+        "El observador automáticamente."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El piloto mantiene VLOS y vigilancia del espacio aéreo, con posible asistencia de un observador de la UA. Esa ayuda no transfiere la responsabilidad. Ver la aeronave y detectar otro tráfico son tareas relacionadas, pero diferentes. Una pantalla no acredita por sí sola vigilancia del entorno. Ejemplo: El piloto ve perfectamente su dron, pero no ha explorado el sector desde el que llega una aeronave. Ver el UAS no equivale a haber vigilado todo el tráfico.",
+      "explicaciones_opciones": [
+        "El equipo no asume decisiones del piloto.",
+        "El encargo no sustituye las responsabilidades operacionales.",
+        "El piloto mantiene VLOS y vigilancia del espacio aéreo, con posible asistencia de un observador de la UA. Esa ayuda no transfiere la responsabilidad. Ver la aeronave y detectar otro tráfico son tareas relacionadas, pero diferentes. Una pantalla no acredita por sí sola vigilancia del entorno.",
+        "La asistencia no transfiere la responsabilidad."
+      ],
+      "error_habitual": "Reducir VLOS a no perder el punto del dron.",
+      "referencia_concepto": "Ver y evitar en STS-01",
+      "leccion_id": "b4-02",
+      "bloque": 4,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ]
+    },
+    {
+      "id": "B4-R26-003",
+      "tema": "STS-02 sin observador",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "Sin observador, una UA se aleja 1,2 km en STS-02. ¿Cumple el límite de esta configuración?",
+      "respuestas": [
+        "Sí, si recibe señal.",
+        "No; el máximo UA-piloto es 1 km.",
+        "Sí, porque el límite siempre es 2 km.",
+        "Sí, si está programada."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La configuración sin observador del espacio aéreo está prevista: UA a no más de 1 km del piloto y trayectoria preprogramada cuando deja de estar en VLOS, además de las restantes condiciones STS-02. No se deduce que una ruta programada detecte aeronaves o evite por sí sola una colisión. Ejemplo: Una misión a 800 m sin observador puede valorarse si cumple todas las condiciones. A 1,2 km ya no cumple esta configuración, aunque la radio funcione.",
+      "explicaciones_opciones": [
+        "Cobertura de radio y límite operacional no son equivalentes.",
+        "La configuración sin observador del espacio aéreo está prevista: UA a no más de 1 km del piloto y trayectoria preprogramada cuando deja de estar en VLOS, además de las restantes condiciones STS-02. No se deduce que una ruta programada detecte aeronaves o evite por sí sola una colisión.",
+        "2 km corresponde a la configuración con observadores y otras condiciones.",
+        "La trayectoria programada no amplía el alcance."
+      ],
+      "error_habitual": "Tratar «ruta automática» como detector de tráfico.",
+      "referencia_concepto": "STS-02 sin observador",
+      "leccion_id": "b4-03",
+      "bloque": 4,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-R26-004",
+      "tema": "STS-02 con observadores",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "UA a 1,8 km del piloto y 900 m del observador; este está a 1,2 km del piloto. ¿Cumple las distancias?",
+      "respuestas": [
+        "No; el observador supera 1 km respecto al piloto.",
+        "Sí, la UA no supera 2 km.",
+        "Sí, porque la UA está cerca del observador.",
+        "No, porque toda UA debe estar a menos de 500 m."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Se comprueban tres distancias a la vez: UA-piloto no superior a 2 km, UA-observador más próximo no superior a 1 km y cada observador-piloto no superior a 1 km. También se verifica cobertura del volumen y espacio circundante y comunicación robusta. Ejemplo: UA a 1,8 km del piloto y a 900 m del observador puede cumplir esas dos distancias; falta comprobar la distancia observador-piloto, cobertura, comunicaciones y demás condiciones.",
+      "explicaciones_opciones": [
+        "Se comprueban tres distancias a la vez: UA-piloto no superior a 2 km, UA-observador más próximo no superior a 1 km y cada observador-piloto no superior a 1 km. También se verifica cobertura del volumen y espacio circundante y comunicación robusta.",
+        "Falta cumplir la distancia observador-piloto.",
+        "También se limita la separación entre observador y piloto.",
+        "No existe aquí ese límite general de 500 m."
+      ],
+      "error_habitual": "Comprobar una sola distancia del triángulo.",
+      "referencia_concepto": "STS-02 con observadores",
+      "leccion_id": "b4-04",
+      "bloque": 4,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-R26-005",
+      "tema": "Visibilidad de vuelo",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "La visibilidad es exactamente 5 km. ¿Cumple la redacción de UAS.STS-02.020(3)?",
+      "respuestas": [
+        "Sí, porque 5 km equivale a más de 5 km.",
+        "Sí, si el dron se aleja menos de 5 km.",
+        "Solo importa el alcance del mando.",
+        "No; exige que sea superior a 5 km."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "UAS.STS-02.020(3) exige visibilidad de vuelo superior a 5 km. Es una condición de vigilancia en el entorno, no permiso para alejar la UA 5 km. Se evalúan todas las direcciones relevantes y efectos de obstáculos, luz, humo o nubes; un dato de otro lugar no basta. Ejemplo: Una visibilidad exactamente de 5 km no supera el umbral literal de la disposición. Además, una montaña puede ocultar un sector pese a un informe meteorológico favorable.",
+      "explicaciones_opciones": [
+        "La igualdad no cumple una desigualdad estricta.",
+        "Son dos condiciones diferentes.",
+        "No sustituye la visibilidad de vuelo.",
+        "UAS.STS-02.020(3) exige visibilidad de vuelo superior a 5 km. Es una condición de vigilancia en el entorno, no permiso para alejar la UA 5 km. Se evalúan todas las direcciones relevantes y efectos de obstáculos, luz, humo o nubes; un dato de otro lugar no basta."
+      ],
+      "error_habitual": "Usar «5 km o más» o confundir visibilidad con alcance UA-piloto.",
+      "referencia_concepto": "Visibilidad de vuelo",
+      "leccion_id": "b4-05",
+      "bloque": 4,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-R26-006",
+      "tema": "Avisar, confirmar y actuar",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "Se detecta una aeronave aproximándose. ¿Qué criterio es correcto?",
+      "respuestas": [
+        "Seguir porque el UAS tiene prioridad.",
+        "Activar siempre el FTS sin evaluar consecuencias.",
+        "Aplicar la respuesta prevista para evitar colisión considerando también el entorno en tierra.",
+        "Subir siempre por encima del tráfico."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Se acuerdan mensajes que identifiquen amenaza, posición y evolución, y se confirma su recepción. El piloto aplica el procedimiento para evitar el riesgo de colisión e interrumpe cuando continuar no es seguro. No se prescribe una maniobra única válida para cualquier tráfico o terreno. Ejemplo: Al avisar «tráfico por el norte aproximándose», se confirma el mensaje y se ejecuta la respuesta prevista sin dirigir el UAS hacia otra zona con personas.",
+      "explicaciones_opciones": [
+        "No elimina el deber de evitar colisiones.",
+        "La terminación requiere el criterio y procedimiento aplicables.",
+        "Se acuerdan mensajes que identifiquen amenaza, posición y evolución, y se confirma su recepción. El piloto aplica el procedimiento para evitar el riesgo de colisión e interrumpe cuando continuar no es seguro. No se prescribe una maniobra única válida para cualquier tráfico o terreno.",
+        "No es una respuesta universal segura."
+      ],
+      "error_habitual": "Reaccionar sin considerar el riesgo en tierra.",
+      "referencia_concepto": "Avisar, confirmar y actuar",
+      "leccion_id": "b4-06",
+      "bloque": 4,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ]
+    },
+    {
+      "id": "B4-R26-007",
+      "tema": "Contención y vigilancia",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Con geocaging activo, ¿puede omitirse la vigilancia de tráfico?",
+      "respuestas": [
+        "Sí, porque el volumen es una pared física.",
+        "No; contención y vigilancia cumplen funciones distintas.",
+        "Sí, porque evita toda colisión.",
+        "Sí, si también hay DRI."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "La contención busca impedir que la UA rebase límites programados. El FTS permite terminar el vuelo. Ninguno es por sí solo un sistema de detección de tráfico ni una barrera física infalible. Se distinguen geografía de vuelo, volumen operacional y medios técnicos del UAS. Ejemplo: El geocaging está operativo, pero una aeronave entra en las proximidades: sigue siendo necesario vigilar y responder.",
+      "explicaciones_opciones": [
+        "Es un límite programado, no una pared.",
+        "La contención busca impedir que la UA rebase límites programados. El FTS permite terminar el vuelo. Ninguno es por sí solo un sistema de detección de tráfico ni una barrera física infalible. Se distinguen geografía de vuelo, volumen operacional y medios técnicos del UAS.",
+        "Limitar un volumen no detecta a otros usuarios.",
+        "La DRI transmite identificación, no garantiza separación."
+      ],
+      "error_habitual": "Atribuir al confinamiento la capacidad de detectar cualquier aeronave.",
+      "referencia_concepto": "Contención y vigilancia",
+      "leccion_id": "b4-07",
+      "bloque": 4,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/945 · Anexo, partes 16 y 17 · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17523"
+        }
+      ]
+    },
+    {
+      "id": "B4-R26-008",
+      "tema": "Información aeronáutica aplicable",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "La coordinación aplicable limita el vuelo a 60 m. ¿Permite STS volar a 120 m por defecto?",
+      "respuestas": [
+        "No; debe respetarse el límite aplicable más restrictivo.",
+        "Sí, STS anula la coordinación.",
+        "Sí, si el dron puede llegar.",
+        "Solo si el observador está de acuerdo."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Se seleccionan fuentes y coordinaciones pertinentes a lugar, altura, horario y operación. No se imponen transpondedores, códigos de catálogos o medidas particulares como requisitos universales de cualquier STS. Una condición específica sí se cumple cuando resulta aplicable a la operación coordinada. Ejemplo: Una coordinación establece un límite inferior al general de altura. Se planifica con ese límite y no se invocan los 120 m como permiso automático.",
+      "explicaciones_opciones": [
+        "Se seleccionan fuentes y coordinaciones pertinentes a lugar, altura, horario y operación. No se imponen transpondedores, códigos de catálogos o medidas particulares como requisitos universales de cualquier STS. Una condición específica sí se cumple cuando resulta aplicable a la operación coordinada.",
+        "El escenario no elimina las condiciones del espacio aéreo.",
+        "La capacidad técnica no concede permiso.",
+        "El observador no modifica la coordinación."
+      ],
+      "error_habitual": "Convertir una medida particular en regla para todos o ignorarla cuando sí aplica.",
+      "referencia_concepto": "Información aeronáutica aplicable",
+      "leccion_id": "b4-08",
+      "bloque": 4,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "RD 517/2024 · texto consolidado del BOE",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11377"
+        }
+      ]
+    }
+  ]
 }

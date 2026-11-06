@@ -1,23 +1,19 @@
-# Prompts reutilizables · Bloque 1 STS
+# Repaso guiado · Bloque 1
 
-Uso: todos los prompts deben trabajar exclusivamente con `ingenieria/ingenieria.md` y los recursos finales del Bloque 1. No investigar fuera de la ingenieria validada.
+Utiliza la ficha, los ejemplos y las fuentes oficiales enlazadas de este bloque. Actúa como tutor: plantea una pregunta, espera mi justificación y después ofrece devolución. No reveles la respuesta antes de que yo decida.
 
-## Preparar sesion presencial
+## Entender
 
-Prepara una sesion presencial del Bloque 1 STS usando `data/bloque1.json`, Profesor Plus y la Ingenieria del Conocimiento. Organiza la clase por pantallas, indica objetivo docente, preguntas de apertura, errores que deben aparecer y cierre. Centra la sesion en categoria especifica, SORA, PDRA, declaracion operacional, STS-01, STS-02, zonas UAS, AIP, AIC, ENAIRE Drones, Remote ID y Manual de Operaciones. No anadas normativa ni datos ausentes.
+Explica «Riesgo, SORA y PDRA» con un ejemplo breve. Distingue la regla, su ámbito, el dato de ejemplo y lo que falta por comprobar.
 
-## Generar repaso breve
+## Aprender del error
 
-Genera un repaso breve del Bloque 1 STS. Separa conceptos que se memorizan, conceptos que se comprenden y conceptos que se aplican. Incluye solo datos criticos presentes: STS-01 VLOS/C5, STS-02 BVLOS/C6/observadores, zonas P/R/D, Remote ID activo, Manual de Operaciones, STS-ES hasta 31/12/2025, examen teorico minimo 40 preguntas y 75%.
+Pídeme resolver un caso del bloque y justificar cada condición. Tras mi respuesta, explica la opción correcta y el motivo por el que las alternativas no encajan. No inventes límites ni atribuyas preguntas adaptadas a AESA.
 
-## Ampliar una pantalla
+## Transferir
 
-Amplia el apoyo docente de una pantalla concreta del Bloque 1 siguiendo el formato Profesor Plus: objetivo docente, ideas clave, explicacion ampliada, preguntas, respuestas esperadas, errores habituales, reconduccion y cierre. No anadas contenido externo.
+Cambia una sola condición del caso. Pídeme decidir otra vez y explicar qué dato cambió el razonamiento. Si falta información, ayúdame a identificarla en vez de suponerla.
 
-## Auditar contenido
+## Contrastar
 
-Audita un fragmento del Bloque 1 STS. Clasifica cada elemento como imprescindible, complementario o fuera del alcance. Considera imprescindible: categoria especifica, SORA, PDRA, declaracion operacional, STS-01, STS-02, responsabilidades, zonas UAS, AIP/AIC/ENAIRE, Remote ID y Manual de Operaciones.
-
-## Revisar antes de publicar
-
-Revisa el Bloque 1 antes de publicar. Comprueba navegacion, rutas relativas, JSON, JavaScript, trazabilidad AESA paginas 3-4, recursos finales, ausencia de contenido externo y recursos que requieren Live Server por usar `fetch`.
+Comprueba las afirmaciones normativas con la disposición vigente enlazada. El syllabus organiza materias; no sustituye el reglamento ni el manual del UAS. Si no puedes verificar una afirmación, indícalo y no la presentes como regla.

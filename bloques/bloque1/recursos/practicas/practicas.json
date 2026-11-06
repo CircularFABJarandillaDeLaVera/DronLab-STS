@@ -1,86 +1,126 @@
-[
-  {
-    "id": "B1-PR-001",
-    "titulo": "Diferenciar STS-01 y STS-02",
-    "objetivo": "Construir una comparativa operativa entre STS-01 y STS-02 usando solo los datos de la ingenieria.",
-    "dificultad": "facil",
-    "tiempo_estimado": "20 min",
-    "material_necesario": ["Ingenieria del Bloque 1", "Tabla de diferencias STS-01/STS-02"],
-    "contexto": "La ingenieria diferencia ambos escenarios por alcance visual, entorno, marcado de clase y observadores.",
-    "instrucciones_paso_a_paso": [
-      "Crea dos columnas: STS-01 y STS-02.",
-      "Situa VLOS y BVLOS en la columna correcta.",
-      "Anade entorno, marcado C5/C6 y observadores.",
-      "Escribe una frase que explique por que STS-02 necesita observadores.",
-      "Marca el error de usar C1 o C2 en STS europeo."
-    ],
-    "criterios_de_exito": [
-      "STS-01 queda asociado a VLOS, entorno poblado, C5 y zona terrestre controlada.",
-      "STS-02 queda asociado a BVLOS, entorno poco poblado, C6 y observadores.",
-      "No se permite sobrevolar concentraciones en ningun escenario."
-    ],
-    "errores_habituales": [
-      "Intercambiar C5 y C6.",
-      "Olvidar el entorno de cada escenario.",
-      "Confundir observador con piloto responsable final."
-    ],
-    "conceptos_relacionados": ["STS-01", "STS-02", "VLOS", "BVLOS", "C5", "C6"],
-    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
-  },
-  {
-    "id": "B1-PR-002",
-    "titulo": "Arbol de decision declaracion/autorizacion",
-    "objetivo": "Determinar si una operacion se resuelve por declaracion STS, PDRA o autorizacion especifica.",
-    "dificultad": "media",
-    "tiempo_estimado": "25 min",
-    "material_necesario": ["Ingenieria del Bloque 1", "Papel o pizarra"],
-    "contexto": "La ingenieria senala como error frecuente confundir declaracion con autorizacion.",
-    "instrucciones_paso_a_paso": [
-      "Escribe la pregunta inicial: encaja la mision en un STS?",
-      "Si encaja, dirige a declaracion operacional.",
-      "Si no encaja, pregunta si existe PDRA aplicable.",
-      "Si no encaja en STS ni PDRA, dirige a autorizacion basada en SORA.",
-      "Anade una nota: declarar no es autorizar."
-    ],
-    "criterios_de_exito": [
-      "El arbol separa STS, PDRA y autorizacion.",
-      "No usa declaracion para operaciones fuera de STS.",
-      "SORA aparece como evaluacion especifica cuando no hay marco predefinido."
-    ],
-    "errores_habituales": [
-      "Declarar cualquier operacion especifica.",
-      "Confundir PDRA y STS.",
-      "Omitir la autorizacion cuando no encaja en escenarios predefinidos."
-    ],
-    "conceptos_relacionados": ["Declaracion operacional", "PDRA", "SORA", "Autorizacion"],
-    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
-  },
-  {
-    "id": "B1-PR-003",
-    "titulo": "Checklist de informacion aeronautica",
-    "objetivo": "Preparar una lista de consulta previa para zonas geograficas UAS e informacion aeronautica.",
-    "dificultad": "media",
-    "tiempo_estimado": "20 min",
-    "material_necesario": ["Ingenieria del Bloque 1", "Ficha de operacion"],
-    "contexto": "El bloque exige distinguir AIP, AIC, ENAIRE Drones, NOTAM y zonas P/R/D.",
-    "instrucciones_paso_a_paso": [
-      "Incluye AIP como fuente de informacion duradera.",
-      "Incluye AIC como fuente de cambios normativos.",
-      "Incluye ENAIRE Drones para zonas UAS en mapa.",
-      "Anade una fila para interpretar P, R y D.",
-      "Cierra con Remote ID activo y Manual de Operaciones accesible."
-    ],
-    "criterios_de_exito": [
-      "La checklist distingue AIP, AIC y ENAIRE.",
-      "P/R/D estan correctamente interpretadas.",
-      "Remote ID y Manual de Operaciones aparecen como requisitos criticos."
-    ],
-    "errores_habituales": [
-      "No consultar zonas UAS.",
-      "Usar AIP y AIC como sinonimos.",
-      "Tratar Remote ID como opcional."
-    ],
-    "conceptos_relacionados": ["AIP", "AIC", "ENAIRE Drones", "Zonas P/R/D", "Remote ID"],
-    "referencia_al_bloque": "Bloque 1 · Syllabus STS paginas 3-4 · Estado VALIDADO"
-  }
-]
+{
+  "titulo": "Practicas · Bloque 1",
+  "total": 3,
+  "practicas": [
+    {
+      "id": "B1-R26-P-001",
+      "titulo": "Taller de decisión: Declaración, operador y piloto",
+      "objetivo": "Elegir la vía operacional adecuada y justificar las condiciones de una misión STS.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Con declaración STS y UAS C5, una zona sigue abierta a peatones. ¿Qué procede?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Tomar un trámite administrativo como autorización para cualquier vuelo."
+      ],
+      "conceptos_relacionados": [
+        "Declaración, operador y piloto"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "resultado_esperado": "No iniciar hasta que se cumplan las condiciones de la operación. El operador prepara el manual, los procedimientos, la competencia del personal y la adecuación del UAS. El piloto verifica las condiciones reales y conduce el vuelo con seguridad. La declaración STS no sustituye las coordinaciones, las zonas geográficas ni los requisitos del piloto. Antes de iniciar, se necesita la confirmación de recepción y de integridad de la declaración por la autoridad.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B1-R26-P-002",
+      "titulo": "Taller de decisión: Formación teórica y práctica",
+      "objetivo": "Elegir la vía operacional adecuada y justificar las condiciones de una misión STS.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "En el simulacro reducido, 22/30 son 73,33 % y no alcanzan el 75 %. Con 23/30 sí se supera el umbral. La distribución por dificultad del simulador es una decisión didáctica, no oficial.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Una persona con A2 obtiene 22 aciertos en 30 preguntas STS. ¿Alcanza el 75 %?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Confundir aprobar teoría con estar habilitado para toda operación."
+      ],
+      "conceptos_relacionados": [
+        "Formación teórica y práctica"
+      ],
+      "referencia_al_bloque": "AESA · Formación STS europeos (actualización 27/07/2026)",
+      "fuentes": [
+        {
+          "titulo": "AESA · Formación STS europeos (actualización 27/07/2026)",
+          "url": "https://www.seguridadaerea.gob.es/es/ambitos/drones/formacion-de-pilotos-a-distancia-de-uas-drones/formacion-de-pilotos-uas-drones-en-escenarios-estandar-europeos-sts"
+        }
+      ],
+      "resultado_esperado": "No; necesita al menos 23 respuestas correctas. AESA ofrece examen STS completo de 40 preguntas en 40 minutos desde A1/A3; con A2, 30 en 30 minutos sobre las materias 1 a 5 del syllabus AESA. Se requiere al menos 75 % de aciertos: 30/40 y, por redondeo al entero necesario, 23/30. El certificado teórico no sustituye la acreditación práctica específica para cada escenario.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B1-R26-P-003",
+      "titulo": "Taller de decisión: Decisión con datos incompletos",
+      "objetivo": "Elegir la vía operacional adecuada y justificar las condiciones de una misión STS.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "El cliente pide inspección rural BVLOS, pero no comunica dónde estarán los trabajadores. Primero se comprueba la posibilidad de controlar la zona; no se da por viable el escenario.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "Una misión es rural, BVLOS y con C6. ¿Basta para declararla viable en STS-02?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Resolver una misión por dos palabras clave."
+      ],
+      "conceptos_relacionados": [
+        "Decisión con datos incompletos"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "resultado_esperado": "No; faltan comprobaciones del escenario y del entorno real. Elegir STS requiere comprobar todas sus condiciones. Una descripción como «rural, BVLOS y C6» permite plantear STS-02, pero aún faltan alcance, visibilidad, zona controlada, límites, competencias y demás verificaciones. Si un dato decisivo falta, la respuesta correcta es identificarlo y obtenerlo.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    }
+  ]
+}

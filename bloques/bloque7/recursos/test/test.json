@@ -1,491 +1,743 @@
-﻿{
-    "titulo":  "Test Bloque 7 STS",
-    "bloque":  "Rendimiento de vuelo del UAS | Syllabus STS pagina 11 | Estado VALIDADO",
-    "total":  22,
-    "preguntas":  [
-                      {
-                          "id":  "B7-T-001",
-                          "tema":  "MTOM",
-                          "dificultad":  "facil",
-                          "pregunta":  "La MTOM de un UAS la define...",
-                          "respuestas":  [
-                                             "El alumno",
-                                             "El observador",
-                                             "La carga util",
-                                             "El fabricante"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La MTOM es una limitacion estructural absoluta definida por el fabricante.",
-                          "error_habitual":  "Creer que puede ampliarse por criterio operativo.",
-                          "referencia_concepto":  "AESA | Syllabus STS pagina 11 | VALIDADO",
-                          "subtema":  "MTOM",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-002",
-                          "tema":  "MTOM",
-                          "dificultad":  "facil",
-                          "pregunta":  "La carga util respecto a la MTOM...",
-                          "respuestas":  [
-                                             "Es adicional a la MTOM",
-                                             "Forma parte de la MTOM",
-                                             "No afecta al peso",
-                                             "Solo afecta a la radio"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "La carga util forma parte de la masa total al despegue; por tanto no puede sumarse por fuera de la MTOM.",
-                          "error_habitual":  "Tratar payload como accesorio externo al limite de fabricante.",
-                          "referencia_concepto":  "AESA | Syllabus STS pagina 11 | VALIDADO",
-                          "subtema":  "MTOM",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-003",
-                          "tema":  "Envolvente",
-                          "dificultad":  "media",
-                          "pregunta":  "Que variable puede sacar al UAS de su envolvente segura?",
-                          "respuestas":  [
-                                             "Color de la aeronave",
-                                             "Nombre del piloto",
-                                             "Exceso de peso",
-                                             "Formato del informe"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "El exceso de peso es uno de los factores indicados junto con viento, IMU e hielo.",
-                          "error_habitual":  "Pensar que solo importa la bateria.",
-                          "referencia_concepto":  "AESA | Syllabus STS pagina 11 | VALIDADO",
-                          "subtema":  "Envolvente",
-                          "tipo_pregunta":  "comprension",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-004",
-                          "tema":  "CG",
-                          "dificultad":  "facil",
-                          "pregunta":  "El centro de gravedad es...",
-                          "respuestas":  [
-                                             "El punto donde se concentra la masa total",
-                                             "El punto de carga de la bateria",
-                                             "El punto de despegue",
-                                             "El lugar de registro"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "El CG concentra la masa total y sobre el rotan los ejes.",
-                          "error_habitual":  "Confundirlo con el centro geometrico.",
-                          "referencia_concepto":  "AESA | Syllabus STS pagina 11 | VALIDADO",
-                          "subtema":  "CG",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-005",
-                          "tema":  "Ejes",
-                          "dificultad":  "media",
-                          "pregunta":  "El cabeceo o pitch corresponde al eje...",
-                          "respuestas":  [
-                                             "Longitudinal",
-                                             "Lateral",
-                                             "Vertical",
-                                             "De carga"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "El cabeceo rota sobre el eje lateral; distinguir ejes evita confundir movimientos basicos del UAS.",
-                          "error_habitual":  "Intercambiar pitch, roll y yaw por memorizar solo las palabras en ingles.",
-                          "referencia_concepto":  "AESA | Syllabus STS pagina 11 | VALIDADO",
-                          "subtema":  "Ejes",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-006",
-                          "tema":  "CG",
-                          "dificultad":  "media",
-                          "pregunta":  "Un CG fuera de limites puede provocar...",
-                          "respuestas":  [
-                                             "Mejor autonomia siempre",
-                                             "Menor desgaste de motores",
-                                             "Aumento certificado de MTOM",
-                                             "Inestabilidad e incontrolabilidad"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "Tambien puede provocar fatiga prematura de motores.",
-                          "error_habitual":  "Pensar que los motores compensan sin coste.",
-                          "referencia_concepto":  "AESA | Syllabus STS pagina 11 | VALIDADO",
-                          "subtema":  "CG",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-007",
-                          "tema":  "Payload",
-                          "dificultad":  "media",
-                          "pregunta":  "Al instalar un sensor adicional se debe...",
-                          "respuestas":  [
-                                             "Verificar de nuevo el CG",
-                                             "Ignorar el centrado",
-                                             "Superar MTOM si hace falta",
-                                             "Eliminar la bateria del calculo"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "Instalar sensores o camaras modifica peso y centrado, por lo que exige verificar de nuevo el CG.",
-                          "error_habitual":  "Creer que un accesorio pequeno no afecta al equilibrio.",
-                          "referencia_concepto":  "AESA | Syllabus STS pagina 11 | VALIDADO",
-                          "subtema":  "Payload",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-008",
-                          "tema":  "Fijacion",
-                          "dificultad":  "media",
-                          "pregunta":  "La carga util debe fijarse para...",
-                          "respuestas":  [
-                                             "Reducir documentacion",
-                                             "Aumentar la MTOM",
-                                             "Impedir desprendimiento o desplazamiento",
-                                             "Cambiar el eje vertical"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "Debe resistir maniobras bruscas sin desplazarse.",
-                          "error_habitual":  "Confundir fijacion con cinta improvisada.",
-                          "referencia_concepto":  "AESA | Syllabus STS pagina 11 | VALIDADO",
-                          "subtema":  "Fijacion",
-                          "tipo_pregunta":  "recuerdo",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-009",
-                          "tema":  "STS-02",
-                          "dificultad":  "dificil",
-                          "pregunta":  "La velocidad maxima C6 citada para STS-02 es...",
-                          "respuestas":  [
-                                             "5 m/s",
-                                             "10 kg",
-                                             "50 m/s respecto al suelo",
-                                             "25 kg"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "C6 puede alcanzar hasta 50 m/s en vuelo horizontal.",
-                          "error_habitual":  "Confundir velocidad con masas nacionales complementarias.",
-                          "referencia_concepto":  "AESA | Syllabus STS pagina 11 | VALIDADO",
-                          "subtema":  "STS-02",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-010",
-                          "tema":  "Complementario",
-                          "dificultad":  "dificil",
-                          "pregunta":  "STS-ES-01NE \u003c10 kg y STS-ES-02NE \u003c25 kg deben presentarse como...",
-                          "respuestas":  [
-                                             "Complementario separado",
-                                             "Syllabus AESA pagina 11",
-                                             "MTOM universal europea",
-                                             "Eje lateral"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "Son datos complementarios de drones nacionales sin marcado de clase.",
-                          "error_habitual":  "Mezclarlos con la trazabilidad principal AESA.",
-                          "referencia_concepto":  "Complementario | STS-ES-01NE \u003c 10 kg | STS-ES-02NE \u003c 25 kg",
-                          "subtema":  "Complementario",
-                          "tipo_pregunta":  "escenario",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-011",
-                          "tema":  "STS-01",
-                          "subtema":  "C5 baja velocidad",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "dato critico",
-                          "pregunta":  "Que limite de velocidad lenta es relevante para C5 en STS-01?",
-                          "respuestas":  [
-                                             "50 m/s",
-                                             "5 m/s",
-                                             "5 km",
-                                             "25 kg"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "El modo de baja velocidad C5 queda limitado a 5 m/s, dato operativo conectado a STS-01.",
-                          "error_habitual":  "Confundir velocidad lenta C5 con velocidad maxima C6.",
-                          "referencia_concepto":  "C5 | 5 m/s",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-012",
-                          "tema":  "Envolvente",
-                          "subtema":  "Factores degradantes",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "comprension",
-                          "pregunta":  "Que conjunto puede degradar la envolvente segura del UAS?",
-                          "respuestas":  [
-                                             "Color, logotipo y nombre del piloto",
-                                             "Formato de test y numero de tarjetas",
-                                             "Remote ID y certificado teorico",
-                                             "Sobrecarga, viento, IMU mal calibrada o hielo"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La envolvente segura puede degradarse por masa, condiciones ambientales, calibracion deficiente o hielo.",
-                          "error_habitual":  "Reducir la envolvente a una unica variable como bateria.",
-                          "referencia_concepto":  "Envolvente de vuelo",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-013",
-                          "tema":  "Rendimiento",
-                          "subtema":  "Escenario ambiental",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "escenario",
-                          "pregunta":  "En alta montana y calor, el UAS necesita casi toda la potencia para mantenerse. Que indica?",
-                          "respuestas":  [
-                                             "Margen de rendimiento insuficiente o muy reducido",
-                                             "Condicion ideal para aumentar carga",
-                                             "MTOM ampliada automaticamente",
-                                             "Ausencia de efecto ambiental"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "Altitud y calor reducen densidad y pueden dejar poco margen de potencia para maniobras o contingencias.",
-                          "error_habitual":  "Continuar porque el UAS despega aunque vaya sin margen.",
-                          "referencia_concepto":  "Rendimiento y condiciones ambientales",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-014",
-                          "tema":  "CG",
-                          "subtema":  "Consecuencias",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "comprension",
-                          "pregunta":  "Que puede causar un centro de gravedad fuera de limites?",
-                          "respuestas":  [
-                                             "Aumento certificado de MTOM",
-                                             "Mejora garantizada de autonomia",
-                                             "Desaparicion de vibraciones",
-                                             "Inestabilidad, fatiga de motores o perdida de control"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "El CG afecta equilibrio y reparto de esfuerzos; fuera de limites reduce seguridad de control.",
-                          "error_habitual":  "Creer que el controlador compensara cualquier desequilibrio sin consecuencias.",
-                          "referencia_concepto":  "Centro de gravedad",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-015",
-                          "tema":  "Payload",
-                          "subtema":  "Fijacion",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Que debe garantizarse sobre una carga util instalada?",
-                          "respuestas":  [
-                                             "Que quede fuera de la MTOM",
-                                             "Que cambie el eje vertical",
-                                             "Que no se desprenda ni se desplace durante maniobras",
-                                             "Que sustituya al manual"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "La carga util debe asegurarse para evitar desplazamientos que alteren CG o caidas en superficie.",
-                          "error_habitual":  "Usar fijaciones improvisadas sin verificar esfuerzos de vuelo.",
-                          "referencia_concepto":  "Fijacion de carga util",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-016",
-                          "tema":  "Payload",
-                          "subtema":  "Escenario de camara",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "escenario",
-                          "pregunta":  "Se instala una camara lateral de 800 g. Que comprobacion es prioritaria?",
-                          "respuestas":  [
-                                             "Ignorarla por ser accesorio pequeno",
-                                             "Recalcular masa total y centro de gravedad",
-                                             "Aumentar MTOM por decision del piloto",
-                                             "Eliminar bateria del calculo"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "Una carga lateral puede desplazar el CG y afectar estabilidad aunque no parezca grande.",
-                          "error_habitual":  "Valorar solo el peso y olvidar la posicion de la carga.",
-                          "referencia_concepto":  "Payload y CG",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-017",
-                          "tema":  "MTOM",
-                          "subtema":  "Fabricante",
-                          "dificultad":  "facil",
-                          "tipo_pregunta":  "recuerdo",
-                          "pregunta":  "Quien define la MTOM del UAS?",
-                          "respuestas":  [
-                                             "El cliente",
-                                             "El observador",
-                                             "El fabricante",
-                                             "El alumno tras pesar payload"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "La MTOM es una limitacion estructural definida por fabricante y no una decision operacional flexible.",
-                          "error_habitual":  "Aumentar limites por criterio propio cuando el UAS despega.",
-                          "referencia_concepto":  "MTOM",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-018",
-                          "tema":  "Masa y balance",
-                          "subtema":  "Preparacion",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "aplicacion",
-                          "pregunta":  "Antes de despegar con carga, que comprobacion resume la gestion de masa y balance?",
-                          "respuestas":  [
-                                             "Solo bateria cargada al cien por cien",
-                                             "MTOM no excedida y CG dentro de limites",
-                                             "Solo Remote ID activo",
-                                             "Solo color visible del UAS"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "Masa y centrado son condiciones previas para que el UAS opere dentro de su envolvente.",
-                          "error_habitual":  "Separar peso y centrado como si no interactuaran.",
-                          "referencia_concepto":  "Masa y balance",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-019",
-                          "tema":  "Ejes",
-                          "subtema":  "Guiñada",
-                          "dificultad":  "media",
-                          "tipo_pregunta":  "recuerdo",
-                          "pregunta":  "La guiñada o yaw corresponde al eje...",
-                          "respuestas":  [
-                                             "Vertical",
-                                             "Lateral",
-                                             "Longitudinal",
-                                             "De carga util"
-                                         ],
-                          "respuesta_correcta":  0,
-                          "explicacion":  "Yaw describe rotacion sobre el eje vertical y debe distinguirse de pitch y roll.",
-                          "error_habitual":  "Confundir ejes por memorizar solo una traduccion.",
-                          "referencia_concepto":  "Ejes de aeronave",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-020",
-                          "tema":  "C6",
-                          "subtema":  "Velocidad y energia",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "comprension",
-                          "pregunta":  "Por que 50 m/s de C6 es relevante para rendimiento y riesgo?",
-                          "respuestas":  [
-                       "Porque equivale al modo lento de una aeronave C5",
-                       "Porque reduce la masa operacional del UAS a cero",
-                       "Porque elimina el viento y la densidad del aire",
-                       "Porque incrementa energia y exige margenes de control adecuados"
-                                         ],
-                          "respuesta_correcta":  3,
-                          "explicacion":  "La velocidad maxima C6 condiciona energia cinetica, distancia y necesidades de control en STS-02.",
-                          "error_habitual":  "Memorizar 50 m/s sin relacionarlo con consecuencias operacionales.",
-                          "referencia_concepto":  "C6 | 50 m/s",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-021",
-                          "tema":  "Complementario",
-                          "subtema":  "STS-ES",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "comparacion",
-                          "pregunta":  "Como deben tratarse STS-ES-01NE y STS-ES-02NE respecto al Syllabus pagina 11?",
-                          "respuestas":  [
-                                             "Como nucleo principal AESA pagina 11",
-                                             "Como contenido complementario separado",
-                                             "Como sinonimo de CG",
-                                             "Como velocidad maxima C6"
-                                         ],
-                          "respuesta_correcta":  1,
-                          "explicacion":  "Esos limites nacionales complementarios deben mantenerse separados de la trazabilidad principal del Syllabus.",
-                          "error_habitual":  "Presentar datos nacionales complementarios como si fueran Syllabus AESA.",
-                          "referencia_concepto":  "Complementario | STS-ES",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      },
-                      {
-                          "id":  "B7-T-022",
-                          "tema":  "IMU",
-                          "subtema":  "Calibracion",
-                          "dificultad":  "dificil",
-                          "tipo_pregunta":  "escenario",
-                          "pregunta":  "Tras un aviso de IMU antes del vuelo, que criterio de rendimiento aplica?",
-                          "respuestas":  [
-                                             "Despegar si la bateria esta llena",
-                                             "Compensar anadiendo payload",
-                                             "No despegar hasta resolver calibracion o estado del sistema",
-                                             "Ignorar si hay buen tiempo"
-                                         ],
-                          "respuesta_correcta":  2,
-                          "explicacion":  "Una IMU mal calibrada puede sacar al UAS de su envolvente segura y comprometer control.",
-                          "error_habitual":  "Tratar avisos de sensores como mensajes informativos sin efecto operativo.",
-                          "referencia_concepto":  "IMU y envolvente",
-                          "bloque":  7,
-                          "origen":  "GENERADA",
-                          "fuente":  "DronLab-STS/bloques/bloque7/ingenieria/ingenieria.md",
-                          "estado_validacion":  "VALIDADO"
-                      }
-                  ]
+{
+  "titulo": "Test · Bloque 7",
+  "bloque": "Rendimiento de vuelo del UAS",
+  "total": 24,
+  "preguntas": [
+    {
+      "id": "B7-T-001",
+      "tema": "MTOM",
+      "dificultad": "facil",
+      "pregunta": "En un UAS comercial con marcado de clase, ¿quién especifica la MTOM?",
+      "respuestas": [
+        "El alumno",
+        "El observador",
+        "La carga util",
+        "El fabricante"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "El fabricante especifica la MTOM. La masa real incluye batería y carga; las condiciones pueden imponer una masa limitada por rendimiento menor.",
+      "error_habitual": "Creer que puede ampliarse por criterio operativo.",
+      "referencia_concepto": "Bloque 7: MTOM",
+      "subtema": "MTOM",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-002",
+      "tema": "MTOM",
+      "dificultad": "facil",
+      "pregunta": "¿Cómo se considera la carga útil al comprobar la masa de despegue?",
+      "respuestas": [
+        "Es adicional a la MTOM",
+        "Se incluye en la masa real total, que no puede superar la MTOM.",
+        "No afecta al peso",
+        "Solo afecta a la radio"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Se suman aeronave, batería, fijaciones y carga. MTOM es un límite, no la masa real que necesariamente lleva cada misión.",
+      "error_habitual": "Tratar payload como accesorio externo al limite de fabricante.",
+      "referencia_concepto": "Bloque 7: MTOM",
+      "subtema": "MTOM",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-003",
+      "tema": "Envolvente",
+      "dificultad": "media",
+      "pregunta": "Que variable puede sacar al UAS de su envolvente segura?",
+      "respuestas": [
+        "Color de la aeronave",
+        "Nombre del piloto",
+        "Exceso de peso",
+        "Formato del informe"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "El exceso de peso es uno de los factores indicados junto con viento, IMU e hielo.",
+      "error_habitual": "Pensar que solo importa la bateria.",
+      "referencia_concepto": "Bloque 7: Envolvente",
+      "subtema": "Envolvente",
+      "tipo_pregunta": "comprension",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-004",
+      "tema": "CG",
+      "dificultad": "facil",
+      "pregunta": "El centro de gravedad es...",
+      "respuestas": [
+        "El punto de aplicación de la resultante del peso.",
+        "El punto de carga de la bateria",
+        "El punto de despegue",
+        "El lugar de registro"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Es un modelo de la distribución de masas: no significa que toda la masa esté físicamente concentrada en ese punto.",
+      "error_habitual": "Confundirlo con el centro geometrico.",
+      "referencia_concepto": "Bloque 7: CG",
+      "subtema": "CG",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-005",
+      "tema": "Ejes",
+      "dificultad": "media",
+      "pregunta": "El cabeceo o pitch corresponde al eje...",
+      "respuestas": [
+        "Longitudinal",
+        "Lateral",
+        "Vertical",
+        "De carga"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El cabeceo rota sobre el eje lateral; distinguir ejes evita confundir movimientos basicos del UAS.",
+      "error_habitual": "Intercambiar pitch, roll y yaw por memorizar solo las palabras en ingles.",
+      "referencia_concepto": "Bloque 7: Ejes",
+      "subtema": "Ejes",
+      "tipo_pregunta": "recuerdo",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-009",
+      "tema": "STS-02",
+      "dificultad": "dificil",
+      "pregunta": "La velocidad maxima C6 citada para STS-02 es...",
+      "respuestas": [
+        "5 m/s",
+        "10 kg",
+        "50 m/s respecto al suelo",
+        "25 kg"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "C6 puede alcanzar hasta 50 m/s en vuelo horizontal.",
+      "error_habitual": "Confundir velocidad con masas nacionales complementarias.",
+      "referencia_concepto": "Bloque 7: STS-02",
+      "subtema": "STS-02",
+      "tipo_pregunta": "escenario",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-011",
+      "tema": "STS-01",
+      "subtema": "C5 baja velocidad",
+      "dificultad": "facil",
+      "tipo_pregunta": "dato critico",
+      "pregunta": "En C5 sin anclaje, ¿qué límite técnico tiene el modo de baja velocidad?",
+      "respuestas": [
+        "50 m/s",
+        "5 m/s",
+        "5 km",
+        "25 kg"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "El modo técnico C5 limita a no más de 5 m/s; la operación STS-01 sin anclaje debe mantenerse a menos de 5 m/s.",
+      "error_habitual": "Confundir velocidad lenta C5 con velocidad maxima C6.",
+      "referencia_concepto": "Bloque 7: STS-01",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-012",
+      "tema": "Envolvente",
+      "subtema": "Factores degradantes",
+      "dificultad": "media",
+      "tipo_pregunta": "comprension",
+      "pregunta": "Que conjunto puede degradar la envolvente segura del UAS?",
+      "respuestas": [
+        "Color, logotipo y nombre del piloto",
+        "Formato de test y numero de tarjetas",
+        "Remote ID y certificado teorico",
+        "Sobrecarga, viento, IMU mal calibrada o hielo"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La envolvente segura puede degradarse por masa, condiciones ambientales, calibracion deficiente o hielo.",
+      "error_habitual": "Reducir la envolvente a una unica variable como bateria.",
+      "referencia_concepto": "Bloque 7: Envolvente",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-013",
+      "tema": "Rendimiento",
+      "subtema": "Escenario ambiental",
+      "dificultad": "dificil",
+      "tipo_pregunta": "escenario",
+      "pregunta": "En alta montana y calor, el UAS necesita casi toda la potencia para mantenerse. Que indica?",
+      "respuestas": [
+        "Margen de rendimiento insuficiente o muy reducido",
+        "Condicion ideal para aumentar carga",
+        "MTOM ampliada automaticamente",
+        "Ausencia de efecto ambiental"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Altitud y calor reducen densidad y pueden dejar poco margen de potencia para maniobras o contingencias.",
+      "error_habitual": "Continuar porque el UAS despega aunque vaya sin margen.",
+      "referencia_concepto": "Bloque 7: Rendimiento",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-014",
+      "tema": "CG",
+      "subtema": "Consecuencias",
+      "dificultad": "media",
+      "tipo_pregunta": "comprension",
+      "pregunta": "Que puede causar un centro de gravedad fuera de limites?",
+      "respuestas": [
+        "Aumento certificado de MTOM",
+        "Mejora garantizada de autonomia",
+        "Desaparicion de vibraciones",
+        "Inestabilidad, fatiga de motores o perdida de control"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "El CG afecta equilibrio y reparto de esfuerzos; fuera de limites reduce seguridad de control.",
+      "error_habitual": "Creer que el controlador compensara cualquier desequilibrio sin consecuencias.",
+      "referencia_concepto": "Bloque 7: CG",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-015",
+      "tema": "Payload",
+      "subtema": "Fijacion",
+      "dificultad": "facil",
+      "tipo_pregunta": "aplicacion",
+      "pregunta": "Que debe garantizarse sobre una carga util instalada?",
+      "respuestas": [
+        "Que quede fuera de la MTOM",
+        "Que cambie el eje vertical",
+        "Que no se desprenda ni se desplace durante maniobras",
+        "Que sustituya al manual"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "La carga util debe asegurarse para evitar desplazamientos que alteren CG o caidas en superficie.",
+      "error_habitual": "Usar fijaciones improvisadas sin verificar esfuerzos de vuelo.",
+      "referencia_concepto": "Bloque 7: Payload",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-016",
+      "tema": "Payload",
+      "subtema": "Escenario de camara",
+      "dificultad": "media",
+      "tipo_pregunta": "escenario",
+      "pregunta": "Se instala una camara lateral de 800 g. Que comprobacion es prioritaria?",
+      "respuestas": [
+        "Ignorarla por ser accesorio pequeno",
+        "Recalcular masa total y centro de gravedad",
+        "Aumentar MTOM por decision del piloto",
+        "Eliminar bateria del calculo"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Una carga lateral puede desplazar el CG y afectar estabilidad aunque no parezca grande.",
+      "error_habitual": "Valorar solo el peso y olvidar la posicion de la carga.",
+      "referencia_concepto": "Bloque 7: Payload",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-018",
+      "tema": "Masa y balance",
+      "subtema": "Preparacion",
+      "dificultad": "media",
+      "tipo_pregunta": "aplicacion",
+      "pregunta": "Antes de despegar con carga, que comprobacion resume la gestion de masa y balance?",
+      "respuestas": [
+        "Solo bateria cargada al cien por cien",
+        "MTOM no excedida y CG dentro de limites",
+        "Solo Remote ID activo",
+        "Solo color visible del UAS"
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Masa y centrado son condiciones previas para que el UAS opere dentro de su envolvente.",
+      "error_habitual": "Separar peso y centrado como si no interactuaran.",
+      "referencia_concepto": "Bloque 7: Masa y balance",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-019",
+      "tema": "Ejes",
+      "subtema": "Guiñada",
+      "dificultad": "media",
+      "tipo_pregunta": "recuerdo",
+      "pregunta": "La guiñada o yaw corresponde al eje...",
+      "respuestas": [
+        "Vertical",
+        "Lateral",
+        "Longitudinal",
+        "De carga util"
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "Yaw describe rotacion sobre el eje vertical y debe distinguirse de pitch y roll.",
+      "error_habitual": "Confundir ejes por memorizar solo una traduccion.",
+      "referencia_concepto": "Bloque 7: Ejes",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-020",
+      "tema": "C6",
+      "subtema": "Velocidad y energia",
+      "dificultad": "dificil",
+      "tipo_pregunta": "comprension",
+      "pregunta": "Por que 50 m/s de C6 es relevante para rendimiento y riesgo?",
+      "respuestas": [
+        "Porque equivale al modo lento de una aeronave C5",
+        "Porque reduce la masa operacional del UAS a cero",
+        "Porque elimina el viento y la densidad del aire",
+        "Porque incrementa energia y exige margenes de control adecuados"
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "A igual masa, la energía cinética aumenta con el cuadrado de la velocidad. 50 m/s es el máximo de clase C6, no una recomendación ni un permiso para cualquier misión.",
+      "error_habitual": "Memorizar 50 m/s sin relacionarlo con consecuencias operacionales.",
+      "referencia_concepto": "Bloque 7: C6",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-T-022",
+      "tema": "IMU",
+      "subtema": "Calibracion",
+      "dificultad": "dificil",
+      "tipo_pregunta": "escenario",
+      "pregunta": "Tras un aviso de IMU antes del vuelo, que criterio de rendimiento aplica?",
+      "respuestas": [
+        "Despegar si la bateria esta llena",
+        "Compensar anadiendo payload",
+        "No despegar hasta resolver calibracion o estado del sistema",
+        "Ignorar si hay buen tiempo"
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Una IMU mal calibrada puede sacar al UAS de su envolvente segura y comprometer control.",
+      "error_habitual": "Tratar avisos de sensores como mensajes informativos sin efecto operativo.",
+      "referencia_concepto": "Bloque 7: IMU",
+      "bloque": 7,
+      "origen": "GENERADA_DRONLAB",
+      "fuente": "bloques/bloque7/ingenieria/ingenieria.md",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-R26-001",
+      "tema": "MTOM y masa real",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Con esos datos, ¿qué conclusión corresponde?",
+      "respuestas": [
+        "La masa real de 6,2 kg supera la MTOM de 6 kg.",
+        "La carga no cuenta en la masa total.",
+        "Cumple porque el motor logra elevarla.",
+        "La MTOM pasa automáticamente a 6,2 kg."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "MTOM es la masa máxima al despegue especificada para el UAS. La masa real incluye aeronave, batería, fijaciones y carga útil. No se suma la carga por fuera del máximo. Además, las condiciones pueden imponer una masa de despegue limitada por rendimiento menor que la MTOM. Ejemplo: MTOM 6 kg, aeronave con batería 4,8 kg y carga con soporte 1,4 kg: total 6,2 kg. No cumple el máximo, aunque consiga despegar.",
+      "explicaciones_opciones": [
+        "MTOM es la masa máxima al despegue especificada para el UAS. La masa real incluye aeronave, batería, fijaciones y carga útil. No se suma la carga por fuera del máximo. Además, las condiciones pueden imponer una masa de despegue limitada por rendimiento menor que la MTOM.",
+        "Sí cuenta, incluido el soporte.",
+        "La capacidad momentánea no cambia el máximo.",
+        "No la redefine el operador por cargar más."
+      ],
+      "error_habitual": "Tomar la capacidad de elevarse como prueba de cumplimiento.",
+      "referencia_concepto": "MTOM y masa real",
+      "leccion_id": "b7-01",
+      "bloque": 7,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-R26-002",
+      "tema": "Centro de gravedad y momentos",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "En el ejemplo, ¿dónde queda xCG?",
+      "respuestas": [
+        "En +0,10 m por sumar distancias.",
+        "En +0,30 m.",
+        "Siempre en el motor.",
+        "En 0 m respecto a la referencia elegida."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "El CG representa el punto de aplicación de la resultante del peso. Su posición depende de la distribución de masas. En un modelo unidimensional, xCG = suma(m × x) / suma(m). Los límites admisibles proceden del diseño y manual de esa aeronave, no de que parezca equilibrada a simple vista. Ejemplo: Masas de 2 kg a -0,10 m y 1 kg a +0,20 m dan momentos -0,20 y +0,20 kg·m: xCG = 0/3 = 0 m. Es un modelo didáctico; no autoriza una instalación real.",
+      "explicaciones_opciones": [
+        "Los momentos se ponderan por masa.",
+        "No se suman posiciones sin ponderar.",
+        "La ubicación depende de toda la distribución.",
+        "El CG representa el punto de aplicación de la resultante del peso. Su posición depende de la distribución de masas. En un modelo unidimensional, xCG = suma(m × x) / suma(m). Los límites admisibles proceden del diseño y manual de esa aeronave, no de que parezca equilibrada a simple vista."
+      ],
+      "error_habitual": "Mirar solo la masa total y olvidar dónde está situada.",
+      "referencia_concepto": "Centro de gravedad y momentos",
+      "leccion_id": "b7-02",
+      "bloque": 7,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-R26-003",
+      "tema": "Equilibrio de palanca",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "¿Qué masa a 1 m equilibra 100 kg situados a 25 cm del apoyo ideal?",
+      "respuestas": [
+        "400 kg.",
+        "2,5 kg.",
+        "25 kg.",
+        "100 kg."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Para equilibrar dos masas bajo la misma gravedad respecto a un apoyo ideal se igualan momentos: m1 × d1 = m2 × d2. Se conserva la unidad de distancia en ambos lados. La imagen aportada sirve para este modelo de estática, no para establecer por sí sola el CG válido de un UAS. Ejemplo: 100 kg a 0,25 m equilibran 25 kg a 1 m: 100 × 0,25 = 25 × 1. Si el brazo derecho se reduce a 0,5 m, la masa equivalente sería 50 kg.",
+      "explicaciones_opciones": [
+        "Invierte la relación entre masa y brazo.",
+        "25 cm equivalen a 0,25 m, no a 0,025 m.",
+        "Para equilibrar dos masas bajo la misma gravedad respecto a un apoyo ideal se igualan momentos: m1 × d1 = m2 × d2. Se conserva la unidad de distancia en ambos lados. La imagen aportada sirve para este modelo de estática, no para establecer por sí sola el CG válido de un UAS.",
+        "Los brazos no tienen igual longitud."
+      ],
+      "error_habitual": "Responder 100 kg por simetría visual sin comparar brazos.",
+      "referencia_concepto": "Equilibrio de palanca",
+      "leccion_id": "b7-03",
+      "bloque": 7,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-R26-004",
+      "tema": "Estabilidad y carga útil",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "La masa cumple MTOM, pero el soporte permite deslizarse a la cámara. ¿Está resuelta la configuración?",
+      "respuestas": [
+        "Sí, si la cámara es pequeña.",
+        "No; hay que asegurar la carga y comprobar el centrado.",
+        "Sí, la MTOM es la única condición.",
+        "Sí, si se corrige con el mando."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación. Ejemplo: Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos.",
+      "explicaciones_opciones": [
+        "Una carga pequeña también puede desplazarse.",
+        "Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación.",
+        "También importan CG, fijación y límites.",
+        "El piloto no sustituye un anclaje adecuado."
+      ],
+      "error_habitual": "Creer que respetar la MTOM resuelve todo el balance.",
+      "referencia_concepto": "Estabilidad y carga útil",
+      "leccion_id": "b7-04",
+      "bloque": 7,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-R26-005",
+      "tema": "Envolvente y masa por rendimiento",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Un UAS queda sin margen de potencia para maniobrar. ¿Qué criterio es correcto?",
+      "respuestas": [
+        "Recuperar de forma segura y revisar masa, ambiente y límites.",
+        "Continuar porque aún mantiene altura.",
+        "Aumentar la carga para estabilizarlo.",
+        "Aplicar un porcentaje de otro modelo como autorización."
+      ],
+      "respuesta_correcta": 0,
+      "explicacion": "La envolvente reúne condiciones y límites de operación. Tipo de aeronave, masa, densidad, viento, temperatura y estado de sistemas modifican el margen disponible. Respetar un máximo de masa no garantiza que esa masa sea adecuada para el ambiente y la misión. Ejemplo: Un multirrotor caliente en altura requiere casi toda la potencia en estacionario. Se recupera con seguridad y se revisa la configuración; no se establece un porcentaje universal de potencia admisible.",
+      "explicaciones_opciones": [
+        "La envolvente reúne condiciones y límites de operación. Tipo de aeronave, masa, densidad, viento, temperatura y estado de sistemas modifican el margen disponible. Respetar un máximo de masa no garantiza que esa masa sea adecuada para el ambiente y la misión.",
+        "Mantener altura no demuestra margen para contingencias.",
+        "Puede reducir más el margen.",
+        "Los límites dependen del UAS y su manual."
+      ],
+      "error_habitual": "Convertir un dato ilustrativo en límite universal.",
+      "referencia_concepto": "Envolvente y masa por rendimiento",
+      "leccion_id": "b7-05",
+      "bloque": 7,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-R26-006",
+      "tema": "Energía y autonomía",
+      "subtema": "Decisión aplicada",
+      "dificultad": "dificil",
+      "pregunta": "Con 111 Wh y consumo ideal de 222 W, ¿qué tiempo se obtiene antes de reservas?",
+      "respuestas": [
+        "2 horas.",
+        "111 minutos garantizados.",
+        "30 minutos reales en cualquier ambiente.",
+        "30 minutos teóricos."
+      ],
+      "respuesta_correcta": 3,
+      "explicacion": "La energía nominal permite comparar baterías, pero la energía utilizable y la autonomía dependen de carga, estado, temperatura, viento y consumo. No se extrapola un dato comercial como duración garantizada. Para un consumo constante ideal, tiempo(h) = energía(Wh) / potencia(W), antes de reservas y pérdidas. Ejemplo: 111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real.",
+      "explicaciones_opciones": [
+        "La división se ha invertido.",
+        "Wh no son minutos y faltan condiciones.",
+        "El cálculo ideal no garantiza autonomía real.",
+        "La energía nominal permite comparar baterías, pero la energía utilizable y la autonomía dependen de carga, estado, temperatura, viento y consumo. No se extrapola un dato comercial como duración garantizada. Para un consumo constante ideal, tiempo(h) = energía(Wh) / potencia(W), antes de reservas y pérdidas."
+      ],
+      "error_habitual": "Confundir un cálculo ideal con plan de vuelo seguro.",
+      "referencia_concepto": "Energía y autonomía",
+      "leccion_id": "b7-06",
+      "bloque": 7,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-R26-007",
+      "tema": "Baterías y seguridad de uso",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "¿Qué corriente representa 2C en una batería de 5 Ah?",
+      "respuestas": [
+        "2 V.",
+        "Permiso para cargar cualquier batería a 10 A.",
+        "10 A, sujeto a que ese régimen esté permitido para el uso considerado.",
+        "2 A siempre."
+      ],
+      "respuesta_correcta": 2,
+      "explicacion": "Se identifican química, tensión, capacidad y tasa C. La corriente asociada a una tasa es I = C × Ah; no autoriza superar lo permitido por fabricante, cargador o sistema. Se usan equipos compatibles, se inspecciona la batería y se siguen las instrucciones de carga, almacenamiento y retirada de unidades dañadas. Ejemplo: Para una batería de 5 Ah, 2C corresponde aritméticamente a 10 A. Solo se usa ese régimen si está permitido para esa función y batería. No se intenta recuperar una unidad hinchada.",
+      "explicaciones_opciones": [
+        "C-rate no expresa voltaje.",
+        "La aritmética no sustituye la especificación del fabricante.",
+        "Se identifican química, tensión, capacidad y tasa C. La corriente asociada a una tasa es I = C × Ah; no autoriza superar lo permitido por fabricante, cargador o sistema. Se usan equipos compatibles, se inspecciona la batería y se siguen las instrucciones de carga, almacenamiento y retirada de unidades dañadas.",
+        "La tasa se multiplica por la capacidad Ah."
+      ],
+      "error_habitual": "Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada.",
+      "referencia_concepto": "Baterías y seguridad de uso",
+      "leccion_id": "b7-07",
+      "bloque": 7,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "B7-R26-008",
+      "tema": "Verificación tras un cambio",
+      "subtema": "Decisión aplicada",
+      "dificultad": "media",
+      "pregunta": "Se propone una batería más pesada. ¿Qué comprobación es necesaria?",
+      "respuestas": [
+        "Despegar para averiguar si funciona.",
+        "Compatibilidad, masa total, CG y efecto en el rendimiento.",
+        "Solo comparar mAh.",
+        "Aprobarla porque cabe en el alojamiento."
+      ],
+      "respuesta_correcta": 1,
+      "explicacion": "Cambiar batería, hélice, soporte, sensor o software puede alterar masa, CG, consumo o funciones. Se comprueban compatibilidad, límites y documentación de la configuración antes de operar. No se plantea una conexión de baterías ni modificación como experimento de vuelo. Ejemplo: Se cambia a una batería más pesada para ganar energía. Se recalculan masa y CG y se revisa aprobación; el aumento de Wh no asegura más autonomía.",
+      "explicaciones_opciones": [
+        "La verificación previa no se sustituye por un ensayo improvisado.",
+        "Cambiar batería, hélice, soporte, sensor o software puede alterar masa, CG, consumo o funciones. Se comprueban compatibilidad, límites y documentación de la configuración antes de operar. No se plantea una conexión de baterías ni modificación como experimento de vuelo.",
+        "Ignora tensión, masa y compatibilidad.",
+        "Encajar físicamente no demuestra aptitud."
+      ],
+      "error_habitual": "Mejorar una cifra aislada ignorando las demás.",
+      "referencia_concepto": "Verificación tras un cambio",
+      "leccion_id": "b7-08",
+      "bloque": 7,
+      "origen": "ADAPTADA_DRONLAB_NO_OFICIAL",
+      "estado_validacion": "REVISADA_DOCUMENTALMENTE_PENDIENTE_REVISION_HUMANA",
+      "fecha_revision": "2026-11-06",
+      "fuentes": [
+        {
+          "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
+          "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        }
+      ]
+    }
+  ]
 }

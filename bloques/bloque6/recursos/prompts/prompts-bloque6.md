@@ -1,15 +1,19 @@
-# Prompts Bloque 6 STS
+# Repaso guiado · Bloque 6
 
-Fuente unica: `bloques/bloque6/ingenieria/ingenieria.md`.
+Utiliza la ficha, los ejemplos y las fuentes oficiales enlazadas de este bloque. Actúa como tutor: plantea una pregunta, espera mi justificación y después ofrece devolución. No reveles la respuesta antes de que yo decida.
 
-## Preparar clase
+## Entender
 
-Explica Meteorologia STS usando viento, turbulencia, temperatura, visibilidad, densidad, METAR, SPECI, TAF, UTC y evaluacion local. No anadas informacion externa.
+Explica «Viento y unidades» con un ejemplo breve. Distingue la regla, su ámbito, el dato de ejemplo y lo que falta por comprobar.
 
-## Repasar examen
+## Aprender del error
 
-Pregunta por direccion del viento, conversion 1 m/s, niebla < 1000 m, METAR/TAF/SPECI, cumulonimbos, densidad y STS-02 5 km.
+Pídeme resolver un caso del bloque y justificar cada condición. Tras mi respuesta, explica la opción correcta y el motivo por el que las alternativas no encajan. No inventes límites ni atribuyas preguntas adaptadas a AESA.
 
-## Auditar trazabilidad
+## Transferir
 
-Comprueba que ENAIRE MAE22, MMT9 e indice K aparecen como COMPLEMENTARIO separado, no como Syllabus AESA paginas 8-10.
+Cambia una sola condición del caso. Pídeme decidir otra vez y explicar qué dato cambió el razonamiento. Si falta información, ayúdame a identificarla en vez de suponerla.
+
+## Contrastar
+
+Comprueba las afirmaciones normativas con la disposición vigente enlazada. El syllabus organiza materias; no sustituye el reglamento ni el manual del UAS. Si no puedes verificar una afirmación, indícalo y no la presentes como regla.

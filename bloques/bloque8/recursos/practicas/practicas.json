@@ -1,5 +1,126 @@
-﻿{"titulo":"Practicas Bloque 8 STS","total":3,"practicas":[
-{"id":"B8-P-001","titulo":"Delimitar una zona terrestre controlada","objetivo":"Definir una zona sin personas ajenas ni concentraciones de personas.","dificultad":"media","tiempo_estimado":"20 min","material_necesario":["Plano simple del area","Datos de volumen operacional","Lista de roles participantes"],"contexto":"Planificacion de una operacion STS con volumen operacional y zona de prevencion.","instrucciones_paso_a_paso":["Marca la proyeccion del volumen operacional.","Anade la proyeccion de la zona de prevencion.","Comprueba que no hay concentraciones de personas.","Define puntos de vigilancia y acceso.","Registra la decision de seguridad."],"criterios_de_exito":["Incluye las proyecciones necesarias","Excluye personas no participantes","La responsabilidad del operador queda clara"],"errores_habituales":["Dibujar solo el punto de despegue","Olvidar la zona de prevencion","No controlar accesos"],"conceptos_relacionados":["Zona terrestre controlada","Proyecciones en superficie","Riesgo en tierra"],"referencia_al_bloque":"AESA | Syllabus STS paginas 11-12 | Estado VALIDADO"},
-{"id":"B8-P-002","titulo":"Auditar STS-02: BVLOS con fases VLOS","objetivo":"Comprobar que una operacion STS-02 conserva despegue y aterrizaje en VLOS.","dificultad":"dificil","tiempo_estimado":"25 min","material_necesario":["Perfil de vuelo","Punto de piloto","Altura y velocidad previstas"],"contexto":"Mision en entorno escasamente poblado con crucero BVLOS.","instrucciones_paso_a_paso":["Identifica despegue, crucero y aterrizaje.","Marca que fases son VLOS.","Describe por que el crucero puede ser BVLOS.","Relaciona velocidad y altura con margen de riesgo.","Anota la mitigacion operacional."],"criterios_de_exito":["Despegue y aterrizaje quedan en VLOS","El entorno escasamente poblado esta justificado","El margen no es arbitrario"],"errores_habituales":["Hacer todo BVLOS","No justificar margen","Confundir entorno rural con ausencia de riesgo"],"conceptos_relacionados":["STS-02","VLOS","BVLOS","Margen de riesgo en tierra"],"referencia_al_bloque":"AESA | Syllabus STS paginas 11-12 | Estado VALIDADO"},
-{"id":"B8-P-003","titulo":"Separar contenido complementario","objetivo":"Clasificar que datos pertenecen al Syllabus AESA y cuales son complementarios.","dificultad":"media","tiempo_estimado":"15 min","material_necesario":["Lista de conceptos","Tabla de trazabilidad"],"contexto":"Revision de Profesor Plus antes de impartir clase.","instrucciones_paso_a_paso":["Coloca riesgo en tierra, zona controlada y margen en fuente principal.","Coloca obstaculos e intrusion en complementario.","Coloca STS-ES-02NE inferior a 25 kg en complementario.","Coloca luz verde nocturna en complementario.","Redacta una nota de trazabilidad separada."],"criterios_de_exito":["No mezcla fuentes","La fuente principal queda como paginas 11-12","El complementario se identifica claramente"],"errores_habituales":["Atribuir luz verde a paginas 11-12","Ocultar que una medida es complementaria","No indicar fuente separada"],"conceptos_relacionados":["Trazabilidad","Complementario","Profesor Plus"],"referencia_al_bloque":"AESA Syllabus STS paginas 11-12 y complementario separado"}
-]}
+{
+  "titulo": "Practicas · Bloque 8",
+  "total": 3,
+  "practicas": [
+    {
+      "id": "B8-R26-P-001",
+      "titulo": "Taller de decisión: Geografía, contingencia y volumen",
+      "objetivo": "Dibujar la zona controlada y justificar sus dimensiones sin trasladar reglas de categoría abierta.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Un plano que solo dibuja la trayectoria omite espacio para contingencias y riesgo residual. La valla no debe decidirse antes de dimensionar la huella completa.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "¿Qué integra el volumen operacional?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Usar trayectoria, volumen y zona terrestre como sinónimos."
+      ],
+      "conceptos_relacionados": [
+        "Geografía, contingencia y volumen"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "resultado_esperado": "La geografía de vuelo y el volumen de contingencia. La geografía de vuelo contiene el vuelo normal. El volumen de contingencia permite gestionar desviaciones; juntos forman el volumen operacional. En superficie, la zona controlada comprende las áreas correspondientes y el margen de riesgo en tierra. Se distinguen volumen tridimensional y proyección sobre el terreno.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B8-R26-P-002",
+      "titulo": "Taller de decisión: Margen STS-02",
+      "objetivo": "Dibujar la zona controlada y justificar sus dimensiones sin trasladar reglas de categoría abierta.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "El manual del ejemplo indica 80 m para la condición prevista y el plano deja 50 m. Faltan 30 m respecto a ese dato; se replantea antes de operar.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "El fabricante indica 80 m tras terminación para el caso y el margen previsto es 50 m. ¿Qué concluyes?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Aplicar la tabla STS-01 a cualquier C6."
+      ],
+      "conceptos_relacionados": [
+        "Margen STS-02"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+        }
+      ],
+      "resultado_esperado": "No cubre la distancia indicada; hay que replantear el margen. En STS-02 el margen cubre al menos la distancia que con mayor probabilidad recorrerá la UA tras activar los medios de terminación, indicada por el fabricante y considerando las condiciones dentro de sus límites. No se inventa una cifra universal a partir de altura o velocidad ni se traslada sin más la tabla de STS-01.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    },
+    {
+      "id": "B8-R26-P-003",
+      "titulo": "Taller de decisión: Intrusión y replanteo",
+      "objetivo": "Dibujar la zona controlada y justificar sus dimensiones sin trasladar reglas de categoría abierta.",
+      "dificultad": "media",
+      "tiempo_estimado": "15–20 min",
+      "contexto": "Con anclaje de 20 m, el radio de zona del ejemplo es 25 m respecto al punto de fijación. Eso no convierte 25 m en margen universal de una aeronave sin anclaje.",
+      "material_necesario": [
+        "Papel o editor de texto",
+        "Fuente oficial enlazada",
+        "Datos del ejemplo"
+      ],
+      "instrucciones_paso_a_paso": [
+        "Anota los datos conocidos del ejemplo y separa lo que falta.",
+        "En STS-01 con anclaje de 20 m, ¿qué radio resulta de la regla específica?",
+        "Escribe la decisión y una justificación antes de consultar la solución.",
+        "Consulta la fuente y comprueba ámbito, unidades y condiciones.",
+        "Cambia un dato y explica si se mantiene tu decisión."
+      ],
+      "criterios_de_exito": [
+        "Entrega una ficha con datos, decisión, justificación y fuente.",
+        "Señala al menos una condición que cambiaría la decisión.",
+        "No convierte el ejemplo en autorización de una misión real."
+      ],
+      "errores_habituales": [
+        "Importar una fórmula de otro escenario sin comprobar su ámbito."
+      ],
+      "conceptos_relacionados": [
+        "Intrusión y replanteo"
+      ],
+      "referencia_al_bloque": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+      "fuentes": [
+        {
+          "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
+          "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        }
+      ],
+      "resultado_esperado": "25 m desde el punto de fijación en superficie. Si no se puede garantizar la zona, no se inicia o se adapta/termina con seguridad según el procedimiento. El operador define la zona y el piloto verifica su adecuación real. La regla A2 de distancias y su referencia 1:1 no sustituyen la geometría propia de STS. Para UAS anclados STS-01, se consulta la condición específica de radio: longitud del anclaje más 5 m.",
+      "alcance": "Actividad de aula o simulación sobre papel; no sustituye la formación ni evaluación práctica STS."
+    }
+  ]
+}

@@ -25,54 +25,7 @@
     <h1>Guias rapidas</h1>
   </header>
 
-  <main class="sheet">
-    <section class="hero block-hero block-hero--compact">
-      <div>
-        <p class="kicker">Resumen rapido</p>
-        <h2>Rendimiento seguro</h2>
-      </div>
-      <div class="hero-grid">
-        <span><b>MTOM</b>limite fabricante</span>
-        <span><b>CG</b>centro de masa</span>
-        <span><b>Payload</b>dentro de MTOM</span>
-        <span><b>Pitch</b>eje lateral</span>
-        <span><b>C6</b>50 m/s</span>
-        <span><b>ES</b>complementario</span>
-      </div>
-    </section>
-
-    <section class="card compact">
-      <p class="kicker">Chuleta 1</p>
-      <h2>No superar la envolvente</h2>
-      <div class="tiles six">
-        <article><span class="ico">01</span><b>MTOM</b><p>No se supera.</p></article>
-        <article><span class="ico">02</span><b>Peso</b><p>UAS + bateria + carga.</p></article>
-        <article><span class="ico">03</span><b>CG</b><p>Debe quedar en limites.</p></article>
-        <article><span class="ico">04</span><b>Payload</b><p>Altera centrado.</p></article>
-        <article><span class="ico">05</span><b>Fijacion</b><p>Resiste maniobras.</p></article>
-        <article><span class="ico">06</span><b>Entorno</b><p>Calor y altitud degradan.</p></article>
-      </div>
-    </section>
-
-    <section class="grid two">
-      <article class="card cf-card cf-card--interactive">
-        <p class="kicker">No mezclar</p>
-        <h2>Trazabilidad</h2>
-        <ul class="check">
-          <li>AESA pagina 11: MTOM, envolvente, CG, equilibrio de masas y carga util.</li>
-          <li>Complementario MME8: geocaging/software limita volumen.</li>
-          <li>Complementario STS-ES-01NE: masa inferior a 10 kg.</li>
-          <li>Complementario STS-ES-02NE: masa inferior a 25 kg.</li>
-        </ul>
-      </article>
-      <article class="card accent">
-        <p class="kicker">Trazabilidad principal</p>
-        <h2>Syllabus STS</h2>
-        <div class="idbox"><small>AESA</small><b>pagina 11 | VALIDADO</b></div>
-        <p class="note">Fuente unica: ingenieria profunda permanente del Bloque 7.</p>
-      </article>
-    </section>
-  </main>
+  <main class="sheet"><section class="panel card cf-panel"><h1>Rendimiento de vuelo del UAS</h1><p>Comprobar masa, centrado, energía y límites ambientales con ejemplos calculados.</p><p>Refuerzo revisado el 06/11/2026 · Material formativo propio</p></section><article class="panel card cf-card"><h2>MTOM y masa real</h2><p>MTOM es la masa máxima al despegue especificada para el UAS. La masa real incluye aeronave, batería, fijaciones y carga útil. No se suma la carga por fuera del máximo. Además, las condiciones pueden imponer una masa de despegue limitada por rendimiento menor que la MTOM.</p><p><b>Ejemplo resuelto:</b> MTOM 6 kg, aeronave con batería 4,8 kg y carga con soporte 1,4 kg: total 6,2 kg. No cumple el máximo, aunque consiga despegar.</p><p><b>Error habitual:</b> Tomar la capacidad de elevarse como prueba de cumplimiento.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Centro de gravedad y momentos</h2><p>El CG representa el punto de aplicación de la resultante del peso. Su posición depende de la distribución de masas. En un modelo unidimensional, xCG = suma(m × x) / suma(m). Los límites admisibles proceden del diseño y manual de esa aeronave, no de que parezca equilibrada a simple vista.</p><p><b>Ejemplo resuelto:</b> Masas de 2 kg a -0,10 m y 1 kg a +0,20 m dan momentos -0,20 y +0,20 kg·m: xCG = 0/3 = 0 m. Es un modelo didáctico; no autoriza una instalación real.</p><p><b>Error habitual:</b> Mirar solo la masa total y olvidar dónde está situada.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Equilibrio de palanca</h2><p>Para equilibrar dos masas bajo la misma gravedad respecto a un apoyo ideal se igualan momentos: m1 × d1 = m2 × d2. Se conserva la unidad de distancia en ambos lados. La imagen aportada sirve para este modelo de estática, no para establecer por sí sola el CG válido de un UAS.</p><p><b>Ejemplo resuelto:</b> 100 kg a 0,25 m equilibran 25 kg a 1 m: 100 × 0,25 = 25 × 1. Si el brazo derecho se reduce a 0,5 m, la masa equivalente sería 50 kg.</p><p><b>Error habitual:</b> Responder 100 kg por simetría visual sin comparar brazos.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Estabilidad y carga útil</h2><p>Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación.</p><p><b>Ejemplo resuelto:</b> Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos.</p><p><b>Error habitual:</b> Creer que respetar la MTOM resuelve todo el balance.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Envolvente y masa por rendimiento</h2><p>La envolvente reúne condiciones y límites de operación. Tipo de aeronave, masa, densidad, viento, temperatura y estado de sistemas modifican el margen disponible. Respetar un máximo de masa no garantiza que esa masa sea adecuada para el ambiente y la misión.</p><p><b>Ejemplo resuelto:</b> Un multirrotor caliente en altura requiere casi toda la potencia en estacionario. Se recupera con seguridad y se revisa la configuración; no se establece un porcentaje universal de potencia admisible.</p><p><b>Error habitual:</b> Convertir un dato ilustrativo en límite universal.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Energía y autonomía</h2><p>La energía nominal permite comparar baterías, pero la energía utilizable y la autonomía dependen de carga, estado, temperatura, viento y consumo. No se extrapola un dato comercial como duración garantizada. Para un consumo constante ideal, tiempo(h) = energía(Wh) / potencia(W), antes de reservas y pérdidas.</p><p><b>Ejemplo resuelto:</b> 111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real.</p><p><b>Error habitual:</b> Confundir un cálculo ideal con plan de vuelo seguro.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Baterías y seguridad de uso</h2><p>Se identifican química, tensión, capacidad y tasa C. La corriente asociada a una tasa es I = C × Ah; no autoriza superar lo permitido por fabricante, cargador o sistema. Se usan equipos compatibles, se inspecciona la batería y se siguen las instrucciones de carga, almacenamiento y retirada de unidades dañadas.</p><p><b>Ejemplo resuelto:</b> Para una batería de 5 Ah, 2C corresponde aritméticamente a 10 A. Solo se usa ese régimen si está permitido para esa función y batería. No se intenta recuperar una unidad hinchada.</p><p><b>Error habitual:</b> Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article><article class="panel card cf-card"><h2>Verificación tras un cambio</h2><p>Cambiar batería, hélice, soporte, sensor o software puede alterar masa, CG, consumo o funciones. Se comprueban compatibilidad, límites y documentación de la configuración antes de operar. No se plantea una conexión de baterías ni modificación como experimento de vuelo.</p><p><b>Ejemplo resuelto:</b> Se cambia a una batería más pesada para ganar energía. Se recalculan masa y CG y se revisa aprobación; el aumento de Wh no asegura más autonomía.</p><p><b>Error habitual:</b> Mejorar una cifra aislada ignorando las demás.</p><p><a href="https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf" target="_blank" rel="noopener">Fuente y ámbito</a></p></article></main>
   <footer class="corp-band" aria-label="Entidades colaboradoras">
     <img class="corp-band__logo corp-band__logo--wide corp-logo--light" src="../../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio.png" alt="Logotipos institucionales de Circular FAB">
     <img class="corp-band__logo corp-band__logo--wide corp-logo--dark" src="../../../../assets/edusdk-design-system/brand/Logos_CFAB_2026_con-Ministerio_blanco.png" alt="Logotipos institucionales de Circular FAB">

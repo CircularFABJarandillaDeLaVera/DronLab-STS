@@ -1,149 +1,131 @@
-# DRONLAB STS · INGENIERÍA PROFUNDA BLOQUE 2
+# Bloque 2 · Limitaciones del rendimiento humano
 
-Este documento constituye la **Ingeniería del Conocimiento** detallada para el **Bloque 2: Limitaciones del rendimiento humano**, diseñada para ser procesada por el agente DronLab-SDK. La información se extrae exclusivamente del syllabus oficial de AESA para la categoría específica.
+Revisión documental: 06/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
 
----
+## Objetivo y conexión
 
-# 0. TRAZABILIDAD DOCUMENTAL
-- **Organismo:** AESA
-- **Documento:** MATERIAS DEL EXAMEN DE CONOCIMIENTOS TEÓRICOS DE LA CATEGORÍA «ESPECÍFICA» PARA OPERACIONES DE UAS BAJO ESCENARIOS ESTÁNDAR (STS)
-- **Código / referencia:** Syllabus oficial STS
-- **Edición / versión:** 2
-- **Fecha:** 17/04/2023
-- **Páginas relacionadas:** 4–5 (Sección 2 completa)
-- **Estado:** VALIDADO
+Detectar una degradación humana y elegir una medida proporcionada antes de que afecte al control.
 
----
+La aptitud humana forma parte del briefing y del cierre operacional del bloque 3.
 
-## 1. CONCEPTOS PRINCIPALES DESARROLLADOS
+## Método
 
-### Aptitud Médica y Sustancias Psicoactivas
-El piloto debe mantener un estado físico y mental óptimo para la operación. Se evalúa la influencia del consumo de **alcohol, medicinas, drogas y sustancias psicoactivas** en la seguridad del vuelo, así como los efectos de enfermedades y el estado general de salud.
+Recuperar una idea previa → explicar → resolver un ejemplo → decidir sin ver la solución → contrastar → transferir cambiando una condición.
 
-### Gestión del Descanso y Fatiga
-- **Fatiga:** Disminución de la capacidad de alerta y rendimiento debido a la falta de sueño o carga de trabajo.
-- **Ritmo Circadiano:** Ciclo biológico natural de 24 horas que regula los periodos de sueño y vigilia, cuya alteración afecta directamente a la atención del piloto.
+Las preguntas nuevas son adaptadas, no preguntas oficiales de AESA. Los ejemplos son ficticios y no autorizan vuelos. Los límites del escenario, del equipo y del lugar deben cumplirse simultáneamente.
 
-### Factores Psicológicos Operacionales
-- **Estrés:** Respuesta del organismo ante demandas externas que puede nublar el juicio.
-- **Presión Comercial:** Factor externo que puede inducir al piloto a tomar riesgos innecesarios para cumplir plazos o hitos económicos.
+## Fatiga y ritmo circadiano
 
-### Percepción Humana en Operaciones UAS
-Capacidad del piloto para recibir e interpretar información del entorno. Incluye la visión, la audición y la consciencia situacional, especialmente crítica en operaciones **BVLOS** donde el piloto no ve la aeronave directamente.
+La fatiga reduce atención, juicio y reacción. Puede aparecer por falta de sueño, horas de vigilancia, carga de trabajo o alteración del ritmo circadiano. Sentirse motivado o tomar un estimulante no demuestra que se haya recuperado la aptitud.
 
----
+**Ejemplo resuelto:** Tras una jornada larga, el piloto omite dos comprobaciones de la lista. Se pausa la preparación y se evalúa descanso, relevo o aplazamiento.
 
-## 2. CONCEPTOS PUENTE Y RELACIONES
+**Error habitual:** Medir la aptitud solo por las ganas de terminar.
 
-- **Fatiga ↔ Consciencia Situacional:** Un piloto fatigado pierde la capacidad de proyectar la trayectoria futura del UAS, degradando su consciencia situacional.
-- **Meteorología Extrema ↔ Rendimiento Humano:** Las condiciones climáticas (frío, calor, sol) no solo afectan al UAS, sino que degradan la motricidad fina y la visión del piloto.
-- **Presión Comercial ↔ Toma de Decisiones:** La necesidad de completar un trabajo puede llevar a ignorar síntomas de estrés o fatiga, resultando en accidentes operacionales.
+**Comprobación:** Un piloto comete omisiones tras muchas horas de vigilancia. ¿Qué decisión protege la operación?
 
----
+**Respuesta razonada:** Pausar y reevaluar su aptitud, con descanso, relevo o aplazamiento.
 
-## 3. DEPENDENCIAS Y GRAFO DE CONOCIMIENTO
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
 
-### Grafo de conocimiento jerárquico
-1. **Fisiología Básica:** Visión y audición del piloto.
-2. **Estado Psicofísico:** Gestión de fatiga, estrés y sustancias.
-3. **Percepción Ambiental:** Consciencia situacional y barrido visual.
-4. **Operación BVLOS (STS-02):** Aplicación de técnicas de vigilancia aérea adicionales.
+## Salud, medicación y sustancias
 
----
+El piloto no opera bajo efectos de alcohol o sustancias psicoactivas ni cuando enfermedad, lesión, fatiga o medicación comprometen su capacidad. No todos los medicamentos tienen los mismos efectos: se atiende a las advertencias del tratamiento y al estado real, sin modificarlo por cuenta propia.
 
-## 4. DESARROLLO COMPLETO DE EPÍGRAFES OFICIALES (PÁGS. 4–5)
+**Ejemplo resuelto:** Un medicamento lleva advertencia de somnolencia y el piloto nota lentitud. No inicia el vuelo y consulta las indicaciones y al profesional correspondiente.
 
-### I. Aptitud Médica [Syllabus pág. 4]
-- **Sustancias:** El piloto debe conocer los efectos del alcohol y drogas en la degradación de reflejos y juicio.
-- **Fatiga:** Importancia de los ciclos de descanso y el respeto al ritmo circadiano para evitar errores por cansancio acumulado.
-- **Psicología:** Gestión del estrés y de la presión comercial como elementos que comprometen la seguridad.
+**Error habitual:** Afirmar que toda medicación está prohibida o que una receta elimina cualquier efecto.
 
-### II. Percepción Humana [Syllabus pág. 5]
-- **Influencias en BVLOS:** Identificación de factores que dificultan el control cuando no hay contacto visual directo.
-- **Influencias Medioambientales:**
-    - **Sol:** Efecto de los deslumbramientos en la visión.
-    - **Clima:** Consciencia de cómo la nieve, lluvia o cenizas afectan a la visibilidad.
-    - **Efectos en el ser humano:** Riesgo de **hipotermia, congelación, quemaduras solares** y deterioro de la **motricidad fina** ante temperaturas extremas.
-- **Capacidad de Atención y Barrido Visual:**
-    - **Técnica de barrido:** Ejecutar y explicar el barrido visual de **10-15°** en cada sentido para detectar otro tráfico aéreo.
-    - **Detección de tráfico:** Saber que el tráfico tripulado es muy difícil de detectar visualmente a distancia.
-    - **Distracciones:** Necesidad vital de eliminar cualquier elemento distractor durante el vuelo.
+**Comprobación:** Un tratamiento produce somnolencia perceptible. ¿Qué procede?
 
----
+**Respuesta razonada:** No operar mientras la capacidad esté comprometida.
 
-## 5. DIFERENCIAS STS-01 / STS-02
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
 
-| Característica | STS-01 (VLOS) | STS-02 (BVLOS) |
-| :--- | :--- | :--- |
-| **Enfoque de Percepción** | Vigilancia directa de la aeronave y entorno. | Mayor dependencia de la telemetría y **observadores**. |
-| **Carga Mental** | Alta en entornos poblados por presencia de terceros. | Muy alta por la falta de referencias visuales directas del UAS. |
-| **Técnica de Barrido** | Fundamental para evitar colisiones en VLOS. | Crítica para los observadores del espacio aéreo. |
+## Presión comercial y decisión
 
----
+Un compromiso comercial puede sesgar la valoración del riesgo. La decisión se compara con condiciones y límites definidos antes del vuelo. Acordar de antemano criterios de pausa o cancelación reduce la presión de improvisar cuando el cliente insiste.
 
-## 6. DATOS, REQUISITOS Y CONDICIONES CRÍTICAS
+**Ejemplo resuelto:** El cliente pide «solo una pasada más», pero se ha perdido la vigilancia necesaria. Se interrumpe la operación de acuerdo con los procedimientos.
 
-- **Técnica de Barrido Visual:** Debe realizarse en saltos de **10 a 15 grados**.
-- **Factores de Riesgo Humano:** Hipotermia, congelación y quemaduras solares como causas de pérdida de conciencia situacional.
-- **Gestión de Sucesos:** Obligación de registrar la fatiga de la tripulación en los informes post-vuelo.
-- **Presión Comercial:** Identificada explícitamente como un factor de riesgo en el syllabus.
+**Error habitual:** Cambiar los límites por presión de tiempo.
 
----
+**Comprobación:** El cliente insiste en continuar tras perder una condición necesaria. ¿Qué debe pesar más?
 
-## 7. ERRORES Y CONFUSIONES FRECUENTES
+**Respuesta razonada:** Restablecer las condiciones seguras antes de continuar.
 
-1. **Creer que el sol solo afecta al UAS:** El sol puede cegar al piloto o causar quemaduras que degraden su rendimiento.
-2. **Subestimar la motricidad fina:** El frío intenso puede impedir que un piloto mueva los sticks con precisión ante una emergencia.
-3. **Confundir fatiga con sueño:** La fatiga puede ser mental tras horas de vigilancia sin necesidad de tener sueño físico.
-4. **Ignorar el barrido visual:** Intentar detectar aeronaves con una mirada fija en lugar de la técnica de 10-15°.
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
 
----
+## Conciencia situacional
 
-## 8. PREGUNTAS QUE NACEN DEL CONTENIDO
+Consiste en percibir lo que ocurre, comprender su significado y anticipar cómo puede evolucionar. No se limita a mirar telemetría: incluye posición, entorno, energía, personas, tráfico y estado de la tripulación.
 
-- ¿En cuántos grados consiste la técnica de barrido visual recomendada por AESA para detectar tráfico?
-- ¿Qué efectos puede tener el frío extremo en la capacidad física del piloto para manejar los mandos del UAS?
-- ¿Cuál es la diferencia entre el ritmo circadiano y la fatiga laboral en el contexto de un piloto de drones?
-- ¿Cómo afecta la presión comercial a la seguridad operacional de una empresa de UAS?
-- ¿Qué factores ambientales, además de la lluvia, pueden degradar la visión del piloto según el syllabus?
+**Ejemplo resuelto:** Se detecta descenso de batería, se comprende que hay viento de cara al regreso y se anticipa que el retorno puede necesitar más energía. Se decide antes de agotar la reserva.
 
----
+**Error habitual:** Acumular datos sin interpretar qué cambiarán en la misión.
 
-## 9. ESCENARIOS PRÁCTICOS
+**Comprobación:** El piloto ve la batería bajar y anticipa un regreso contra el viento. ¿Qué componente está usando?
 
-- **Escenario 1:** Un piloto realiza una inspección de 6 horas en invierno a 2 °C. Tras 4 horas, empieza a notar torpeza en los dedos (pérdida de motricidad fina) y falta de atención. Debe aplicar el **ERP** y aterrizar por fatiga y frío extremo.
-- **Escenario 2:** Durante un vuelo STS-02, el piloto debe delegar el barrido visual en un observador. El observador debe usar la técnica de los **10-15°** para detectar una avioneta que se aproxima.
+**Respuesta razonada:** La proyección de la situación futura.
 
----
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
 
-## 10. VOCABULARIO Y SIGLAS ESENCIALES
+## Visión y deslumbramiento
 
-- **BVLOS:** Beyond Visual Line of Sight (Más allá del alcance visual).
-- **Ritmo Circadiano:** Reloj biológico interno de 24 horas.
-- **Motricidad Fina:** Coordinación de movimientos musculares pequeños (dedos en los sticks).
-- **Barrido Visual:** Técnica de vigilancia del espacio aéreo.
-- **Consciencia Situacional:** Percepción, comprensión y proyección de lo que sucede en la operación.
+Sol, contraste, tamaño aparente, lluvia, nieve, humo u obstáculos afectan a la detección. Que un objeto sea visible no implica poder identificar su actitud y trayectoria o detectar otro tráfico a tiempo. Se revisa la posición del piloto y de los observadores.
 
----
+**Ejemplo resuelto:** Al girar hacia el sol se pierde contraste. Cambiar el punto de operación exige comprobar de nuevo cobertura, comunicaciones y límites; no basta con entrecerrar los ojos.
 
-## 11. MATERIAL PARA PROFESOR PLUS (PÍLDORAS ACADÉMICAS)
+**Error habitual:** Equiparar ver un punto con vigilancia eficaz.
 
-> **Píldora 1:** "El piloto es el componente más flexible pero también el más frágil del sistema UAS. Un simple resfriado o una noche de mal sueño son motivos suficientes para cancelar una operación STS".
->
-> **Píldora 2:** "No mires al cielo buscando aviones de forma aleatoria. Usa la técnica de los 10-15 grados: enfoca un punto, salta 15 grados, enfoca otro. Es la única forma en que el ojo humano detecta movimiento a gran distancia".
->
-> **Píldora 3:** "La presión comercial mata. Si sientes que estás volando solo por compromiso con el cliente y no porque las condiciones sean seguras, detente. El responsable legal eres tú, no el cliente".
+**Comprobación:** Se ve un punto, pero no se distingue su trayectoria. ¿Qué valoración es correcta?
 
----
+**Respuesta razonada:** La mera detección no demuestra vigilancia visual suficiente.
 
-## 12. AUDITORÍA FINAL DE EPÍGRAFES (PÁGS. 4–5)
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
 
-- [x] **I.a:** Influencia de sustancias psicoactivas y estado de salud (Pág. 4).
-- [x] **I.b:** Gestión de fatiga y ritmo circadiano (Pág. 4).
-- [x] **I.c:** Estrés y presión comercial (Pág. 4).
-- [x] **II.a:** Factores que influyen en BVLOS (Pág. 5).
-- [x] **II.b:** Consciencia situacional (Pág. 5).
-- [x] **II.c:** Influencias medioambientales (Sol, clima, temperaturas) (Pág. 5).
-- [x] **II.d:** Técnica de barrido visual y eliminación de distracciones (Pág. 5).
+## Barrido visual y atención
 
-**Ingeniería del Bloque 2 finalizada y auditada.**
+El syllabus propone barridos en sectores de unos 10 a 15 grados, fijando brevemente la vista para detectar tráfico. Una mirada fija o un barrido apresurado deja huecos. Se eliminan distracciones y se distribuyen las tareas de vigilancia y comunicación.
+
+**Ejemplo resuelto:** Una llamada durante el vuelo rompe el barrido. El equipo evita esa distracción y mantiene la vigilancia prevista. El tráfico puede ser difícil de detectar incluso con buena visibilidad.
+
+**Error habitual:** Mirar solo la pantalla porque no aparecen alertas.
+
+**Comprobación:** ¿Qué técnica favorece detectar tráfico visualmente?
+
+**Respuesta razonada:** Explorar sectores de unos 10 a 15 grados con fijaciones breves.
+
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
+
+## Frío, calor y destreza
+
+Las condiciones extremas también afectan al personal. El frío puede reducir la destreza de los dedos; el calor, el deslumbramiento y la deshidratación pueden degradar atención y juicio. Se planifican protección, pausas y relevo según las condiciones.
+
+**Ejemplo resuelto:** El piloto siente torpeza en los mandos. Prioriza recuperar o terminar la operación de forma segura y revisa su aptitud antes de otro vuelo; no se prescribe activar un ERP por cualquier incomodidad.
+
+**Error habitual:** Tratar cualquier molestia como emergencia o ignorarla hasta perder el control.
+
+**Comprobación:** El frío está degradando la precisión en los mandos. ¿Qué acción es proporcionada?
+
+**Respuesta razonada:** Gestionar una recuperación segura y reevaluar la aptitud.
+
+**Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
+
+## Coordinación y comunicación
+
+En BVLOS aumenta la importancia de una imagen compartida de la situación. Si hay observadores, se acuerdan roles, sectores, mensajes y confirmaciones. La telemetría informa sobre el UAS; no reemplaza por sí sola la vigilancia del espacio aéreo. STS-02 también prevé una configuración sin observadores bajo condiciones específicas.
+
+**Ejemplo resuelto:** Un observador comunica tráfico con posición y evolución; el piloto confirma y aplica el procedimiento previsto. Si se pierde la comunicación, se aplica la contingencia definida.
+
+**Error habitual:** Suponer que el observador transmite datos o que el piloto los ha entendido sin confirmación.
+
+**Comprobación:** Un aviso de tráfico resulta ambiguo. ¿Qué debe hacer el equipo?
+
+**Respuesta razonada:** Aclarar y confirmar el mensaje aplicando el procedimiento previsto.
+
+**Fuente:** [Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399).
+
+## Revisión de cobertura
+
+Este refuerzo reorganiza las ideas centrales en ocho unidades. No se presenta como desarrollo exhaustivo de cada subepígrafe del syllabus. La matriz global registra las ampliaciones que aún requieren desarrollo y revisión humana.

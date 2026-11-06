@@ -1,18 +1,13 @@
 # DronLab STS
 
-Curso DronLab para escenarios estandar STS.
+Curso de preparación y exploración de los escenarios estándar europeos STS-01 y STS-02, con ocho bloques, recursos de alumno y profesor y simulacros formativos.
 
-## Fuente academica
+El refuerzo de noviembre de 2026 incorpora explicaciones con ejemplos, errores habituales, práctica de decisión y devolución razonada. No es un banco oficial de preguntas de AESA ni sustituye la formación/evaluación práctica STS.
 
-La fuente academica permanente de cada bloque vive en:
+- Abrir el curso: `python -m http.server 8000` y visitar `http://localhost:8000/inicio.html`.
+- Estado de revisión: [ESTADO.md](ESTADO.md).
+- Revisión documental y pedagógica: [REVISION_STS_2026.md](REVISION_STS_2026.md).
+- Mantenimiento sin IA: [GUIA_MANTENIMIENTO.md](GUIA_MANTENIMIENTO.md).
+- Comprobar datos y rutas: `python scripts/verificar_sts.py`.
 
-```text
-bloques/bloqueX/ingenieria/ingenieria.md
-```
-
-## Estado
-
-- Bloque 1: completo hasta Integracion.
-- Bloques 2-8: Ingenieria del Conocimiento guardada.
-
-Las fases posteriores se ejecutan con `SIGUIENTE` siguiendo DronLab-SDK 1.0.
+La ingeniería de cada bloque está en `bloques/bloqueN/ingenieria/ingenieria.md`; cada afirmación debe conservar su ámbito, fuente y fecha de revisión. Las propuestas preparadas están pendientes de revisión humana antes de publicación.
