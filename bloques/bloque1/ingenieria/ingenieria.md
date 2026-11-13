@@ -1,6 +1,6 @@
 # Bloque 1 · Reglamentación de la aviación
 
-Revisión documental: 06/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
+Revisión documental: 13/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
 
 ## Objetivo y conexión
 
@@ -30,17 +30,19 @@ La categoría específica cubre operaciones que no cumplen las condiciones de la
 
 ## Declaración, operador y piloto
 
-El operador prepara el manual, los procedimientos, la competencia del personal y la adecuación del UAS. El piloto verifica las condiciones reales y conduce el vuelo con seguridad. La declaración STS no sustituye las coordinaciones, las zonas geográficas ni los requisitos del piloto. Antes de iniciar, se necesita la confirmación de recepción y de integridad de la declaración por la autoridad.
+El operador prepara el manual, los procedimientos, la competencia del personal y la adecuación del UAS. El piloto verifica las condiciones reales y conduce el vuelo con seguridad. La declaración STS no sustituye las coordinaciones, las zonas geográficas ni los requisitos del piloto. Antes de iniciar, se necesita la confirmación de recepción y de integridad de la declaración por la autoridad. En una operación STS en otro Estado miembro, el operador presenta primero la declaración a la autoridad del Estado de registro y obtiene su confirmación de recepción e integridad. Después remite a la autoridad del Estado de operación copia de ambos documentos (artículo 13 del Reglamento 2019/947). Comprueba las zonas geográficas y condiciones locales; EASA indica que se espere el acuse de recepción de esa autoridad antes de empezar. Esto vale para el STS declarado, sea STS-01 o STS-02; no convierte una operación ajena al escenario en STS.
 
-**Ejemplo resuelto:** Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada.
+**Ejemplo resuelto:** Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada. Un operador registrado en España proyecta un STS-02 en Portugal: tras recibir la confirmación española, envía a la autoridad portuguesa la declaración y esa confirmación, verifica las condiciones del lugar y espera el acuse indicado por EASA. El piloto comprueba la misión real antes de despegar.
 
-**Error habitual:** Tomar un trámite administrativo como autorización para cualquier vuelo.
+**Error habitual:** Tomar un trámite administrativo como autorización para cualquier vuelo. Confundir la confirmación del Estado de registro con un permiso sin trámites ni comprobaciones en el Estado de operación.
 
-**Comprobación:** Con declaración STS y UAS C5, una zona sigue abierta a peatones. ¿Qué procede?
+**Comprobación:** Un operador con declaración STS confirmada en España prepara la misma operación en otro Estado miembro. ¿Qué debe enviar a la autoridad del Estado de operación antes de volar?
 
-**Respuesta razonada:** No iniciar hasta que se cumplan las condiciones de la operación.
+**Respuesta razonada:** Una copia de la declaración y otra de la confirmación de recepción e integridad del Estado de registro; además verifica las condiciones locales y espera el acuse indicado por EASA.
 
 **Fuente:** [Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777).
+
+**Fuente complementaria:** [Reglamento (UE) 2019/947, artículo 13, y guía EASA de operaciones transfronterizas](https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration).
 
 ## STS-01: encaje completo
 

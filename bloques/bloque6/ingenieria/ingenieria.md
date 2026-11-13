@@ -1,6 +1,6 @@
 # Bloque 6 · Meteorología
 
-Revisión documental: 06/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
+Revisión documental: 13/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
 
 ## Objetivo y conexión
 
@@ -16,31 +16,35 @@ Las preguntas nuevas son adaptadas, no preguntas oficiales de AESA. Los ejemplos
 
 ## Viento y unidades
 
-La dirección meteorológica indica de dónde viene el viento. 1 kt = 0,5144 m/s; 1 m/s = 3,6 km/h. Se comparan rachas y viento sostenido con los límites aplicables del manual y los márgenes de la operación, no solo con el valor medio.
+La dirección meteorológica indica de dónde viene el viento. 1 kt = 0,5144 m/s; 1 m/s = 3,6 km/h. Se comparan rachas y viento sostenido con los límites aplicables del manual y los márgenes de la operación, no solo con el valor medio. En una barba de viento, el asta señala de dónde sopla el viento y las marcas expresan la velocidad en nudos: media barbilla = 5 kt, barbilla larga = 10 kt y banderín triangular = 50 kt; se suman las marcas. Esta convención permite leer símbolos, sin deducir condiciones del lugar solo de una carta.
 
-**Ejemplo resuelto:** Un límite del ejemplo de 10 m/s se supera con rachas de 25 kt: 25 × 0,5144 = 12,86 m/s. Se aplaza o replantea; convertir unidades evita una falsa aceptación.
+**Ejemplo resuelto:** Un límite del ejemplo de 10 m/s se supera con rachas de 25 kt: 25 × 0,5144 = 12,86 m/s. Se aplaza o replantea; convertir unidades evita una falsa aceptación. Un símbolo descrito con un banderín y una barbilla larga representa 60 kt; una barbilla larga y una media representan 15 kt. Son ejemplos textuales, no la imagen del examen.
 
-**Error habitual:** Comparar números expresados en unidades diferentes.
+**Error habitual:** Comparar números expresados en unidades diferentes. Leer el asta como destino del viento o contar un banderín como 5 kt.
 
-**Comprobación:** Con límite de 10 m/s y rachas de 25 kt, ¿qué concluyes?
+**Comprobación:** Una barba descrita con un banderín triangular y una barbilla larga, ¿qué velocidad representa?
 
-**Respuesta razonada:** Las rachas equivalen a unos 12,9 m/s y superan el límite del ejemplo.
+**Respuesta razonada:** 60 kt: 50 kt del banderín más 10 kt de la barbilla larga; la dirección la indica el asta hacia el origen del viento.
 
 **Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
+
+**Fuente complementaria:** [NOAA/NWS: lectura de barbas de viento](https://www.weather.gov/hfo/windbarbinfo).
 
 ## Relieve, obstáculos y turbulencia
 
-Edificios, árboles y relieve alteran velocidad y dirección; el calentamiento diferencial produce convección. La cizalladura es un cambio de velocidad o dirección del viento entre puntos. Un promedio moderado puede esconder rachas o turbulencias locales.
+Edificios, árboles y relieve alteran velocidad y dirección; el calentamiento diferencial produce convección. La cizalladura es un cambio de velocidad o dirección del viento entre puntos. Un promedio moderado puede esconder rachas o turbulencias locales. A sotavento de un edificio pueden formarse remolinos y cambios bruscos de viento aunque el punto de despegue parezca protegido. Su intensidad depende del viento y de la forma y tamaño del obstáculo; no hay una distancia universal de seguridad deducible solo del edificio.
 
-**Ejemplo resuelto:** En la ladera protegida parece haber calma, pero el tramo pasa a sotavento de una cresta. Se valora el viento en la trayectoria y en las recuperaciones, no solo donde está el piloto.
+**Ejemplo resuelto:** En la ladera protegida parece haber calma, pero el tramo pasa a sotavento de una cresta. Se valora el viento en la trayectoria y en las recuperaciones, no solo donde está el piloto. Si la ruta pasa detrás de una nave con viento cruzado, se revisan la trayectoria, los puntos de recuperación y los límites del UAS antes de aceptar el tramo.
 
-**Error habitual:** Extrapolar la medida del punto de despegue a todo el volumen.
+**Error habitual:** Extrapolar la medida del punto de despegue a todo el volumen. Tratar el sotavento como una zona siempre calma y segura.
 
-**Comprobación:** Hay calma al despegar y turbulencia prevista tras una cresta. ¿Qué debe evaluarse?
+**Comprobación:** La ruta pasa a sotavento de un edificio con viento apreciable. ¿Qué decisión procede antes del despegue?
 
-**Respuesta razonada:** Las condiciones de toda la trayectoria y sus alternativas de recuperación.
+**Respuesta razonada:** Evaluar la posible turbulencia local en toda la trayectoria y adaptar o aplazar el tramo si no se mantienen los márgenes y límites.
 
 **Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
+
+**Fuente complementaria:** [NOAA/NWS: turbulencia mecánica por edificios y obstáculos](https://www.weather.gov/zme/safety_turb).
 
 ## Temperatura, presión y densidad
 
@@ -100,17 +104,19 @@ La información aeronáutica utiliza UTC, indicada con Z. Se identifica fecha y 
 
 ## Efectos regionales y precipitación
 
-Las brisas costeras suelen soplar del mar a tierra durante el día y pueden invertirse de noche; el relieve genera otros efectos locales. Lluvia, nieve, granizo, hielo y polvo pueden afectar sensores, hélices, electrónica y visión. Se respetan las limitaciones ambientales del fabricante.
+Las brisas costeras suelen soplar del mar a tierra durante el día y pueden invertirse de noche; el relieve genera otros efectos locales. Lluvia, nieve, granizo, hielo y polvo pueden afectar sensores, hélices, electrónica y visión. Se respetan las limitaciones ambientales del fabricante. El viento catabático es el flujo descendente de aire frío y denso por una ladera. Suele aparecer tras el enfriamiento nocturno y puede comenzar al anochecer, pero también darse de día en superficies frías como nieve o hielo; el horario por sí solo no garantiza su presencia.
 
-**Ejemplo resuelto:** Un UAS sin aptitud para lluvia no pasa a ser apto por llevar protección improvisada. En montaña se revisan viento, densidad, hielo y puntos de recuperación.
+**Ejemplo resuelto:** Un UAS sin aptitud para lluvia no pasa a ser apto por llevar protección improvisada. En montaña se revisan viento, densidad, hielo y puntos de recuperación. Una misión de recuperación en un valle continúa tras la puesta de sol. El equipo comprueba si el aire que desciende por la ladera cambia el viento local y afecta a la ruta, en vez de dar por válida la observación de la tarde.
 
-**Error habitual:** Concluir aptitud ambiental solo por una apariencia robusta.
+**Error habitual:** Concluir aptitud ambiental solo por una apariencia robusta. Convertir «primeras horas de la noche» en una regla exclusiva para cualquier terreno.
 
-**Comprobación:** El equipo no está autorizado por su fabricante para operar bajo lluvia. ¿Qué decisión corresponde?
+**Comprobación:** Una ruta de regreso cruza una ladera que se enfría al anochecer. ¿Qué fenómeno local debe comprobar el piloto?
 
-**Respuesta razonada:** No usarlo bajo esas condiciones.
+**Respuesta razonada:** Posible viento catabático descendente; se contrasta con observación local, pronóstico y límites de la misión.
 
 **Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
+
+**Fuente complementaria:** [NOAA/NWS: vientos locales de ladera y viento catabático](https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/Wx_Terms/Flight_Environment.htm).
 
 ## Briefing meteorológico y decisión
 

@@ -17,13 +17,13 @@
     "subtitulo": "Interpretar información vigente y local para justificar una decisión de operar, adaptar o aplazar.",
     "organismo": "AESA / EASA",
     "paginas_relacionadas": "8–10",
-    "estado": "Revisado · 06/11/2026",
+    "estado": "Revisado · 13/11/2026",
     "version": "2026.11-refuerzo"
   },
   "trazabilidad": {
     "organismo": "AESA / EASA",
     "paginas_relacionadas": "8–10",
-    "estado": "Revisado · 06/11/2026",
+    "estado": "Revisado · 13/11/2026",
     "fuentes": [
       {
         "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
@@ -32,6 +32,18 @@
       {
         "titulo": "Reglamento 2019/947 · UAS.STS-02.010/.020/.030 y AMC/GM · EASA junio 2026",
         "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17399"
+      },
+      {
+        "titulo": "NOAA/NWS: lectura de barbas de viento",
+        "url": "https://www.weather.gov/hfo/windbarbinfo"
+      },
+      {
+        "titulo": "NOAA/NWS: turbulencia mecánica por edificios y obstáculos",
+        "url": "https://www.weather.gov/zme/safety_turb"
+      },
+      {
+        "titulo": "NOAA/NWS: vientos locales de ladera y viento catabático",
+        "url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/Wx_Terms/Flight_Environment.htm"
       }
     ]
   },
@@ -60,63 +72,71 @@
   "pantallas": [
     {
       "titulo": "Viento y unidades",
-      "contenido": "La dirección meteorológica indica de dónde viene el viento. 1 kt = 0,5144 m/s; 1 m/s = 3,6 km/h. Se comparan rachas y viento sostenido con los límites aplicables del manual y los márgenes de la operación, no solo con el valor medio.",
-      "ejemplo": "Un límite del ejemplo de 10 m/s se supera con rachas de 25 kt: 25 × 0,5144 = 12,86 m/s. Se aplaza o replantea; convertir unidades evita una falsa aceptación.",
-      "error_habitual": "Comparar números expresados en unidades diferentes.",
-      "pregunta": "Con límite de 10 m/s y rachas de 25 kt, ¿qué concluyes?",
-      "respuesta": "Las rachas equivalen a unos 12,9 m/s y superan el límite del ejemplo.",
+      "contenido": "La dirección meteorológica indica de dónde viene el viento. 1 kt = 0,5144 m/s; 1 m/s = 3,6 km/h. Se comparan rachas y viento sostenido con los límites aplicables del manual y los márgenes de la operación, no solo con el valor medio. En una barba de viento, el asta señala de dónde sopla el viento y las marcas expresan la velocidad en nudos: media barbilla = 5 kt, barbilla larga = 10 kt y banderín triangular = 50 kt; se suman las marcas. Esta convención permite leer símbolos, sin deducir condiciones del lugar solo de una carta.",
+      "ejemplo": "Un límite del ejemplo de 10 m/s se supera con rachas de 25 kt: 25 × 0,5144 = 12,86 m/s. Se aplaza o replantea; convertir unidades evita una falsa aceptación. Un símbolo descrito con un banderín y una barbilla larga representa 60 kt; una barbilla larga y una media representan 15 kt. Son ejemplos textuales, no la imagen del examen.",
+      "error_habitual": "Comparar números expresados en unidades diferentes. Leer el asta como destino del viento o contar un banderín como 5 kt.",
+      "pregunta": "Una barba descrita con un banderín triangular y una barbilla larga, ¿qué velocidad representa?",
+      "respuesta": "60 kt: 50 kt del banderín más 10 kt de la barbilla larga; la dirección la indica el asta hacia el origen del viento.",
       "distractores": [
         {
-          "texto": "25 kt son 6,9 m/s.",
-          "motivo": "Se ha usado una conversión equivocada."
+          "texto": "15 kt.",
+          "motivo": "Confunde el banderín de 50 kt con una marca de 5 kt."
         },
         {
-          "texto": "25 kt son siempre menores que 10 m/s.",
-          "motivo": "La cifra sin convertir no permite comparar."
+          "texto": "50 kt.",
+          "motivo": "Omite la barbilla larga adicional de 10 kt."
         },
         {
-          "texto": "Solo importa el viento medio.",
-          "motivo": "Las rachas también afectan al control."
+          "texto": "10 kt.",
+          "motivo": "Omite el banderín triangular de 50 kt."
         }
       ],
       "fuente": "syllabus",
       "id": "b6-01",
-      "docente": "Pregunta primero: Con límite de 10 m/s y rachas de 25 kt, ¿qué concluyes? Después pide una justificación y trabaja este error: Comparar números expresados en unidades diferentes.",
+      "docente": "Pregunta primero: Una barba descrita con un banderín triangular y una barbilla larga, ¿qué velocidad representa? Después pide una justificación y trabaja este error: Comparar números expresados en unidades diferentes. Leer el asta como destino del viento o contar un banderín como 5 kt.",
       "fuentes": [
         {
           "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
           "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "NOAA/NWS: lectura de barbas de viento",
+          "url": "https://www.weather.gov/hfo/windbarbinfo"
         }
       ]
     },
     {
       "titulo": "Relieve, obstáculos y turbulencia",
-      "contenido": "Edificios, árboles y relieve alteran velocidad y dirección; el calentamiento diferencial produce convección. La cizalladura es un cambio de velocidad o dirección del viento entre puntos. Un promedio moderado puede esconder rachas o turbulencias locales.",
-      "ejemplo": "En la ladera protegida parece haber calma, pero el tramo pasa a sotavento de una cresta. Se valora el viento en la trayectoria y en las recuperaciones, no solo donde está el piloto.",
-      "error_habitual": "Extrapolar la medida del punto de despegue a todo el volumen.",
-      "pregunta": "Hay calma al despegar y turbulencia prevista tras una cresta. ¿Qué debe evaluarse?",
-      "respuesta": "Las condiciones de toda la trayectoria y sus alternativas de recuperación.",
+      "contenido": "Edificios, árboles y relieve alteran velocidad y dirección; el calentamiento diferencial produce convección. La cizalladura es un cambio de velocidad o dirección del viento entre puntos. Un promedio moderado puede esconder rachas o turbulencias locales. A sotavento de un edificio pueden formarse remolinos y cambios bruscos de viento aunque el punto de despegue parezca protegido. Su intensidad depende del viento y de la forma y tamaño del obstáculo; no hay una distancia universal de seguridad deducible solo del edificio.",
+      "ejemplo": "En la ladera protegida parece haber calma, pero el tramo pasa a sotavento de una cresta. Se valora el viento en la trayectoria y en las recuperaciones, no solo donde está el piloto. Si la ruta pasa detrás de una nave con viento cruzado, se revisan la trayectoria, los puntos de recuperación y los límites del UAS antes de aceptar el tramo.",
+      "error_habitual": "Extrapolar la medida del punto de despegue a todo el volumen. Tratar el sotavento como una zona siempre calma y segura.",
+      "pregunta": "La ruta pasa a sotavento de un edificio con viento apreciable. ¿Qué decisión procede antes del despegue?",
+      "respuesta": "Evaluar la posible turbulencia local en toda la trayectoria y adaptar o aplazar el tramo si no se mantienen los márgenes y límites.",
       "distractores": [
         {
-          "texto": "Solo el viento junto al mando.",
-          "motivo": "No representa necesariamente el volumen de vuelo."
+          "texto": "Mantener la ruta porque el edificio bloquea todo el viento.",
+          "motivo": "El obstáculo puede generar remolinos a sotavento."
         },
         {
-          "texto": "Solo la previsión del día anterior.",
-          "motivo": "Puede estar desactualizada y no resolver el efecto local."
+          "texto": "Usar la medida de viento del punto de despegue como única referencia.",
+          "motivo": "No describe necesariamente el flujo detrás del edificio."
         },
         {
-          "texto": "La cobertura de telefonía como medida del viento.",
-          "motivo": "No mide la condición meteorológica."
+          "texto": "Aplicar siempre una distancia fija de diez metros.",
+          "motivo": "No existe un margen universal para cualquier edificio y viento."
         }
       ],
       "fuente": "syllabus",
       "id": "b6-02",
-      "docente": "Pregunta primero: Hay calma al despegar y turbulencia prevista tras una cresta. ¿Qué debe evaluarse? Después pide una justificación y trabaja este error: Extrapolar la medida del punto de despegue a todo el volumen.",
+      "docente": "Pregunta primero: La ruta pasa a sotavento de un edificio con viento apreciable. ¿Qué decisión procede antes del despegue? Después pide una justificación y trabaja este error: Extrapolar la medida del punto de despegue a todo el volumen. Tratar el sotavento como una zona siempre calma y segura.",
       "fuentes": [
         {
           "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
           "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "NOAA/NWS: turbulencia mecánica por edificios y obstáculos",
+          "url": "https://www.weather.gov/zme/safety_turb"
         }
       ]
     },
@@ -246,32 +266,36 @@
     },
     {
       "titulo": "Efectos regionales y precipitación",
-      "contenido": "Las brisas costeras suelen soplar del mar a tierra durante el día y pueden invertirse de noche; el relieve genera otros efectos locales. Lluvia, nieve, granizo, hielo y polvo pueden afectar sensores, hélices, electrónica y visión. Se respetan las limitaciones ambientales del fabricante.",
-      "ejemplo": "Un UAS sin aptitud para lluvia no pasa a ser apto por llevar protección improvisada. En montaña se revisan viento, densidad, hielo y puntos de recuperación.",
-      "error_habitual": "Concluir aptitud ambiental solo por una apariencia robusta.",
-      "pregunta": "El equipo no está autorizado por su fabricante para operar bajo lluvia. ¿Qué decisión corresponde?",
-      "respuesta": "No usarlo bajo esas condiciones.",
+      "contenido": "Las brisas costeras suelen soplar del mar a tierra durante el día y pueden invertirse de noche; el relieve genera otros efectos locales. Lluvia, nieve, granizo, hielo y polvo pueden afectar sensores, hélices, electrónica y visión. Se respetan las limitaciones ambientales del fabricante. El viento catabático es el flujo descendente de aire frío y denso por una ladera. Suele aparecer tras el enfriamiento nocturno y puede comenzar al anochecer, pero también darse de día en superficies frías como nieve o hielo; el horario por sí solo no garantiza su presencia.",
+      "ejemplo": "Un UAS sin aptitud para lluvia no pasa a ser apto por llevar protección improvisada. En montaña se revisan viento, densidad, hielo y puntos de recuperación. Una misión de recuperación en un valle continúa tras la puesta de sol. El equipo comprueba si el aire que desciende por la ladera cambia el viento local y afecta a la ruta, en vez de dar por válida la observación de la tarde.",
+      "error_habitual": "Concluir aptitud ambiental solo por una apariencia robusta. Convertir «primeras horas de la noche» en una regla exclusiva para cualquier terreno.",
+      "pregunta": "Una ruta de regreso cruza una ladera que se enfría al anochecer. ¿Qué fenómeno local debe comprobar el piloto?",
+      "respuesta": "Posible viento catabático descendente; se contrasta con observación local, pronóstico y límites de la misión.",
       "distractores": [
         {
-          "texto": "Añadir una bolsa y volar.",
-          "motivo": "Una modificación improvisada no acredita aptitud."
+          "texto": "Ausencia garantizada de viento por ser de noche.",
+          "motivo": "El enfriamiento puede activar flujo ladera abajo."
         },
         {
-          "texto": "Volar más alto para evitar humedad.",
-          "motivo": "No elimina la precipitación ni respeta necesariamente límites."
+          "texto": "Una brisa marina obligatoria en cualquier valle.",
+          "motivo": "Depende del entorno costero y no describe la ladera."
         },
         {
-          "texto": "Usar más velocidad como impermeabilización.",
-          "motivo": "No protege el sistema."
+          "texto": "Un valor fijo de viento sin medir.",
+          "motivo": "El fenómeno no determina por sí solo la velocidad concreta."
         }
       ],
       "fuente": "syllabus",
       "id": "b6-07",
-      "docente": "Pregunta primero: El equipo no está autorizado por su fabricante para operar bajo lluvia. ¿Qué decisión corresponde? Después pide una justificación y trabaja este error: Concluir aptitud ambiental solo por una apariencia robusta.",
+      "docente": "Pregunta primero: Una ruta de regreso cruza una ladera que se enfría al anochecer. ¿Qué fenómeno local debe comprobar el piloto? Después pide una justificación y trabaja este error: Concluir aptitud ambiental solo por una apariencia robusta. Convertir «primeras horas de la noche» en una regla exclusiva para cualquier terreno.",
       "fuentes": [
         {
           "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
           "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "NOAA/NWS: vientos locales de ladera y viento catabático",
+          "url": "https://www.weather.gov/source/zhu/ZHU_Training_Page/winds/Wx_Terms/Flight_Environment.htm"
         }
       ]
     },

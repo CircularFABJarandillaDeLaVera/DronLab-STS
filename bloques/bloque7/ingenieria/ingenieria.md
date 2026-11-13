@@ -1,6 +1,6 @@
 # Bloque 7 · Rendimiento de vuelo del UAS
 
-Revisión documental: 06/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
+Revisión documental: 13/11/2026. Material didáctico propio; pendiente de revisión experta antes de publicar.
 
 ## Objetivo y conexión
 
@@ -58,17 +58,20 @@ Para equilibrar dos masas bajo la misma gravedad respecto a un apoyo ideal se ig
 
 ## Estabilidad y carga útil
 
-Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación.
+Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación. En un ala fija convencional, los alerones se mueven en sentidos opuestos y cambian la sustentación de cada ala para controlar el alabeo alrededor del eje longitudinal. La estabilidad longitudinal es otra cuestión: depende del conjunto ala, cola y configuración, y de la posición del CG respecto al punto neutro del avión completo. Situar el CG por delante del centro aerodinámico del ala no demuestra por sí solo estabilidad ni que el CG esté dentro de los límites aprobados.
 
-**Ejemplo resuelto:** Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos.
+**Ejemplo resuelto:** Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos. Un ala fija responde al mando de alabeo, pero una carga desplaza el CG fuera del límite trasero del manual. Los alerones no corrigen esa condición: se reajusta la carga y se comprueba la envolvente antes de volar.
 
-**Error habitual:** Creer que respetar la MTOM resuelve todo el balance.
+**Error habitual:** Creer que respetar la MTOM resuelve todo el balance. Equiparar respuesta de alerones o CG delante del centro aerodinámico del ala con estabilidad garantizada.
 
-**Comprobación:** La masa cumple MTOM, pero el soporte permite deslizarse a la cámara. ¿Está resuelta la configuración?
+**Comprobación:** En un ala fija los alerones responden, pero la nueva carga deja el CG fuera del límite trasero. ¿Puede despegar?
 
-**Respuesta razonada:** No; hay que asegurar la carga y comprobar el centrado.
+**Respuesta razonada:** No; los alerones controlan el alabeo, mientras que la estabilidad y control longitudinal requieren un CG dentro de los límites del modelo.
 
 **Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
+
+**Fuente complementaria:** [FAA: Pilot's Handbook of Aeronautical Knowledge, controles de vuelo](https://www.faa.gov/sites/faa.gov/files/pilot_handbook_1.pdf).
+**Fuente complementaria:** [FAA: Aerodynamics for Naval Aviators, punto neutro y estabilidad longitudinal](https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/00-80T-80.pdf).
 
 ## Envolvente y masa por rendimiento
 
@@ -86,11 +89,11 @@ La envolvente reúne condiciones y límites de operación. Tipo de aeronave, mas
 
 ## Energía y autonomía
 
-La energía nominal permite comparar baterías, pero la energía utilizable y la autonomía dependen de carga, estado, temperatura, viento y consumo. No se extrapola un dato comercial como duración garantizada. Para un consumo constante ideal, tiempo(h) = energía(Wh) / potencia(W), antes de reservas y pérdidas.
+La energía nominal permite comparar baterías, pero la energía utilizable y la autonomía dependen de carga, estado, temperatura, viento y consumo. No se extrapola un dato comercial como duración garantizada. Para un consumo constante ideal, tiempo(h) = energía(Wh) / potencia(W), antes de reservas y pérdidas. La potencia eléctrica se mide en vatios (W): en corriente continua ideal, P = V × A. El vatio expresa energía por unidad de tiempo; Wh expresa energía y Ah expresa carga eléctrica. No se intercambian W y Wh al estimar autonomía.
 
-**Ejemplo resuelto:** 111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real.
+**Ejemplo resuelto:** 111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real. A 22,2 V y 5 A, la potencia instantánea ideal es 111 W. Una batería nominal de 22,2 V y 5 Ah almacena 111 Wh nominales: las dos cifras coinciden numéricamente aquí, pero describen magnitudes distintas.
 
-**Error habitual:** Confundir un cálculo ideal con plan de vuelo seguro.
+**Error habitual:** Confundir un cálculo ideal con plan de vuelo seguro. Llamar «vatios» a la energía de la batería o confundir amperios con amperios hora.
 
 **Comprobación:** Con 111 Wh y consumo ideal de 222 W, ¿qué tiempo se obtiene antes de reservas?
 
@@ -98,19 +101,23 @@ La energía nominal permite comparar baterías, pero la energía utilizable y la
 
 **Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
 
+**Fuente complementaria:** [NIST: vatio, unidad de potencia](https://www.nist.gov/glossary-term/34606).
+
 ## Baterías y seguridad de uso
 
-Se identifican química, tensión, capacidad y tasa C. La corriente asociada a una tasa es I = C × Ah; no autoriza superar lo permitido por fabricante, cargador o sistema. Se usan equipos compatibles, se inspecciona la batería y se siguen las instrucciones de carga, almacenamiento y retirada de unidades dañadas.
+Se identifican química, tensión, capacidad y tasa C. La corriente asociada a una tasa es I = C × Ah; no autoriza superar lo permitido por fabricante, cargador o sistema. Se usan equipos compatibles, se inspecciona la batería y se siguen las instrucciones de carga, almacenamiento y retirada de unidades dañadas. Una pila primaria se diseña para uso no recargable; una secundaria admite recarga dentro de sus especificaciones. La LiPo es secundaria: «secundaria» no fija número de celdas, corriente ni rapidez de descarga. Si la etiqueta 40 C se refiere a descarga, indica una tasa relativa a la capacidad (en 5 Ah, 40 × 5 = 200 A teóricos); no es una autorización para cargar a 40 C ni para exigir esa corriente al sistema. La descarga profunda por debajo del límite del fabricante puede dañar la LiPo; no se la recarga o reutiliza por intuición.
 
-**Ejemplo resuelto:** Para una batería de 5 Ah, 2C corresponde aritméticamente a 10 A. Solo se usa ese régimen si está permitido para esa función y batería. No se intenta recuperar una unidad hinchada.
+**Ejemplo resuelto:** Para una batería de 5 Ah, 2C corresponde aritméticamente a 10 A. Solo se usa ese régimen si está permitido para esa función y batería. No se intenta recuperar una unidad hinchada. Una LiPo de 5 Ah marcada 40 C llega por debajo del umbral de descarga indicado por su fabricante. Aunque la tasa nominal equivalga aritméticamente a 200 A de descarga, se aparta de servicio y se sigue el procedimiento del fabricante; esa cifra no resuelve el daño ni la tasa de carga.
 
-**Error habitual:** Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada.
+**Error habitual:** Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada. Definir una pila secundaria por «tres a seis circuitos» o usar 40 C como permiso universal de carga o descarga.
 
-**Comprobación:** ¿Qué corriente representa 2C en una batería de 5 Ah?
+**Comprobación:** Una LiPo de 5 Ah marcada 40 C cae por debajo del límite de descarga del fabricante. ¿Autoriza la marca a recargarla y volver a volar?
 
-**Respuesta razonada:** 10 A, sujeto a que ese régimen esté permitido para el uso considerado.
+**Respuesta razonada:** No. La tasa 40 C, si es de descarga, describe corriente relativa a la capacidad; no anula el límite de descarga ni indica la tasa de carga. Se sigue el procedimiento del fabricante.
 
 **Fuente:** [AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA](https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf).
+
+**Fuente complementaria:** [NASA: Power Subsystems, baterías primarias y secundarias y descarga profunda](https://www.nasa.gov/smallsat-institute/sst-soa/power-subsystems/).
 
 ## Verificación tras un cambio
 

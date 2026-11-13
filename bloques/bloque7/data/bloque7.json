@@ -17,17 +17,33 @@
     "subtitulo": "Comprobar masa, centrado, energía y límites ambientales con ejemplos calculados.",
     "organismo": "AESA / EASA",
     "paginas_relacionadas": "11",
-    "estado": "Revisado · 06/11/2026",
+    "estado": "Revisado · 13/11/2026",
     "version": "2026.11-refuerzo"
   },
   "trazabilidad": {
     "organismo": "AESA / EASA",
     "paginas_relacionadas": "11",
-    "estado": "Revisado · 06/11/2026",
+    "estado": "Revisado · 13/11/2026",
     "fuentes": [
       {
         "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
         "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+      },
+      {
+        "titulo": "FAA: Pilot's Handbook of Aeronautical Knowledge, controles de vuelo",
+        "url": "https://www.faa.gov/sites/faa.gov/files/pilot_handbook_1.pdf"
+      },
+      {
+        "titulo": "FAA: Aerodynamics for Naval Aviators, punto neutro y estabilidad longitudinal",
+        "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/00-80T-80.pdf"
+      },
+      {
+        "titulo": "NIST: vatio, unidad de potencia",
+        "url": "https://www.nist.gov/glossary-term/34606"
+      },
+      {
+        "titulo": "NASA: Power Subsystems, baterías primarias y secundarias y descarga profunda",
+        "url": "https://www.nasa.gov/smallsat-institute/sst-soa/power-subsystems/"
       }
     ]
   },
@@ -149,32 +165,40 @@
     },
     {
       "titulo": "Estabilidad y carga útil",
-      "contenido": "Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación.",
-      "ejemplo": "Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos.",
-      "error_habitual": "Creer que respetar la MTOM resuelve todo el balance.",
-      "pregunta": "La masa cumple MTOM, pero el soporte permite deslizarse a la cámara. ¿Está resuelta la configuración?",
-      "respuesta": "No; hay que asegurar la carga y comprobar el centrado.",
+      "contenido": "Una carga lateral o desplazable modifica el CG, el reparto de esfuerzos y la controlabilidad. En ala fija, estar fuera del límite delantero o trasero tiene consecuencias distintas; se consultan límites y procedimiento del modelo. La fijación debe impedir movimiento y desprendimiento durante toda la operación. En un ala fija convencional, los alerones se mueven en sentidos opuestos y cambian la sustentación de cada ala para controlar el alabeo alrededor del eje longitudinal. La estabilidad longitudinal es otra cuestión: depende del conjunto ala, cola y configuración, y de la posición del CG respecto al punto neutro del avión completo. Situar el CG por delante del centro aerodinámico del ala no demuestra por sí solo estabilidad ni que el CG esté dentro de los límites aprobados.",
+      "ejemplo": "Una cámara queda por debajo de la MTOM pero se desplaza en su soporte. La masa es admisible; el centrado y la fijación no están resueltos. Un ala fija responde al mando de alabeo, pero una carga desplaza el CG fuera del límite trasero del manual. Los alerones no corrigen esa condición: se reajusta la carga y se comprueba la envolvente antes de volar.",
+      "error_habitual": "Creer que respetar la MTOM resuelve todo el balance. Equiparar respuesta de alerones o CG delante del centro aerodinámico del ala con estabilidad garantizada.",
+      "pregunta": "En un ala fija los alerones responden, pero la nueva carga deja el CG fuera del límite trasero. ¿Puede despegar?",
+      "respuesta": "No; los alerones controlan el alabeo, mientras que la estabilidad y control longitudinal requieren un CG dentro de los límites del modelo.",
       "distractores": [
         {
-          "texto": "Sí, la MTOM es la única condición.",
-          "motivo": "También importan CG, fijación y límites."
+          "texto": "Sí, porque los alerones compensan cualquier desplazamiento del CG.",
+          "motivo": "Controlan alabeo, no validan el centrado longitudinal."
         },
         {
-          "texto": "Sí, si se corrige con el mando.",
-          "motivo": "El piloto no sustituye un anclaje adecuado."
+          "texto": "Sí, si el CG está delante del centro aerodinámico del ala.",
+          "motivo": "Ese dato aislado no establece el margen estático del avión completo."
         },
         {
-          "texto": "Sí, si la cámara es pequeña.",
-          "motivo": "Una carga pequeña también puede desplazarse."
+          "texto": "Sí, porque la masa total no supera la MTOM.",
+          "motivo": "La masa y la posición del CG son comprobaciones distintas."
         }
       ],
       "fuente": "syllabus",
       "id": "b7-04",
-      "docente": "Pregunta primero: La masa cumple MTOM, pero el soporte permite deslizarse a la cámara. ¿Está resuelta la configuración? Después pide una justificación y trabaja este error: Creer que respetar la MTOM resuelve todo el balance.",
+      "docente": "Pregunta primero: En un ala fija los alerones responden, pero la nueva carga deja el CG fuera del límite trasero. ¿Puede despegar? Después pide una justificación y trabaja este error: Creer que respetar la MTOM resuelve todo el balance. Equiparar respuesta de alerones o CG delante del centro aerodinámico del ala con estabilidad garantizada.",
       "fuentes": [
         {
           "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
           "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "FAA: Pilot's Handbook of Aeronautical Knowledge, controles de vuelo",
+          "url": "https://www.faa.gov/sites/faa.gov/files/pilot_handbook_1.pdf"
+        },
+        {
+          "titulo": "FAA: Aerodynamics for Naval Aviators, punto neutro y estabilidad longitudinal",
+          "url": "https://www.faa.gov/sites/faa.gov/files/regulations_policies/handbooks_manuals/aviation/00-80T-80.pdf"
         }
       ]
     },
@@ -211,9 +235,9 @@
     },
     {
       "titulo": "Energía y autonomía",
-      "contenido": "La energía nominal permite comparar baterías, pero la energía utilizable y la autonomía dependen de carga, estado, temperatura, viento y consumo. No se extrapola un dato comercial como duración garantizada. Para un consumo constante ideal, tiempo(h) = energía(Wh) / potencia(W), antes de reservas y pérdidas.",
-      "ejemplo": "111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real.",
-      "error_habitual": "Confundir un cálculo ideal con plan de vuelo seguro.",
+      "contenido": "La energía nominal permite comparar baterías, pero la energía utilizable y la autonomía dependen de carga, estado, temperatura, viento y consumo. No se extrapola un dato comercial como duración garantizada. Para un consumo constante ideal, tiempo(h) = energía(Wh) / potencia(W), antes de reservas y pérdidas. La potencia eléctrica se mide en vatios (W): en corriente continua ideal, P = V × A. El vatio expresa energía por unidad de tiempo; Wh expresa energía y Ah expresa carga eléctrica. No se intercambian W y Wh al estimar autonomía.",
+      "ejemplo": "111 Wh / 222 W = 0,5 h = 30 min teóricos. Una reserva energética del ejemplo del 20 % deja 24 min en ese modelo ideal, sin prometer ese resultado en vuelo real. A 22,2 V y 5 A, la potencia instantánea ideal es 111 W. Una batería nominal de 22,2 V y 5 Ah almacena 111 Wh nominales: las dos cifras coinciden numéricamente aquí, pero describen magnitudes distintas.",
+      "error_habitual": "Confundir un cálculo ideal con plan de vuelo seguro. Llamar «vatios» a la energía de la batería o confundir amperios con amperios hora.",
       "pregunta": "Con 111 Wh y consumo ideal de 222 W, ¿qué tiempo se obtiene antes de reservas?",
       "respuesta": "30 minutos teóricos.",
       "distractores": [
@@ -232,42 +256,50 @@
       ],
       "fuente": "syllabus",
       "id": "b7-06",
-      "docente": "Pregunta primero: Con 111 Wh y consumo ideal de 222 W, ¿qué tiempo se obtiene antes de reservas? Después pide una justificación y trabaja este error: Confundir un cálculo ideal con plan de vuelo seguro.",
+      "docente": "Pregunta primero: Con 111 Wh y consumo ideal de 222 W, ¿qué tiempo se obtiene antes de reservas? Después pide una justificación y trabaja este error: Confundir un cálculo ideal con plan de vuelo seguro. Llamar «vatios» a la energía de la batería o confundir amperios con amperios hora.",
       "fuentes": [
         {
           "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
           "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "NIST: vatio, unidad de potencia",
+          "url": "https://www.nist.gov/glossary-term/34606"
         }
       ]
     },
     {
       "titulo": "Baterías y seguridad de uso",
-      "contenido": "Se identifican química, tensión, capacidad y tasa C. La corriente asociada a una tasa es I = C × Ah; no autoriza superar lo permitido por fabricante, cargador o sistema. Se usan equipos compatibles, se inspecciona la batería y se siguen las instrucciones de carga, almacenamiento y retirada de unidades dañadas.",
-      "ejemplo": "Para una batería de 5 Ah, 2C corresponde aritméticamente a 10 A. Solo se usa ese régimen si está permitido para esa función y batería. No se intenta recuperar una unidad hinchada.",
-      "error_habitual": "Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada.",
-      "pregunta": "¿Qué corriente representa 2C en una batería de 5 Ah?",
-      "respuesta": "10 A, sujeto a que ese régimen esté permitido para el uso considerado.",
+      "contenido": "Se identifican química, tensión, capacidad y tasa C. La corriente asociada a una tasa es I = C × Ah; no autoriza superar lo permitido por fabricante, cargador o sistema. Se usan equipos compatibles, se inspecciona la batería y se siguen las instrucciones de carga, almacenamiento y retirada de unidades dañadas. Una pila primaria se diseña para uso no recargable; una secundaria admite recarga dentro de sus especificaciones. La LiPo es secundaria: «secundaria» no fija número de celdas, corriente ni rapidez de descarga. Si la etiqueta 40 C se refiere a descarga, indica una tasa relativa a la capacidad (en 5 Ah, 40 × 5 = 200 A teóricos); no es una autorización para cargar a 40 C ni para exigir esa corriente al sistema. La descarga profunda por debajo del límite del fabricante puede dañar la LiPo; no se la recarga o reutiliza por intuición.",
+      "ejemplo": "Para una batería de 5 Ah, 2C corresponde aritméticamente a 10 A. Solo se usa ese régimen si está permitido para esa función y batería. No se intenta recuperar una unidad hinchada. Una LiPo de 5 Ah marcada 40 C llega por debajo del umbral de descarga indicado por su fabricante. Aunque la tasa nominal equivalga aritméticamente a 200 A de descarga, se aparta de servicio y se sigue el procedimiento del fabricante; esa cifra no resuelve el daño ni la tasa de carga.",
+      "error_habitual": "Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada. Definir una pila secundaria por «tres a seis circuitos» o usar 40 C como permiso universal de carga o descarga.",
+      "pregunta": "Una LiPo de 5 Ah marcada 40 C cae por debajo del límite de descarga del fabricante. ¿Autoriza la marca a recargarla y volver a volar?",
+      "respuesta": "No. La tasa 40 C, si es de descarga, describe corriente relativa a la capacidad; no anula el límite de descarga ni indica la tasa de carga. Se sigue el procedimiento del fabricante.",
       "distractores": [
         {
-          "texto": "2 A siempre.",
-          "motivo": "La tasa se multiplica por la capacidad Ah."
+          "texto": "Sí, porque 40 C es siempre la tasa de carga permitida.",
+          "motivo": "La tasa de descarga no determina la de carga."
         },
         {
-          "texto": "2 V.",
-          "motivo": "C-rate no expresa voltaje."
+          "texto": "Sí, porque toda pila secundaria tolera descarga completa.",
+          "motivo": "La posibilidad de recarga no elimina los límites de tensión y seguridad."
         },
         {
-          "texto": "Permiso para cargar cualquier batería a 10 A.",
-          "motivo": "La aritmética no sustituye la especificación del fabricante."
+          "texto": "Sí, si la batería tiene entre tres y seis celdas.",
+          "motivo": "El número de celdas no define pila secundaria ni repara una descarga profunda."
         }
       ],
       "fuente": "syllabus",
       "id": "b7-07",
-      "docente": "Pregunta primero: ¿Qué corriente representa 2C en una batería de 5 Ah? Después pide una justificación y trabaja este error: Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada.",
+      "docente": "Pregunta primero: Una LiPo de 5 Ah marcada 40 C cae por debajo del límite de descarga del fabricante. ¿Autoriza la marca a recargarla y volver a volar? Después pide una justificación y trabaja este error: Tomar una tasa de descarga como tasa de carga o intervenir una batería dañada. Definir una pila secundaria por «tres a seis circuitos» o usar 40 C como permiso universal de carga o descarga.",
       "fuentes": [
         {
           "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
           "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+        },
+        {
+          "titulo": "NASA: Power Subsystems, baterías primarias y secundarias y descarga profunda",
+          "url": "https://www.nasa.gov/smallsat-institute/sst-soa/power-subsystems/"
         }
       ]
     },

@@ -17,13 +17,13 @@
     "subtitulo": "Elegir la vía operacional adecuada y justificar las condiciones de una misión STS.",
     "organismo": "AESA / EASA",
     "paginas_relacionadas": "3–4",
-    "estado": "Revisado · 06/11/2026",
+    "estado": "Revisado · 13/11/2026",
     "version": "2026.11-refuerzo"
   },
   "trazabilidad": {
     "organismo": "AESA / EASA",
     "paginas_relacionadas": "3–4",
-    "estado": "Revisado · 06/11/2026",
+    "estado": "Revisado · 13/11/2026",
     "fuentes": [
       {
         "titulo": "Reglamento 2019/947 · artículos 5, 11 y AMC · EASA junio 2026",
@@ -48,6 +48,10 @@
       {
         "titulo": "AESA · Syllabus STS, revisión 2 (17/04/2023), actualmente enlazado por AESA",
         "url": "https://www.seguridadaerea.gob.es/sites/default/files/Temario.formaci%C3%B3n.conocimientos.te%C3%B3ricos.STS_v2.pdf"
+      },
+      {
+        "titulo": "Reglamento (UE) 2019/947, artículo 13, y guía EASA de operaciones transfronterizas",
+        "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration"
       }
     ]
   },
@@ -107,32 +111,36 @@
     },
     {
       "titulo": "Declaración, operador y piloto",
-      "contenido": "El operador prepara el manual, los procedimientos, la competencia del personal y la adecuación del UAS. El piloto verifica las condiciones reales y conduce el vuelo con seguridad. La declaración STS no sustituye las coordinaciones, las zonas geográficas ni los requisitos del piloto. Antes de iniciar, se necesita la confirmación de recepción y de integridad de la declaración por la autoridad.",
-      "ejemplo": "Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada.",
-      "error_habitual": "Tomar un trámite administrativo como autorización para cualquier vuelo.",
-      "pregunta": "Con declaración STS y UAS C5, una zona sigue abierta a peatones. ¿Qué procede?",
-      "respuesta": "No iniciar hasta que se cumplan las condiciones de la operación.",
+      "contenido": "El operador prepara el manual, los procedimientos, la competencia del personal y la adecuación del UAS. El piloto verifica las condiciones reales y conduce el vuelo con seguridad. La declaración STS no sustituye las coordinaciones, las zonas geográficas ni los requisitos del piloto. Antes de iniciar, se necesita la confirmación de recepción y de integridad de la declaración por la autoridad. En una operación STS en otro Estado miembro, el operador presenta primero la declaración a la autoridad del Estado de registro y obtiene su confirmación de recepción e integridad. Después remite a la autoridad del Estado de operación copia de ambos documentos (artículo 13 del Reglamento 2019/947). Comprueba las zonas geográficas y condiciones locales; EASA indica que se espere el acuse de recepción de esa autoridad antes de empezar. Esto vale para el STS declarado, sea STS-01 o STS-02; no convierte una operación ajena al escenario en STS.",
+      "ejemplo": "Hay declaración STS y C5, pero no se ha controlado el acceso a la zona. El piloto no despega: faltan condiciones reales, aunque la documentación esté preparada. Un operador registrado en España proyecta un STS-02 en Portugal: tras recibir la confirmación española, envía a la autoridad portuguesa la declaración y esa confirmación, verifica las condiciones del lugar y espera el acuse indicado por EASA. El piloto comprueba la misión real antes de despegar.",
+      "error_habitual": "Tomar un trámite administrativo como autorización para cualquier vuelo. Confundir la confirmación del Estado de registro con un permiso sin trámites ni comprobaciones en el Estado de operación.",
+      "pregunta": "Un operador con declaración STS confirmada en España prepara la misma operación en otro Estado miembro. ¿Qué debe enviar a la autoridad del Estado de operación antes de volar?",
+      "respuesta": "Una copia de la declaración y otra de la confirmación de recepción e integridad del Estado de registro; además verifica las condiciones locales y espera el acuse indicado por EASA.",
       "distractores": [
         {
-          "texto": "Despegar porque basta con la declaración.",
-          "motivo": "La declaración no hace segura la zona."
+          "texto": "Solo el certificado teórico del piloto.",
+          "motivo": "No sustituye los documentos del operador exigidos para la operación transfronteriza."
         },
         {
-          "texto": "Pedir al piloto que firme para sustituir el control.",
-          "motivo": "La firma no elimina la exposición de terceros."
+          "texto": "Solo una copia de la declaración, sin su confirmación.",
+          "motivo": "El artículo 13 exige también la confirmación de recepción e integridad."
         },
         {
-          "texto": "Cambiar el nombre de la misión a categoría abierta.",
-          "motivo": "La categoría depende de las condiciones reales."
+          "texto": "Nada, porque la declaración española sirve para cualquier vuelo.",
+          "motivo": "Deben remitirse las copias y cumplirse las condiciones del Estado de operación."
         }
       ],
       "fuente": "sts01",
       "id": "b1-s2",
-      "docente": "Pregunta primero: Con declaración STS y UAS C5, una zona sigue abierta a peatones. ¿Qué procede? Después pide una justificación y trabaja este error: Tomar un trámite administrativo como autorización para cualquier vuelo.",
+      "docente": "Pregunta primero: Un operador con declaración STS confirmada en España prepara la misma operación en otro Estado miembro. ¿Qué debe enviar a la autoridad del Estado de operación antes de volar? Después pide una justificación y trabaja este error: Tomar un trámite administrativo como autorización para cualquier vuelo. Confundir la confirmación del Estado de registro con un permiso sin trámites ni comprobaciones en el Estado de operación.",
       "fuentes": [
         {
           "titulo": "Reglamento 2019/947 · UAS.STS-01.010/.020/.030 y AMC/GM · EASA junio 2026",
           "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17777"
+        },
+        {
+          "titulo": "Reglamento (UE) 2019/947, artículo 13, y guía EASA de operaciones transfronterizas",
+          "url": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone/specific-category-civil-drones/operations-specific-category-state-different-one-registration"
         }
       ]
     },
